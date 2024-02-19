@@ -55,7 +55,7 @@ export default function Page() {
             >
               <span> {speaker == 'A' ? 'Carmen: ' : speaker == 'B' ? 'Ana:  ': '' }
               {currentSequence === sequence ? (
-                words.map((word) => (<span>
+                words.map((word, index) => (<span key={`current-sequence-word-${index}`}>
                   {word.text}
                 </span>))
               ): text
