@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import clsx from 'clsx'; 
 import subtitles from "../../lib/tears_es_speakers_words.json"; 
 import { convertMillisecondsToSeconds } from "../../lib/helpers"; 
-
+import AudioPlayer from '../../ui/AudioPlayer';
 
 export default function Page() {
 
@@ -65,8 +65,7 @@ export default function Page() {
           );
         })}
         </div>
-        <audio ref={audioRef} onTimeUpdate={updateCurrentSequence} 
-        controls src="/media/audio/Son estas lágrimas mi manjar.mp3" className="w-9/12 my-6 fixed bottom-5"></audio>
+         <AudioPlayer ref={audioRef} onTimeUpdate={updateCurrentSequence} filename="las-hijas-de-filipe/Son estas lágrimas mi manjar.mp3" className="w-9/12 my-6 fixed bottom-5" />
         </div>
         );
   }
