@@ -22,6 +22,8 @@ export default async function handler(
     Key: file || "",
   };
 
+  
+  console.log("HERE --- ", process.env.AWS_BUCKET_NAME, process.env.AWS_ACCESS_KEY_ID)
   try {
     const url = await s3.getSignedUrlPromise("getObject", params);
     res.status(200).json({ url });

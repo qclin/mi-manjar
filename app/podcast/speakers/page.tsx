@@ -50,12 +50,12 @@ export default function Page() {
           return (
             <div
               key={`sequence-${sequence}`}
-              className="grid gap-4 grid-cols-5"
+              className="grid gap-4 grid-cols-5 my-2"
             >
               <span className="text-gray-600 ">
                 {speaker == "A" ? "Carmen " : speaker == "B" ? "Ana  " : ""}
               </span>
-              <p className="block my-2 col-span-4">
+              <p className="block col-span-4">
                 {isHighlight ? (
                   <HighlightSequence words={words} currentTime={currentTime} />
                 ) : (
