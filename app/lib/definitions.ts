@@ -23,5 +23,5 @@ export type Sentence = {
   text: string;
   speaker: string;
   words: Word[];
-  text_en?: string; 
+  text_en?: string;
 };

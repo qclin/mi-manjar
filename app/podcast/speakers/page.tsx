@@ -75,13 +75,13 @@ export default function Page() {
                   </button>
                 )}
               </p>
-              {isHighlight && text_en && 
+              {isHighlight && text_en && (
                 <p className="block col-span-4 max-w-prose">
                   <div className="border-rose-300 border-y-2 text-bold block break-words py-2">
                     {text_en}
                   </div>
                 </p>
-              }
+              )}
             </div>
           );
         })}
