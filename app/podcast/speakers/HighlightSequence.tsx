@@ -9,7 +9,6 @@ interface Props {
 }
 
 const HighlightSequence = ({ words, currentTime }: Props): JSX.Element => {
-  console.log("[HighlightSequence] --- ", currentTime);
   return (
     <div className="border-rose-300 border-y-2 text-bold block break-words py-2">
       {words.map((word, index) => {

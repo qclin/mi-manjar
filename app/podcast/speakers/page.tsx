@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import clsx from "clsx";
-import subtitleData from "../../lib/tears_es_speakers_words.json";
+import subtitleData from "../../lib/tears_es_speakers_words_translated.json";
 import { convertMillisecondsToSeconds } from "../../lib/helpers";
 import AudioPlayer from "../../ui/AudioPlayer";
 import HighlightSequence from "./HighlightSequence";
@@ -44,18 +44,18 @@ export default function Page() {
 
   return (
     <div className="relative">
-      <div className="max-w-prose">
-        {subtitles.map(({ text, start, sequence, speaker, words }) => {
+      <div>
+        {subtitles.map(({ text, start, sequence, speaker, words, text_en }) => {
           const isHighlight = currentSequence === sequence;
           return (
             <div
               key={`sequence-${sequence}`}
-              className="grid gap-4 grid-cols-5 my-2"
+              className="grid gap-4 grid-cols-10 my-2"
             >
-              <span className="text-gray-600 ">
+              <span className="text-gray-600">
                 {speaker == "A" ? "Carmen " : speaker == "B" ? "Ana  " : ""}
               </span>
-              <p className="block col-span-4">
+              <p className="block col-span-4 max-w-prose">
                 {isHighlight ? (
                   <HighlightSequence words={words} currentTime={currentTime} />
                 ) : (
@@ -75,6 +75,13 @@ export default function Page() {
                   </button>
                 )}
               </p>
+              {isHighlight && text_en && 
+                <p className="block col-span-4 max-w-prose">
+                  <div className="border-rose-300 border-y-2 text-bold block break-words py-2">
+                    {text_en}
+                  </div>
+                </p>
+              }
             </div>
           );
         })}
