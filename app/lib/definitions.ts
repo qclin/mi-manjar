@@ -27,8 +27,8 @@ export type Sentence = {
 };
 
 export type Topic = {
-  topic: string; 
-  sequence_range: string; 
-  start_time: number; 
-  end_time: number; 
-}
+  topic: string;
+  sequence_range: string;
+  start_time: number;
+  end_time: number;
+};

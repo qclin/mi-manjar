@@ -120,7 +120,10 @@ export default function Page() {
             ref={audioRef}
             onTimeUpdate={updateCurrentSequence}
             filename="las-hijas-de-filipe/Son estas lágrimas mi manjar.mp3"
-            className={clsx(isPanelOpen ? "w-7/12": "w-9/12", "my-6 fixed bottom-5")}
+            className={clsx(
+              isPanelOpen ? "w-7/12" : "w-9/12",
+              "my-6 fixed bottom-5"
+            )}
           />
         </section>
       </div>

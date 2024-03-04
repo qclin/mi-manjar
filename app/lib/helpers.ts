@@ -15,7 +15,9 @@ export const convertMillisecondsToSeconds = (milliseconds: number): number => {
   return parseFloat(seconds.toFixed(6));
 };
 
-export const convertMillisecondsToDisplayFriendly = (milliseconds: number): string => {
+export const convertMillisecondsToDisplayFriendly = (
+  milliseconds: number
+): string => {
   const seconds = Math.floor(milliseconds / 1000);
   // Calculate hours, minutes, and seconds
   const hours = Math.floor(seconds / 3600);
@@ -23,17 +25,18 @@ export const convertMillisecondsToDisplayFriendly = (milliseconds: number): stri
   const remainingSeconds = seconds % 60;
   // Format to HH:MM:SS
   return `${padWithZero(hours)}:${padWithZero(minutes)}:${padWithZero(remainingSeconds)}`;
-}
+};
 
 function padWithZero(num: number): string {
-  return num.toString().padStart(2, '0');
+  return num.toString().padStart(2, "0");
 }
 
-
-export const convertMillisecondsToDisplayDuration = (milliseconds: number): string => {
+export const convertMillisecondsToDisplayDuration = (
+  milliseconds: number
+): string => {
   const seconds = Math.floor(milliseconds / 1000);
   const minutes = Math.floor((seconds % 3600) / 60);
   const remainingSeconds = seconds % 60;
   // Format to HH:MM:SS
   return `${padWithZero(minutes)}:${padWithZero(remainingSeconds)}`;
-}
+};

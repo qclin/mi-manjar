@@ -1,7 +1,5 @@
 "use client";
-import {
-  convertMillisecondsToDisplayFriendly,
-} from "@/app/lib/helpers";
+import { convertMillisecondsToDisplayFriendly } from "@/app/lib/helpers";
 import { Topic } from "@/app/lib/definitions";
 
 interface Props {
