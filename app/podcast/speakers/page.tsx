@@ -105,7 +105,10 @@ export default function Page() {
                     )}
                   </p>
                   {isHighlight && text_en && (
-                    <p className="block col-span-4 max-w-prose">
+                    <p className={clsx(
+                      "block max-w-prose",
+                      isPanelOpen ? "col-start-2 col-span-8" : "col-span-4"
+                    )}>
                       <div className="border-rose-300 border-y-2 text-bold block break-words py-2">
                         {text_en}
                       </div>
