@@ -25,3 +25,10 @@ export type Sentence = {
   words: Word[];
   text_en?: string;
 };
+
+export type Topic = {
+  topic: string; 
+  sequence_range: string; 
+  start_time: number; 
+  end_time: number; 
+}

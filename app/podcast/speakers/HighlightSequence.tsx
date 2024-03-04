@@ -12,11 +12,6 @@ const HighlightSequence = ({ words, currentTime }: Props): JSX.Element => {
   return (
     <div className="border-rose-300 border-y-2 text-bold block break-words py-2">
       {words.map((word, index) => {
-        console.log(
-          convertMillisecondsToSeconds(word.start),
-          convertMillisecondsToSeconds(word.end)
-        );
-
         const isActive =
           currentTime >= convertMillisecondsToSeconds(word.start) &&
           currentTime <= convertMillisecondsToSeconds(word.end);
