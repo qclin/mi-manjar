@@ -32,3 +32,21 @@ export type Topic = {
   start_time: number;
   end_time: number;
 };
+
+export type TranslatedString = {
+  es: string;
+  en: string;
+};
+
+export enum Supported_Language {
+  spanish = "es",
+  english = "en",
+}
+
+export type Overview = {
+  title: TranslatedString;
+  summary: TranslatedString;
+  podcast_url: string;
+  season: number;
+  episode: number;
+};

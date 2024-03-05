@@ -2,17 +2,20 @@
 
 import { useRef, useState } from "react";
 import clsx from "clsx";
-import subtitleData from "../../lib/tears_es_speakers_words_translated.json";
-import topicsData from "../../lib/podcast_topics_time.json";
+import subtitleData from "../../lib/episodes/tears/transcription.json";
+import topicsData from "../../lib/episodes/tears/topics.json";
+import overviewData from "../../lib/episodes/tears/overview.json";
 
 import { convertMillisecondsToSeconds } from "../../lib/helpers";
 import AudioPlayer from "../../ui/AudioPlayer";
 import HighlightSequence from "./HighlightSequence";
-import { Sentence, Topic } from "@/app/lib/definitions";
+import { Sentence, Topic, Overview } from "@/app/lib/definitions";
 import TableOfContent from "./TableOfContent";
+import SummaryPanel from "./SummaryPanel";
 
 const subtitles: Sentence[] = subtitleData;
 const topics: Topic[] = topicsData.topics;
+const overview: Overview = overviewData;
 
 export default function Page() {
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -120,16 +123,17 @@ export default function Page() {
               );
             }
           )}
-
-          <AudioPlayer
-            ref={audioRef}
-            onTimeUpdate={updateCurrentSequence}
-            filename="las-hijas-de-filipe/Son estas lágrimas mi manjar.mp3"
-            className={clsx(
-              isPanelOpen ? "w-7/12" : "w-9/12",
-              "my-6 fixed bottom-5"
-            )}
-          />
+          <SummaryPanel overview={overview}>
+            <AudioPlayer
+              ref={audioRef}
+              onTimeUpdate={updateCurrentSequence}
+              filename="las-hijas-de-filipe/Son estas lágrimas mi manjar.mp3"
+              className={
+                "w-full"
+                /*  clsx(isPanelOpen ? "w-7/12" : "w-9/12", "my-6 fixed bottom-5") */
+              }
+            />
+          </SummaryPanel>
         </section>
       </div>
     </div>
