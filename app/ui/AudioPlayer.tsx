@@ -13,7 +13,7 @@ const AudioPlayer = forwardRef<HTMLAudioElement, AudioPlayerProps>(
       const fetchPresignedUrl = async () => {
         try {
           const response = await fetch(
-            `/api/media/audio/${encodeURIComponent(filename)}`
+            `/api/media/audio/las-hijas-de-filipe/${encodeURIComponent(filename)}`
           );
           if (!response.ok) {
             throw new Error(

@@ -2,10 +2,6 @@
 
 import { useRef, useState } from "react";
 import clsx from "clsx";
-import subtitleData from "../../lib/episodes/tears/transcription.json";
-import topicsData from "../../lib/episodes/tears/topics.json";
-import overviewData from "../../lib/episodes/tears/overview.json";
-
 import { convertMillisecondsToSeconds } from "../../lib/helpers";
 import AudioPlayer from "../../ui/AudioPlayer";
 import HighlightSequence from "../../ui/HighlightSequence";
@@ -13,11 +9,12 @@ import { Sentence, Topic, Overview } from "@/app/lib/definitions";
 import TableOfContent from "../../ui/TableOfContent";
 import SummaryPanel from "../../ui/SummaryPanel";
 
-const subtitles: Sentence[] = subtitleData;
-const topics: Topic[] = topicsData.topics;
-const overview: Overview = overviewData;
-
-export default function Page() {
+type Props ={
+  overview: Overview
+  topics: Topic[]
+  transcripts: Sentence[]
+}
+export default function Player({overview, topics, transcripts}: Props) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
@@ -35,7 +32,7 @@ export default function Page() {
     if (!audioRef.current) return;
     const time = audioRef.current.currentTime;
     setCurrentTime(time);
-    const currentSegment = subtitles.find((segment) => {
+    const currentSegment = transcripts.find((segment) => {
       const startSeconds = convertMillisecondsToSeconds(segment.start);
       const endSeconds = convertMillisecondsToSeconds(segment.end);
       return time >= startSeconds && currentTime <= endSeconds;
@@ -68,7 +65,7 @@ export default function Page() {
           {isPanelOpen ? "<< Hide" : ">> Show"} Index
         </button>
         <section className="relative">
-          {subtitles.map(
+          {transcripts.map(
             ({ text, start, sequence, speaker, words, text_en }) => {
               const isHighlight = currentSequence === sequence;
               return (
@@ -127,11 +124,8 @@ export default function Page() {
             <AudioPlayer
               ref={audioRef}
               onTimeUpdate={updateCurrentSequence}
-              filename="Son estas lágrimas mi manjar.mp3"
-              className={
-                "w-full"
-                /*  clsx(isPanelOpen ? "w-7/12" : "w-9/12", "my-6 fixed bottom-5") */
-              }
+              filename={overview.audio_path}
+              className="w-full"
             />
           </SummaryPanel>
         </section>
