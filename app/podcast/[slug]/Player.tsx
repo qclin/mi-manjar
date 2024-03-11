@@ -9,12 +9,12 @@ import { Sentence, Topic, Overview } from "@/app/lib/definitions";
 import TableOfContent from "../../ui/TableOfContent";
 import SummaryPanel from "../../ui/SummaryPanel";
 
-type Props ={
-  overview: Overview
-  topics: Topic[]
-  transcripts: Sentence[]
-}
-export default function Player({overview, topics, transcripts}: Props) {
+type Props = {
+  overview: Overview;
+  topics: Topic[];
+  transcripts: Sentence[];
+};
+export default function Player({ overview, topics, transcripts }: Props) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);

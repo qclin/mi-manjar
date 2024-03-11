@@ -49,12 +49,11 @@ export type Overview = {
   podcast_url: string;
   season: number;
   episode: number;
-  audio_path: string; 
+  audio_path: string;
 };
 
-
 export type Podcast = {
-  overview: Overview, 
-  topics: Topic[], 
-  transcription: Sentence[]
-}
+  overview: Overview;
+  topics: Topic[];
+  transcription: Sentence[];
+};

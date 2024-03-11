@@ -30,7 +30,11 @@ export default async function handler(
     : req.query.title;
 
   // Define the base directory for JSON files
-  const baseDir = path.join(process.cwd(), "public/data/episodes", title as string);
+  const baseDir = path.join(
+    process.cwd(),
+    "public/data/episodes",
+    title as string
+  );
 
   const files: FileStructure[] = [
     { name: "overview.json", key: "overview" },
