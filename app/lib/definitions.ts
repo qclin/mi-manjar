@@ -1,15 +1,3 @@
-export type Subtitle = {
-  sequence: number;
-  start: string;
-  end: string;
-  text: string;
-};
-
-export type Links = {
-  title: string;
-  href: string;
-};
-
 export type Word = {
   text: string;
   start: number; // Start timestamp in seconds
@@ -49,6 +37,7 @@ export type Overview = {
   podcast_url: string;
   season: number;
   episode: number;
+  duration: string;
   audio_path: string;
 };
 
