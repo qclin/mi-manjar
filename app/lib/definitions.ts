@@ -46,3 +46,6 @@ export type Podcast = {
   topics: Topic[];
   transcription: Sentence[];
 };
+
+export type SeasonIndex = "season_1" | "season_2" | "season_3" | "season_4";
+export type SeasonOverview = Record<SeasonIndex, Overview[]>;

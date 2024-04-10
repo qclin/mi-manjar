@@ -3,6 +3,7 @@
 import { Podcast } from "@/app/lib/definitions";
 import { useEffect, useState } from "react";
 import Player from "./Player";
+import { fetchPodcast } from "@/app/lib/api";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const [podcastData, setPodcastData] = useState<Podcast>();
@@ -10,19 +11,12 @@ export default function Page({ params }: { params: { slug: string } }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/api/episode/${params.slug}`);
-        if (!response.ok) {
-          throw new Error(
-            `Error fetching podcast data for episode: ${response.statusText}`
-          );
-        }
-        const data = (await response.json()) as Podcast;
+        const data = await fetchPodcast(params.slug);
         setPodcastData(data);
-      } catch (error) {
-        console.error("Failed to fetch podcast data", error);
+      } catch (err) {
+        console.error(err);
       }
     };
-
     fetchData();
   }, [params.slug]);
 

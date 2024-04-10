@@ -1,17 +1,24 @@
-import type { Overview, TranslatedString } from "../lib/definitions";
+"use client";
+
+import { useEffect, useState } from "react";
+import { fetchSeasons } from "../lib/api";
+import type { SeasonOverview } from "../lib/definitions";
 import Content from "./content";
 
-type SeasonIndex = "season_1" | "season_2" | "season_3" | "season_4";
+export default function Page() {
+  const [overviewData, setOverviewData] = useState<SeasonOverview>();
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const data = await fetchSeasons();
+        setOverviewData(data);
+      } catch (err) {
+        console.error(err);
+      }
+    };
+    fetchData();
+  }, []);
 
-const Page: React.FC = async () => {
-  const data: Record<SeasonIndex, Overview[]> = await getSeasons();
-  return <Content data={data} />;
-};
-
-export default Page;
-
-async function getSeasons() {
-  const response = await fetch("http://127.0.0.1:5000/season");
-  const data = await response.json();
-  return data;
+  if (!overviewData) return <>Loading podcast season overview</>;
+  return <Content data={overviewData} />;
 }

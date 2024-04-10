@@ -1,8 +1,11 @@
 "use client";
-import type { Overview, TranslatedString } from "../lib/definitions";
+import type {
+  Overview,
+  TranslatedString,
+  SeasonOverview,
+} from "../lib/definitions";
+import { SeasonIndex } from "../lib/definitions";
 import useLangugageToggle from "../ui/useLanguageToggle";
-
-type SeasonIndex = "season_1" | "season_2" | "season_3" | "season_4";
 
 type ListProp = {
   index: number;
@@ -34,7 +37,7 @@ const SeasonList = ({ index, list, language }: ListProp) => (
   </section>
 );
 
-const Content = ({ data }: { data: Record<SeasonIndex, Overview[]> }) => {
+const Content = ({ data }: { data: SeasonOverview }) => {
   const [selectedLanguage, Toggler] = useLangugageToggle();
 
   return (
