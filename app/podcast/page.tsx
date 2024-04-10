@@ -5,9 +5,7 @@ type SeasonIndex = "season_1" | "season_2" | "season_3" | "season_4";
 
 const Page: React.FC = async () => {
   const data: Record<SeasonIndex, Overview[]> = await getSeasons();
-  return (
-      <Content data={data}/>
-  );
+  return <Content data={data} />;
 };
 
 export default Page;

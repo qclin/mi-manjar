@@ -14,7 +14,7 @@ const SeasonList = ({ index, list, language }: ListProp) => (
   <section className="relative h-screen overflow-y-scroll">
     <div className="absolute top-1/2 -left-14 -translate-y-1/2 transform -rotate-90">
       <p className="py-2 px-4 underline">
-        {language === "es" ? "Temporada":"Season"} {index}
+        {language === "es" ? "Temporada" : "Season"} {index}
       </p>
     </div>
     <ul className="ml-14">
