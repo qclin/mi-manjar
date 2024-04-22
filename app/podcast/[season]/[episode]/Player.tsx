@@ -2,19 +2,19 @@
 
 import { useRef, useState } from "react";
 import clsx from "clsx";
-import { convertMillisecondsToSeconds } from "../../lib/helpers";
-import AudioPlayer from "../../ui/AudioPlayer";
-import HighlightSequence from "../../ui/HighlightSequence";
-import { Sentence, Topic, Overview } from "@/app/lib/definitions";
-import TableOfContent from "../../ui/TableOfContent";
-import SummaryPanel from "../../ui/SummaryPanel";
+import { convertMillisecondsToSeconds, isElementOverlappingViewport } from "../../../lib/helpers";
+import AudioPlayer from "../../../ui/AudioPlayer";
+import HighlightSequence from "../../../ui/HighlightSequence";
+import { Podcast, SpeakerName } from "@/app/lib/definitions";
+import TableOfContent from "../../../ui/TableOfContent";
+import SummaryPanel from "../../../ui/SummaryPanel";
 
 type Props = {
-  overview: Overview;
-  topics: Topic[];
-  transcripts: Sentence[];
+  podcast: Podcast
 };
-export default function Player({ overview, topics, transcripts }: Props) {
+
+export default function Player({ podcast }: Props) {
+  const { overview, highlight, transcription } = podcast
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
@@ -32,7 +32,7 @@ export default function Player({ overview, topics, transcripts }: Props) {
     if (!audioRef.current) return;
     const time = audioRef.current.currentTime;
     setCurrentTime(time);
-    const currentSegment = transcripts.find((segment) => {
+    const currentSegment = transcription.find((segment) => {
       const startSeconds = convertMillisecondsToSeconds(segment.start);
       const endSeconds = convertMillisecondsToSeconds(segment.end);
       return time >= startSeconds && currentTime <= endSeconds;
@@ -41,18 +41,26 @@ export default function Player({ overview, topics, transcripts }: Props) {
     const sequence = currentSegment?.sequence ?? 0;
     setCurrentSequence(sequence);
 
-    var my_element = document.getElementById(`sequence-${sequence}`);
-    my_element?.scrollIntoView({
-      block: "center",
-      inline: "nearest",
-    });
+    centerElementIntoViewport(sequence)
   };
+
+  const centerElementIntoViewport = (sequence: number) => {
+    
+    var myElement = document.getElementById(`sequence-${sequence}`);
+    
+    if (myElement && !isElementOverlappingViewport(myElement)){
+      myElement?.scrollIntoView({
+        block: "start",
+        inline: "nearest",
+      });
+    }
+  }
 
   return (
     <div className="flex">
       <TableOfContent
         isOpen={isPanelOpen}
-        topics={topics}
+        highlight={highlight}
         onClick={jumpToTimestamp}
       />
       <div
@@ -65,7 +73,7 @@ export default function Player({ overview, topics, transcripts }: Props) {
           {isPanelOpen ? "<< Hide" : ">> Show"} Index
         </button>
         <section className="relative">
-          {transcripts.map(
+          {transcription.map(
             ({ text, start, sequence, speaker, words, text_en }) => {
               const isHighlight = currentSequence === sequence;
               return (
@@ -74,16 +82,18 @@ export default function Player({ overview, topics, transcripts }: Props) {
                   className="grid gap-4 grid-cols-10 my-2"
                 >
                   <span className="text-gray-600">
-                    {speaker == "A" ? "Carmen " : speaker == "B" ? "Ana  " : ""}
+                    {SpeakerName[speaker as  keyof typeof SpeakerName]}
                   </span>
-                  <p
+                  <div
                     className={clsx(
                       "block max-w-prose",
-                      isPanelOpen ? "col-span-8" : "col-span-4"
+                      isPanelOpen ? "col-span-4" : "col-span-8"
                     )}
                   >
                     {isHighlight ? (
                       <HighlightSequence
+                        text={text}
+                        textTranslated={text_en || ""}
                         words={words}
                         currentTime={currentTime}
                       />
@@ -93,29 +103,17 @@ export default function Player({ overview, topics, transcripts }: Props) {
                         id={`sequence-${sequence}`}
                         className={clsx(
                           {
-                            "text-gray-800": speaker === "A",
-                            "text-medium ": speaker === "C",
+                            
+                            "font-medium ": speaker === "C",
                           },
-                          "appearance-none text-justify"
+                          "appearance-none text-justify text-gray-400"
                         )}
                         onClick={() => jumpToTimestamp(start)}
                       >
                         {text}
                       </button>
                     )}
-                  </p>
-                  {isHighlight && text_en && (
-                    <p
-                      className={clsx(
-                        "block max-w-prose",
-                        isPanelOpen ? "col-start-2 col-span-8" : "col-span-4"
-                      )}
-                    >
-                      <div className="border-rose-300 border-y-2 text-bold block break-words py-2">
-                        {text_en}
-                      </div>
-                    </p>
-                  )}
+                  </div>
                 </div>
               );
             }

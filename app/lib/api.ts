@@ -1,8 +1,11 @@
 import { Podcast, SeasonOverview } from "./definitions";
 
-export const fetchPodcast = async (slug: string) => {
+export const fetchPodcast = async (season:string, episode: string) => {
   try {
-    const response = await fetch(`/api/episode/${slug}`);
+
+    console.log("[fetchPodcast]", season, episode, `/api/episode?season=${season}&episode=${episode}`);
+    
+    const response = await fetch(`/api/episode?season=${season}&episode=${episode}`);
     if (!response.ok) {
       throw new Error(
         `Error fetching podcast data for episode: ${response.statusText}`

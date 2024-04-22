@@ -4,8 +4,8 @@ import type { FileStructure, ResponseObject } from "../utils/apiHelpers";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<ResponseObject | { message: string }>
+    req: NextApiRequest,
+    res: NextApiResponse<ResponseObject | { message: string }>
 ) {
   // Define the base directory for JSON files
   const baseDir = path.join(process.cwd(), "public/data/overview");
@@ -14,6 +14,7 @@ export default async function handler(
     name: `season_${index}.json`,
     key: `season_${index}`,
   }));
+
 
   try {
     const fileReadPromises = files.map(({ name, key }) =>

@@ -14,6 +14,24 @@ export type Sentence = {
   text_en?: string;
 };
 
+export type Citation = {
+  citation: string; 
+  sequence: number;
+}
+
+
+export type Entity = {
+  entity: string; 
+  type: string; 
+  sequences: number[];
+}
+
+export type Highlight = {
+  citations: Citation[];
+  topics: Topic[];
+  entities: Entity[]
+}
+
 export type Topic = {
   topic: string;
   sequence_range: string;
@@ -43,9 +61,15 @@ export type Overview = {
 
 export type Podcast = {
   overview: Overview;
-  topics: Topic[];
+  highlight: Highlight;
   transcription: Sentence[];
 };
 
+
+export enum SpeakerName {
+  A = "Carmen", 
+  B ="Ana", 
+  C = ""
+}
 export type SeasonIndex = "season_1" | "season_2" | "season_3" | "season_4";
 export type SeasonOverview = Record<SeasonIndex, Overview[]>;

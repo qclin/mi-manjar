@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import type {
   Overview,
   TranslatedString,
@@ -23,7 +24,7 @@ const SeasonList = ({ index, list, language }: ListProp) => (
     <ul className="ml-14">
       {list.map(({ title, season, episode, summary, duration }) => (
         <li key={`season-${season}-episode-${episode}`} className="mb-16">
-          <h3 className="text-lg">{title[language]}</h3>
+         <Link href={`podcast/${season}/${episode}`}> <h3 className="text-lg">{title[language]}</h3>
           <span className="text-sm uppercase text-gray-500">
             {language === "es" ? "T" : "S"}
             {season} - EP{episode} · {duration}
@@ -31,6 +32,7 @@ const SeasonList = ({ index, list, language }: ListProp) => (
           <p className="max-w-prose line-clamp-3 text-sm text-gray-700">
             {summary[language]}
           </p>
+          </Link>
         </li>
       ))}
     </ul>
@@ -46,7 +48,7 @@ const Content = ({ data }: { data: SeasonOverview }) => {
         <Toggler />
       </div>
       <div>
-        {[4, 3, 2, 1].map((index) => (
+        {[1, 2, 3, 4].map((index) => (
           <SeasonList
             key={`season-${index}`}
             index={index}

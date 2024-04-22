@@ -1,6 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
 import path from "path";
+import { Overview } from "@/app/lib/definitions";
 
 interface FileStructure {
   name: string;
@@ -25,27 +26,34 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<ResponseObject | { message: string }>
 ) {
-  const title = Array.isArray(req.query.title)
-    ? req.query.title[0]
-    : req.query.title;
 
-  // Define the base directory for JSON files
+  const { season, episode } = req.query
   const baseDir = path.join(
     process.cwd(),
-    "public/data/episodes",
-    title as string
+    "public/data", 
+    `season_${season}`,
   );
 
-  const files: FileStructure[] = [
-    { name: "overview.json", key: "overview" },
-    { name: "topics.json", key: "topics" },
-    { name: "transcription.json", key: "transcription" },
-  ];
+  const seasonFile = path.join(process.cwd(), `public/data/overview/season_${season}.json`);
+
+
 
   try {
+    const episodes = await readFilePromise(seasonFile) as Overview[]
+    const overview = episodes.find((ep) => ep.episode === parseInt(episode as string))
+    const title = overview?.title.es
+
+    const decodedTitle = decodeURIComponent(title as string); 
+  
+    const files: FileStructure[] = [
+      { name: `${decodedTitle}_topics.json`, key: "highlight" },
+      { name: `${decodedTitle}_utterances.json`, key: "transcription" },
+    ];
+
     const fileReadPromises = files.map(({ name, key }) =>
       readFilePromise(path.join(baseDir, name)).then((data) => ({ key, data }))
     );
+
 
     // Wait for all file reading operations to complete
     const fileContents = await Promise.all(fileReadPromises);
@@ -58,6 +66,7 @@ export default async function handler(
       },
       {}
     );
+    responseObject.overview = overview
 
     res.status(200).json(responseObject);
   } catch (error) {

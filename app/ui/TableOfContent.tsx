@@ -1,14 +1,16 @@
 "use client";
 import { convertMillisecondsToDisplayFriendly } from "@/app/lib/helpers";
-import { Topic } from "@/app/lib/definitions";
+import { Highlight } from "@/app/lib/definitions";
 
 interface Props {
   isOpen: boolean;
-  topics: Topic[];
+  highlight: Highlight
   onClick(start_time: number): void;
 }
 
-const TableOfContent = ({ isOpen, topics, onClick }: Props): JSX.Element => {
+const TableOfContent = ({ isOpen, highlight, onClick }: Props): JSX.Element => {
+
+  const { citations, entities, topics } = highlight
   return (
     <div
       className={`h-screen overflow-y-scroll shadow-md transition-width duration-300 ease-in-out ${
