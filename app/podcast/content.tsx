@@ -24,14 +24,16 @@ const SeasonList = ({ index, list, language }: ListProp) => (
     <ul className="ml-14">
       {list.map(({ title, season, episode, summary, duration }) => (
         <li key={`season-${season}-episode-${episode}`} className="mb-16">
-         <Link href={`podcast/${season}/${episode}`}> <h3 className="text-lg">{title[language]}</h3>
-          <span className="text-sm uppercase text-gray-500">
-            {language === "es" ? "T" : "S"}
-            {season} - EP{episode} · {duration}
-          </span>
-          <p className="max-w-prose line-clamp-3 text-sm text-gray-700">
-            {summary[language]}
-          </p>
+          <Link href={`podcast/${season}/${episode}`}>
+            {" "}
+            <h3 className="text-lg">{title[language]}</h3>
+            <span className="text-sm uppercase text-gray-500">
+              {language === "es" ? "T" : "S"}
+              {season} - EP{episode} · {duration}
+            </span>
+            <p className="max-w-prose line-clamp-3 text-sm text-gray-700">
+              {summary[language]}
+            </p>
           </Link>
         </li>
       ))}

@@ -2,7 +2,10 @@
 
 import { useRef, useState } from "react";
 import clsx from "clsx";
-import { convertMillisecondsToSeconds, isElementOverlappingViewport } from "../../../lib/helpers";
+import {
+  convertMillisecondsToSeconds,
+  isElementOverlappingViewport,
+} from "../../../lib/helpers";
 import AudioPlayer from "../../../ui/AudioPlayer";
 import HighlightSequence from "../../../ui/HighlightSequence";
 import { Podcast, SpeakerName } from "@/app/lib/definitions";
@@ -10,11 +13,11 @@ import TableOfContent from "../../../ui/TableOfContent";
 import SummaryPanel from "../../../ui/SummaryPanel";
 
 type Props = {
-  podcast: Podcast
+  podcast: Podcast;
 };
 
 export default function Player({ podcast }: Props) {
-  const { overview, highlight, transcription } = podcast
+  const { overview, highlight, transcription } = podcast;
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
@@ -41,20 +44,19 @@ export default function Player({ podcast }: Props) {
     const sequence = currentSegment?.sequence ?? 0;
     setCurrentSequence(sequence);
 
-    centerElementIntoViewport(sequence)
+    centerElementIntoViewport(sequence);
   };
 
   const centerElementIntoViewport = (sequence: number) => {
-    
     var myElement = document.getElementById(`sequence-${sequence}`);
-    
-    if (myElement && !isElementOverlappingViewport(myElement)){
+
+    if (myElement && !isElementOverlappingViewport(myElement)) {
       myElement?.scrollIntoView({
         block: "start",
         inline: "nearest",
       });
     }
-  }
+  };
 
   return (
     <div className="flex">
@@ -82,7 +84,7 @@ export default function Player({ podcast }: Props) {
                   className="grid gap-4 grid-cols-10 my-2"
                 >
                   <span className="text-gray-600">
-                    {SpeakerName[speaker as  keyof typeof SpeakerName]}
+                    {SpeakerName[speaker as keyof typeof SpeakerName]}
                   </span>
                   <div
                     className={clsx(
@@ -103,7 +105,6 @@ export default function Player({ podcast }: Props) {
                         id={`sequence-${sequence}`}
                         className={clsx(
                           {
-                            
                             "font-medium ": speaker === "C",
                           },
                           "appearance-none text-justify text-gray-400"

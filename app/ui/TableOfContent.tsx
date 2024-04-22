@@ -4,13 +4,12 @@ import { Highlight } from "@/app/lib/definitions";
 
 interface Props {
   isOpen: boolean;
-  highlight: Highlight
+  highlight: Highlight;
   onClick(start_time: number): void;
 }
 
 const TableOfContent = ({ isOpen, highlight, onClick }: Props): JSX.Element => {
-
-  const { citations, entities, topics } = highlight
+  const { citations, entities, topics } = highlight;
   return (
     <div
       className={`h-screen overflow-y-scroll shadow-md transition-width duration-300 ease-in-out ${
