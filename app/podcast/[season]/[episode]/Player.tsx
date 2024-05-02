@@ -5,12 +5,14 @@ import clsx from "clsx";
 import {
   convertMillisecondsToSeconds,
   isElementOverlappingViewport,
-} from "../../../lib/helpers";
-import AudioPlayer from "../../../ui/AudioPlayer";
-import HighlightSequence from "../../../ui/HighlightSequence";
+} from "@/app/lib/helpers";
+import AudioPlayer from "@/app/ui/AudioPlayer";
+import HighlightSequence from "@/app/ui/HighlightSequence";
 import { Podcast, SpeakerName } from "@/app/lib/definitions";
-import TableOfContent from "../../../ui/TableOfContent";
-import SummaryPanel from "../../../ui/SummaryPanel";
+import TableOfContent from "@/app/ui/TableOfContent";
+import SummaryPanel from "@/app/ui/SummaryPanel";
+import downIcon from "@/public/down.svg";
+import Image from "next/image";
 
 type Props = {
   podcast: Podcast;
@@ -60,6 +62,26 @@ export default function Player({ podcast }: Props) {
 
   return (
     <div className="flex">
+      <button
+        className="absolute top-1/2 transform -translate-y-1/2 -rotate-90 z-20 flex -left-2"
+        onClick={togglePanel}
+      >
+        <Image
+          src={downIcon}
+          alt="expand panel"
+          className={clsx(isPanelOpen && "rotate-180 transform")}
+          width={24}
+          height={24}
+        />
+        Index
+        <Image
+          src={downIcon}
+          alt="expand panel"
+          className={clsx(isPanelOpen && "rotate-180 transform")}
+          width={24}
+          height={24}
+        />
+      </button>
       <TableOfContent
         isOpen={isPanelOpen}
         highlight={highlight}
@@ -68,16 +90,21 @@ export default function Player({ podcast }: Props) {
       <div
         className={clsx(
           "flex-1 transition-margin duration-300 ease-in-out",
-          isPanelOpen ? "ml-2" : "ml-0"
+          isPanelOpen ? "ml-[33%]" : "ml-0"
         )}
       >
-        <button className="underline" onClick={togglePanel}>
-          {isPanelOpen ? "<< Hide" : ">> Show"} Index
-        </button>
-        <section className="relative">
+        <section className="relative p-8 md:p-12">
           {transcription.map(
             ({ text, start, sequence, speaker, words, text_en }) => {
               const isHighlight = currentSequence === sequence;
+              const isLater = currentSequence < sequence;
+              console.log(
+                "Current sequence --- ",
+                isLater,
+                currentSequence,
+                sequence
+              );
+
               return (
                 <div
                   key={`sequence-${sequence}`}
@@ -86,12 +113,7 @@ export default function Player({ podcast }: Props) {
                   <span className="text-gray-600">
                     {SpeakerName[speaker as keyof typeof SpeakerName]}
                   </span>
-                  <div
-                    className={clsx(
-                      "block max-w-prose",
-                      isPanelOpen ? "col-span-4" : "col-span-8"
-                    )}
-                  >
+                  <div className={clsx("block max-w-prose col-span-8")}>
                     {isHighlight ? (
                       <HighlightSequence
                         text={text}
@@ -107,7 +129,8 @@ export default function Player({ podcast }: Props) {
                           {
                             "font-medium ": speaker === "C",
                           },
-                          "appearance-none text-justify text-gray-400"
+                          isLater ? "text-gray-100" : "text-gray-600",
+                          "appearance-none text-justify"
                         )}
                         onClick={() => jumpToTimestamp(start)}
                       >

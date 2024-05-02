@@ -5,6 +5,8 @@ import {
 } from "@/app/lib/definitions";
 import clsx from "clsx";
 import React, { useState, ReactNode } from "react";
+import downIcon from "../../public/down.svg";
+import Image from "next/image";
 
 interface Props {
   children: ReactNode;
@@ -20,11 +22,19 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
 
   return (
     <div className="fixed z-30 bottom-4 inset-x-0 p-2">
-      <div className="flex justify-between">
-        {children}
-        <button onClick={togglePanel}>
-          {isOpen ? "Close" : "Open"} Summary
+      <div className="bg-white">
+        <button onClick={togglePanel} className="px-10 flex pt-2">
+          <div className="text-start">
+            <h1 className="text-slate-900 dark:text-white font-medium text-lg flex items-center">
+              {overview.title[selectedLanguage]}
+              <Image src={downIcon} alt="expand panel" width={24} height={24} />
+            </h1>
+            <div className="text-slate-500 dark:text-slate-400 font-light uppercase text-xs">
+              season {overview.season}, episode {overview.episode}
+            </div>
+          </div>
         </button>
+        {children}
       </div>
       <div
         className={`fixed bottom-0 inset-x-0 z-20 bg-white dark:bg-slate-800 shadow-md transform transition-transform duration-300 ease-in-out ${

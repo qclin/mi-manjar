@@ -20,6 +20,7 @@ export function matchSentencesToWords(
   let wordIndex = 0;
 
   sentences.forEach((sentence) => {
+    /* eslint-disable no-useless-escape */
     const sentenceWords = sentence.split(/\s+/);
     let sentenceLength = sentenceWords.length;
     let matchedWords: Word[] = [];

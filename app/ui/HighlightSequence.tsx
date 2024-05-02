@@ -18,6 +18,10 @@ const calcIsActive = (currentTime: number, start: number, end: number) => {
   );
 };
 
+const calcIsAfter = (currentTime: number, start: number) => {
+  return currentTime < convertMillisecondsToSeconds(start);
+};
+
 const HighlightSequence = ({
   text,
   textTranslated,
@@ -28,12 +32,6 @@ const HighlightSequence = ({
   const translatedSentences = splitParagraphIntoSentences(textTranslated);
   const sentenceInfo = matchSentencesToWords(sentences, words);
 
-  sentenceInfo.forEach((info) => {
-    console.log(
-      `Sentence: '${info.sentence}', Start Time: ${info.startTime}, End Time: ${info.endTime}`
-    );
-  });
-
   return (
     <div className="block break-words">
       {sentenceInfo.map((sentence, index) => {
@@ -42,6 +40,7 @@ const HighlightSequence = ({
           sentence.startTime,
           sentence.endTime
         );
+        const isAfter = calcIsAfter(currentTime, sentence.startTime);
         return isActiveSentence ? (
           <>
             <div className="font-semibold">
@@ -66,7 +65,9 @@ const HighlightSequence = ({
             </p>
           </>
         ) : (
-          <div className="text-gray-400">{sentence.sentence}</div>
+          <div className={isAfter ? "text-gray-100" : "text-gray-600"}>
+            {sentence.sentence}
+          </div>
         );
       })}
     </div>
