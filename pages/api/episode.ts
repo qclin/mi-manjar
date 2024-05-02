@@ -1,26 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import fs from "fs";
 import path from "path";
 import { Overview } from "@/app/lib/definitions";
-
-interface FileStructure {
-  name: string;
-  key: string;
-}
-
-interface ResponseObject {
-  [key: string]: any; // Use a more specific type according to your data structure
-}
-
-// Helper function to read a file and return a promise
-const readFilePromise = (filePath: string): Promise<any> => {
-  return new Promise((resolve, reject) => {
-    fs.readFile(filePath, "utf8", (err, data) => {
-      if (err) reject(err);
-      else resolve(JSON.parse(data));
-    });
-  });
-};
+import { readFilePromise } from "./helpers";
+import type { FileStructure, ResponseObject } from "./helpers";
 
 export default async function handler(
   req: NextApiRequest,

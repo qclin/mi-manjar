@@ -1,6 +1,6 @@
 import path from "path";
-import { readFilePromise } from "../utils/apiHelpers";
-import type { FileStructure, ResponseObject } from "../utils/apiHelpers";
+import { readFilePromise } from "./helpers";
+import type { FileStructure, ResponseObject } from "./helpers";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
