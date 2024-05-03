@@ -63,7 +63,7 @@ export default function Player({ podcast }: Props) {
   return (
     <div className="flex">
       <button
-        className="absolute top-1/2 transform -translate-y-1/2 -rotate-90 z-20 flex -left-2"
+        className="absolute -left-2 top-1/2 z-20 flex -translate-y-1/2 -rotate-90 transform"
         onClick={togglePanel}
       >
         <Image
@@ -89,7 +89,7 @@ export default function Player({ podcast }: Props) {
       />
       <div
         className={clsx(
-          "flex-1 transition-margin duration-300 ease-in-out",
+          "transition-margin flex-1 duration-300 ease-in-out",
           isPanelOpen ? "ml-[33%]" : "ml-0"
         )}
       >
@@ -98,22 +98,16 @@ export default function Player({ podcast }: Props) {
             ({ text, start, sequence, speaker, words, text_en }) => {
               const isHighlight = currentSequence === sequence;
               const isLater = currentSequence < sequence;
-              console.log(
-                "Current sequence --- ",
-                isLater,
-                currentSequence,
-                sequence
-              );
 
               return (
                 <div
                   key={`sequence-${sequence}`}
-                  className="grid gap-4 grid-cols-10 my-2"
+                  className="my-2 grid grid-cols-10 gap-4"
                 >
                   <span className="text-gray-600">
                     {SpeakerName[speaker as keyof typeof SpeakerName]}
                   </span>
-                  <div className={clsx("block max-w-prose col-span-8")}>
+                  <div className={clsx("col-span-8 block max-w-prose")}>
                     {isHighlight ? (
                       <HighlightSequence
                         text={text}

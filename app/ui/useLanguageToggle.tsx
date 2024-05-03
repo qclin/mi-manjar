@@ -16,7 +16,7 @@ function useLangugageToggle(): [keyof TranslatedString, () => JSX.Element] {
             key={lang}
             className={clsx(
               selectedLanguage === lang ? "font-medium underline" : "",
-              "uppercase pl-2 h-fit"
+              "h-fit pl-2 uppercase"
             )}
           >
             {lang}

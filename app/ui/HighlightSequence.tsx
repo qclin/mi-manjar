@@ -60,7 +60,7 @@ const HighlightSequence = ({
                 );
               })}
             </div>
-            <p className="border-rose-300 border-t py-2">
+            <p className="border-t border-rose-300 py-2">
               {translatedSentences[index]}
             </p>
           </>

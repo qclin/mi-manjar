@@ -16,8 +16,8 @@ type ListProp = {
 
 const SeasonList = ({ index, list, language }: ListProp) => (
   <section className="relative h-screen overflow-y-scroll">
-    <div className="absolute top-1/2 -left-14 -translate-y-1/2 transform -rotate-90">
-      <p className="py-2 px-4 underline">
+    <div className="absolute -left-14 top-1/2 -translate-y-1/2 -rotate-90 transform">
+      <p className="px-4 py-2 underline">
         {language === "es" ? "Temporada" : "Season"} {index}
       </p>
     </div>
@@ -31,7 +31,7 @@ const SeasonList = ({ index, list, language }: ListProp) => (
               {language === "es" ? "T" : "S"}
               {season} - EP{episode} · {duration}
             </span>
-            <p className="max-w-prose line-clamp-3 text-sm text-gray-700">
+            <p className="line-clamp-3 max-w-prose text-sm text-gray-700">
               {summary[language]}
             </p>
           </Link>

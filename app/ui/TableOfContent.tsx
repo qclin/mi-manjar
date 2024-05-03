@@ -14,12 +14,12 @@ const TableOfContent = ({ isOpen, highlight, onClick }: Props): JSX.Element => {
   return (
     <div
       className={clsx(
-        "fixed top-0 left-0 h-screen overflow-y-scroll shadow-md transition-width duration-300 ease-in-out overflow-hidden top-0",
+        "transition-width fixed left-0 top-0 top-0 h-screen overflow-hidden overflow-y-scroll shadow-md duration-300 ease-in-out",
         isOpen ? "w-1/3 min-w-[350px]" : "w-0"
       )}
     >
-      <div className="p-4 pl-12 pb-28">
-        <table className="table-auto w-full">
+      <div className="p-4 pb-28 pl-12">
+        <table className="w-full table-auto">
           <thead>
             <tr className="text-left *:font-light *:text-zinc-400">
               <th></th>
@@ -30,7 +30,7 @@ const TableOfContent = ({ isOpen, highlight, onClick }: Props): JSX.Element => {
             {topics.map(({ topic, start_time }, index) => (
               <tr
                 key={`topic-${index}`}
-                className="hover:font-semibold cursor-pointer *:py-1 border-y hover:font-medium hover:border-rose-300"
+                className="cursor-pointer border-y *:py-1 hover:border-rose-300 hover:font-medium"
                 tabIndex={0}
                 onClick={() => onClick(start_time)}
               >

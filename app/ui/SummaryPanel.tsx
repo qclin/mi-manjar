@@ -21,15 +21,15 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   const togglePanel = () => setIsOpen(!isOpen);
 
   return (
-    <div className="fixed z-30 bottom-4 inset-x-0 p-2">
+    <div className="fixed inset-x-0 bottom-4 z-30 p-2">
       <div className="bg-white">
-        <button onClick={togglePanel} className="px-10 flex pt-2">
+        <button onClick={togglePanel} className="flex px-10 pt-2">
           <div className="text-start">
-            <h1 className="text-slate-900 dark:text-white font-medium text-lg flex items-center">
+            <h1 className="flex items-center text-lg font-medium text-slate-900 dark:text-white">
               {overview.title[selectedLanguage]}
               <Image src={downIcon} alt="expand panel" width={24} height={24} />
             </h1>
-            <div className="text-slate-500 dark:text-slate-400 font-light uppercase text-xs">
+            <div className="text-xs font-light uppercase text-slate-500 dark:text-slate-400">
               season {overview.season}, episode {overview.episode}
             </div>
           </div>
@@ -37,14 +37,14 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
         {children}
       </div>
       <div
-        className={`fixed bottom-0 inset-x-0 z-20 bg-white dark:bg-slate-800 shadow-md transform transition-transform duration-300 ease-in-out ${
+        className={`fixed inset-x-0 bottom-0 z-20 transform bg-white shadow-md transition-transform duration-300 ease-in-out dark:bg-slate-800 ${
           isOpen ? "translate-y-0" : "translate-y-full"
         }`}
         style={{ maxHeight: "90vh", overflowY: "auto" }}
       >
         <div className="px-20 py-8">
           <div className="flex justify-between">
-            <h1 className="text-slate-900 dark:text-white mt-5 text-xl font-medium">
+            <h1 className="mt-5 text-xl font-medium text-slate-900 dark:text-white">
               {overview.title[selectedLanguage]}
             </h1>
             <div className="flex align-baseline">
@@ -54,7 +54,7 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
                   key={lang}
                   className={clsx(
                     selectedLanguage === lang ? "font-black" : "",
-                    "uppercase pl-2 h-fit"
+                    "h-fit pl-2 uppercase"
                   )}
                 >
                   {lang}
@@ -63,10 +63,10 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
             </div>
           </div>
 
-          <div className="text-slate-500 dark:text-slate-400 font-light uppercase text-xs mb-6">
+          <div className="mb-6 text-xs font-light uppercase text-slate-500 dark:text-slate-400">
             season {overview.season}, episode {overview.episode}
           </div>
-          <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">
+          <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
             {overview.summary[selectedLanguage]}
           </p>
         </div>
