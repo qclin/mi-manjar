@@ -1,14 +1,16 @@
 "use client";
-import { Word } from "@/app/lib/definitions";
+import { Entity, Word } from "@/app/lib/definitions";
 import { convertMillisecondsToSeconds } from "@/app/lib/helpers";
 import clsx from "clsx";
 import { splitParagraphIntoSentences, matchSentencesToWords } from "./utils";
+import EntitySequence from "./EntitySequence";
 
 interface Props {
   text: string;
   textTranslated: string;
   words: Word[];
   currentTime: number; // Current playback time of the audio in seconds
+  entities: Entity[];
 }
 
 const calcIsActive = (currentTime: number, start: number, end: number) => {
@@ -27,6 +29,7 @@ const HighlightSequence = ({
   textTranslated,
   words,
   currentTime,
+  entities,
 }: Props): JSX.Element => {
   const sentences = splitParagraphIntoSentences(text);
   const translatedSentences = splitParagraphIntoSentences(textTranslated);
@@ -65,8 +68,12 @@ const HighlightSequence = ({
             </p>
           </>
         ) : (
-          <div className={isAfter ? "text-gray-100" : "text-gray-600"}>
-            {sentence.sentence}
+          <div className={isAfter ? "text-gray-400" : "text-gray-600"}>
+            {entities.length > 0 ? (
+              <EntitySequence text={sentence.sentence} entities={entities} />
+            ) : (
+              sentence.sentence
+            )}
           </div>
         );
       })}

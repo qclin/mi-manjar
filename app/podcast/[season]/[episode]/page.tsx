@@ -30,6 +30,5 @@ export default function Page({
   if (!podcastData)
     return <div>Loading podcast data for: {params.episode}</div>;
 
-  console.log("[podcastData] ", podcastData);
   return <Player podcast={podcastData} />;
 }

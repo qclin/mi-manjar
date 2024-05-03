@@ -13,6 +13,7 @@ import TableOfContent from "@/app/ui/TableOfContent";
 import SummaryPanel from "@/app/ui/SummaryPanel";
 import downIcon from "@/public/down.svg";
 import Image from "next/image";
+import EntitySequence from "@/app/ui/EntitySequence";
 
 type Props = {
   podcast: Podcast;
@@ -63,7 +64,7 @@ export default function Player({ podcast }: Props) {
   return (
     <div className="flex">
       <button
-        className="absolute -left-2 top-1/2 z-20 flex -translate-y-1/2 -rotate-90 transform"
+        className="absolute -left-3.5 top-1/2 z-20 flex -translate-y-1/2 -rotate-90 transform font-medium underline"
         onClick={togglePanel}
       >
         <Image
@@ -86,6 +87,10 @@ export default function Player({ podcast }: Props) {
         isOpen={isPanelOpen}
         highlight={highlight}
         onClick={jumpToTimestamp}
+        onSelectSequence={(s) => {
+          const sequence = transcription.find((t) => t.sequence === s);
+          sequence && jumpToTimestamp(sequence?.start);
+        }}
       />
       <div
         className={clsx(
@@ -93,42 +98,50 @@ export default function Player({ podcast }: Props) {
           isPanelOpen ? "ml-[33%]" : "ml-0"
         )}
       >
-        <section className="relative p-8 md:p-12">
+        <section className="relative p-8 md:p-12 md:pb-36">
           {transcription.map(
             ({ text, start, sequence, speaker, words, text_en }) => {
-              const isHighlight = currentSequence === sequence;
+              const isActiveSequence = currentSequence === sequence;
               const isLater = currentSequence < sequence;
+              const entities = highlight.entities.filter(({ sequences }) =>
+                sequences.includes(sequence)
+              );
 
               return (
                 <div
-                  key={`sequence-${sequence}`}
+                  key={sequence}
+                  id={`sequence-${sequence}`}
                   className="my-2 grid grid-cols-10 gap-4"
                 >
                   <span className="text-gray-600">
                     {SpeakerName[speaker as keyof typeof SpeakerName]}
+                    <span className="text-xs text-gray-400">{sequence}</span>
                   </span>
                   <div className={clsx("col-span-8 block max-w-prose")}>
-                    {isHighlight ? (
+                    {isActiveSequence ? (
                       <HighlightSequence
                         text={text}
                         textTranslated={text_en || ""}
                         words={words}
                         currentTime={currentTime}
+                        entities={entities}
                       />
                     ) : (
                       <button
-                        key={sequence}
-                        id={`sequence-${sequence}`}
                         className={clsx(
                           {
                             "font-medium ": speaker === "C",
                           },
-                          isLater ? "text-gray-100" : "text-gray-600",
+                          isLater ? "text-gray-400" : "text-gray-600",
                           "appearance-none text-justify"
                         )}
                         onClick={() => jumpToTimestamp(start)}
                       >
-                        {text}
+                        {entities.length > 0 ? (
+                          <EntitySequence text={text} entities={entities} />
+                        ) : (
+                          text
+                        )}
                       </button>
                     )}
                   </div>

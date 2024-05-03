@@ -58,14 +58,6 @@ export const isElementOverlappingViewport = (element: HTMLElement) => {
     window.innerHeight || document.documentElement.clientHeight;
   const windowWidth = window.innerWidth || document.documentElement.clientWidth;
 
-  // Check if any part of the element is within the viewport
-
-  console.log(
-    "isElementOverlappingViewport --- ",
-    window.innerHeight,
-    rect.bottom
-  );
-
   return (
     rect.bottom > 0 && // Bottom edge is below the top of the viewport
     rect.right > 0 && // Right edge is to the right of the left side of the viewport
