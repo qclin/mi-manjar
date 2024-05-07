@@ -1,64 +1,47 @@
 "use client";
 import Link from "next/link";
 import type {
-  Overview,
   TranslatedString,
   SeasonOverview,
 } from "../lib/definitions";
-import { SeasonIndex } from "../lib/definitions";
 import useLangugageToggle from "../ui/useLanguageToggle";
+import range from "lodash/range";
+import Dropdown from "../ui/Dropdown";
+import { useState } from "react";
 
-type ListProp = {
-  index: number;
-  language: keyof TranslatedString;
-  list: Overview[];
-};
+const options =(language: keyof TranslatedString) =>  range(1, 5).sort((a, b) => b-a).map((i) => ({ value: i, label: `${language === "es" ? "Temporada" : "Season"} ${i}`}))
 
-const SeasonList = ({ index, list, language }: ListProp) => (
-  <section className="relative h-screen overflow-y-scroll">
-    <div className="absolute -left-14 top-1/2 -translate-y-1/2 -rotate-90 transform">
-      <p className="px-4 py-2 underline">
-        {language === "es" ? "Temporada" : "Season"} {index}
-      </p>
-    </div>
-    <ul className="ml-14">
-      {list.map(({ title, season, episode, summary, duration }) => (
-        <li key={`season-${season}-episode-${episode}`} className="mb-16">
+
+const Content = ({ data }: { data: SeasonOverview }) => {
+  const [selectedLanguage, LanguageToggler] = useLangugageToggle();
+  const [selectedSeason, setSelectedSeason] = useState(4);
+
+  return (
+    <>
+      <div className="fixed right-0 top-0 m-3">
+        <LanguageToggler />
+      </div>
+    <section className="relative h-screen overflow-y-scroll px-16 mt-16 ">
+      <h1 className="text-5xl font-serif fixed bottom-0 right-0 opacity-10">Las hijas de Felipe</h1>
+    <Dropdown<number> label="" options={options(selectedLanguage)} onChange={setSelectedSeason} />
+    <ul className="grid divide-gray-400 divide-y max-w-prose">
+      {data[`season_${selectedSeason}` as keyof SeasonOverview].map(({ title, season, episode, summary, duration }) => (
+        <li key={`season-${season}-episode-${episode}`} className="pt-6 mb-8">
           <Link href={`podcast/${season}/${episode}`}>
             {" "}
-            <h3 className="text-lg">{title[language]}</h3>
+            <h3 className="text-lg">{title[selectedLanguage]}</h3>
             <span className="text-sm uppercase text-gray-500">
-              {language === "es" ? "T" : "S"}
+              {selectedLanguage === "es" ? "T" : "S"}
               {season} - EP{episode} · {duration}
             </span>
             <p className="line-clamp-3 max-w-prose text-sm text-gray-700">
-              {summary[language]}
+              {summary[selectedLanguage]}
             </p>
           </Link>
         </li>
       ))}
     </ul>
-  </section>
-);
-
-const Content = ({ data }: { data: SeasonOverview }) => {
-  const [selectedLanguage, Toggler] = useLangugageToggle();
-
-  return (
-    <>
-      <div className="fixed right-0 top-0 m-3">
-        <Toggler />
-      </div>
-      <div>
-        {[1, 2, 3, 4].map((index) => (
-          <SeasonList
-            key={`season-${index}`}
-            index={index}
-            language={selectedLanguage}
-            list={data[`season_${index}` as SeasonIndex]}
-          />
-        ))}
-      </div>
+    </section>
     </>
   );
 };
