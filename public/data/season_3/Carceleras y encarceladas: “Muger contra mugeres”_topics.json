@@ -1,0 +1,642 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Personal Anecdotes",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 171810
+        },
+        {
+            "topic": "Confinement and Doctoral Challenges",
+            "sequence_range": "6-8",
+            "start_time": 175950,
+            "end_time": 259638
+        },
+        {
+            "topic": "Historical Narratives and Female Captivity",
+            "sequence_range": "9-15",
+            "start_time": 259694,
+            "end_time": 523979
+        },
+        {
+            "topic": "Religious Figures and Martyrdom",
+            "sequence_range": "16-27",
+            "start_time": 532599,
+            "end_time": 790662
+        },
+        {
+            "topic": "Saints and Personal Reflections",
+            "sequence_range": "28-43",
+            "start_time": 790846,
+            "end_time": 1148212
+        },
+        {
+            "topic": "Encounters with Law Enforcement",
+            "sequence_range": "44-45",
+            "start_time": 1148276,
+            "end_time": 1253370
+        },
+        {
+            "topic": "Literary and Historical References",
+            "sequence_range": "46-65",
+            "start_time": 1270970,
+            "end_time": 1745202
+        },
+        {
+            "topic": "Saints and Martyrdom",
+            "sequence_range": "66-69",
+            "start_time": 1745336,
+            "end_time": 2116826
+        },
+        {
+            "topic": "Historical Geography and Relics",
+            "sequence_range": "68-69",
+            "start_time": 1917760,
+            "end_time": 2116826
+        },
+        {
+            "topic": "Literature and Cultural Reflections",
+            "sequence_range": "69-70",
+            "start_time": 1968350,
+            "end_time": 2181642
+        },
+        {
+            "topic": "Music and Personal Reflections",
+            "sequence_range": "70-73",
+            "start_time": 2116898,
+            "end_time": 2219040
+        },
+        {
+            "topic": "Incarceration and Iconography",
+            "sequence_range": "74-76",
+            "start_time": 2225500,
+            "end_time": 2249504
+        },
+        {
+            "topic": "Carmelite Discourse and Resistance",
+            "sequence_range": "77-104",
+            "start_time": 2249552,
+            "end_time": 2802220
+        },
+        {
+            "topic": "Women's Prisons and Punishment",
+            "sequence_range": "113-123",
+            "start_time": 2944030,
+            "end_time": 3318710
+        },
+        {
+            "topic": "Conventual Intimacies and Illicit Friendships",
+            "sequence_range": "124-131",
+            "start_time": 3319170,
+            "end_time": 3422350
+        },
+        {
+            "topic": "Historical Analysis of Magdalena de San Jeronimo's Penitentiary Project",
+            "sequence_range": "132-141",
+            "start_time": 3422770,
+            "end_time": 3763532
+        },
+        {
+            "topic": "Discussion on Lesbianism and Gender Nonconformity in Historical Context",
+            "sequence_range": "134-140",
+            "start_time": 3485530,
+            "end_time": 3681870
+        },
+        {
+            "topic": "Cristóbal de Chávez's Observations and the Condition of Women in 17th Century Prisons",
+            "sequence_range": "137-139",
+            "start_time": 3515014,
+            "end_time": 3655130
+        },
+        {
+            "topic": "Diet and Discipline in Magdalena's Penitentiary",
+            "sequence_range": "141-146",
+            "start_time": 3682570,
+            "end_time": 3824302
+        },
+        {
+            "topic": "The Influence of the Women's Section and Domestic Management",
+            "sequence_range": "148-158",
+            "start_time": 3827134,
+            "end_time": 4047470
+        },
+        {
+            "topic": "Magdalena de San Jeronimo's Penitentiary Practices and BDSM Comparisons",
+            "sequence_range": "159-163",
+            "start_time": 4047890,
+            "end_time": 4162322
+        },
+        {
+            "topic": "Magdalena de San Jeronimo and Luisa de Carvajal's Correspondence and Ideals",
+            "sequence_range": "165-177",
+            "start_time": 4186990,
+            "end_time": 4616540
+        },
+        {
+            "topic": "The House of Recogidas of Valladolid and Magdalena's True Intentions",
+            "sequence_range": "167-179",
+            "start_time": 4289670,
+            "end_time": 4665008
+        },
+        {
+            "topic": "Reflections on Historical Narratives and Women's Strategies for Autonomy",
+            "sequence_range": "173-178",
+            "start_time": 4412834,
+            "end_time": 4629000
+        },
+        {
+            "topic": "Podcast Production and Historical Research",
+            "sequence_range": "182-188",
+            "start_time": 4698474,
+            "end_time": 4794480
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1,
+                3,
+                7,
+                9,
+                11,
+                24,
+                37,
+                53
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                7
+            ]
+        },
+        {
+            "entity": "Lisbon",
+            "type": "Place",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Dominican Convent in Madrid",
+            "type": "Place",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Providence, Rhode Island",
+            "type": "Place",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Adela",
+            "type": "Person",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                14
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                16
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                16
+            ]
+        },
+        {
+            "entity": "Santa Justa",
+            "type": "Person",
+            "sequences": [
+                26,
+                27,
+                29,
+                30,
+                33,
+                34,
+                36,
+                37,
+                38,
+                39,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+            ]
+        },
+        {
+            "entity": "Santa Rufina",
+            "type": "Person",
+            "sequences": [
+                26,
+                27,
+                29,
+                30,
+                33,
+                34,
+                36,
+                37,
+                38,
+                39,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                28,
+                30
+            ]
+        },
+        {
+            "entity": "Jenny",
+            "type": "Object",
+            "sequences": [
+                25,
+                50,
+                51
+            ]
+        },
+        {
+            "entity": "Jerónimo García",
+            "type": "Person",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "José Juan de la Cruz",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Cristina Morales",
+            "type": "Person",
+            "sequences": [
+                62
+            ]
+        },
+        {
+            "entity": "Santa Croce",
+            "type": "Place",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Diogeniano",
+            "type": "Person",
+            "sequences": [
+                66,
+                87
+            ]
+        },
+        {
+            "entity": "Saint Rusfina",
+            "type": "Person",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Bishop Sabinus",
+            "type": "Person",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Most Holy Trinity of Seville",
+            "type": "Place",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Alonso Morgado",
+            "type": "Person",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Saint Justa",
+            "type": "Person",
+            "sequences": [
+                67,
+                68
+            ]
+        },
+        {
+            "entity": "Saint Isidore",
+            "type": "Person",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Royal Monastery of Burgos",
+            "type": "Place",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Pedro Fernandez",
+            "type": "Person",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Pedro Murillo",
+            "type": "Person",
+            "sequences": [
+                68
+            ]
+        },
+        {
+            "entity": "Elizabeth Perry",
+            "type": "Person",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "Isabel Pantoja",
+            "type": "Person",
+            "sequences": [
+                69,
+                70,
+                71
+            ]
+        },
+        {
+            "entity": "Juan Gabriel",
+            "type": "Person",
+            "sequences": [
+                71
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                77,
+                81,
+                82,
+                85,
+                89,
+                90,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                104,
+                106,
+                108,
+                111
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                77,
+                81,
+                82,
+                89,
+                104
+            ]
+        },
+        {
+            "entity": "Nicolás Doria",
+            "type": "Person",
+            "sequences": [
+                86,
+                87,
+                88,
+                89
+            ]
+        },
+        {
+            "entity": "Anne of Jesus",
+            "type": "Person",
+            "sequences": [
+                89
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                89
+            ]
+        },
+        {
+            "entity": "Magdalena de San Jeronimo",
+            "type": "Person",
+            "sequences": [
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123
+            ]
+        },
+        {
+            "entity": "Philip the Third",
+            "type": "Person",
+            "sequences": [
+                115
+            ]
+        },
+        {
+            "entity": "Duke of Lerma",
+            "type": "Person",
+            "sequences": [
+                123
+            ]
+        },
+        {
+            "entity": "Magdalena de San Jeronimo",
+            "type": "Person",
+            "sequences": [
+                132,
+                134,
+                141,
+                146,
+                151,
+                154,
+                155,
+                158,
+                159,
+                165,
+                167,
+                173,
+                174,
+                177,
+                178,
+                179
+            ]
+        },
+        {
+            "entity": "Cristóbal de Chávez",
+            "type": "Person",
+            "sequences": [
+                134,
+                135,
+                137,
+                138
+            ]
+        },
+        {
+            "entity": "Philip the Third",
+            "type": "Person",
+            "sequences": [
+                134
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                137
+            ]
+        },
+        {
+            "entity": "Pilar Primo de Rivera",
+            "type": "Person",
+            "sequences": [
+                153,
+                154
+            ]
+        },
+        {
+            "entity": "Women's Section",
+            "type": "Organization",
+            "sequences": [
+                148,
+                150,
+                151,
+                154,
+                156,
+                157,
+                158
+            ]
+        },
+        {
+            "entity": "Luisa de Carvajal",
+            "type": "Person",
+            "sequences": [
+                165,
+                173,
+                174,
+                176,
+                177
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                167,
+                168
+            ]
+        },
+        {
+            "entity": "House of Recogidas of Valladolid",
+            "type": "Organization",
+            "sequences": [
+                167,
+                179
+            ]
+        },
+        {
+            "entity": "Ana Garriga and Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                188
+            ]
+        },
+        {
+            "entity": "Gemela",
+            "type": "Organization",
+            "sequences": [
+                182
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Noel Valley, 'The Culture of Cutlery: Bad Taste in Modern Spain', purchased at the Sorolla Museum store",
+            "sequence": 46
+        }
+    ]
+}

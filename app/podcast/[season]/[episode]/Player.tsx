@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import clsx from "clsx";
 import {
   convertMillisecondsToSeconds,
@@ -8,7 +8,7 @@ import {
 } from "@/app/lib/helpers";
 import AudioPlayer from "@/app/ui/AudioPlayer";
 import HighlightSequence from "@/app/ui/HighlightSequence";
-import { Podcast, SpeakerName } from "@/app/lib/definitions";
+import { Podcast } from "@/app/lib/definitions";
 import TableOfContent from "@/app/ui/TableOfContent";
 import SummaryPanel from "@/app/ui/SummaryPanel";
 import downIcon from "@/public/down.svg";
@@ -17,22 +17,38 @@ import EntitySequence from "@/app/ui/EntitySequence";
 
 type Props = {
   podcast: Podcast;
+  jumpToTime?: string | null;
 };
 
-export default function Player({ podcast }: Props) {
+export default function Player({ podcast, jumpToTime }: Props) {
+
   const { overview, highlight, transcription } = podcast;
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [isPanelOpen, setIsPanelOpen] = useState(false);
-  const togglePanel = () => setIsPanelOpen(!isPanelOpen);
+  const [isReady, setIsReady] = useState(false);
 
+  const togglePanel = () => setIsPanelOpen(!isPanelOpen);
   const jumpToTimestamp = (startTime: number) => {
     if (!audioRef.current) return;
     const seconds = convertMillisecondsToSeconds(startTime);
     audioRef.current.currentTime = seconds;
     audioRef.current.play();
   };
+
+
+  const handleCanPlayThrough = useCallback(() => {
+    // Jump to timestamp in the route search param
+    const audio = audioRef.current;
+    if (!audio || !jumpToTime || isReady) return;
+    const startTime = convertMillisecondsToSeconds(parseInt(jumpToTime))
+    console.log("Audio is fully loaded and can play through without interruption.");
+    audio.currentTime = startTime;  
+    audio.play(); 
+    setIsReady(true);
+}, [jumpToTime, isReady, audioRef.current]);
+
 
   const updateCurrentSequence = () => {
     if (!audioRef.current) return;
@@ -99,6 +115,7 @@ export default function Player({ podcast }: Props) {
         )}
       >
         <section className="relative p-8 md:p-12 md:pb-36">
+          {!isReady && jumpToTime && <p> ... Loading audio file</p>}
           {transcription.utterances.map(
             ({ text, start, sequence, speaker, words, text_en }) => {
               const isActiveSequence = currentSequence === sequence;
@@ -155,6 +172,7 @@ export default function Player({ podcast }: Props) {
               onTimeUpdate={updateCurrentSequence}
               filename={overview.audio_path}
               className="w-full"
+              onCanPlayCapture={handleCanPlayThrough}
             />
           </SummaryPanel>
         </section>

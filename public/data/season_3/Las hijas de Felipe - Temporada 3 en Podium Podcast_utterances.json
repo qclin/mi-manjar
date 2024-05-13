@@ -1,0 +1,364 @@
+{
+    "audio_url": "https://cdn.assemblyai.com/upload/b0d18f05-7766-4a2a-9396-04de91bb8cce",
+    "audio_duration": 28,
+    "text": "Si no lograbais conciliar el sueño este verano porque os faltaban los cotilleos de vuestros siglos más favoritos de la historia. No sufráis más que el 19 de septiembre. Las hijas de Felipe. Volvemos en podium con ración de cotilleo barroco cada dos semanas. Las hijas de Felipe, con Ana Garriga y Carmen Urbita, producido por Podium Podcast.",
+    "utterances": [
+        {
+            "sequence": 1,
+            "end": 7726,
+            "speaker": "A",
+            "start": 1920,
+            "text": "Si no lograbais conciliar el sueño este verano porque os faltaban los cotilleos de vuestros siglos más favoritos de la historia.",
+            "words": [
+                {
+                    "text": "Si",
+                    "start": 1920,
+                    "end": 2008
+                },
+                {
+                    "text": "no",
+                    "start": 2008,
+                    "end": 2112
+                },
+                {
+                    "text": "lograbais",
+                    "start": 2112,
+                    "end": 2504
+                },
+                {
+                    "text": "conciliar",
+                    "start": 2518,
+                    "end": 2886
+                },
+                {
+                    "text": "el",
+                    "start": 2918,
+                    "end": 3038
+                },
+                {
+                    "text": "sueño",
+                    "start": 3054,
+                    "end": 3246
+                },
+                {
+                    "text": "este",
+                    "start": 3278,
+                    "end": 3446
+                },
+                {
+                    "text": "verano",
+                    "start": 3478,
+                    "end": 3846
+                },
+                {
+                    "text": "porque",
+                    "start": 3918,
+                    "end": 4150
+                },
+                {
+                    "text": "os",
+                    "start": 4190,
+                    "end": 4318
+                },
+                {
+                    "text": "faltaban",
+                    "start": 4334,
+                    "end": 4806
+                },
+                {
+                    "text": "los",
+                    "start": 4838,
+                    "end": 4982
+                },
+                {
+                    "text": "cotilleos",
+                    "start": 5006,
+                    "end": 5550
+                },
+                {
+                    "text": "de",
+                    "start": 5590,
+                    "end": 5694
+                },
+                {
+                    "text": "vuestros",
+                    "start": 5702,
+                    "end": 5966
+                },
+                {
+                    "text": "siglos",
+                    "start": 5998,
+                    "end": 6310
+                },
+                {
+                    "text": "más",
+                    "start": 6350,
+                    "end": 6526
+                },
+                {
+                    "text": "favoritos",
+                    "start": 6558,
+                    "end": 6982
+                },
+                {
+                    "text": "de",
+                    "start": 7006,
+                    "end": 7094
+                },
+                {
+                    "text": "la",
+                    "start": 7102,
+                    "end": 7222
+                },
+                {
+                    "text": "historia.",
+                    "start": 7246,
+                    "end": 7726
+                }
+            ],
+            "text_en": "If you couldn't get to sleep this summer because you were missing the gossip of your favorite centuries in history, then you're in for a treat."
+        },
+        {
+            "sequence": 2,
+            "end": 15530,
+            "speaker": "B",
+            "start": 7798,
+            "text": "No sufráis más que el 19 de septiembre. Las hijas de Felipe. Volvemos en podium con ración de cotilleo barroco cada dos semanas.",
+            "words": [
+                {
+                    "text": "No",
+                    "start": 7798,
+                    "end": 8006
+                },
+                {
+                    "text": "sufráis",
+                    "start": 8038,
+                    "end": 8406
+                },
+                {
+                    "text": "más",
+                    "start": 8438,
+                    "end": 8702
+                },
+                {
+                    "text": "que",
+                    "start": 8766,
+                    "end": 8894
+                },
+                {
+                    "text": "el",
+                    "start": 8902,
+                    "end": 8998
+                },
+                {
+                    "text": "19",
+                    "start": 9014,
+                    "end": 9122
+                },
+                {
+                    "text": "de",
+                    "start": 9135,
+                    "end": 9243
+                },
+                {
+                    "text": "septiembre.",
+                    "start": 9256,
+                    "end": 9364
+                },
+                {
+                    "text": "Las",
+                    "start": 9377,
+                    "end": 10182
+                },
+                {
+                    "text": "hijas",
+                    "start": 10206,
+                    "end": 10462
+                },
+                {
+                    "text": "de",
+                    "start": 10486,
+                    "end": 10598
+                },
+                {
+                    "text": "Felipe.",
+                    "start": 10614,
+                    "end": 10998
+                },
+                {
+                    "text": "Volvemos",
+                    "start": 11054,
+                    "end": 11678
+                },
+                {
+                    "text": "en",
+                    "start": 11774,
+                    "end": 12006
+                },
+                {
+                    "text": "podium",
+                    "start": 12038,
+                    "end": 12566
+                },
+                {
+                    "text": "con",
+                    "start": 12678,
+                    "end": 12902
+                },
+                {
+                    "text": "ración",
+                    "start": 12926,
+                    "end": 13238
+                },
+                {
+                    "text": "de",
+                    "start": 13294,
+                    "end": 13438
+                },
+                {
+                    "text": "cotilleo",
+                    "start": 13454,
+                    "end": 13862
+                },
+                {
+                    "text": "barroco",
+                    "start": 13886,
+                    "end": 14318
+                },
+                {
+                    "text": "cada",
+                    "start": 14374,
+                    "end": 14566
+                },
+                {
+                    "text": "dos",
+                    "start": 14598,
+                    "end": 14766
+                },
+                {
+                    "text": "semanas.",
+                    "start": 14798,
+                    "end": 15530
+                }
+            ],
+            "text_en": "Do not suffer more than on September 19. Philip's daughters. We return on podium with baroque gossip ration every two weeks."
+        },
+        {
+            "sequence": 3,
+            "end": 24190,
+            "speaker": "C",
+            "start": 16670,
+            "text": "Las hijas de Felipe, con Ana Garriga y Carmen Urbita, producido por Podium Podcast.",
+            "words": [
+                {
+                    "text": "Las",
+                    "start": 16670,
+                    "end": 17102
+                },
+                {
+                    "text": "hijas",
+                    "start": 17166,
+                    "end": 17590
+                },
+                {
+                    "text": "de",
+                    "start": 17630,
+                    "end": 17806
+                },
+                {
+                    "text": "Felipe,",
+                    "start": 17838,
+                    "end": 18614
+                },
+                {
+                    "text": "con",
+                    "start": 18782,
+                    "end": 19086
+                },
+                {
+                    "text": "Ana",
+                    "start": 19118,
+                    "end": 19342
+                },
+                {
+                    "text": "Garriga",
+                    "start": 19366,
+                    "end": 20126
+                },
+                {
+                    "text": "y",
+                    "start": 20238,
+                    "end": 20486
+                },
+                {
+                    "text": "Carmen",
+                    "start": 20518,
+                    "end": 20838
+                },
+                {
+                    "text": "Urbita,",
+                    "start": 20894,
+                    "end": 21846
+                },
+                {
+                    "text": "producido",
+                    "start": 22038,
+                    "end": 22942
+                },
+                {
+                    "text": "por",
+                    "start": 23046,
+                    "end": 23310
+                },
+                {
+                    "text": "Podium",
+                    "start": 23350,
+                    "end": 23782
+                },
+                {
+                    "text": "Podcast.",
+                    "start": 23846,
+                    "end": 24190
+                }
+            ],
+            "text_en": "Felipe's daughters, with Ana Garriga and Carmen Urbita, produced by Podium Podcast."
+        }
+    ],
+    "entities": [
+        {
+            "entity_type": "date",
+            "text": "19 de septiembre",
+            "start": 9014,
+            "end": 9364,
+            "sequence": 2
+        },
+        {
+            "entity_type": "person_name",
+            "text": "Felipe",
+            "start": 10614,
+            "end": 10998,
+            "sequence": 2
+        },
+        {
+            "entity_type": "person_name",
+            "text": "Felipe",
+            "start": 17838,
+            "end": 18614,
+            "sequence": 3
+        },
+        {
+            "entity_type": "person_name",
+            "text": "Ana Garriga",
+            "start": 19118,
+            "end": 20126,
+            "sequence": 3
+        },
+        {
+            "entity_type": "person_name",
+            "text": "Carmen Urbita",
+            "start": 20518,
+            "end": 21846,
+            "sequence": 3
+        }
+    ]
+}

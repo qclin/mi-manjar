@@ -29,7 +29,6 @@ const Content = ({ data }: { data: SeasonOverview }) => {
       <div className="fixed right-0 top-0 m-3">
         <LanguageToggler />
       </div>
-
       <section className="relative mt-16 h-screen overflow-y-scroll px-16 ">
         <Dropdown<number>
           label=""

@@ -1,0 +1,792 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 25822
+        },
+        {
+            "topic": "Personal Conversations and Experiences",
+            "sequence_range": "6-37",
+            "start_time": 25886,
+            "end_time": 226374
+        },
+        {
+            "topic": "Food and Dining Experiences",
+            "sequence_range": "8-28",
+            "start_time": 38590,
+            "end_time": 184860
+        },
+        {
+            "topic": "Emotions and Crying",
+            "sequence_range": "35-45, 74-87",
+            "start_time": 213406,
+            "end_time": 826468
+        },
+        {
+            "topic": "Historical and Cultural References",
+            "sequence_range": "49-123",
+            "start_time": 316870,
+            "end_time": 1281210
+        },
+        {
+            "topic": "Medieval Mysticism and Spirituality",
+            "sequence_range": "124-126",
+            "start_time": 1282790,
+            "end_time": 1364966
+        },
+        {
+            "topic": "Mystics and Their Weeping",
+            "sequence_range": "127-132",
+            "start_time": 1364998,
+            "end_time": 1421596
+        },
+        {
+            "topic": "Categorization of Tears",
+            "sequence_range": "133-143",
+            "start_time": 1421628,
+            "end_time": 1557990
+        },
+        {
+            "topic": "Personal Reflections on Types of Tears",
+            "sequence_range": "144-158",
+            "start_time": 1558970,
+            "end_time": 1668760
+        },
+        {
+            "topic": "Scientific and Historical Perspectives on Tears",
+            "sequence_range": "159-177",
+            "start_time": 1669260,
+            "end_time": 2069050
+        },
+        {
+            "topic": "Cultural Practices and Theories Around Crying",
+            "sequence_range": "178-220",
+            "start_time": 2069170,
+            "end_time": 2489482
+        },
+        {
+            "topic": "Contemporary and Historical Scrutiny of Women's Tears",
+            "sequence_range": "221-229",
+            "start_time": 2489506,
+            "end_time": 2615800
+        },
+        {
+            "topic": "Discussion on tears and their significance",
+            "sequence_range": "230-253",
+            "start_time": 2615840,
+            "end_time": 3048686
+        },
+        {
+            "topic": "Saint Teresa and her perspective on tears",
+            "sequence_range": "237-263",
+            "start_time": 2714708,
+            "end_time": 3218646
+        },
+        {
+            "topic": "Discussion on various books and their emotional impact",
+            "sequence_range": "243-250",
+            "start_time": 2773270,
+            "end_time": 2896332
+        },
+        {
+            "topic": "Influence and control in religious contexts",
+            "sequence_range": "263-267",
+            "start_time": 3153330,
+            "end_time": 3230798
+        },
+        {
+            "topic": "Historical and contemporary figures associated with tears",
+            "sequence_range": "268-290",
+            "start_time": 3230894,
+            "end_time": 3568694
+        },
+        {
+            "topic": "Maria de Santo Domingo's life and trials",
+            "sequence_range": "296-317",
+            "start_time": 3584778,
+            "end_time": 3811326
+        },
+        {
+            "topic": "Mary of St. Dominic and the invocation of tears",
+            "sequence_range": "318-322",
+            "start_time": 3811398,
+            "end_time": 3916346
+        },
+        {
+            "topic": "Theatrical and visionary aspects of religious figures",
+            "sequence_range": "323-325",
+            "start_time": 3916498,
+            "end_time": 4001444
+        },
+        {
+            "topic": "Biblical references and interpretations",
+            "sequence_range": "326-333",
+            "start_time": 4001492,
+            "end_time": 4115603
+        },
+        {
+            "topic": "The role of tears in religious and mystical experiences",
+            "sequence_range": "334-345",
+            "start_time": 4115691,
+            "end_time": 4349708
+        },
+        {
+            "topic": "Historical and cultural perspectives on crying",
+            "sequence_range": "346-353",
+            "start_time": 4349844,
+            "end_time": 4537884
+        },
+        {
+            "topic": "Literary and artistic representations of tears",
+            "sequence_range": "354-409",
+            "start_time": 4537972,
+            "end_time": 5060076
+        },
+        {
+            "topic": "Emotional Expression and Support",
+            "sequence_range": "410-413",
+            "start_time": 5060228,
+            "end_time": 5101310
+        },
+        {
+            "topic": "Gratitude and Farewell",
+            "sequence_range": "414-415",
+            "start_time": 5101390,
+            "end_time": 5104422
+        },
+        {
+            "topic": "Self-Doubt and Criticism",
+            "sequence_range": "416-417",
+            "start_time": 5104606,
+            "end_time": 5122710
+        },
+        {
+            "topic": "Podcast Production Credits",
+            "sequence_range": "418",
+            "start_time": 5137550,
+            "end_time": 5170970
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                30,
+                83
+            ]
+        },
+        {
+            "entity": "Province",
+            "type": "Place",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                12,
+                13,
+                74,
+                83
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Country",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Shirley Temple",
+            "type": "Person",
+            "sequences": [
+                41,
+                42
+            ]
+        },
+        {
+            "entity": "Marta López Álamo",
+            "type": "Person",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                78
+            ]
+        },
+        {
+            "entity": "Beatriz Sánchez antidrián",
+            "type": "Person",
+            "sequences": [
+                55
+            ]
+        },
+        {
+            "entity": "Exit Express",
+            "type": "Publication",
+            "sequences": [
+                55
+            ]
+        },
+        {
+            "entity": "Abel Ahadid",
+            "type": "Person",
+            "sequences": [
+                65
+            ]
+        },
+        {
+            "entity": "Maria",
+            "type": "Person",
+            "sequences": [
+                94,
+                96,
+                102,
+                104,
+                120
+            ]
+        },
+        {
+            "entity": "Thomas de Cantipré",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Juan Gabriel",
+            "type": "Person",
+            "sequences": [
+                80,
+                81
+            ]
+        },
+        {
+            "entity": "Ripta",
+            "type": "Organization",
+            "sequences": [
+                83,
+                84
+            ]
+        },
+        {
+            "entity": "Mary",
+            "type": "Person",
+            "sequences": [
+                124
+            ]
+        },
+        {
+            "entity": "Rebeca San Martín Bastida",
+            "type": "Person",
+            "sequences": [
+                124
+            ]
+        },
+        {
+            "entity": "María de Santo Domingo",
+            "type": "Person",
+            "sequences": [
+                124
+            ]
+        },
+        {
+            "entity": "Beatrice of Nazareth",
+            "type": "Person",
+            "sequences": [
+                128
+            ]
+        },
+        {
+            "entity": "Beatrice d'Ornasieu",
+            "type": "Person",
+            "sequences": [
+                130
+            ]
+        },
+        {
+            "entity": "Catherine of Siena",
+            "type": "Person",
+            "sequences": [
+                132,
+                137,
+                143,
+                156
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                136,
+                137
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                132,
+                166,
+                209
+            ]
+        },
+        {
+            "entity": "Timothy Bright",
+            "type": "Person",
+            "sequences": [
+                169,
+                170,
+                207
+            ]
+        },
+        {
+            "entity": "Laurent Hubert",
+            "type": "Person",
+            "sequences": [
+                175
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                180,
+                182,
+                204
+            ]
+        },
+        {
+            "entity": "Marjorie Kemp",
+            "type": "Person",
+            "sequences": [
+                226,
+                228
+            ]
+        },
+        {
+            "entity": "Japan",
+            "type": "Place",
+            "sequences": [
+                209,
+                213
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                216,
+                218
+            ]
+        },
+        {
+            "entity": "ikemeseo danxi",
+            "type": "Organization",
+            "sequences": [
+                209
+            ]
+        },
+        {
+            "entity": "Tears and Travel Café a Cane",
+            "type": "Organization",
+            "sequences": [
+                213
+            ]
+        },
+        {
+            "entity": "Jesus",
+            "type": "Person",
+            "sequences": [
+                230
+            ]
+        },
+        {
+            "entity": "Marjorie",
+            "type": "Person",
+            "sequences": [
+                232
+            ]
+        },
+        {
+            "entity": "St. Valentine",
+            "type": "Person",
+            "sequences": [
+                233
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                233,
+                237,
+                240,
+                276
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                237,
+                238,
+                239,
+                242,
+                243,
+                252,
+                253,
+                263,
+                279,
+                280,
+                281,
+                282,
+                283,
+                284,
+                285,
+                286
+            ]
+        },
+        {
+            "entity": "Epsa podcast",
+            "type": "Organization",
+            "sequences": [
+                240
+            ]
+        },
+        {
+            "entity": "Catherine of Siena",
+            "type": "Person",
+            "sequences": [
+                243
+            ]
+        },
+        {
+            "entity": "Francis of Osuna",
+            "type": "Person",
+            "sequences": [
+                243
+            ]
+        },
+        {
+            "entity": "Berta de Alas Clarín",
+            "type": "Person",
+            "sequences": [
+                246
+            ]
+        },
+        {
+            "entity": "Doña Berta",
+            "type": "Literature",
+            "sequences": [
+                247
+            ]
+        },
+        {
+            "entity": "Marianela",
+            "type": "Literature",
+            "sequences": [
+                248,
+                249,
+                250
+            ]
+        },
+        {
+            "entity": "Dulceida",
+            "type": "Person",
+            "sequences": [
+                273,
+                274,
+                275,
+                276
+            ]
+        },
+        {
+            "entity": "Angela de Foliño",
+            "type": "Person",
+            "sequences": [
+                268
+            ]
+        },
+        {
+            "entity": "Lidia Lozano",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Maria de Santo Domingo",
+            "type": "Person",
+            "sequences": [
+                296,
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                306,
+                307,
+                308,
+                309,
+                310,
+                311,
+                312,
+                313,
+                314,
+                315,
+                316,
+                317
+            ]
+        },
+        {
+            "entity": "Lunas de Almeida",
+            "type": "Person",
+            "sequences": [
+                300
+            ]
+        },
+        {
+            "entity": "Philip the second",
+            "type": "Person",
+            "sequences": [
+                305
+            ]
+        },
+        {
+            "entity": "Mary of St. Dominic",
+            "type": "Person",
+            "sequences": [
+                318,
+                322,
+                334,
+                339,
+                364
+            ]
+        },
+        {
+            "entity": "Balthazar",
+            "type": "Person",
+            "sequences": [
+                318
+            ]
+        },
+        {
+            "entity": "Granada",
+            "type": "Place",
+            "sequences": [
+                318
+            ]
+        },
+        {
+            "entity": "Mary Magdalene",
+            "type": "Person",
+            "sequences": [
+                322,
+                325,
+                334
+            ]
+        },
+        {
+            "entity": "Rosalia",
+            "type": "Person",
+            "sequences": [
+                323
+            ]
+        },
+        {
+            "entity": "David Macho",
+            "type": "Person",
+            "sequences": [
+                331
+            ]
+        },
+        {
+            "entity": "Casa Encendida",
+            "type": "Organization",
+            "sequences": [
+                331
+            ]
+        },
+        {
+            "entity": "Heather Crystal",
+            "type": "Person",
+            "sequences": [
+                348
+            ]
+        },
+        {
+            "entity": "Magdalena Palmer",
+            "type": "Person",
+            "sequences": [
+                348
+            ]
+        },
+        {
+            "entity": "Tránsito",
+            "type": "Organization",
+            "sequences": [
+                348
+            ]
+        },
+        {
+            "entity": "Fray Agustín Farfán",
+            "type": "Person",
+            "sequences": [
+                353
+            ]
+        },
+        {
+            "entity": "Father José Vidal",
+            "type": "Person",
+            "sequences": [
+                378,
+                382,
+                394
+            ]
+        },
+        {
+            "entity": "Mariana of Austria",
+            "type": "Person",
+            "sequences": [
+                400
+            ]
+        },
+        {
+            "entity": "Felipe Cuarto",
+            "type": "Person",
+            "sequences": [
+                400
+            ]
+        },
+        {
+            "entity": "Luisa Roldán",
+            "type": "Person",
+            "sequences": [
+                402,
+                407
+            ]
+        },
+        {
+            "entity": "Pedro Mena",
+            "type": "Person",
+            "sequences": [
+                408
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                409
+            ]
+        },
+        {
+            "entity": "Julio Cortázar",
+            "type": "Person",
+            "sequences": [
+                368,
+                369
+            ]
+        },
+        {
+            "entity": "Lidia",
+            "type": "Person",
+            "sequences": [
+                416
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                418
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                418
+            ]
+        },
+        {
+            "entity": "Ana Rivera",
+            "type": "Person",
+            "sequences": [
+                418
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                418
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                418
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                418
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                418
+            ]
+        },
+        {
+            "entity": "Las hijas de Felipe",
+            "type": "Podcast",
+            "sequences": [
+                418
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Shirley Temple's method for crying scenes",
+            "sequence": 41
+        }
+    ]
+}

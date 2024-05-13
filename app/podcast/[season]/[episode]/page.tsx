@@ -4,13 +4,16 @@ import { Podcast } from "@/app/lib/definitions";
 import { useEffect, useState } from "react";
 import Player from "./Player";
 import { fetchPodcast } from "@/app/lib/api";
+import { useSearchParams } from 'next/navigation'
 
-export default function Page({
-  params,
-}: {
-  params: { season: string; episode: string };
-}) {
+
+type RouteParams = { season: string; episode: string }; 
+
+export default function Page({params }:{ params: RouteParams }) {
   const [podcastData, setPodcastData] = useState<Podcast>();
+
+  const searchParams = useSearchParams(); 
+  const jumpToTime = searchParams?.get('start')
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,5 +33,5 @@ export default function Page({
   if (!podcastData)
     return <div>Loading podcast data for: {params.episode}</div>;
 
-  return <Player podcast={podcastData} />;
+  return <Player podcast={podcastData} jumpToTime={jumpToTime} />;
 }

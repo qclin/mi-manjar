@@ -1,0 +1,567 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 32890
+        },
+        {
+            "topic": "Personal Greetings and Health Updates",
+            "sequence_range": "6-17",
+            "start_time": 33470,
+            "end_time": 68690
+        },
+        {
+            "topic": "Location and Food",
+            "sequence_range": "18-26",
+            "start_time": 68810,
+            "end_time": 134324
+        },
+        {
+            "topic": "Podcast and Social Media Reflections",
+            "sequence_range": "27-43",
+            "start_time": 134452,
+            "end_time": 388436
+        },
+        {
+            "topic": "Historical and Literary References",
+            "sequence_range": "44-61",
+            "start_time": 388508,
+            "end_time": 759886
+        },
+        {
+            "topic": "Writing and Correspondence",
+            "sequence_range": "62-98",
+            "start_time": 759958,
+            "end_time": 1269600
+        },
+        {
+            "topic": "Life and struggles of María de San José",
+            "sequence_range": "99-170",
+            "start_time": 1269680,
+            "end_time": 2425826
+        },
+        {
+            "topic": "Writing and Learning",
+            "sequence_range": "171-172",
+            "start_time": 2425898,
+            "end_time": 2448458
+        },
+        {
+            "topic": "Historical Anecdotes and Chocolate",
+            "sequence_range": "173-176",
+            "start_time": 2448474,
+            "end_time": 2515010
+        },
+        {
+            "topic": "Personal Narratives and Manuscript Anxiety",
+            "sequence_range": "177-180",
+            "start_time": 2515050,
+            "end_time": 2562690
+        },
+        {
+            "topic": "Phonetic Spelling and Literary Style",
+            "sequence_range": "181-186",
+            "start_time": 2562730,
+            "end_time": 2727234
+        },
+        {
+            "topic": "Descriptive Talent and Personal Torments",
+            "sequence_range": "187-188",
+            "start_time": 2727282,
+            "end_time": 2843424
+        },
+        {
+            "topic": "Podcast Production and Credits",
+            "sequence_range": "189-190",
+            "start_time": 2843472,
+            "end_time": 2897750
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                3,
+                62,
+                72,
+                73,
+                87
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                3,
+                4,
+                17,
+                72,
+                75,
+                76,
+                77,
+                79
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                7,
+                8,
+                19,
+                20,
+                58,
+                59,
+                79
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                13,
+                62,
+                63,
+                64,
+                65,
+                66,
+                69,
+                71
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Location",
+            "sequences": [
+                17,
+                18,
+                23
+            ]
+        },
+        {
+            "entity": "Spotify",
+            "type": "Organization",
+            "sequences": [
+                29
+            ]
+        },
+        {
+            "entity": "TikTok",
+            "type": "Platform",
+            "sequences": [
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43
+            ]
+        },
+        {
+            "entity": "Bernardino de Laredo",
+            "type": "Person",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Paracelsus",
+            "type": "Person",
+            "sequences": [
+                47
+            ]
+        },
+        {
+            "entity": "Lorenzo Ortiz",
+            "type": "Person",
+            "sequences": [
+                48
+            ]
+        },
+        {
+            "entity": "Ignacio Perez",
+            "type": "Person",
+            "sequences": [
+                50
+            ]
+        },
+        {
+            "entity": "Francisco de Blasco de Lanuza",
+            "type": "Person",
+            "sequences": [
+                51
+            ]
+        },
+        {
+            "entity": "Francisco Martinez Castrillo",
+            "type": "Person",
+            "sequences": [
+                54
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                43,
+                81,
+                82,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                80
+            ]
+        },
+        {
+            "entity": "Spy Crisi",
+            "type": "Organization",
+            "sequences": [
+                54
+            ]
+        },
+        {
+            "entity": "María de San José",
+            "type": "Person",
+            "sequences": [
+                99,
+                101,
+                102,
+                104,
+                106,
+                109,
+                111,
+                112,
+                113,
+                115,
+                116,
+                117,
+                118,
+                120,
+                121,
+                129,
+                131,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                142,
+                163,
+                164,
+                165,
+                166,
+                168,
+                169,
+                170
+            ]
+        },
+        {
+            "entity": "Oaxaca",
+            "type": "Place",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "San Marcos Evangelista",
+            "type": "Event",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "Tepako",
+            "type": "Place",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "Puebla",
+            "type": "Place",
+            "sequences": [
+                99,
+                113
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                112,
+                120
+            ]
+        },
+        {
+            "entity": "Bishop Santa Cruz de Puebla",
+            "type": "Person",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Augustinian Recollect nuns",
+            "type": "Organization",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Santa Monica",
+            "type": "Place",
+            "sequences": [
+                116
+            ]
+        },
+        {
+            "entity": "Maria Perez Sanz",
+            "type": "Person",
+            "sequences": [
+                118
+            ]
+        },
+        {
+            "entity": "Gijon Film Festival",
+            "type": "Event",
+            "sequences": [
+                120
+            ]
+        },
+        {
+            "entity": "Bea Lobo",
+            "type": "Person",
+            "sequences": [
+                120
+            ]
+        },
+        {
+            "entity": "Di Circa",
+            "type": "Person",
+            "sequences": [
+                120
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163
+            ]
+        },
+        {
+            "entity": "Teo",
+            "type": "Person",
+            "sequences": [
+                149,
+                150,
+                151,
+                152,
+                153
+            ]
+        },
+        {
+            "entity": "Sara",
+            "type": "Person",
+            "sequences": [
+                157
+            ]
+        },
+        {
+            "entity": "Salamanca",
+            "type": "Place",
+            "sequences": [
+                157
+            ]
+        },
+        {
+            "entity": "Benidorm",
+            "type": "Place",
+            "sequences": [
+                151
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "Harrod's department store",
+            "type": "Organization",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "London",
+            "type": "Place",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "St. Anthony of Padua",
+            "type": "Person",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "María San José",
+            "type": "Person",
+            "sequences": [
+                181,
+                186,
+                187,
+                188
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                181,
+                187
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Sor Juana Inés de la Cruz",
+            "type": "Person",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Leonor",
+            "type": "Person",
+            "sequences": [
+                187
+            ]
+        },
+        {
+            "entity": "Carmelite convent of our mother Saint Teresa of Jesus",
+            "type": "Organization",
+            "sequences": [
+                187
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Jesuits",
+            "type": "Organization",
+            "sequences": [
+                174
+            ]
+        },
+        {
+            "entity": "Father Fray Placido",
+            "type": "Person",
+            "sequences": [
+                178
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Bernardino de Laredo, Franciscan mystic quote",
+            "sequence": 44
+        }
+    ]
+}

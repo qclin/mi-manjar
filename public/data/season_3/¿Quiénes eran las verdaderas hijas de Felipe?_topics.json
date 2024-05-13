@@ -1,0 +1,588 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-8",
+            "start_time": 2360,
+            "end_time": 42164
+        },
+        {
+            "topic": "Podcast Themes and Personal Anecdotes",
+            "sequence_range": "9-18",
+            "start_time": 42292,
+            "end_time": 132402
+        },
+        {
+            "topic": "Historical Narratives and Personal Reflections",
+            "sequence_range": "19-83",
+            "start_time": 132426,
+            "end_time": 1245038
+        },
+        {
+            "topic": "Catalina Micaela's Wedding and Personal Life",
+            "sequence_range": "84-95",
+            "start_time": 1245542,
+            "end_time": 1500340
+        },
+        {
+            "topic": "Philip II's Letters and Personal Observations",
+            "sequence_range": "96-108",
+            "start_time": 1500500,
+            "end_time": 1691198
+        },
+        {
+            "topic": "Catalina Micaela's Health and Reproductive Matters",
+            "sequence_range": "109-116",
+            "start_time": 1691214,
+            "end_time": 1839648
+        },
+        {
+            "topic": "Philip II's Obsessions and Personal Intrusions",
+            "sequence_range": "117-139",
+            "start_time": 1839664,
+            "end_time": 2187092
+        },
+        {
+            "topic": "Reflections on Familial and Political Dynamics",
+            "sequence_range": "140-147",
+            "start_time": 2187116,
+            "end_time": 2298050
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                8
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                5,
+                7,
+                9,
+                10,
+                12,
+                13,
+                22,
+                29,
+                30,
+                31,
+                33,
+                46,
+                48,
+                56,
+                58,
+                61,
+                71
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                3,
+                4,
+                8,
+                9,
+                15,
+                16,
+                20,
+                22,
+                24,
+                25,
+                27,
+                35,
+                41,
+                44,
+                50,
+                52,
+                54,
+                59,
+                61,
+                63,
+                65,
+                67,
+                68,
+                70,
+                72
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                21,
+                22,
+                41,
+                44,
+                46,
+                47,
+                50
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                22,
+                23,
+                24,
+                31,
+                32,
+                34,
+                39,
+                54,
+                77
+            ]
+        },
+        {
+            "entity": "Catalina Micaela",
+            "type": "Person",
+            "sequences": [
+                22,
+                23,
+                24,
+                30,
+                31,
+                32,
+                34,
+                54,
+                79
+            ]
+        },
+        {
+            "entity": "Isabella de Valois",
+            "type": "Person",
+            "sequences": [
+                35,
+                39,
+                41,
+                46,
+                50
+            ]
+        },
+        {
+            "entity": "Catherine de Medici",
+            "type": "Person",
+            "sequences": [
+                35,
+                41
+            ]
+        },
+        {
+            "entity": "Don Juan de Austria",
+            "type": "Person",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Maria of Portugal",
+            "type": "Person",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Mateo Tzan",
+            "type": "Person",
+            "sequences": [
+                34
+            ]
+        },
+        {
+            "entity": "Sophonisba Anguissola",
+            "type": "Person",
+            "sequences": [
+                56,
+                58,
+                60
+            ]
+        },
+        {
+            "entity": "María Jesús de Ágreda",
+            "type": "Person",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Charles Emmanuel I of Savoy",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Georgina",
+            "type": "Person",
+            "sequences": [
+                52,
+                53
+            ]
+        },
+        {
+            "entity": "Cristiano Ronaldo",
+            "type": "Person",
+            "sequences": [
+                52
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                53,
+                66,
+                67
+            ]
+        },
+        {
+            "entity": "Pedro de Guevara",
+            "type": "Person",
+            "sequences": [
+                72
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                35,
+                47
+            ]
+        },
+        {
+            "entity": "USA",
+            "type": "Place",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Prado",
+            "type": "Place",
+            "sequences": [
+                24
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                35
+            ]
+        },
+        {
+            "entity": "Aranjuez",
+            "type": "Place",
+            "sequences": [
+                47
+            ]
+        },
+        {
+            "entity": "Netherlands",
+            "type": "Place",
+            "sequences": [
+                46,
+                77
+            ]
+        },
+        {
+            "entity": "Turin",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "New Mexico",
+            "type": "Place",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Catalina Micaela",
+            "type": "Person",
+            "sequences": [
+                84,
+                85,
+                86,
+                88,
+                89,
+                90,
+                91,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                102,
+                103,
+                104,
+                105,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                125,
+                126,
+                128,
+                130,
+                131,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                143,
+                144,
+                145,
+                146
+            ]
+        },
+        {
+            "entity": "Duke of Savoy",
+            "type": "Title",
+            "sequences": [
+                84,
+                89,
+                90,
+                94,
+                95,
+                107,
+                109,
+                113,
+                134,
+                135,
+                136
+            ]
+        },
+        {
+            "entity": "Philip II",
+            "type": "Person",
+            "sequences": [
+                86,
+                88,
+                90,
+                91,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                128,
+                130,
+                131,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139
+            ]
+        },
+        {
+            "entity": "Saragossa",
+            "type": "Place",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                86,
+                88,
+                90,
+                91,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                128,
+                130,
+                131,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139
+            ]
+        },
+        {
+            "entity": "Barcelona",
+            "type": "Place",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Doña Isabel",
+            "type": "Person",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Don Juan de Zúñiga",
+            "type": "Person",
+            "sequences": [
+                94
+            ]
+        },
+        {
+            "entity": "Elizabeth of Valois",
+            "type": "Person",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Anne of Austria",
+            "type": "Person",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                127
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Ana Rivera",
+            "type": "Person",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                147
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Juego y ejercicio de letras de las serenísimas infantas doña Isabel y doña Catalina de Austria by Pedro de Guevara, 1581",
+            "sequence": 72
+        }
+    ]
+}

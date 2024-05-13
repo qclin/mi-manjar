@@ -286,7 +286,7 @@
   },
   {
     "title": {
-      "es": "Hawai, Marfisa, Asicomovós",
+      "es": "Hawai, Marfisa, Asicomovós",
       "en": "Hawaii, Marfisa, Asicomovós"
     },
     "summary": {
@@ -297,7 +297,7 @@
     "episode": 3,
     "duration": "79:08",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3261633/",
-    "audio_path": "season_3/Hawai, Marfisa, Asicomovós.mp3"
+    "audio_path": "season_3/Hawai, Marfisa, Asicomovós.mp3"
   },
   {
     "title": {
@@ -339,8 +339,8 @@
       "en": "Felipe's daughters return with baroque gossip ration every two weeks.\nA podcast by Carmen Urbita and Ana Garriga. Produced by Podium Podcast."
     },
     "season": 3,
-    "episode": 1,
-    "duration": "38:18",
+    "episode": 0,
+    "duration": "0:28",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3210218/",
     "audio_path": "season_3/Las hijas de Felipe - Temporada 3 en Podium Podcast.mp3"
   }

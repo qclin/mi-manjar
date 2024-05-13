@@ -1,0 +1,738 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 31422
+        },
+        {
+            "topic": "Concert and Event Discussion",
+            "sequence_range": "6-9",
+            "start_time": 31486,
+            "end_time": 38570
+        },
+        {
+            "topic": "Personal Greetings and Spain",
+            "sequence_range": "10-13",
+            "start_time": 38990,
+            "end_time": 64364
+        },
+        {
+            "topic": "Arrival in Spain and Observations",
+            "sequence_range": "14-19",
+            "start_time": 64452,
+            "end_time": 108028
+        },
+        {
+            "topic": "Young Filmmakers Festival of Granada",
+            "sequence_range": "20-23",
+            "start_time": 108164,
+            "end_time": 134144
+        },
+        {
+            "topic": "Stage Fright and Performance",
+            "sequence_range": "24-26",
+            "start_time": 134192,
+            "end_time": 169130
+        },
+        {
+            "topic": "History and Description of Granada",
+            "sequence_range": "27-30",
+            "start_time": 169170,
+            "end_time": 204906
+        },
+        {
+            "topic": "Food and Dining Experience",
+            "sequence_range": "31-34",
+            "start_time": 205018,
+            "end_time": 254852
+        },
+        {
+            "topic": "Baroque Actresses and Historical Context",
+            "sequence_range": "35-45",
+            "start_time": 254916,
+            "end_time": 421956
+        },
+        {
+            "topic": "Shakespeare in Love and Cross-Dressing",
+            "sequence_range": "46-50",
+            "start_time": 421988,
+            "end_time": 569156
+        },
+        {
+            "topic": "Female Presence on Stage in Spain",
+            "sequence_range": "51-56",
+            "start_time": 569268,
+            "end_time": 652034
+        },
+        {
+            "topic": "Famous Baroque Actresses",
+            "sequence_range": "57-63",
+            "start_time": 652122,
+            "end_time": 713910
+        },
+        {
+            "topic": "Actresses' Guild and Professional Support",
+            "sequence_range": "64-67",
+            "start_time": 713990,
+            "end_time": 767546
+        },
+        {
+            "topic": "Moralists' Views on Actresses",
+            "sequence_range": "68-73",
+            "start_time": 767658,
+            "end_time": 985424
+        },
+        {
+            "topic": "Actresses and Conversions to Nuns",
+            "sequence_range": "74-86",
+            "start_time": 985512,
+            "end_time": 1168038
+        },
+        {
+            "topic": "Baltasara's Conversion and Hermitage Life",
+            "sequence_range": "87-102",
+            "start_time": 1168054,
+            "end_time": 1456410
+        },
+        {
+            "topic": "Miracles and Phenomena",
+            "sequence_range": "103-104",
+            "start_time": 1456490,
+            "end_time": 1515700
+        },
+        {
+            "topic": "Pilgrimage and Religious Practices",
+            "sequence_range": "105-106, 121-143",
+            "start_time": 1516200,
+            "end_time": 2043120
+        },
+        {
+            "topic": "Convent Life and Traditions",
+            "sequence_range": "144-201",
+            "start_time": 2043820,
+            "end_time": 2787296
+        },
+        {
+            "topic": "Theatrical works and performances in convents",
+            "sequence_range": "202-215",
+            "start_time": 2787328,
+            "end_time": 2968730
+        },
+        {
+            "topic": "Discussion with Sister Lucia and other nuns",
+            "sequence_range": "205-227",
+            "start_time": 2827224,
+            "end_time": 3100742
+        },
+        {
+            "topic": "Antonia Tanini Pulci and her influence",
+            "sequence_range": "210-218",
+            "start_time": 2864342,
+            "end_time": 3006380
+        },
+        {
+            "topic": "Personal experiences and reflections on performance",
+            "sequence_range": "219-289",
+            "start_time": 3006460,
+            "end_time": 3975510
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Verde Prato",
+            "type": "Person",
+            "sequences": [
+                4,
+                24,
+                25
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                10,
+                24,
+                25,
+                41,
+                43,
+                47,
+                48,
+                66,
+                68,
+                69,
+                87,
+                100,
+                102
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                10,
+                12,
+                43,
+                47,
+                48,
+                78,
+                87,
+                89
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Location",
+            "sequences": [
+                11,
+                12
+            ]
+        },
+        {
+            "entity": "Granada",
+            "type": "Location",
+            "sequences": [
+                18,
+                19,
+                20,
+                25,
+                26,
+                27,
+                74
+            ]
+        },
+        {
+            "entity": "Young Filmmakers Festival of Granada",
+            "type": "Event",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "Isabel la Católica",
+            "type": "Place",
+            "sequences": [
+                20,
+                74
+            ]
+        },
+        {
+            "entity": "Botánico",
+            "type": "Restaurant",
+            "sequences": [
+                31
+            ]
+        },
+        {
+            "entity": "Agustín de Rojas",
+            "type": "Person",
+            "sequences": [
+                40
+            ]
+        },
+        {
+            "entity": "Philip's daughters",
+            "type": "Organization",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Shakespeare in Love",
+            "type": "Work of Art",
+            "sequences": [
+                46,
+                47,
+                48,
+                50
+            ]
+        },
+        {
+            "entity": "Gwyneth Paltrow",
+            "type": "Person",
+            "sequences": [
+                49
+            ]
+        },
+        {
+            "entity": "Judi Dench",
+            "type": "Person",
+            "sequences": [
+                50
+            ]
+        },
+        {
+            "entity": "Isabel I",
+            "type": "Person",
+            "sequences": [
+                50
+            ]
+        },
+        {
+            "entity": "La Calderona",
+            "type": "Person",
+            "sequences": [
+                57,
+                77
+            ]
+        },
+        {
+            "entity": "Maria Riquelme",
+            "type": "Person",
+            "sequences": [
+                57,
+                68
+            ]
+        },
+        {
+            "entity": "Josepa Vaca",
+            "type": "Person",
+            "sequences": [
+                57,
+                59
+            ]
+        },
+        {
+            "entity": "La Baltasara",
+            "type": "Person",
+            "sequences": [
+                57,
+                90,
+                98
+            ]
+        },
+        {
+            "entity": "María de Córdoba",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "San Sebastián",
+            "type": "Place",
+            "sequences": [
+                64
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Location",
+            "sequences": [
+                64,
+                66
+            ]
+        },
+        {
+            "entity": "Juan Caramuel",
+            "type": "Person",
+            "sequences": [
+                68
+            ]
+        },
+        {
+            "entity": "Pedro de Guzman",
+            "type": "Person",
+            "sequences": [
+                72
+            ]
+        },
+        {
+            "entity": "Romeo Santos",
+            "type": "Person",
+            "sequences": [
+                73
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                75
+            ]
+        },
+        {
+            "entity": "Philip IV",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Don Juan de Austria",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Dolores Hart",
+            "type": "Person",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "Elvis",
+            "type": "Person",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "Francisca Baltasara de los Reyes",
+            "type": "Person",
+            "sequences": [
+                90
+            ]
+        },
+        {
+            "entity": "Miguel Ruiz",
+            "type": "Person",
+            "sequences": [
+                100,
+                101
+            ]
+        },
+        {
+            "entity": "San Juan Bautista",
+            "type": "Person",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "Cartagena",
+            "type": "Location",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "Vélez de Guevara",
+            "type": "Person",
+            "sequences": [
+                104
+            ]
+        },
+        {
+            "entity": "Baltasar",
+            "type": "Person",
+            "sequences": [
+                104
+            ]
+        },
+        {
+            "entity": "Virgin Mary",
+            "type": "Person",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Granada",
+            "type": "Place",
+            "sequences": [
+                111,
+                121,
+                132,
+                133,
+                137,
+                140,
+                141
+            ]
+        },
+        {
+            "entity": "Beas de Granada",
+            "type": "Place",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                112,
+                113,
+                115,
+                117,
+                119,
+                123,
+                126,
+                149
+            ]
+        },
+        {
+            "entity": "Discalced Augustinians",
+            "type": "Organization",
+            "sequences": [
+                121,
+                123,
+                137
+            ]
+        },
+        {
+            "entity": "Our Lady of Loreto",
+            "type": "Event",
+            "sequences": [
+                121
+            ]
+        },
+        {
+            "entity": "Fray Pedro de Jesús",
+            "type": "Person",
+            "sequences": [
+                123,
+                125,
+                127,
+                131,
+                133
+            ]
+        },
+        {
+            "entity": "Augustinian Recollect Nuns of St. Thomas of Villanova",
+            "type": "Organization",
+            "sequences": [
+                141
+            ]
+        },
+        {
+            "entity": "Antonia de Jesus",
+            "type": "Person",
+            "sequences": [
+                149,
+                153,
+                159,
+                160,
+                161,
+                164
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                153
+            ]
+        },
+        {
+            "entity": "Andrés de Borda",
+            "type": "Person",
+            "sequences": [
+                169,
+                175,
+                181
+            ]
+        },
+        {
+            "entity": "Marcela de San Félix",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "Lope de Vega",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "Discalced Trinitarians",
+            "type": "Organization",
+            "sequences": [
+                187,
+                189
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                202,
+                221,
+                222,
+                223,
+                224,
+                225,
+                226,
+                227,
+                228,
+                274,
+                275
+            ]
+        },
+        {
+            "entity": "Tuscany",
+            "type": "Place",
+            "sequences": [
+                204,
+                206
+            ]
+        },
+        {
+            "entity": "Dominicans",
+            "type": "Organization",
+            "sequences": [
+                204
+            ]
+        },
+        {
+            "entity": "Sister Lucia",
+            "type": "Person",
+            "sequences": [
+                205
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                205,
+                213,
+                228,
+                272
+            ]
+        },
+        {
+            "entity": "Antonia Tanini Pulci",
+            "type": "Person",
+            "sequences": [
+                210,
+                211,
+                212,
+                214,
+                216,
+                218
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                219,
+                227
+            ]
+        },
+        {
+            "entity": "Ana Verde Prato",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Rosamunda",
+            "type": "Person",
+            "sequences": [
+                234,
+                235,
+                236,
+                237,
+                239
+            ]
+        },
+        {
+            "entity": "Balthasara",
+            "type": "Person",
+            "sequences": [
+                246,
+                260
+            ]
+        },
+        {
+            "entity": "Henry Pursell",
+            "type": "Person",
+            "sequences": [
+                277
+            ]
+        },
+        {
+            "entity": "Ida",
+            "type": "Event",
+            "sequences": [
+                280
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Ana Rivera",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Practice of nuns' confessors by Andrés de Borda",
+            "sequence": 169
+        }
+    ]
+}

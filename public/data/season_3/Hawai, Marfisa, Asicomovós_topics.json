@@ -1,0 +1,1360 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-2",
+            "start_time": 2320,
+            "end_time": 21846
+        },
+        {
+            "topic": "Concern for Concha",
+            "sequence_range": "3-8",
+            "start_time": 21918,
+            "end_time": 47614
+        },
+        {
+            "topic": "Daily Routines and Meals",
+            "sequence_range": "9-25",
+            "start_time": 47622,
+            "end_time": 158944
+        },
+        {
+            "topic": "Trip to Madrid and Valencia",
+            "sequence_range": "26-36",
+            "start_time": 158992,
+            "end_time": 276036
+        },
+        {
+            "topic": "Environmental Concerns and Promises",
+            "sequence_range": "37-39",
+            "start_time": 276068,
+            "end_time": 298736
+        },
+        {
+            "topic": "Baroque Cosmetics Correction",
+            "sequence_range": "40-45",
+            "start_time": 298908,
+            "end_time": 394456
+        },
+        {
+            "topic": "Loneliness and Pets",
+            "sequence_range": "46-130",
+            "start_time": 394528,
+            "end_time": 1393268
+        },
+        {
+            "topic": "Epistolary and Animal Symbolism",
+            "sequence_range": "131-142",
+            "start_time": 1393284,
+            "end_time": 1512686
+        },
+        {
+            "topic": "Animal Symbolism in Literature",
+            "sequence_range": "143-152",
+            "start_time": 1512758,
+            "end_time": 1566800
+        },
+        {
+            "topic": "Personal Animal Comparisons",
+            "sequence_range": "153-169",
+            "start_time": 1567740,
+            "end_time": 1648268
+        },
+        {
+            "topic": "Elephant Symbolism and Stories",
+            "sequence_range": "170-227",
+            "start_time": 1648284,
+            "end_time": 2623662
+        },
+        {
+            "topic": "Personal Anecdotes and Observations",
+            "sequence_range": "228-239",
+            "start_time": 2623726,
+            "end_time": 2762532
+        },
+        {
+            "topic": "Domestic Animals and Pets",
+            "sequence_range": "240-256",
+            "start_time": 2762556,
+            "end_time": 3034734
+        },
+        {
+            "topic": "Historical and Exotic Pets",
+            "sequence_range": "257-337",
+            "start_time": 3034782,
+            "end_time": 3911086
+        },
+        {
+            "topic": "Historical anecdotes and personal reflections on pets and their cultural significance",
+            "sequence_range": "338-347",
+            "start_time": 3911238,
+            "end_time": 4018098
+        },
+        {
+            "topic": "Literary references and the cultural history of cats",
+            "sequence_range": "348-369",
+            "start_time": 4018234,
+            "end_time": 4276468
+        },
+        {
+            "topic": "Personal stories and broader historical narratives on the perception of cats",
+            "sequence_range": "370-392",
+            "start_time": 4276564,
+            "end_time": 4648082
+        },
+        {
+            "topic": "Podcast closing remarks",
+            "sequence_range": "393-399",
+            "start_time": 4648106,
+            "end_time": 4747900
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                3,
+                15,
+                16,
+                17,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130
+            ]
+        },
+        {
+            "entity": "Concha",
+            "type": "Person",
+            "sequences": [
+                6,
+                7
+            ]
+        },
+        {
+            "entity": "Dunkin Donuts",
+            "type": "Organization",
+            "sequences": [
+                15
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                27,
+                28
+            ]
+        },
+        {
+            "entity": "Valencia",
+            "type": "Place",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Granada",
+            "type": "Place",
+            "sequences": [
+                36
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                40,
+                43,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130
+            ]
+        },
+        {
+            "entity": "María Jesús de Ágreda",
+            "type": "Person",
+            "sequences": [
+                40
+            ]
+        },
+        {
+            "entity": "Bodega Ricla",
+            "type": "Place",
+            "sequences": [
+                28
+            ]
+        },
+        {
+            "entity": "Plaza Mayor",
+            "type": "Place",
+            "sequences": [
+                28
+            ]
+        },
+        {
+            "entity": "Dimitri",
+            "type": "Animal",
+            "sequences": [
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130
+            ]
+        },
+        {
+            "entity": "Shakira",
+            "type": "Animal",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Jenny",
+            "type": "Animal",
+            "sequences": [
+                52,
+                53,
+                54,
+                55,
+                56,
+                57
+            ]
+        },
+        {
+            "entity": "Alonso Sanchez Coello",
+            "type": "Person",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Juana of Austria",
+            "type": "Person",
+            "sequences": [
+                109,
+                113,
+                114,
+                115,
+                116,
+                117
+            ]
+        },
+        {
+            "entity": "Podium Podcast Hawaii",
+            "type": "Organization",
+            "sequences": [
+                119
+            ]
+        },
+        {
+            "entity": "Felipe Caro",
+            "type": "Person",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                128
+            ]
+        },
+        {
+            "entity": "Discalced Carmelites",
+            "type": "Organization",
+            "sequences": [
+                129
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                131,
+                132,
+                137
+            ]
+        },
+        {
+            "entity": "Duchess of Alba",
+            "type": "Person",
+            "sequences": [
+                131
+            ]
+        },
+        {
+            "entity": "Covarrubias",
+            "type": "Person",
+            "sequences": [
+                137,
+                143,
+                151,
+                159,
+                161,
+                173
+            ]
+        },
+        {
+            "entity": "Jenny",
+            "type": "Object",
+            "sequences": [
+                140
+            ]
+        },
+        {
+            "entity": "Andrés Ferrer de Valdecebro",
+            "type": "Person",
+            "sequences": [
+                177
+            ]
+        },
+        {
+            "entity": "Bernardino de Sahagún",
+            "type": "Person",
+            "sequences": [
+                177
+            ]
+        },
+        {
+            "entity": "Gonzalo Fernandez de Oviedo",
+            "type": "Person",
+            "sequences": [
+                179
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Fray Juan de San Jerónimo",
+            "type": "Person",
+            "sequences": [
+                188,
+                190
+            ]
+        },
+        {
+            "entity": "José de Sigüenza",
+            "type": "Person",
+            "sequences": [
+                194,
+                195
+            ]
+        },
+        {
+            "entity": "Manuel I of Portugal",
+            "type": "Person",
+            "sequences": [
+                214,
+                218
+            ]
+        },
+        {
+            "entity": "Pope Leo X",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Juan de Arfe",
+            "type": "Person",
+            "sequences": [
+                219
+            ]
+        },
+        {
+            "entity": "Sugu de Pini",
+            "type": "Animal",
+            "sequences": [
+                225,
+                226
+            ]
+        },
+        {
+            "entity": "Sugu",
+            "type": "Person",
+            "sequences": [
+                228
+            ]
+        },
+        {
+            "entity": "Carballo",
+            "type": "Place",
+            "sequences": [
+                228
+            ]
+        },
+        {
+            "entity": "Paris",
+            "type": "Place",
+            "sequences": [
+                228
+            ]
+        },
+        {
+            "entity": "Moulin Rouge",
+            "type": "Place",
+            "sequences": [
+                228
+            ]
+        },
+        {
+            "entity": "Montmartre",
+            "type": "Place",
+            "sequences": [
+                228
+            ]
+        },
+        {
+            "entity": "Hawaii",
+            "type": "Place",
+            "sequences": [
+                228,
+                230,
+                231,
+                232,
+                233,
+                234,
+                235,
+                295
+            ]
+        },
+        {
+            "entity": "Covarrubias",
+            "type": "Person",
+            "sequences": [
+                228,
+                230,
+                231
+            ]
+        },
+        {
+            "entity": "Friar Juan",
+            "type": "Person",
+            "sequences": [
+                232
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                233,
+                330
+            ]
+        },
+        {
+            "entity": "Hieronymites",
+            "type": "Organization",
+            "sequences": [
+                233
+            ]
+        },
+        {
+            "entity": "Luis Vélez de Guevara",
+            "type": "Person",
+            "sequences": [
+                245,
+                246,
+                247
+            ]
+        },
+        {
+            "entity": "Concha",
+            "type": "Animal",
+            "sequences": [
+                249,
+                250,
+                251,
+                252,
+                253,
+                254,
+                255,
+                256,
+                300
+            ]
+        },
+        {
+            "entity": "Francisco de Blasco Lanuza",
+            "type": "Person",
+            "sequences": [
+                252
+            ]
+        },
+        {
+            "entity": "Dimitri",
+            "type": "Animal",
+            "sequences": [
+                258
+            ]
+        },
+        {
+            "entity": "Pino",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Carlos",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Eduardo",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Conchi",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Elizabeth Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                260,
+                314,
+                316,
+                318,
+                330,
+                336
+            ]
+        },
+        {
+            "entity": "Catherine Micaela",
+            "type": "Person",
+            "sequences": [
+                260,
+                314
+            ]
+        },
+        {
+            "entity": "Catherine of Austria",
+            "type": "Person",
+            "sequences": [
+                260,
+                261,
+                262,
+                263,
+                264,
+                293,
+                294,
+                295,
+                296,
+                297,
+                298,
+                299,
+                309
+            ]
+        },
+        {
+            "entity": "Habsburg",
+            "type": "Family",
+            "sequences": [
+                264
+            ]
+        },
+        {
+            "entity": "Charles V",
+            "type": "Person",
+            "sequences": [
+                296
+            ]
+        },
+        {
+            "entity": "Juana of Austria",
+            "type": "Person",
+            "sequences": [
+                298
+            ]
+        },
+        {
+            "entity": "Yuste",
+            "type": "Place",
+            "sequences": [
+                296,
+                297
+            ]
+        },
+        {
+            "entity": "Anne of Brittany",
+            "type": "Person",
+            "sequences": [
+                267
+            ]
+        },
+        {
+            "entity": "Charles the eighth of France",
+            "type": "Person",
+            "sequences": [
+                267
+            ]
+        },
+        {
+            "entity": "Paris Hilton",
+            "type": "Person",
+            "sequences": [
+                269,
+                270,
+                271,
+                272
+            ]
+        },
+        {
+            "entity": "Diamond Baby",
+            "type": "Animal",
+            "sequences": [
+                269,
+                270,
+                271
+            ]
+        },
+        {
+            "entity": "Queen Elizabeth of England",
+            "type": "Person",
+            "sequences": [
+                276
+            ]
+        },
+        {
+            "entity": "Antonio",
+            "type": "Person",
+            "sequences": [
+                277
+            ]
+        },
+        {
+            "entity": "Lori",
+            "type": "Animal",
+            "sequences": [
+                277,
+                278,
+                279,
+                285,
+                286,
+                287
+            ]
+        },
+        {
+            "entity": "Berritzu",
+            "type": "Animal",
+            "sequences": [
+                280
+            ]
+        },
+        {
+            "entity": "Marfisa",
+            "type": "Animal",
+            "sequences": [
+                318,
+                319
+            ]
+        },
+        {
+            "entity": "Lopez de Vega",
+            "type": "Person",
+            "sequences": [
+                319
+            ]
+        },
+        {
+            "entity": "Dorotea",
+            "type": "Literary Character",
+            "sequences": [
+                319
+            ]
+        },
+        {
+            "entity": "Jorge",
+            "type": "Person",
+            "sequences": [
+                318
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                318
+            ]
+        },
+        {
+            "entity": "Maria of Austria",
+            "type": "Person",
+            "sequences": [
+                336
+            ]
+        },
+        {
+            "entity": "Descalzas Reales",
+            "type": "Place",
+            "sequences": [
+                336
+            ]
+        },
+        {
+            "entity": "Barefoot",
+            "type": "Event",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Marfisha",
+            "type": "Person",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Hawaii",
+            "type": "Place",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "El Escorial",
+            "type": "Place",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Poor Clares of the Descalzas",
+            "type": "Organization",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Felipe Tercero",
+            "type": "Person",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Maria of Austria",
+            "type": "Person",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Francisquita",
+            "type": "Person",
+            "sequences": [
+                338,
+                340,
+                342
+            ]
+        },
+        {
+            "entity": "Isabel",
+            "type": "Person",
+            "sequences": [
+                347
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                349,
+                365,
+                366,
+                386
+            ]
+        },
+        {
+            "entity": "Clarín",
+            "type": "Person",
+            "sequences": [
+                351
+            ]
+        },
+        {
+            "entity": "Doña Berta",
+            "type": "Literature",
+            "sequences": [
+                350,
+                351
+            ]
+        },
+        {
+            "entity": "Pope Gregory the Ninth",
+            "type": "Person",
+            "sequences": [
+                355
+            ]
+        },
+        {
+            "entity": "Edward Topsail",
+            "type": "Person",
+            "sequences": [
+                368
+            ]
+        },
+        {
+            "entity": "Leonardo",
+            "type": "Person",
+            "sequences": [
+                369
+            ]
+        },
+        {
+            "entity": "Eduardo",
+            "type": "Person",
+            "sequences": [
+                373
+            ]
+        },
+        {
+            "entity": "Fray Luis",
+            "type": "Person",
+            "sequences": [
+                375
+            ]
+        },
+        {
+            "entity": "María de Zayas",
+            "type": "Person",
+            "sequences": [
+                375
+            ]
+        },
+        {
+            "entity": "Fondo de Cultura Económica",
+            "type": "Organization",
+            "sequences": [
+                375
+            ]
+        },
+        {
+            "entity": "Robert Dunston",
+            "type": "Person",
+            "sequences": [
+                376
+            ]
+        },
+        {
+            "entity": "Nicolá",
+            "type": "Person",
+            "sequences": [
+                377
+            ]
+        },
+        {
+            "entity": "Jacques Vincennes",
+            "type": "Person",
+            "sequences": [
+                377
+            ]
+        },
+        {
+            "entity": "Paris",
+            "type": "Place",
+            "sequences": [
+                377,
+                379
+            ]
+        },
+        {
+            "entity": "Nicolas",
+            "type": "Person",
+            "sequences": [
+                379,
+                381,
+                389
+            ]
+        },
+        {
+            "entity": "Leveye",
+            "type": "Person",
+            "sequences": [
+                380,
+                381,
+                383
+            ]
+        },
+        {
+            "entity": "Jérôme",
+            "type": "Person",
+            "sequences": [
+                381
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                399
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                399
+            ]
+        },
+        {
+            "entity": "Ana Rivera",
+            "type": "Person",
+            "sequences": [
+                399
+            ]
+        },
+        {
+            "entity": "elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                399
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                399
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                399
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                399
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "María Jesús de Ágreda",
+            "sequence": 40
+        }
+    ]
+}

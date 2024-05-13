@@ -6,6 +6,7 @@ import { LanguageContext } from "./useLanguageToggle";
 import { SupportedLanguage, UtteranceSearch } from "@/app/lib/definitions";
 import { ResultsDisplayText } from "@/app/lib/constants";
 import EpisodeTag from "./EpisodeTag";
+import Link from "next/link";
 
 type UtteranceHit = Hit<UtteranceSearch & BaseHit>;
 
@@ -15,7 +16,7 @@ const Hit = ({ hit }: { hit: UtteranceHit }) => {
     selectedLanguage === SupportedLanguage.english ? "text_en" : "text";
 
   return (
-    <div className="my-2 max-w-prose border-b pb-2">
+    <Link className="my-2 max-w-prose border-b pb-2" href={`podcast/${hit.season}/${hit.episode}?start=${hit.start}`}>
       <Snippet hit={hit} attribute={textAttributeToDisplay} className="block" />
       <EpisodeTag
         season={hit.season}
@@ -23,7 +24,7 @@ const Hit = ({ hit }: { hit: UtteranceHit }) => {
         time={convertMillisecondsToDisplayFriendly(hit.start)}
         className="text-xs font-medium text-gray-400"
       />
-    </div>
+    </Link>
   );
 };
 
