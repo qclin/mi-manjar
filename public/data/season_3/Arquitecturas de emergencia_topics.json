@@ -1,0 +1,677 @@
+{
+    "topics": [
+        {
+            "topic": "Introduction and Personal Anecdotes",
+            "sequence_range": "1-10",
+            "start_time": 2360,
+            "end_time": 79004
+        },
+        {
+            "topic": "Architecture and Personal Reflections",
+            "sequence_range": "11-24",
+            "start_time": 79052,
+            "end_time": 318258
+        },
+        {
+            "topic": "Emergency Architectures and Rhode Island Recording Studio",
+            "sequence_range": "25-44",
+            "start_time": 318314,
+            "end_time": 619842
+        },
+        {
+            "topic": "Architectural Attire and Historical Perspectives",
+            "sequence_range": "45-59",
+            "start_time": 619866,
+            "end_time": 931126
+        },
+        {
+            "topic": "Women Architects and Baroque Influences",
+            "sequence_range": "60-87",
+            "start_time": 931238,
+            "end_time": 1388794
+        },
+        {
+            "topic": "Personal Reflections and Anecdotes",
+            "sequence_range": "88-95",
+            "start_time": 1388842,
+            "end_time": 1468710
+        },
+        {
+            "topic": "Historical and Religious Figures",
+            "sequence_range": "94-100",
+            "start_time": 1415114,
+            "end_time": 1565310
+        },
+        {
+            "topic": "Convent Life and Architecture",
+            "sequence_range": "101-149",
+            "start_time": 1565390,
+            "end_time": 2651618
+        },
+        {
+            "topic": "Conventual Life and Architectural Concerns",
+            "sequence_range": "150-200",
+            "start_time": 2651794,
+            "end_time": 3364760
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                5,
+                19,
+                34,
+                35,
+                36,
+                38,
+                39,
+                48
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                4,
+                5,
+                6,
+                8,
+                9,
+                18,
+                19,
+                21,
+                22,
+                23,
+                36,
+                38,
+                39,
+                42,
+                43,
+                48,
+                49,
+                52,
+                54,
+                69,
+                70,
+                73,
+                74,
+                76,
+                78,
+                79,
+                82,
+                83,
+                84
+            ]
+        },
+        {
+            "entity": "Alba Carballal",
+            "type": "Person",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Shakira",
+            "type": "Person",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Colegio Oficial de Arquitectos de Madrid",
+            "type": "Organization",
+            "sequences": [
+                19,
+                39
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                22,
+                23
+            ]
+        },
+        {
+            "entity": "José María Echarte",
+            "type": "Person",
+            "sequences": [
+                23
+            ]
+        },
+        {
+            "entity": "David García Asenjo",
+            "type": "Person",
+            "sequences": [
+                23
+            ]
+        },
+        {
+            "entity": "Plautilla Bricci",
+            "type": "Person",
+            "sequences": [
+                52,
+                54,
+                56,
+                58,
+                59,
+                60,
+                62,
+                67,
+                69,
+                70,
+                84
+            ]
+        },
+        {
+            "entity": "Giovanni Brizzi",
+            "type": "Person",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Villa Benedetti",
+            "type": "Place",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Santa Maria in Montesanto",
+            "type": "Place",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "St. Teresa of Avila",
+            "type": "Person",
+            "sequences": [
+                52
+            ]
+        },
+        {
+            "entity": "Melania Mazzucco",
+            "type": "Person",
+            "sequences": [
+                52
+            ]
+        },
+        {
+            "entity": "Susan Stewart",
+            "type": "Person",
+            "sequences": [
+                80,
+                81
+            ]
+        },
+        {
+            "entity": "Alberto Sanchez Sanchez",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "COUNTRY",
+            "type": "Place",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Soreufrasia de la Croce",
+            "type": "Person",
+            "sequences": [
+                94,
+                96,
+                98,
+                100,
+                101
+            ]
+        },
+        {
+            "entity": "Carmelite",
+            "type": "Organization",
+            "sequences": [
+                94,
+                102,
+                110,
+                111,
+                114,
+                116,
+                117,
+                118,
+                119,
+                120,
+                127
+            ]
+        },
+        {
+            "entity": "Rome",
+            "type": "Place",
+            "sequences": [
+                94
+            ]
+        },
+        {
+            "entity": "Angelica Allegrini",
+            "type": "Person",
+            "sequences": [
+                94
+            ]
+        },
+        {
+            "entity": "Mazuco",
+            "type": "Person",
+            "sequences": [
+                94
+            ]
+        },
+        {
+            "entity": "Plautilla",
+            "type": "Person",
+            "sequences": [
+                94,
+                96,
+                98,
+                100,
+                101
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                102,
+                103,
+                104,
+                105,
+                110,
+                111,
+                114,
+                116,
+                127,
+                128,
+                130,
+                131,
+                135,
+                137,
+                143,
+                144,
+                145,
+                147,
+                148,
+                149
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149
+            ]
+        },
+        {
+            "entity": "St. Peter of Alcantara",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Carmelites of Toro",
+            "type": "Organization",
+            "sequences": [
+                112,
+                113
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                125
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Hortaleza Street",
+            "type": "Place",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Roland Bach",
+            "type": "Person",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Jeronimo Raipalda",
+            "type": "Person",
+            "sequences": [
+                128
+            ]
+        },
+        {
+            "entity": "Juanelo",
+            "type": "Person",
+            "sequences": [
+                137,
+                138
+            ]
+        },
+        {
+            "entity": "Philip II",
+            "type": "Person",
+            "sequences": [
+                137
+            ]
+        },
+        {
+            "entity": "Juan Elo Turriano",
+            "type": "Person",
+            "sequences": [
+                137
+            ]
+        },
+        {
+            "entity": "Medina del Campo",
+            "type": "Place",
+            "sequences": [
+                135,
+                136,
+                137
+            ]
+        },
+        {
+            "entity": "Duruelo",
+            "type": "Place",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Pastrana",
+            "type": "Place",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Malagón",
+            "type": "Place",
+            "sequences": [
+                105,
+                111
+            ]
+        },
+        {
+            "entity": "Valladolid",
+            "type": "Place",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "San José de Ávila",
+            "type": "Place",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Teresa",
+            "type": "Person",
+            "sequences": [
+                150
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                150,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199
+            ]
+        },
+        {
+            "entity": "Duruelo",
+            "type": "Place",
+            "sequences": [
+                150
+            ]
+        },
+        {
+            "entity": "St. Géroni",
+            "type": "Place",
+            "sequences": [
+                158,
+                162
+            ]
+        },
+        {
+            "entity": "Majorca",
+            "type": "Place",
+            "sequences": [
+                158,
+                159,
+                160
+            ]
+        },
+        {
+            "entity": "Hieronymite nuns of Mallorca",
+            "type": "Organization",
+            "sequences": [
+                160,
+                162
+            ]
+        },
+        {
+            "entity": "Convent of Saint Gerón y de Palma",
+            "type": "Place",
+            "sequences": [
+                160
+            ]
+        },
+        {
+            "entity": "David García Asenjo",
+            "type": "Person",
+            "sequences": [
+                164
+            ]
+        },
+        {
+            "entity": "Selena Blas",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Marcelo Cox",
+            "type": "Person",
+            "sequences": [
+                166,
+                172,
+                194
+            ]
+        },
+        {
+            "entity": "COAM",
+            "type": "Organization",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Dogma",
+            "type": "Organization",
+            "sequences": [
+                178
+            ]
+        },
+        {
+            "entity": "Realism Working Group",
+            "type": "Organization",
+            "sequences": [
+                178
+            ]
+        },
+        {
+            "entity": "Carmelites of Toro",
+            "type": "Organization",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                200
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "The book of foundations by St. Teresa",
+            "sequence": 52
+        }
+    ]
+}

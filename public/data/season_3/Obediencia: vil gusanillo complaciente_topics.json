@@ -1,0 +1,585 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-2",
+            "start_time": 2360,
+            "end_time": 21734
+        },
+        {
+            "topic": "Personal Conversations and Anecdotes",
+            "sequence_range": "3-26",
+            "start_time": 21782,
+            "end_time": 233956
+        },
+        {
+            "topic": "Dinner and Food Preferences",
+            "sequence_range": "5-18",
+            "start_time": 28758,
+            "end_time": 111732
+        },
+        {
+            "topic": "Assertiveness and Apologies",
+            "sequence_range": "19-35",
+            "start_time": 111756,
+            "end_time": 446908
+        },
+        {
+            "topic": "Historical and Religious References",
+            "sequence_range": "30-43",
+            "start_time": 275410,
+            "end_time": 619046
+        },
+        {
+            "topic": "Carmelite Rules and Monastic Life",
+            "sequence_range": "46-78",
+            "start_time": 637530,
+            "end_time": 1310980
+        },
+        {
+            "topic": "Economic Analysis and Inflation",
+            "sequence_range": "79",
+            "start_time": 1311060,
+            "end_time": 1339632
+        },
+        {
+            "topic": "Political Ambivalence of Gold",
+            "sequence_range": "83",
+            "start_time": 1342944,
+            "end_time": 1345976
+        },
+        {
+            "topic": "Obedience and Authority in Religious Life",
+            "sequence_range": "86-92, 105-113, 126-146",
+            "start_time": 1354128,
+            "end_time": 2298590
+        },
+        {
+            "topic": "Medical News Today and People Pleasing",
+            "sequence_range": "94-98, 120-122",
+            "start_time": 1470180,
+            "end_time": 2006802
+        },
+        {
+            "topic": "Rhetoric and Rejection",
+            "sequence_range": "99-103, 108-111",
+            "start_time": 1529508,
+            "end_time": 1912242
+        },
+        {
+            "topic": "Excessive Obedience and Mortification",
+            "sequence_range": "128-137, 142-151",
+            "start_time": 2049826,
+            "end_time": 2382598
+        },
+        {
+            "topic": "Personal Anecdotes and Therapeutic Stories",
+            "sequence_range": "123-125, 152-158",
+            "start_time": 2006826,
+            "end_time": 2469350
+        },
+        {
+            "topic": "Personal anecdotes and misunderstandings",
+            "sequence_range": "159-166",
+            "start_time": 2470730,
+            "end_time": 2568630
+        },
+        {
+            "topic": "Historical and literary discussions on obedience and disobedience",
+            "sequence_range": "167-195",
+            "start_time": 2568670,
+            "end_time": 3328050
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                3
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                4,
+                12,
+                13,
+                27,
+                43,
+                53,
+                71,
+                75
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Luisa de Carvajal",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "Magdalena de San Jeronimo",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "Don Rodrigo Calderon",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "Duke of Lerma",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                31,
+                32,
+                34,
+                35,
+                37,
+                39,
+                41,
+                42,
+                52,
+                57,
+                58,
+                68,
+                70,
+                74,
+                76
+            ]
+        },
+        {
+            "entity": "Sister Juana Inés de la Cruz",
+            "type": "Person",
+            "sequences": [
+                32
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                39,
+                40,
+                41
+            ]
+        },
+        {
+            "entity": "Nicolas Doria",
+            "type": "Person",
+            "sequences": [
+                41
+            ]
+        },
+        {
+            "entity": "Jerónimo de Villanueva",
+            "type": "Person",
+            "sequences": [
+                39
+            ]
+        },
+        {
+            "entity": "Convent of Malagón",
+            "type": "Place",
+            "sequences": [
+                37,
+                38,
+                39
+            ]
+        },
+        {
+            "entity": "Castilla la Mancha",
+            "type": "Place",
+            "sequences": [
+                37
+            ]
+        },
+        {
+            "entity": "Convent of the Discalced Nuns of St. Joseph of Avila",
+            "type": "Organization",
+            "sequences": [
+                52
+            ]
+        },
+        {
+            "entity": "Elena",
+            "type": "Person",
+            "sequences": [
+                53
+            ]
+        },
+        {
+            "entity": "Jerónimo Gracián",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Marcelo Cox",
+            "type": "Person",
+            "sequences": [
+                47
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Group",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Teresa of Avila",
+            "type": "Person",
+            "sequences": [
+                79,
+                86,
+                89,
+                91,
+                92,
+                97,
+                99,
+                101,
+                103,
+                105,
+                109,
+                111,
+                142,
+                150
+            ]
+        },
+        {
+            "entity": "Castile",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "America",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "St. Joseph of Avila",
+            "type": "Organization",
+            "sequences": [
+                91
+            ]
+        },
+        {
+            "entity": "Medical News Today",
+            "type": "Organization",
+            "sequences": [
+                94,
+                96,
+                97,
+                98,
+                120
+            ]
+        },
+        {
+            "entity": "Maria de Mendoza",
+            "type": "Person",
+            "sequences": [
+                99,
+                103,
+                105,
+                109,
+                111
+            ]
+        },
+        {
+            "entity": "Alvaro de Mendoza",
+            "type": "Person",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "Valladolid",
+            "type": "Place",
+            "sequences": [
+                99,
+                101,
+                103,
+                105,
+                109,
+                111
+            ]
+        },
+        {
+            "entity": "Avila",
+            "type": "Place",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "Sora Antonia",
+            "type": "Person",
+            "sequences": [
+                133,
+                135,
+                136,
+                137,
+                139
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                123,
+                145,
+                147,
+                153,
+                155,
+                157,
+                158
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                157
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                159,
+                160,
+                165,
+                166,
+                172,
+                173,
+                174,
+                175,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                163,
+                165,
+                166,
+                196
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                168,
+                169,
+                170,
+                171,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195
+            ]
+        },
+        {
+            "entity": "Antonio Núñez de Miranda",
+            "type": "Person",
+            "sequences": [
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195
+            ]
+        },
+        {
+            "entity": "Jerome",
+            "type": "Person",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                168,
+                188
+            ]
+        },
+        {
+            "entity": "Fray Nicolás Quiñones",
+            "type": "Person",
+            "sequences": [
+                178
+            ]
+        },
+        {
+            "entity": "Medical News Today",
+            "type": "Organization",
+            "sequences": [
+                182,
+                183,
+                184,
+                185,
+                188
+            ]
+        },
+        {
+            "entity": "San Jeronimo",
+            "type": "Place",
+            "sequences": [
+                195
+            ]
+        },
+        {
+            "entity": "Las hijas de Felipe",
+            "type": "Organization",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Caliza",
+            "type": "Organization",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                196
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Ora et labora, Marcelo Cox",
+            "sequence": 47
+        }
+    ]
+}

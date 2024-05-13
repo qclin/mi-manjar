@@ -1,0 +1,765 @@
+{
+    "topics": [
+        {
+            "topic": "Personal Experiences and Daily Life",
+            "sequence_range": "1-15",
+            "start_time": 2360,
+            "end_time": 119234
+        },
+        {
+            "topic": "Food and Culinary Preferences",
+            "sequence_range": "16-32",
+            "start_time": 119282,
+            "end_time": 281234
+        },
+        {
+            "topic": "Economic Challenges and Food Prices",
+            "sequence_range": "33-37",
+            "start_time": 281402,
+            "end_time": 372638
+        },
+        {
+            "topic": "Merchandising and Conventual Objects",
+            "sequence_range": "38-51",
+            "start_time": 372734,
+            "end_time": 481902
+        },
+        {
+            "topic": "False Miracles and Baroque Deceptions",
+            "sequence_range": "52-96",
+            "start_time": 481966,
+            "end_time": 1238896
+        },
+        {
+            "topic": "María de Poblete and the Miracle of the Reintegrated Bread",
+            "sequence_range": "97-183",
+            "start_time": 1238928,
+            "end_time": 2451420
+        },
+        {
+            "topic": "Favorites and Choices",
+            "sequence_range": "184-186",
+            "start_time": 2451960,
+            "end_time": 2529082
+        },
+        {
+            "topic": "Miracles and Saints",
+            "sequence_range": "187-190",
+            "start_time": 2529106,
+            "end_time": 2570544
+        },
+        {
+            "topic": "Fraudulent Miracles and the Inquisition",
+            "sequence_range": "191-197",
+            "start_time": 2570592,
+            "end_time": 2800514
+        },
+        {
+            "topic": "Maria de Poblete's Story",
+            "sequence_range": "198-204",
+            "start_time": 2800562,
+            "end_time": 2928762
+        },
+        {
+            "topic": "Juan de Espina's Eccentricities",
+            "sequence_range": "205-261",
+            "start_time": 2928786,
+            "end_time": 3648618
+        },
+        {
+            "topic": "Romance and Skill",
+            "sequence_range": "262-265",
+            "start_time": 3648674,
+            "end_time": 3662138
+        },
+        {
+            "topic": "Historical Parties and Prodigies",
+            "sequence_range": "266-273",
+            "start_time": 3662154,
+            "end_time": 3779330
+        },
+        {
+            "topic": "Sonorous Experimentation and Esoteric Promotion",
+            "sequence_range": "267-270",
+            "start_time": 3676144,
+            "end_time": 3773542
+        },
+        {
+            "topic": "Madrid's Fascination with Illusionist Tricks",
+            "sequence_range": "271-275",
+            "start_time": 3773606,
+            "end_time": 3851446
+        },
+        {
+            "topic": "The Illusionist Juan de Espina's Downfall",
+            "sequence_range": "276-290",
+            "start_time": 3851478,
+            "end_time": 4163519
+        },
+        {
+            "topic": "Reflections on Ambition and Simplicity",
+            "sequence_range": "291-294",
+            "start_time": 4163559,
+            "end_time": 4182737
+        },
+        {
+            "topic": "María de Poblete vs. Juan de Espina",
+            "sequence_range": "295-298",
+            "start_time": 4182833,
+            "end_time": 4209866
+        },
+        {
+            "topic": "Pareidolia and Apophenia",
+            "sequence_range": "301",
+            "start_time": 4213370,
+            "end_time": 4258810
+        },
+        {
+            "topic": "Podcast Production Credits",
+            "sequence_range": "302",
+            "start_time": 4273050,
+            "end_time": 4306430
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                1,
+                6,
+                37,
+                43,
+                44,
+                57,
+                59
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                4,
+                57
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Whole Foods",
+            "type": "Organization",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "New York",
+            "type": "Place",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Concept",
+            "sequences": [
+                38,
+                57
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Lola Flores",
+            "type": "Person",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                61,
+                83,
+                89,
+                90
+            ]
+        },
+        {
+            "entity": "Joan of the Angels",
+            "type": "Person",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Ludan, France",
+            "type": "Place",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Quintilio",
+            "type": "Person",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Philip the third",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Puebla de los Angeles",
+            "type": "Place",
+            "sequences": [
+                75
+            ]
+        },
+        {
+            "entity": "Friar José de la Parra",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Melchora de la Asunción",
+            "type": "Person",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "St. Nicholas of Tolentino",
+            "type": "Person",
+            "sequences": [
+                83
+            ]
+        },
+        {
+            "entity": "St. Albert",
+            "type": "Person",
+            "sequences": [
+                83
+            ]
+        },
+        {
+            "entity": "Marta Lilia Tenorio",
+            "type": "Person",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Colegio de México",
+            "type": "Organization",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "María de Poblete",
+            "type": "Person",
+            "sequences": [
+                95,
+                96
+            ]
+        },
+        {
+            "entity": "Mexico City",
+            "type": "Place",
+            "sequences": [
+                95
+            ]
+        },
+        {
+            "entity": "María de Poblete",
+            "type": "Person",
+            "sequences": [
+                97,
+                99,
+                105,
+                108,
+                109,
+                111,
+                113,
+                115,
+                127,
+                130,
+                131,
+                137,
+                148,
+                149,
+                151,
+                153,
+                155,
+                158,
+                160,
+                161,
+                163,
+                164,
+                171,
+                173,
+                175,
+                177,
+                179
+            ]
+        },
+        {
+            "entity": "Mexico City",
+            "type": "Place",
+            "sequences": [
+                97,
+                105,
+                107,
+                115,
+                118,
+                163
+            ]
+        },
+        {
+            "entity": "Juan Perez de Rivera",
+            "type": "Person",
+            "sequences": [
+                99,
+                105,
+                108,
+                109,
+                111
+            ]
+        },
+        {
+            "entity": "Carmelite convent",
+            "type": "Organization",
+            "sequences": [
+                105,
+                130,
+                131,
+                163
+            ]
+        },
+        {
+            "entity": "Andrea de la Santísima Trinidad",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                105,
+                107,
+                148,
+                151,
+                161,
+                163,
+                175,
+                177,
+                183
+            ]
+        },
+        {
+            "entity": "Cristóbal Bernardo de la Plaza y Jaén",
+            "type": "Person",
+            "sequences": [
+                115
+            ]
+        },
+        {
+            "entity": "Royal and Pontifical University of Mexico",
+            "type": "Organization",
+            "sequences": [
+                115
+            ]
+        },
+        {
+            "entity": "Diana Dwisser",
+            "type": "Person",
+            "sequences": [
+                121,
+                127
+            ]
+        },
+        {
+            "entity": "Lorenzo de Mendoza",
+            "type": "Person",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "St. Peter",
+            "type": "Person",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "St. Teresa of Jesus",
+            "type": "Person",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Francisco de Herrera",
+            "type": "Person",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "Fray Francisco Sanchez",
+            "type": "Person",
+            "sequences": [
+                173,
+                175,
+                179
+            ]
+        },
+        {
+            "entity": "Saint Rose",
+            "type": "Person",
+            "sequences": [
+                175
+            ]
+        },
+        {
+            "entity": "Friar Francisco",
+            "type": "Person",
+            "sequences": [
+                184,
+                186,
+                189,
+                206
+            ]
+        },
+        {
+            "entity": "Elfan Cine la raya",
+            "type": "Organization",
+            "sequences": [
+                184
+            ]
+        },
+        {
+            "entity": "Benedetta Carlini",
+            "type": "Person",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Saint Teresa of Jesus",
+            "type": "Person",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Sor Juana Inés de la Cruz",
+            "type": "Person",
+            "sequences": [
+                186,
+                227
+            ]
+        },
+        {
+            "entity": "Fray Brandis",
+            "type": "Person",
+            "sequences": [
+                188
+            ]
+        },
+        {
+            "entity": "Maria de Poblete",
+            "type": "Person",
+            "sequences": [
+                188,
+                191,
+                193,
+                194,
+                195,
+                196,
+                197,
+                199,
+                200,
+                201,
+                203,
+                204,
+                206
+            ]
+        },
+        {
+            "entity": "Fray José de Jesús María",
+            "type": "Person",
+            "sequences": [
+                193
+            ]
+        },
+        {
+            "entity": "Juan de Espina",
+            "type": "Person",
+            "sequences": [
+                210,
+                213,
+                214,
+                216,
+                219,
+                220,
+                222,
+                234,
+                246,
+                260
+            ]
+        },
+        {
+            "entity": "Esther Fernandez",
+            "type": "Person",
+            "sequences": [
+                208
+            ]
+        },
+        {
+            "entity": "Athanasius Kircher",
+            "type": "Person",
+            "sequences": [
+                227
+            ]
+        },
+        {
+            "entity": "Vicencio Juan de la Stanosa",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Pedro Reulabaquero",
+            "type": "Person",
+            "sequences": [
+                222
+            ]
+        },
+        {
+            "entity": "Juan de Piña",
+            "type": "Person",
+            "sequences": [
+                246
+            ]
+        },
+        {
+            "entity": "Alonso de Castillo Solórzano",
+            "type": "Person",
+            "sequences": [
+                260
+            ]
+        },
+        {
+            "entity": "Orzano",
+            "type": "Person",
+            "sequences": [
+                264
+            ]
+        },
+        {
+            "entity": "Felipe Cuarto",
+            "type": "Person",
+            "sequences": [
+                266,
+                278
+            ]
+        },
+        {
+            "entity": "Espina",
+            "type": "Person",
+            "sequences": [
+                266,
+                268,
+                270,
+                276,
+                278,
+                288,
+                290
+            ]
+        },
+        {
+            "entity": "Val de Lomar",
+            "type": "Person",
+            "sequences": [
+                268
+            ]
+        },
+        {
+            "entity": "Anastasia",
+            "type": "Person",
+            "sequences": [
+                269
+            ]
+        },
+        {
+            "entity": "Juan de Piña",
+            "type": "Person",
+            "sequences": [
+                270
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                271,
+                276,
+                288,
+                290
+            ]
+        },
+        {
+            "entity": "Juan de Quiñones",
+            "type": "Person",
+            "sequences": [
+                274,
+                275,
+                276
+            ]
+        },
+        {
+            "entity": "Casa y Corte",
+            "type": "Organization",
+            "sequences": [
+                274
+            ]
+        },
+        {
+            "entity": "Saragossa",
+            "type": "Place",
+            "sequences": [
+                274
+            ]
+        },
+        {
+            "entity": "Count Duke of Olivares",
+            "type": "Person",
+            "sequences": [
+                278
+            ]
+        },
+        {
+            "entity": "Gabriel del Corral",
+            "type": "Person",
+            "sequences": [
+                278
+            ]
+        },
+        {
+            "entity": "Inquisition in Toledo",
+            "type": "Organization",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "María de Poblete",
+            "type": "Person",
+            "sequences": [
+                295,
+                296,
+                297
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                302
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                302
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                302
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                302
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                302
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                302
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Economía del fraude y poética de la mentira en el imperio de los de los Austrias",
+            "sequence": 63
+        }
+    ]
+}

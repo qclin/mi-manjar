@@ -1,0 +1,1085 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-2",
+            "start_time": 2200,
+            "end_time": 6130
+        },
+        {
+            "topic": "Personal Greetings and Well-being",
+            "sequence_range": "3-6",
+            "start_time": 21710,
+            "end_time": 34222
+        },
+        {
+            "topic": "Discussion on Past Episode Topics",
+            "sequence_range": "7-15",
+            "start_time": 34326,
+            "end_time": 102404
+        },
+        {
+            "topic": "Listener Engagement and Feedback",
+            "sequence_range": "9-15",
+            "start_time": 54766,
+            "end_time": 102404
+        },
+        {
+            "topic": "Geography Knowledge and Game",
+            "sequence_range": "16-24",
+            "start_time": 102452,
+            "end_time": 231570
+        },
+        {
+            "topic": "Chilean History and Geography",
+            "sequence_range": "20-25, 78-94",
+            "start_time": 146954,
+            "end_time": 803940
+        },
+        {
+            "topic": "Guest Introduction and Discussion",
+            "sequence_range": "25-34, 95-144",
+            "start_time": 232190,
+            "end_time": 1268824
+        },
+        {
+            "topic": "Food and Eating Habits",
+            "sequence_range": "29-49",
+            "start_time": 295040,
+            "end_time": 445244
+        },
+        {
+            "topic": "Nun Names and Personal Traits",
+            "sequence_range": "51-66",
+            "start_time": 449268,
+            "end_time": 523090
+        },
+        {
+            "topic": "Adolescence and Personal Development",
+            "sequence_range": "67-132",
+            "start_time": 525030,
+            "end_time": 1174530
+        },
+        {
+            "topic": "Earthquakes and Urban Changes",
+            "sequence_range": "145-148",
+            "start_time": 1268912,
+            "end_time": 1291786
+        },
+        {
+            "topic": "Visit to Santiago and Street Names",
+            "sequence_range": "149-153",
+            "start_time": 1291818,
+            "end_time": 1304506
+        },
+        {
+            "topic": "Historical Context and Ursula's Background",
+            "sequence_range": "154-161",
+            "start_time": 1304538,
+            "end_time": 1442046
+        },
+        {
+            "topic": "Writing and Late Bloomers",
+            "sequence_range": "162-169",
+            "start_time": 1442078,
+            "end_time": 1467030
+        },
+        {
+            "topic": "Ursula's Autobiography and Challenges",
+            "sequence_range": "170-206",
+            "start_time": 1467070,
+            "end_time": 1907986
+        },
+        {
+            "topic": "Adolescence and Character Traits",
+            "sequence_range": "207-219",
+            "start_time": 1908098,
+            "end_time": 2018802
+        },
+        {
+            "topic": "Self-Flagellation and Literary Influences",
+            "sequence_range": "220-237",
+            "start_time": 2018826,
+            "end_time": 2219812
+        },
+        {
+            "topic": "Music, Guilt, and Inspiration",
+            "sequence_range": "238-243",
+            "start_time": 2219876,
+            "end_time": 2273146
+        },
+        {
+            "topic": "Role Models and Aspirations",
+            "sequence_range": "244-261",
+            "start_time": 2273218,
+            "end_time": 2467302
+        },
+        {
+            "topic": "Ursula's Personality and Life",
+            "sequence_range": "262-343",
+            "start_time": 2467326,
+            "end_time": 3664320
+        },
+        {
+            "topic": "Teenage Bedrooms and Personal Spaces",
+            "sequence_range": "344-358",
+            "start_time": 3664360,
+            "end_time": 3749260
+        },
+        {
+            "topic": "Úrsula Suárez's Convent Life",
+            "sequence_range": "362-375",
+            "start_time": 3756080,
+            "end_time": 3953196
+        },
+        {
+            "topic": "Personal Spaces and Utopian Shelters",
+            "sequence_range": "366-372",
+            "start_time": 3849666,
+            "end_time": 3925322
+        },
+        {
+            "topic": "Community Life and Independence",
+            "sequence_range": "373-377",
+            "start_time": 3925346,
+            "end_time": 3981364
+        },
+        {
+            "topic": "Ursula's Autobiography and Female Empowerment",
+            "sequence_range": "398-422",
+            "start_time": 4109090,
+            "end_time": 4446938
+        },
+        {
+            "topic": "Sexual Education and Childhood Experiences",
+            "sequence_range": "438-458",
+            "start_time": 4586978,
+            "end_time": 4760626
+        },
+        {
+            "topic": "Ursula's Trial and Punishment",
+            "sequence_range": "461-466",
+            "start_time": 4769990,
+            "end_time": 4856160
+        },
+        {
+            "topic": "The life and transformation of Ursula",
+            "sequence_range": "467-470",
+            "start_time": 4856280,
+            "end_time": 4957210
+        },
+        {
+            "topic": "Reflections and dedications to Ursula",
+            "sequence_range": "471-482",
+            "start_time": 4961490,
+            "end_time": 5043780
+        },
+        {
+            "topic": "Podcast production credits",
+            "sequence_range": "483-484",
+            "start_time": 5044950,
+            "end_time": 5096970
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                3
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                4,
+                25,
+                95,
+                97,
+                133
+            ]
+        },
+        {
+            "entity": "Pastinaca Muranese",
+            "type": "Topic",
+            "sequences": [
+                7
+            ]
+        },
+        {
+            "entity": "Alicante",
+            "type": "Place",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Borisilicate glass",
+            "type": "Material",
+            "sequences": [
+                9,
+                12
+            ]
+        },
+        {
+            "entity": "Cordillera Nevada",
+            "type": "Geographical Feature",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "South Sea",
+            "type": "Geographical Feature",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "Strait of Magellan",
+            "type": "Geographical Feature",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "Tucumán",
+            "type": "Place",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "Chile",
+            "type": "Country",
+            "sequences": [
+                21,
+                78,
+                83,
+                87,
+                89,
+                90,
+                92,
+                133
+            ]
+        },
+        {
+            "entity": "Úrsula Suárez",
+            "type": "Person",
+            "sequences": [
+                25,
+                116,
+                118,
+                132
+            ]
+        },
+        {
+            "entity": "Santa Clara de la Victoria",
+            "type": "Organization",
+            "sequences": [
+                25
+            ]
+        },
+        {
+            "entity": "Santiago",
+            "type": "City",
+            "sequences": [
+                25,
+                132,
+                137
+            ]
+        },
+        {
+            "entity": "Javier Amena",
+            "type": "Person",
+            "sequences": [
+                25,
+                26,
+                27,
+                95,
+                112
+            ]
+        },
+        {
+            "entity": "Carmelite nuns of Santa Elena",
+            "type": "Organization",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Los Angeles",
+            "type": "City",
+            "sequences": [
+                32
+            ]
+        },
+        {
+            "entity": "Alonso de Ovalle",
+            "type": "Person",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Relación del Reino de Chile",
+            "type": "Literature",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Jesuits",
+            "type": "Organization",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Esquemas juveniles",
+            "type": "Music Album",
+            "sequences": [
+                95
+            ]
+        },
+        {
+            "entity": "Merced Street",
+            "type": "Location",
+            "sequences": [
+                137
+            ]
+        },
+        {
+            "entity": "MacIver Street",
+            "type": "Location",
+            "sequences": [
+                137
+            ]
+        },
+        {
+            "entity": "Ursula",
+            "type": "Person",
+            "sequences": [
+                146,
+                147,
+                153,
+                154,
+                155,
+                157,
+                158,
+                159,
+                161,
+                170,
+                171,
+                172,
+                175,
+                179,
+                184,
+                185,
+                186,
+                194,
+                198,
+                205,
+                209,
+                245
+            ]
+        },
+        {
+            "entity": "Santiago",
+            "type": "Place",
+            "sequences": [
+                149,
+                161
+            ]
+        },
+        {
+            "entity": "Calle de las Monjitas",
+            "type": "Place",
+            "sequences": [
+                147,
+                150,
+                151,
+                152
+            ]
+        },
+        {
+            "entity": "Ovalle",
+            "type": "Person",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "Santa Lucia",
+            "type": "Place",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "La Merced",
+            "type": "Place",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "Javiera",
+            "type": "Person",
+            "sequences": [
+                157,
+                179,
+                186,
+                238
+            ]
+        },
+        {
+            "entity": "Poor Clares",
+            "type": "Organization",
+            "sequences": [
+                161
+            ]
+        },
+        {
+            "entity": "Luciana",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Tomas de Gamboa",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Mary of St. Joseph",
+            "type": "Person",
+            "sequences": [
+                175
+            ]
+        },
+        {
+            "entity": "Sister Juana Inés de la Cruz",
+            "type": "Person",
+            "sequences": [
+                220,
+                223
+            ]
+        },
+        {
+            "entity": "Benidorm Fest",
+            "type": "Event",
+            "sequences": [
+                226
+            ]
+        },
+        {
+            "entity": "Count Patula",
+            "type": "Character",
+            "sequences": [
+                229,
+                231,
+                232
+            ]
+        },
+        {
+            "entity": "Carmelites of St. Helena",
+            "type": "Organization",
+            "sequences": [
+                238
+            ]
+        },
+        {
+            "entity": "Björk",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Elena Blavatsky",
+            "type": "Person",
+            "sequences": [
+                253,
+                254,
+                257,
+                259
+            ]
+        },
+        {
+            "entity": "Maria de la Antigua",
+            "type": "Person",
+            "sequences": [
+                247
+            ]
+        },
+        {
+            "entity": "Marina de Escobar",
+            "type": "Person",
+            "sequences": [
+                247
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                260
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "Lirosta",
+            "type": "Person",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "Ursula",
+            "type": "Person",
+            "sequences": [
+                262,
+                263,
+                264,
+                265,
+                266,
+                267,
+                268,
+                269,
+                270,
+                271,
+                272,
+                273,
+                274,
+                275,
+                276,
+                277,
+                278,
+                279,
+                280,
+                281,
+                282,
+                283,
+                284,
+                285,
+                286,
+                287,
+                288,
+                289,
+                290,
+                291,
+                292,
+                293,
+                294,
+                295,
+                296,
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                306,
+                307,
+                308,
+                309,
+                310,
+                311,
+                312,
+                313,
+                314,
+                315,
+                316,
+                317,
+                318,
+                319,
+                320,
+                321,
+                322,
+                323,
+                324,
+                325,
+                326,
+                327,
+                328,
+                329,
+                330,
+                331,
+                332,
+                333,
+                334,
+                335,
+                336,
+                337,
+                338,
+                339,
+                340,
+                341,
+                342,
+                343
+            ]
+        },
+        {
+            "entity": "Leo",
+            "type": "Astrological Sign",
+            "sequences": [
+                262,
+                263,
+                264,
+                265,
+                266,
+                267
+            ]
+        },
+        {
+            "entity": "Gemini",
+            "type": "Astrological Sign",
+            "sequences": [
+                263,
+                264
+            ]
+        },
+        {
+            "entity": "God",
+            "type": "Deity",
+            "sequences": [
+                264
+            ]
+        },
+        {
+            "entity": "Chiqui Bonreal",
+            "type": "Person",
+            "sequences": [
+                273
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                273
+            ]
+        },
+        {
+            "entity": "Maria",
+            "type": "Person",
+            "sequences": [
+                273
+            ]
+        },
+        {
+            "entity": "Escobar",
+            "type": "Person",
+            "sequences": [
+                273,
+                278
+            ]
+        },
+        {
+            "entity": "Javier",
+            "type": "Person",
+            "sequences": [
+                274
+            ]
+        },
+        {
+            "entity": "Doña Mariana de Escobar",
+            "type": "Person",
+            "sequences": [
+                278
+            ]
+        },
+        {
+            "entity": "Mantilla",
+            "type": "Person",
+            "sequences": [
+                278
+            ]
+        },
+        {
+            "entity": "Javiera",
+            "type": "Person",
+            "sequences": [
+                287,
+                288,
+                290,
+                291,
+                297,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                328
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Marcela",
+            "type": "Person",
+            "sequences": [
+                293,
+                294,
+                295,
+                296,
+                305
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                307,
+                308,
+                316,
+                317,
+                318,
+                319,
+                320,
+                321,
+                322,
+                323,
+                324,
+                325,
+                326
+            ]
+        },
+        {
+            "entity": "Anna",
+            "type": "Person",
+            "sequences": [
+                307
+            ]
+        },
+        {
+            "entity": "Subject and Object in Renaissance culture",
+            "type": "Literature",
+            "sequences": [
+                327
+            ]
+        },
+        {
+            "entity": "Peru",
+            "type": "Place",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Cuzco",
+            "type": "Place",
+            "sequences": [
+                338
+            ]
+        },
+        {
+            "entity": "Lima",
+            "type": "Place",
+            "sequences": [
+                328,
+                338
+            ]
+        },
+        {
+            "entity": "Chile",
+            "type": "Country",
+            "sequences": [
+                328
+            ]
+        },
+        {
+            "entity": "Santiago",
+            "type": "City",
+            "sequences": [
+                330
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                344,
+                366,
+                395
+            ]
+        },
+        {
+            "entity": "Javiera",
+            "type": "Person",
+            "sequences": [
+                344,
+                367
+            ]
+        },
+        {
+            "entity": "Morris",
+            "type": "Organization",
+            "sequences": [
+                345
+            ]
+        },
+        {
+            "entity": "Red Hot Chili Peppers",
+            "type": "Organization",
+            "sequences": [
+                345
+            ]
+        },
+        {
+            "entity": "Sola Madrotea",
+            "type": "Place",
+            "sequences": [
+                353
+            ]
+        },
+        {
+            "entity": "Úrsula Suárez",
+            "type": "Person",
+            "sequences": [
+                362,
+                363,
+                371,
+                398,
+                403,
+                409,
+                411,
+                413,
+                419,
+                421,
+                433,
+                434,
+                436,
+                461,
+                463,
+                465
+            ]
+        },
+        {
+            "entity": "Maria Escobar",
+            "type": "Person",
+            "sequences": [
+                362
+            ]
+        },
+        {
+            "entity": "Luisa Ramirez",
+            "type": "Person",
+            "sequences": [
+                362
+            ]
+        },
+        {
+            "entity": "Captain Don Jorge Blendel",
+            "type": "Person",
+            "sequences": [
+                362
+            ]
+        },
+        {
+            "entity": "Santa Clara",
+            "type": "Organization",
+            "sequences": [
+                362
+            ]
+        },
+        {
+            "entity": "Lea",
+            "type": "Animal",
+            "sequences": [
+                370
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                366,
+                372
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                366
+            ]
+        },
+        {
+            "entity": "New York",
+            "type": "Place",
+            "sequences": [
+                366
+            ]
+        },
+        {
+            "entity": "Lavapiés",
+            "type": "Place",
+            "sequences": [
+                372
+            ]
+        },
+        {
+            "entity": "María de Zayas",
+            "type": "Person",
+            "sequences": [
+                403
+            ]
+        },
+        {
+            "entity": "Beatriz de la Jarrera",
+            "type": "Person",
+            "sequences": [
+                403
+            ]
+        },
+        {
+            "entity": "Inés de Rojas",
+            "type": "Person",
+            "sequences": [
+                463
+            ]
+        },
+        {
+            "entity": "Ursula",
+            "type": "Person",
+            "sequences": [
+                470,
+                472,
+                474,
+                475,
+                476,
+                477,
+                478,
+                479,
+                480,
+                481,
+                482
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                472
+            ]
+        },
+        {
+            "entity": "Via Sacra",
+            "type": "Place",
+            "sequences": [
+                470
+            ]
+        },
+        {
+            "entity": "Jesus",
+            "type": "Person",
+            "sequences": [
+                470
+            ]
+        },
+        {
+            "entity": "Virgin Mary",
+            "type": "Person",
+            "sequences": [
+                470
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                470
+            ]
+        },
+        {
+            "entity": "Philip's daughters",
+            "type": "Organization",
+            "sequences": [
+                483
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                484
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                484
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                484
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                484
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                484
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                484
+            ]
+        },
+        {
+            "entity": "Caliza",
+            "type": "Person",
+            "sequences": [
+                484
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Relación del Reino de Chile by Alonso de Ovalle, 1646",
+            "sequence": 78
+        }
+    ]
+}

@@ -1,0 +1,723 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1",
+            "start_time": 2360,
+            "end_time": 6250
+        },
+        {
+            "topic": "Daily Meals and Food Habits",
+            "sequence_range": "2-23",
+            "start_time": 21070,
+            "end_time": 148276
+        },
+        {
+            "topic": "Personal Well-being and Sleep Discussion",
+            "sequence_range": "24-51",
+            "start_time": 148308,
+            "end_time": 452570
+        },
+        {
+            "topic": "Historical and Literary References",
+            "sequence_range": "52-123",
+            "start_time": 461710,
+            "end_time": 1316640
+        },
+        {
+            "topic": "Discussion on corporeality and sensuality in literature",
+            "sequence_range": "124-125",
+            "start_time": 1316940,
+            "end_time": 1417714
+        },
+        {
+            "topic": "Analysis of Sor Juana's work and its impact",
+            "sequence_range": "125-126",
+            "start_time": 1396954,
+            "end_time": 1420418
+        },
+        {
+            "topic": "Exploration of hypochondria and its effects",
+            "sequence_range": "127-128",
+            "start_time": 1420514,
+            "end_time": 1439938
+        },
+        {
+            "topic": "Detailed examination of sleep and bodily functions",
+            "sequence_range": "129-130",
+            "start_time": 1440034,
+            "end_time": 1474972
+        },
+        {
+            "topic": "Personal habits and peculiarities in dressing and sleeping",
+            "sequence_range": "131-139",
+            "start_time": 1475116,
+            "end_time": 1569878
+        },
+        {
+            "topic": "Sleeping postures and their meanings",
+            "sequence_range": "140-164",
+            "start_time": 1570014,
+            "end_time": 1819378
+        },
+        {
+            "topic": "Historical and medical perspectives on sleep",
+            "sequence_range": "162-172",
+            "start_time": 1681660,
+            "end_time": 1875928
+        },
+        {
+            "topic": "René Descartes' theory of sleep",
+            "sequence_range": "176-182",
+            "start_time": 1890348,
+            "end_time": 2014812
+        },
+        {
+            "topic": "Cultural and social history of sleep",
+            "sequence_range": "193-199",
+            "start_time": 2142620,
+            "end_time": 2294154
+        },
+        {
+            "topic": "Spiritual Exercises of St. Ignatius of Loyola and sleep discipline",
+            "sequence_range": "202-214",
+            "start_time": 2355600,
+            "end_time": 2517004
+        },
+        {
+            "topic": "Sleep and its cultural perceptions",
+            "sequence_range": "219-294",
+            "start_time": 2548918,
+            "end_time": 3770810
+        },
+        {
+            "topic": "Historical figures' sleep habits",
+            "sequence_range": "223-294",
+            "start_time": 2610682,
+            "end_time": 3770810
+        },
+        {
+            "topic": "The impact of sleep deprivation",
+            "sequence_range": "219-294",
+            "start_time": 2548918,
+            "end_time": 3770810
+        },
+        {
+            "topic": "Critique of rigorous disciplines and biorhythms",
+            "sequence_range": "219-221",
+            "start_time": 2548918,
+            "end_time": 2609362
+        },
+        {
+            "topic": "Sleep Patterns and Social Implications",
+            "sequence_range": "295-312",
+            "start_time": 3771310,
+            "end_time": 4059830
+        },
+        {
+            "topic": "Podcast Production Credits",
+            "sequence_range": "313",
+            "start_time": 4073610,
+            "end_time": 4107030
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                48
+            ]
+        },
+        {
+            "entity": "Narragansett yogurts",
+            "type": "Product",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Oliva Sabuco",
+            "type": "Person",
+            "sequences": [
+                27,
+                28,
+                29,
+                31,
+                57,
+                60,
+                64,
+                65,
+                80,
+                85,
+                87
+            ]
+        },
+        {
+            "entity": "Alcaraz",
+            "type": "Place",
+            "sequences": [
+                29,
+                30
+            ]
+        },
+        {
+            "entity": "Albacete",
+            "type": "Place",
+            "sequences": [
+                29
+            ]
+        },
+        {
+            "entity": "Puerto Rico",
+            "type": "Place",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Renaissance Society",
+            "type": "Organization",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Group",
+            "sequences": [
+                35,
+                41,
+                42,
+                49,
+                51
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                52
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                52
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                52
+            ]
+        },
+        {
+            "entity": "Vainica doble",
+            "type": "Music Group",
+            "sequences": [
+                53,
+                54,
+                55,
+                56
+            ]
+        },
+        {
+            "entity": "Margarita de la Cruz",
+            "type": "Person",
+            "sequences": [
+                53
+            ]
+        },
+        {
+            "entity": "Poor Clares",
+            "type": "Organization",
+            "sequences": [
+                53
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123
+            ]
+        },
+        {
+            "entity": "Diego Calleja",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Saint Catherine Alexandria",
+            "type": "Person",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "St. John",
+            "type": "Person",
+            "sequences": [
+                124
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                125,
+                126
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                131,
+                162,
+                202,
+                203,
+                204,
+                205,
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212,
+                213,
+                214
+            ]
+        },
+        {
+            "entity": "Camp Hijas de Felipe",
+            "type": "Place",
+            "sequences": [
+                141
+            ]
+        },
+        {
+            "entity": "Lupita Orthopedics",
+            "type": "Organization",
+            "sequences": [
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160
+            ]
+        },
+        {
+            "entity": "Hippocrates",
+            "type": "Person",
+            "sequences": [
+                162,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170
+            ]
+        },
+        {
+            "entity": "Levinus Lemnio",
+            "type": "Person",
+            "sequences": [
+                172,
+                173
+            ]
+        },
+        {
+            "entity": "René Descartes",
+            "type": "Person",
+            "sequences": [
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182
+            ]
+        },
+        {
+            "entity": "David Jiménez Torres",
+            "type": "Person",
+            "sequences": [
+                193
+            ]
+        },
+        {
+            "entity": "St. Ignatius of Loyola",
+            "type": "Person",
+            "sequences": [
+                202,
+                203,
+                204,
+                205,
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212,
+                213,
+                214
+            ]
+        },
+        {
+            "entity": "Saint Ignatius",
+            "type": "Person",
+            "sequences": [
+                219
+            ]
+        },
+        {
+            "entity": "Opus",
+            "type": "Organization",
+            "sequences": [
+                221
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                221
+            ]
+        },
+        {
+            "entity": "Lady Elizabeth de Laval",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Oliva Sabúk",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                225,
+                243,
+                257,
+                267
+            ]
+        },
+        {
+            "entity": "Carlos",
+            "type": "Person",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Elisabeth de Laval",
+            "type": "Person",
+            "sequences": [
+                231,
+                233,
+                235
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                236,
+                238,
+                239,
+                242
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                238
+            ]
+        },
+        {
+            "entity": "Paréntesis Festival",
+            "type": "Event",
+            "sequences": [
+                236
+            ]
+        },
+        {
+            "entity": "San Sebastián",
+            "type": "Place",
+            "sequences": [
+                236
+            ]
+        },
+        {
+            "entity": "San Pedro de Alcántara",
+            "type": "Person",
+            "sequences": [
+                250,
+                252,
+                253
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                252,
+                283
+            ]
+        },
+        {
+            "entity": "Pedro de Guzmán",
+            "type": "Person",
+            "sequences": [
+                254,
+                255,
+                276,
+                277
+            ]
+        },
+        {
+            "entity": "Society of Jesus",
+            "type": "Organization",
+            "sequences": [
+                255
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                280,
+                282
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                283,
+                284,
+                288,
+                289,
+                290
+            ]
+        },
+        {
+            "entity": "Lorenzo",
+            "type": "Person",
+            "sequences": [
+                284
+            ]
+        },
+        {
+            "entity": "Jerónimo Gracián",
+            "type": "Person",
+            "sequences": [
+                284
+            ]
+        },
+        {
+            "entity": "Jerónimo Alerta",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Diego de Yepes",
+            "type": "Person",
+            "sequences": [
+                290,
+                292
+            ]
+        },
+        {
+            "entity": "María del Sacramento",
+            "type": "Person",
+            "sequences": [
+                292,
+                293
+            ]
+        },
+        {
+            "entity": "Maria del Sacramento",
+            "type": "Person",
+            "sequences": [
+                296
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                296
+            ]
+        },
+        {
+            "entity": "Sasha Handley",
+            "type": "Person",
+            "sequences": [
+                296,
+                297,
+                298,
+                300,
+                306
+            ]
+        },
+        {
+            "entity": "Shasha Hunt",
+            "type": "Person",
+            "sequences": [
+                298
+            ]
+        },
+        {
+            "entity": "Robert Burton",
+            "type": "Person",
+            "sequences": [
+                304
+            ]
+        },
+        {
+            "entity": "Marcy Loffizino",
+            "type": "Person",
+            "sequences": [
+                304
+            ]
+        },
+        {
+            "entity": "England",
+            "type": "Place",
+            "sequences": [
+                298,
+                300,
+                306
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                313
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                313
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                313
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                313
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                313
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                313
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "New philosophy of the nature of man, not known or achieved from the great ancient philosophers, Oliva Sabuco, 1587",
+            "sequence": 29
+        }
+    ]
+}

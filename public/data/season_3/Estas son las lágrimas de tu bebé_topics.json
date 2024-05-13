@@ -1,0 +1,793 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-7",
+            "start_time": 2200,
+            "end_time": 48058
+        },
+        {
+            "topic": "Baroque Hangover and Recording",
+            "sequence_range": "8-10",
+            "start_time": 48234,
+            "end_time": 65300
+        },
+        {
+            "topic": "Breakfast Choices",
+            "sequence_range": "11-18",
+            "start_time": 65380,
+            "end_time": 94348
+        },
+        {
+            "topic": "Sara or Barroco Event",
+            "sequence_range": "19-21",
+            "start_time": 94444,
+            "end_time": 165280
+        },
+        {
+            "topic": "Interactive Game and Literature",
+            "sequence_range": "22-28",
+            "start_time": 165320,
+            "end_time": 287618
+        },
+        {
+            "topic": "Venice and Urban Planning",
+            "sequence_range": "34-50",
+            "start_time": 361798,
+            "end_time": 605120
+        },
+        {
+            "topic": "Santa Teresa and Soria",
+            "sequence_range": "51-58",
+            "start_time": 606420,
+            "end_time": 676258
+        },
+        {
+            "topic": "Venetian Nuns and Convents",
+            "sequence_range": "59-63",
+            "start_time": 676354,
+            "end_time": 751690
+        },
+        {
+            "topic": "Pornography in Renaissance and Baroque",
+            "sequence_range": "64-93",
+            "start_time": 760630,
+            "end_time": 1278314
+        },
+        {
+            "topic": "Analysis of Lustful Sonnets and Engravings",
+            "sequence_range": "94-99",
+            "start_time": 1278362,
+            "end_time": 1376286
+        },
+        {
+            "topic": "Description and Analysis of Specific Engravings",
+            "sequence_range": "100-106",
+            "start_time": 1376358,
+            "end_time": 1450240
+        },
+        {
+            "topic": "Historical Context and Reception of Aretino's Works",
+            "sequence_range": "107-113",
+            "start_time": 1450280,
+            "end_time": 1542798
+        },
+        {
+            "topic": "Discussion on Aretino's Dialogues and Their Themes",
+            "sequence_range": "114-126",
+            "start_time": 1542854,
+            "end_time": 1818802
+        },
+        {
+            "topic": "Personal Anecdotes and Reflections on the Readings",
+            "sequence_range": "127-148",
+            "start_time": 1818866,
+            "end_time": 2149272
+        },
+        {
+            "topic": "Historical and Cultural Analysis of Erotic Devices",
+            "sequence_range": "149-164",
+            "start_time": 2149376,
+            "end_time": 2459854
+        },
+        {
+            "topic": "Archival Research on Venetian Convents",
+            "sequence_range": "165-173",
+            "start_time": 2459862,
+            "end_time": 2605254
+        },
+        {
+            "topic": "Inquisitorial process and conventual debauchery",
+            "sequence_range": "174-178",
+            "start_time": 2605302,
+            "end_time": 2672478
+        },
+        {
+            "topic": "Historical cases of solicitation and confession",
+            "sequence_range": "179-181",
+            "start_time": 2672534,
+            "end_time": 2706620
+        },
+        {
+            "topic": "Domène Godzon's accusations and relationships",
+            "sequence_range": "182-196",
+            "start_time": 2708480,
+            "end_time": 2892472
+        },
+        {
+            "topic": "Cultural and sexual dynamics in Venetian convents",
+            "sequence_range": "197-209",
+            "start_time": 2892576,
+            "end_time": 3143778
+        },
+        {
+            "topic": "Comparison of past and present intimacy and sexuality",
+            "sequence_range": "210-216",
+            "start_time": 3143834,
+            "end_time": 3257120
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                5
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                4,
+                5,
+                20,
+                21,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Pardo Bazán",
+            "type": "Person",
+            "sequences": [
+                24
+            ]
+        },
+        {
+            "entity": "San Isidro",
+            "type": "Place",
+            "sequences": [
+                28
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                19,
+                38,
+                39,
+                88
+            ]
+        },
+        {
+            "entity": "Adrián J. Sáez",
+            "type": "Person",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Caf Oscari University",
+            "type": "Organization",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Venice",
+            "type": "Place",
+            "sequences": [
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50
+            ]
+        },
+        {
+            "entity": "Marino Berengo",
+            "type": "Person",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Giovanni Botero",
+            "type": "Person",
+            "sequences": [
+                43,
+                44,
+                45,
+                46,
+                47
+            ]
+        },
+        {
+            "entity": "Antonio Herrera",
+            "type": "Person",
+            "sequences": [
+                50
+            ]
+        },
+        {
+            "entity": "Soria",
+            "type": "Place",
+            "sequences": [
+                50,
+                51,
+                52,
+                53
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                53,
+                54,
+                55
+            ]
+        },
+        {
+            "entity": "Girolamo Priuli",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Paula Finland",
+            "type": "Person",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "Jakob Burckhardt",
+            "type": "Person",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "Pietro Aretino",
+            "type": "Person",
+            "sequences": [
+                67,
+                76,
+                83,
+                85,
+                88,
+                90,
+                92
+            ]
+        },
+        {
+            "entity": "Nicholas Jones",
+            "type": "Person",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Chad Lehi",
+            "type": "Person",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Giulio Romano",
+            "type": "Person",
+            "sequences": [
+                90
+            ]
+        },
+        {
+            "entity": "Marc Antonio Raimondi",
+            "type": "Person",
+            "sequences": [
+                90
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                94,
+                95,
+                96
+            ]
+        },
+        {
+            "entity": "Adrián J. Saez",
+            "type": "Person",
+            "sequences": [
+                94
+            ]
+        },
+        {
+            "entity": "Aretino",
+            "type": "Person",
+            "sequences": [
+                107,
+                109,
+                111,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164
+            ]
+        },
+        {
+            "entity": "Charles V",
+            "type": "Person",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Nana",
+            "type": "Person",
+            "sequences": [
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164
+            ]
+        },
+        {
+            "entity": "Antonio",
+            "type": "Person",
+            "sequences": [
+                114
+            ]
+        },
+        {
+            "entity": "Karen Newman",
+            "type": "Person",
+            "sequences": [
+                139
+            ]
+        },
+        {
+            "entity": "Fernán Juárez",
+            "type": "Person",
+            "sequences": [
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163
+            ]
+        },
+        {
+            "entity": "Mary Levin",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Doménego Zon",
+            "type": "Person",
+            "sequences": [
+                172,
+                173
+            ]
+        },
+        {
+            "entity": "Venice",
+            "type": "Place",
+            "sequences": [
+                94,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171,
+                172,
+                173
+            ]
+        },
+        {
+            "entity": "Holy Roman Empire",
+            "type": "Organization",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Kaf Oscari University",
+            "type": "Organization",
+            "sequences": [
+                136
+            ]
+        },
+        {
+            "entity": "Cambridge University",
+            "type": "Organization",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Murano",
+            "type": "Place",
+            "sequences": [
+                135,
+                137,
+                143,
+                144,
+                145,
+                146,
+                147
+            ]
+        },
+        {
+            "entity": "Domène Godzon",
+            "type": "Person",
+            "sequences": [
+                177,
+                178,
+                182,
+                184,
+                194,
+                196
+            ]
+        },
+        {
+            "entity": "Angeli di Murano Convent",
+            "type": "Place",
+            "sequences": [
+                178
+            ]
+        },
+        {
+            "entity": "Puebla",
+            "type": "Place",
+            "sequences": [
+                179
+            ]
+        },
+        {
+            "entity": "Julio Iglesias",
+            "type": "Person",
+            "sequences": [
+                185,
+                186,
+                187,
+                188,
+                192
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                189,
+                191
+            ]
+        },
+        {
+            "entity": "El Escorial",
+            "type": "Place",
+            "sequences": [
+                189,
+                190
+            ]
+        },
+        {
+            "entity": "Isabel Preisler",
+            "type": "Person",
+            "sequences": [
+                192,
+                193
+            ]
+        },
+        {
+            "entity": "Tecla",
+            "type": "Person",
+            "sequences": [
+                194,
+                195,
+                196
+            ]
+        },
+        {
+            "entity": "Mary Levin",
+            "type": "Person",
+            "sequences": [
+                196
+            ]
+        },
+        {
+            "entity": "Rosalía",
+            "type": "Person",
+            "sequences": [
+                197
+            ]
+        },
+        {
+            "entity": "Raúl Alejandro",
+            "type": "Person",
+            "sequences": [
+                197
+            ]
+        },
+        {
+            "entity": "Niccol Baruzzi",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Mary Leeben",
+            "type": "Person",
+            "sequences": [
+                201,
+                202
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                217
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                217
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                217
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                217
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                217
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                217
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Insolation by Pardo Bazán",
+            "sequence": 24
+        }
+    ]
+}

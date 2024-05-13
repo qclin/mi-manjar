@@ -1,0 +1,795 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-9",
+            "start_time": 2360,
+            "end_time": 33756
+        },
+        {
+            "topic": "Food and Meals Discussion",
+            "sequence_range": "10-21",
+            "start_time": 33828,
+            "end_time": 168310
+        },
+        {
+            "topic": "Fandom and Personal Obsessions",
+            "sequence_range": "22-60",
+            "start_time": 169290,
+            "end_time": 536804
+        },
+        {
+            "topic": "Baroque Fandom and Historical Anecdotes",
+            "sequence_range": "61-96",
+            "start_time": 536852,
+            "end_time": 1365624
+        },
+        {
+            "topic": "Palingenesis and the transmigration of souls",
+            "sequence_range": "97-100",
+            "start_time": 1365672,
+            "end_time": 1397842
+        },
+        {
+            "topic": "The influence and debates around Saint Rose",
+            "sequence_range": "101-104",
+            "start_time": 1397866,
+            "end_time": 1467500
+        },
+        {
+            "topic": "Saint Rose's social capital and the challenges of sainthood",
+            "sequence_range": "105-106",
+            "start_time": 1468920,
+            "end_time": 1522196
+        },
+        {
+            "topic": "Demoniac nuns and the history of demonic possessions",
+            "sequence_range": "107-110",
+            "start_time": 1522348,
+            "end_time": 1556506
+        },
+        {
+            "topic": "The podcast's approach to discussing demonology and historical cases",
+            "sequence_range": "111-115",
+            "start_time": 1556618,
+            "end_time": 1595668
+        },
+        {
+            "topic": "Jeanne des Anges and the demoniacs of Ludun",
+            "sequence_range": "116-140",
+            "start_time": 1595724,
+            "end_time": 1869524
+        },
+        {
+            "topic": "The case of Pakora and Ana Núñez in the Viceroyalty of Peru",
+            "sequence_range": "141-189",
+            "start_time": 1869612,
+            "end_time": 2783276
+        },
+        {
+            "topic": "Historical Analysis of Baroque Women",
+            "sequence_range": "190-191",
+            "start_time": 2783388,
+            "end_time": 2823722
+        },
+        {
+            "topic": "Demonology and Exorcism in the Baroque Period",
+            "sequence_range": "192-194",
+            "start_time": 2823746,
+            "end_time": 2937312
+        },
+        {
+            "topic": "The Case of Pakora and Ana Núñez",
+            "sequence_range": "195-204",
+            "start_time": 2937336,
+            "end_time": 3234834
+        },
+        {
+            "topic": "Convent Life and Relationships",
+            "sequence_range": "205-213",
+            "start_time": 3234962,
+            "end_time": 3391470
+        },
+        {
+            "topic": "Inquisitorial Process and Lesbian Relationships",
+            "sequence_range": "214-253",
+            "start_time": 3391590,
+            "end_time": 4164150
+        },
+        {
+            "topic": "Religious Prayers and Figures",
+            "sequence_range": "254-259",
+            "start_time": 4164190,
+            "end_time": 4255146
+        },
+        {
+            "topic": "Social Commentary",
+            "sequence_range": "260",
+            "start_time": 4255258,
+            "end_time": 4267490
+        },
+        {
+            "topic": "Podcast Production Details",
+            "sequence_range": "263",
+            "start_time": 4284120,
+            "end_time": 4317540
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                5,
+                26,
+                52,
+                53,
+                57,
+                72,
+                77,
+                81,
+                83,
+                85,
+                89
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                72,
+                85
+            ]
+        },
+        {
+            "entity": "Chicken of the Sea",
+            "type": "Brand",
+            "sequences": [
+                15
+            ]
+        },
+        {
+            "entity": "Italian brand tuna",
+            "type": "Product",
+            "sequences": [
+                15
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Carmelites from Puebla",
+            "type": "Organization",
+            "sequences": [
+                34
+            ]
+        },
+        {
+            "entity": "NBA",
+            "type": "Organization",
+            "sequences": [
+                39,
+                40
+            ]
+        },
+        {
+            "entity": "Dennis Rodman",
+            "type": "Person",
+            "sequences": [
+                45
+            ]
+        },
+        {
+            "entity": "The Jodie Foster's Club",
+            "type": "Project",
+            "sequences": [
+                49,
+                51
+            ]
+        },
+        {
+            "entity": "Amistades peligrosas",
+            "type": "Musical Duo",
+            "sequences": [
+                58,
+                59
+            ]
+        },
+        {
+            "entity": "Descalzas Reales",
+            "type": "Place",
+            "sequences": [
+                62,
+                63,
+                64,
+                72
+            ]
+        },
+        {
+            "entity": "Juana of Austria",
+            "type": "Person",
+            "sequences": [
+                64
+            ]
+        },
+        {
+            "entity": "Sebastián Herrera Barnuevo",
+            "type": "Person",
+            "sequences": [
+                64
+            ]
+        },
+        {
+            "entity": "Sorana Dorotea of Austria",
+            "type": "Person",
+            "sequences": [
+                64,
+                65,
+                66,
+                67,
+                68
+            ]
+        },
+        {
+            "entity": "Sister Margarita de la Cruz",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Emperor Rudolph",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Our Lady of Guadalupe",
+            "type": "Deity",
+            "sequences": [
+                64,
+                68
+            ]
+        },
+        {
+            "entity": "Taylor Swift",
+            "type": "Person",
+            "sequences": [
+                70
+            ]
+        },
+        {
+            "entity": "Ana Núñez and Luisa Benítez",
+            "type": "Person",
+            "sequences": [
+                72
+            ]
+        },
+        {
+            "entity": "Saint Rose of Lima",
+            "type": "Saint",
+            "sequences": [
+                72,
+                77,
+                81,
+                82,
+                83,
+                84,
+                85,
+                87
+            ]
+        },
+        {
+            "entity": "Pope Clement X",
+            "type": "Person",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "John Slater",
+            "type": "Person",
+            "sequences": [
+                85,
+                86,
+                87
+            ]
+        },
+        {
+            "entity": "Saint Rose of Viterbo",
+            "type": "Saint",
+            "sequences": [
+                89,
+                90,
+                93
+            ]
+        },
+        {
+            "entity": "Franciscans",
+            "type": "Organization",
+            "sequences": [
+                89,
+                90,
+                92,
+                93
+            ]
+        },
+        {
+            "entity": "Dominicans",
+            "type": "Organization",
+            "sequences": [
+                89,
+                93
+            ]
+        },
+        {
+            "entity": "Alonso Lopez Magdaleno",
+            "type": "Person",
+            "sequences": [
+                93
+            ]
+        },
+        {
+            "entity": "Lopez de Maldonado",
+            "type": "Person",
+            "sequences": [
+                97
+            ]
+        },
+        {
+            "entity": "Saint Rose of Viterbo",
+            "type": "Person",
+            "sequences": [
+                97
+            ]
+        },
+        {
+            "entity": "Saint Rose of Lima",
+            "type": "Person",
+            "sequences": [
+                97,
+                103,
+                104,
+                106
+            ]
+        },
+        {
+            "entity": "Trujillo, Peru",
+            "type": "Place",
+            "sequences": [
+                104,
+                146,
+                148,
+                161
+            ]
+        },
+        {
+            "entity": "Pakora",
+            "type": "Person",
+            "sequences": [
+                106,
+                144,
+                150,
+                152,
+                156,
+                159,
+                177,
+                182
+            ]
+        },
+        {
+            "entity": "Ana Núñez",
+            "type": "Person",
+            "sequences": [
+                106,
+                144,
+                150
+            ]
+        },
+        {
+            "entity": "Jean Baudin",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Jean Gerson",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Juana de los Angeles",
+            "type": "Person",
+            "sequences": [
+                117,
+                119,
+                120,
+                121,
+                123,
+                128,
+                129,
+                131,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140
+            ]
+        },
+        {
+            "entity": "Ludun",
+            "type": "Place",
+            "sequences": [
+                121,
+                123
+            ]
+        },
+        {
+            "entity": "Father Urbain Grandier",
+            "type": "Person",
+            "sequences": [
+                123,
+                125,
+                126
+            ]
+        },
+        {
+            "entity": "Jean Joseph Chougan",
+            "type": "Person",
+            "sequences": [
+                129
+            ]
+        },
+        {
+            "entity": "Viceroyalty of Peru",
+            "type": "Place",
+            "sequences": [
+                145,
+                146,
+                161
+            ]
+        },
+        {
+            "entity": "Luisa Benítez",
+            "type": "Person",
+            "sequences": [
+                150,
+                152,
+                156,
+                159,
+                175,
+                177,
+                182,
+                184
+            ]
+        },
+        {
+            "entity": "Francisco de Risco",
+            "type": "Person",
+            "sequences": [
+                150,
+                158,
+                159
+            ]
+        },
+        {
+            "entity": "Margarita Paz Torres",
+            "type": "Person",
+            "sequences": [
+                161
+            ]
+        },
+        {
+            "entity": "University of Alcalá de Henares",
+            "type": "Organization",
+            "sequences": [
+                161
+            ]
+        },
+        {
+            "entity": "Mary of St. Joseph",
+            "type": "Person",
+            "sequences": [
+                188,
+                189
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "50 Shades of Grey",
+            "type": "Literature",
+            "sequences": [
+                190,
+                192
+            ]
+        },
+        {
+            "entity": "Ana Núñez",
+            "type": "Person",
+            "sequences": [
+                190,
+                196,
+                197,
+                198,
+                207,
+                209,
+                211,
+                213,
+                214,
+                215,
+                217,
+                219,
+                220,
+                222,
+                224,
+                234,
+                235,
+                238,
+                239,
+                241,
+                243,
+                245,
+                248,
+                250,
+                251,
+                253
+            ]
+        },
+        {
+            "entity": "Father Risco",
+            "type": "Person",
+            "sequences": [
+                190,
+                196,
+                207,
+                211,
+                239,
+                248
+            ]
+        },
+        {
+            "entity": "Lariel",
+            "type": "Demon",
+            "sequences": [
+                192,
+                194
+            ]
+        },
+        {
+            "entity": "Trujillo",
+            "type": "Place",
+            "sequences": [
+                196,
+                204,
+                207
+            ]
+        },
+        {
+            "entity": "Doña Luisa Benítez",
+            "type": "Person",
+            "sequences": [
+                196,
+                198,
+                200,
+                204,
+                207,
+                214,
+                215,
+                219,
+                222,
+                224,
+                234,
+                238,
+                239,
+                241,
+                243,
+                245,
+                248,
+                250
+            ]
+        },
+        {
+            "entity": "Lucifer",
+            "type": "Demon",
+            "sequences": [
+                196,
+                200,
+                215,
+                222
+            ]
+        },
+        {
+            "entity": "Margarita Paz Torres and Silvia Ruiz Tres Gallo",
+            "type": "Authors",
+            "sequences": [
+                198
+            ]
+        },
+        {
+            "entity": "Gloriei",
+            "type": "Angel",
+            "sequences": [
+                198
+            ]
+        },
+        {
+            "entity": "Saint Rose of Lima",
+            "type": "Saint",
+            "sequences": [
+                204,
+                238,
+                244,
+                250
+            ]
+        },
+        {
+            "entity": "Fray Martin de Pereira",
+            "type": "Person",
+            "sequences": [
+                207
+            ]
+        },
+        {
+            "entity": "Maria de Castro Osorio",
+            "type": "Person",
+            "sequences": [
+                213
+            ]
+        },
+        {
+            "entity": "Friar Cristobal Jaramillo",
+            "type": "Person",
+            "sequences": [
+                215,
+                222
+            ]
+        },
+        {
+            "entity": "Finiel",
+            "type": "Angel",
+            "sequences": [
+                222
+            ]
+        },
+        {
+            "entity": "Rodrigo de Valdés",
+            "type": "Person",
+            "sequences": [
+                250
+            ]
+        },
+        {
+            "entity": "Finiel",
+            "type": "Angel",
+            "sequences": [
+                254
+            ]
+        },
+        {
+            "entity": "Trinity",
+            "type": "Religious Concept",
+            "sequences": [
+                255
+            ]
+        },
+        {
+            "entity": "Jeanne Louise of grace",
+            "type": "Virgin",
+            "sequences": [
+                255
+            ]
+        },
+        {
+            "entity": "Jesus",
+            "type": "Religious Figure",
+            "sequences": [
+                255
+            ]
+        },
+        {
+            "entity": "Juana Luisa de Gracia",
+            "type": "Virgin",
+            "sequences": [
+                255,
+                257
+            ]
+        },
+        {
+            "entity": "Núñez",
+            "type": "Person",
+            "sequences": [
+                255
+            ]
+        },
+        {
+            "entity": "Luisa Benítez",
+            "type": "Person",
+            "sequences": [
+                255
+            ]
+        },
+        {
+            "entity": "Santa Rosa",
+            "type": "Saint",
+            "sequences": [
+                258,
+                259
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                263
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                263
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                263
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                263
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                263
+            ]
+        },
+        {
+            "entity": "Caliza",
+            "type": "Music Group",
+            "sequences": [
+                263
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                263
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Documentary of Televisión Española",
+            "sequence": 72
+        }
+    ]
+}

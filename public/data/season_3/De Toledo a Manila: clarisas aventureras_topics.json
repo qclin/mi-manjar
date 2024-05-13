@@ -1,0 +1,822 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-1",
+            "start_time": 2360,
+            "end_time": 6250
+        },
+        {
+            "topic": "Personal Greetings and Well-being",
+            "sequence_range": "2-4",
+            "start_time": 20750,
+            "end_time": 24598
+        },
+        {
+            "topic": "Food and Dining Experiences",
+            "sequence_range": "5-11",
+            "start_time": 24734,
+            "end_time": 72240
+        },
+        {
+            "topic": "Upcoming Mud Show Event",
+            "sequence_range": "12-19",
+            "start_time": 72540,
+            "end_time": 95600
+        },
+        {
+            "topic": "Personal Updates and Excitement",
+            "sequence_range": "20-22",
+            "start_time": 97660,
+            "end_time": 130624
+        },
+        {
+            "topic": "Historical Journey and Comparison",
+            "sequence_range": "23-24",
+            "start_time": 130752,
+            "end_time": 188800
+        },
+        {
+            "topic": "Podcast Episode Focus on Jerónima de la Asunción",
+            "sequence_range": "25-31",
+            "start_time": 188840,
+            "end_time": 391510
+        },
+        {
+            "topic": "Bureaucratic Challenges and Nightmares",
+            "sequence_range": "32-37",
+            "start_time": 393880,
+            "end_time": 446212
+        },
+        {
+            "topic": "Historical and Missionary Journeys",
+            "sequence_range": "38-58",
+            "start_time": 446276,
+            "end_time": 782280
+        },
+        {
+            "topic": "Fanfiction and Historical Narration",
+            "sequence_range": "59-89",
+            "start_time": 782780,
+            "end_time": 1273726
+        },
+        {
+            "topic": "Personal Reflections and Contrasts",
+            "sequence_range": "90-91",
+            "start_time": 1273878,
+            "end_time": 1306750
+        },
+        {
+            "topic": "Biographical Narratives and Queer Identity",
+            "sequence_range": "92-95",
+            "start_time": 1306830,
+            "end_time": 1401902
+        },
+        {
+            "topic": "Internet and Modern Comforts vs. Historical Constraints",
+            "sequence_range": "96-98",
+            "start_time": 1402006,
+            "end_time": 1454582
+        },
+        {
+            "topic": "Mystical Experiences and Historical Figures",
+            "sequence_range": "99-103",
+            "start_time": 1454686,
+            "end_time": 1538044
+        },
+        {
+            "topic": "Anticipation and Preparation for a Journey",
+            "sequence_range": "104-113",
+            "start_time": 1538092,
+            "end_time": 1642824
+        },
+        {
+            "topic": "Spiritual and Emotional Bonds",
+            "sequence_range": "114-117",
+            "start_time": 1642872,
+            "end_time": 1754358
+        },
+        {
+            "topic": "Journey to the Philippines",
+            "sequence_range": "118-129",
+            "start_time": 1754414,
+            "end_time": 1888092
+        },
+        {
+            "topic": "Colonial Expansion and Female Resistance",
+            "sequence_range": "130-153",
+            "start_time": 1888116,
+            "end_time": 2298662
+        },
+        {
+            "topic": "Genealogies of Belonging and Anachrony",
+            "sequence_range": "154-162",
+            "start_time": 2298686,
+            "end_time": 2475262
+        },
+        {
+            "topic": "Strategic planning and genealogies of belonging in convent founding",
+            "sequence_range": "163-164",
+            "start_time": 2475406,
+            "end_time": 2494990
+        },
+        {
+            "topic": "Journey and challenges of Sister Jerónima and her squadron",
+            "sequence_range": "165-171",
+            "start_time": 2495030,
+            "end_time": 2645354
+        },
+        {
+            "topic": "Historical documentation and discovery by Sarah Owens",
+            "sequence_range": "166-168",
+            "start_time": 2528450,
+            "end_time": 2600946
+        },
+        {
+            "topic": "Convent life and adaptation aboard the Manila galleon",
+            "sequence_range": "172-176",
+            "start_time": 2645402,
+            "end_time": 2716620
+        },
+        {
+            "topic": "Spiritual and physical challenges during the voyage",
+            "sequence_range": "177-191",
+            "start_time": 2716700,
+            "end_time": 3062786
+        },
+        {
+            "topic": "Encounters with slavery and indigenous peoples",
+            "sequence_range": "194-195",
+            "start_time": 3073210,
+            "end_time": 3148586
+        },
+        {
+            "topic": "Ana de Cristo's strategic narrative for Sister Jerónima's canonization",
+            "sequence_range": "198-202",
+            "start_time": 3159202,
+            "end_time": 3211314
+        },
+        {
+            "topic": "Arrival in Manila and the aftermath",
+            "sequence_range": "203-206",
+            "start_time": 3211362,
+            "end_time": 3304950
+        },
+        {
+            "topic": "Death of Sister Jerónima and her legacy",
+            "sequence_range": "207-215",
+            "start_time": 3305690,
+            "end_time": 3491100
+        },
+        {
+            "topic": "Adventures of Sister Magdalena de Cristo",
+            "sequence_range": "216-218",
+            "start_time": 3491140,
+            "end_time": 3539844
+        },
+        {
+            "topic": "Public engagement and dissemination",
+            "sequence_range": "219-223",
+            "start_time": 3539932,
+            "end_time": 3604200
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                3,
+                24,
+                26,
+                27,
+                38,
+                60,
+                61,
+                73,
+                74,
+                75
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                23,
+                24,
+                32,
+                36,
+                37,
+                38,
+                41,
+                52,
+                53,
+                82,
+                86,
+                89
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                7,
+                32,
+                34,
+                35
+            ]
+        },
+        {
+            "entity": "Palacio de la Prensa",
+            "type": "Place",
+            "sequences": [
+                14
+            ]
+        },
+        {
+            "entity": "Jerónima Yáñez de la Fuente / Sister Jerónima de la Asunción",
+            "type": "Person",
+            "sequences": [
+                24,
+                44,
+                51,
+                52,
+                53,
+                56,
+                60,
+                61,
+                63,
+                64,
+                66,
+                71,
+                73,
+                75,
+                76,
+                79,
+                81,
+                89
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                31
+            ]
+        },
+        {
+            "entity": "Fray Ginés de Quesada",
+            "type": "Person",
+            "sequences": [
+                27,
+                29,
+                30,
+                49,
+                50,
+                58,
+                59
+            ]
+        },
+        {
+            "entity": "Ana de Jesús",
+            "type": "Person",
+            "sequences": [
+                60,
+                61,
+                72,
+                73,
+                74
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                23,
+                24,
+                43,
+                44,
+                51,
+                52,
+                60,
+                63,
+                64
+            ]
+        },
+        {
+            "entity": "Manila",
+            "type": "Place",
+            "sequences": [
+                23,
+                24,
+                44,
+                51,
+                52,
+                60,
+                63,
+                64,
+                66,
+                75,
+                76,
+                81,
+                89
+            ]
+        },
+        {
+            "entity": "Santa Isabel de los Reyes",
+            "type": "Place",
+            "sequences": [
+                43,
+                44,
+                51,
+                63,
+                64
+            ]
+        },
+        {
+            "entity": "Council of the Indies",
+            "type": "Organization",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                38,
+                78
+            ]
+        },
+        {
+            "entity": "Mary of St. Joseph",
+            "type": "Person",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Aireuropa",
+            "type": "Organization",
+            "sequences": [
+                82
+            ]
+        },
+        {
+            "entity": "Jerónima de la Asunción",
+            "type": "Person",
+            "sequences": [
+                90,
+                92,
+                95,
+                103,
+                144,
+                150,
+                151
+            ]
+        },
+        {
+            "entity": "Ana de Cristo",
+            "type": "Person",
+            "sequences": [
+                92
+            ]
+        },
+        {
+            "entity": "María Jesús de Ágreda",
+            "type": "Person",
+            "sequences": [
+                98,
+                99,
+                101,
+                102
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                103,
+                158,
+                159,
+                160,
+                161
+            ]
+        },
+        {
+            "entity": "Diego de Soria",
+            "type": "Person",
+            "sequences": [
+                104,
+                105,
+                106
+            ]
+        },
+        {
+            "entity": "Ana de Jesús",
+            "type": "Person",
+            "sequences": [
+                114,
+                116,
+                117
+            ]
+        },
+        {
+            "entity": "Fray Ginés",
+            "type": "Person",
+            "sequences": [
+                131,
+                132,
+                133,
+                158
+            ]
+        },
+        {
+            "entity": "Manila",
+            "type": "Place",
+            "sequences": [
+                95,
+                98,
+                99,
+                123,
+                128,
+                129,
+                131,
+                144,
+                145,
+                150,
+                151,
+                152
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                90,
+                98,
+                106,
+                128,
+                138,
+                153
+            ]
+        },
+        {
+            "entity": "Philippines",
+            "type": "Place",
+            "sequences": [
+                109,
+                119,
+                120,
+                121,
+                123,
+                128,
+                129,
+                144,
+                145,
+                153
+            ]
+        },
+        {
+            "entity": "Mexico City",
+            "type": "Place",
+            "sequences": [
+                121,
+                123,
+                128
+            ]
+        },
+        {
+            "entity": "Veracruz",
+            "type": "Place",
+            "sequences": [
+                121,
+                123
+            ]
+        },
+        {
+            "entity": "Cadiz",
+            "type": "Place",
+            "sequences": [
+                121,
+                123
+            ]
+        },
+        {
+            "entity": "Andalusia",
+            "type": "Place",
+            "sequences": [
+                121,
+                122
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Jerez",
+            "type": "Place",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Luzon",
+            "type": "Place",
+            "sequences": [
+                123
+            ]
+        },
+        {
+            "entity": "Bolinao",
+            "type": "Place",
+            "sequences": [
+                123
+            ]
+        },
+        {
+            "entity": "Sierra Morena",
+            "type": "Place",
+            "sequences": [
+                158
+            ]
+        },
+        {
+            "entity": "Fray José",
+            "type": "Person",
+            "sequences": [
+                158,
+                160
+            ]
+        },
+        {
+            "entity": "Philippines",
+            "type": "Place",
+            "sequences": [
+                163,
+                165
+            ]
+        },
+        {
+            "entity": "Sister Jerónimo",
+            "type": "Person",
+            "sequences": [
+                163
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                163
+            ]
+        },
+        {
+            "entity": "Femen",
+            "type": "Organization",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "San Andres",
+            "type": "Ship",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Acapulco",
+            "type": "Place",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Luzon",
+            "type": "Place",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Fray Ginés",
+            "type": "Person",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Sarah Owens",
+            "type": "Person",
+            "sequences": [
+                166,
+                168
+            ]
+        },
+        {
+            "entity": "Poor Clares of Toledo",
+            "type": "Organization",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Ana de Cristo",
+            "type": "Person",
+            "sequences": [
+                168,
+                199
+            ]
+        },
+        {
+            "entity": "Nuns navigating the Spanish Empire",
+            "type": "Literature",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "Maria Magdalena de la Cruz",
+            "type": "Person",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Sister Ruisa de Jesus",
+            "type": "Person",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Manila",
+            "type": "Place",
+            "sequences": [
+                173,
+                203,
+                204,
+                218
+            ]
+        },
+        {
+            "entity": "Juana de la Cruz",
+            "type": "Person",
+            "sequences": [
+                177,
+                181,
+                189,
+                191
+            ]
+        },
+        {
+            "entity": "Cubas de la Sagra",
+            "type": "Place",
+            "sequences": [
+                178
+            ]
+        },
+        {
+            "entity": "Sorana de Cristo",
+            "type": "Person",
+            "sequences": [
+                180,
+                195
+            ]
+        },
+        {
+            "entity": "Veracruz",
+            "type": "Place",
+            "sequences": [
+                211
+            ]
+        },
+        {
+            "entity": "Bolinao",
+            "type": "Place",
+            "sequences": [
+                203
+            ]
+        },
+        {
+            "entity": "Sister Magdalena de Cristo",
+            "type": "Person",
+            "sequences": [
+                216,
+                218
+            ]
+        },
+        {
+            "entity": "Macao",
+            "type": "Place",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Turon",
+            "type": "Place",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Chinese Conchin",
+            "type": "Place",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Gran Via",
+            "type": "Place",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Palacio de la Prensa",
+            "type": "Place",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Caliza",
+            "type": "Organization",
+            "sequences": [
+                223
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Example of all the virtues and miraculous life of the venerable mother Jerónima de la Asunción, abbess and founder of the convent of the Conception of the Virgin Our Lady of Discalced nuns of our mother Santa Clara of the city of Manila, written by the very religious martyr father, later undefeated, fray Ginés de Quesada, of order of our father San Francisco. Printed in Mexico in 1713 and in Spain in 1717.",
+            "sequence": 27
+        }
+    ]
+}

@@ -1,0 +1,776 @@
+{
+    "topics": [
+        {
+            "topic": "Personal experiences and food",
+            "sequence_range": "1",
+            "start_time": 2360,
+            "end_time": 1965350
+        },
+        {
+            "topic": "Santa Teresa's historical and cultural impact",
+            "sequence_range": "1",
+            "start_time": 2360,
+            "end_time": 1965350
+        },
+        {
+            "topic": "Literary and artistic representations of Santa Teresa",
+            "sequence_range": "1",
+            "start_time": 2360,
+            "end_time": 1965350
+        },
+        {
+            "topic": "Canonization and reappropriation of Santa Teresa's image",
+            "sequence_range": "1",
+            "start_time": 2360,
+            "end_time": 1965350
+        },
+        {
+            "topic": "Food and Desserts",
+            "sequence_range": "2",
+            "start_time": 1965430,
+            "end_time": 1995480
+        },
+        {
+            "topic": "Existential Thoughts on Food",
+            "sequence_range": "3",
+            "start_time": 1996740,
+            "end_time": 2027372
+        },
+        {
+            "topic": "Personal Reflections and Names",
+            "sequence_range": "4",
+            "start_time": 2027436,
+            "end_time": 2053018
+        },
+        {
+            "topic": "Conversations on Silence and Speaking",
+            "sequence_range": "5",
+            "start_time": 2053194,
+            "end_time": 2071718
+        },
+        {
+            "topic": "First Contact with Santa Teresa",
+            "sequence_range": "6",
+            "start_time": 2071854,
+            "end_time": 2118440
+        },
+        {
+            "topic": "Inspiration for a Song",
+            "sequence_range": "7-8",
+            "start_time": 2118520,
+            "end_time": 2203500
+        },
+        {
+            "topic": "Historical and Fictional Characters in Music",
+            "sequence_range": "8",
+            "start_time": 2136840,
+            "end_time": 2203500
+        },
+        {
+            "topic": "Analysis of Santa Teresa's Song",
+            "sequence_range": "9",
+            "start_time": 2204040,
+            "end_time": 2259942
+        },
+        {
+            "topic": "Music Dedication to Santa Teresa",
+            "sequence_range": "10",
+            "start_time": 2260086,
+            "end_time": 2290684
+        },
+        {
+            "topic": "Santa Teresa's Life and Influence",
+            "sequence_range": "11",
+            "start_time": 2290812,
+            "end_time": 4015690
+        },
+        {
+            "topic": "Convent Life and Female Empowerment",
+            "sequence_range": "11",
+            "start_time": 2290812,
+            "end_time": 4015690
+        },
+        {
+            "topic": "Film Making and Storytelling",
+            "sequence_range": "11",
+            "start_time": 2290812,
+            "end_time": 4015690
+        },
+        {
+            "topic": "Personal anecdotes and inspirations",
+            "sequence_range": "12",
+            "start_time": 4016030,
+            "end_time": 4193660
+        },
+        {
+            "topic": "Podcast production details",
+            "sequence_range": "13",
+            "start_time": 4208160,
+            "end_time": 4241480
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Jerónimo Gracián",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Isabel",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Duchess of Alba",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "St. Lucy",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Pope Paul V",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Philip III",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Franco",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Concha Velasco",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Josefina Molina",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen Martín Gaite",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Cristina Morales",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Alicia",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "José Luis",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Taylor Swift",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Walter Benjamin",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Jeanne des Anges",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Juana de los Angeles",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Ana de San Bartolomé",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "García de Toledo",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "St. Mark's cake",
+            "type": "Food",
+            "sequences": [
+                2
+            ]
+        },
+        {
+            "entity": "Petronila of the sores",
+            "type": "Fictional Character",
+            "sequences": [
+                3
+            ]
+        },
+        {
+            "entity": "Sister Soledad",
+            "type": "Fictional Name",
+            "sequences": [
+                4
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Historical Figure",
+            "sequences": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        },
+        {
+            "entity": "Josefina Molina",
+            "type": "Person",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Concha Velasco",
+            "type": "Person",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Catherine the Great",
+            "type": "Historical Figure",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Nefertiti",
+            "type": "Historical Figure",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Baron Ashley",
+            "type": "Fictional Character",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Frankenstein",
+            "type": "Fictional Character",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Isabel the Catholic",
+            "type": "Historical Figure",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Cleopatra",
+            "type": "Historical Figure",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Draculas",
+            "type": "Fictional Characters",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Group",
+            "sequences": [
+                10
+            ]
+        },
+        {
+            "entity": "Navy captain",
+            "type": "Occupation",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Malaysia",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Castile",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Andalusia",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Juan Bautista Rubeo",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Casa de la Contratación",
+            "type": "Organization",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Beas del Segura",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Jerónimo Gracián",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Bishop of Avila, Don Alvaro de Mendoza",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Paula Ortiz",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Guadalupe",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Jimena",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Leonor",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Beatriz",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Catalina",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Leonor de los Angeles",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Royal Barefoot Sisters",
+            "type": "Organization",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Burgos",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Encarnación",
+            "type": "Place",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Blanca Portilla",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "José Luis",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Alicia Chiquichica",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "University of Zaragoza",
+            "type": "Organization",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "St. John",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Josefina Molina",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Carmen Martín Gaite",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Lorca",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Juan Mayorga",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Carmelites of Toro",
+            "type": "Organization",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Walter Benjamin",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Billy Wilder",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "lentils",
+            "type": "food",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "kiwi",
+            "type": "food",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "Rita",
+            "type": "person",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "Saint Rita",
+            "type": "saint",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "Juan Manuel de Prada",
+            "type": "author",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "The Diamond Castle",
+            "type": "book",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "Princess of Eboli",
+            "type": "historical figure",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "Santa Teresa of Jesus",
+            "type": "saint",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "José Luis",
+            "type": "person",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "person",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "person",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "person",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "person",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "person",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Caliza",
+            "type": "music group",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "organization",
+            "sequences": [
+                13
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "The Way of Perfection by St. Teresa",
+            "sequence": 1
+        }
+    ]
+}

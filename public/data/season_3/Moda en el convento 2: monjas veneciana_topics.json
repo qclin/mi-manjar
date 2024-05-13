@@ -1,0 +1,690 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-2",
+            "start_time": 2360,
+            "end_time": 23054
+        },
+        {
+            "topic": "Personal Anecdotes and Feelings",
+            "sequence_range": "3-10",
+            "start_time": 23142,
+            "end_time": 82002
+        },
+        {
+            "topic": "Dining Experiences",
+            "sequence_range": "11-16",
+            "start_time": 82106,
+            "end_time": 178440
+        },
+        {
+            "topic": "Fashion in the Convent",
+            "sequence_range": "17-63",
+            "start_time": 178480,
+            "end_time": 1346398
+        },
+        {
+            "topic": "Venetian Nuns and Fashion",
+            "sequence_range": "64-78",
+            "start_time": 1346534,
+            "end_time": 1757296
+        },
+        {
+            "topic": "Conventual Life and Resistance",
+            "sequence_range": "79-85",
+            "start_time": 1757488,
+            "end_time": 2039614
+        },
+        {
+            "topic": "Arcangela Tarabotti and Her Writings",
+            "sequence_range": "86-94",
+            "start_time": 2039662,
+            "end_time": 2284434
+        },
+        {
+            "topic": "Conventual Work and Economy",
+            "sequence_range": "95-104",
+            "start_time": 2284562,
+            "end_time": 2623368
+        },
+        {
+            "topic": "Sewing and Women's Work in History",
+            "sequence_range": "105-106",
+            "start_time": 2623424,
+            "end_time": 2793574
+        },
+        {
+            "topic": "Economic Independence through Sewing in Convents",
+            "sequence_range": "106-110",
+            "start_time": 2729924,
+            "end_time": 2967070
+        },
+        {
+            "topic": "Notable Historical Figures and Their Contributions to Sewing and Commerce",
+            "sequence_range": "110-113",
+            "start_time": 2849942,
+            "end_time": 3034150
+        },
+        {
+            "topic": "Modern Reflections and Moral Lessons",
+            "sequence_range": "113-115",
+            "start_time": 2969854,
+            "end_time": 3066386
+        },
+        {
+            "topic": "Podcast Production Credits",
+            "sequence_range": "117",
+            "start_time": 3081310,
+            "end_time": 3114710
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                5,
+                10,
+                11,
+                12,
+                14,
+                20,
+                21,
+                22,
+                23,
+                29,
+                30,
+                31,
+                32,
+                42,
+                43,
+                52,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                7,
+                8,
+                18,
+                19,
+                20,
+                21,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                56
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Country",
+            "sequences": [
+                4
+            ]
+        },
+        {
+            "entity": "Jesus",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Lourdes",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Lissy",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Providencia",
+            "type": "Place",
+            "sequences": [
+                14,
+                15
+            ]
+        },
+        {
+            "entity": "New York",
+            "type": "City",
+            "sequences": [
+                14
+            ]
+        },
+        {
+            "entity": "Venice",
+            "type": "City",
+            "sequences": [
+                18,
+                19,
+                34,
+                38,
+                40,
+                41,
+                42,
+                43,
+                44,
+                46,
+                49,
+                54,
+                58
+            ]
+        },
+        {
+            "entity": "Philip's daughters",
+            "type": "Organization",
+            "sequences": [
+                19
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                19
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                19
+            ]
+        },
+        {
+            "entity": "Bibi Trix",
+            "type": "Person",
+            "sequences": [
+                20,
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "entity": "Girolamo Priuli",
+            "type": "Person",
+            "sequences": [
+                41,
+                42
+            ]
+        },
+        {
+            "entity": "Isabella Campagnol",
+            "type": "Person",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Elvira Vilches",
+            "type": "Person",
+            "sequences": [
+                35
+            ]
+        },
+        {
+            "entity": "Adrián J. Sáez",
+            "type": "Person",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Canon Pietro Casola",
+            "type": "Person",
+            "sequences": [
+                64
+            ]
+        },
+        {
+            "entity": "Venice",
+            "type": "Place",
+            "sequences": [
+                64,
+                77,
+                78,
+                79,
+                92,
+                95,
+                98,
+                100
+            ]
+        },
+        {
+            "entity": "Milan",
+            "type": "Place",
+            "sequences": [
+                64
+            ]
+        },
+        {
+            "entity": "Benedictine nuns",
+            "type": "Organization",
+            "sequences": [
+                64,
+                77,
+                82,
+                91,
+                92,
+                93
+            ]
+        },
+        {
+            "entity": "Women's Secret",
+            "type": "Brand",
+            "sequences": [
+                65,
+                66
+            ]
+        },
+        {
+            "entity": "Archbishop Manso y Zúñiga",
+            "type": "Person",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "Lorenzo Priuli",
+            "type": "Person",
+            "sequences": [
+                70,
+                71,
+                72
+            ]
+        },
+        {
+            "entity": "Council of Trent",
+            "type": "Event",
+            "sequences": [
+                73
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                74,
+                75,
+                79,
+                91
+            ]
+        },
+        {
+            "entity": "Grand Duke of Tuscany, Cosimo Tercero",
+            "type": "Person",
+            "sequences": [
+                77,
+                78
+            ]
+        },
+        {
+            "entity": "Benedictine monastery of San Lorenzo",
+            "type": "Place",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Prince of Wales",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Josepa Vaca",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Hildegard",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Donatella Versace",
+            "type": "Person",
+            "sequences": [
+                80
+            ]
+        },
+        {
+            "entity": "Arcangela Tarabotti",
+            "type": "Person",
+            "sequences": [
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                88,
+                90,
+                91,
+                92,
+                93,
+                94
+            ]
+        },
+        {
+            "entity": "Sister Petronila de las llagas",
+            "type": "Person",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "Elena Casandra Tarabotti",
+            "type": "Person",
+            "sequences": [
+                82
+            ]
+        },
+        {
+            "entity": "Gallerana Barciototti",
+            "type": "Person",
+            "sequences": [
+                82
+            ]
+        },
+        {
+            "entity": "Galerana Baratotti",
+            "type": "Person",
+            "sequences": [
+                82
+            ]
+        },
+        {
+            "entity": "Elisabeth Benhabent",
+            "type": "Person",
+            "sequences": [
+                85
+            ]
+        },
+        {
+            "entity": "Magdalena Ruiz",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "Juana de los Ángeles",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "María de San José",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                88,
+                91
+            ]
+        },
+        {
+            "entity": "Murano glass",
+            "type": "Product",
+            "sequences": [
+                92
+            ]
+        },
+        {
+            "entity": "Givenchy",
+            "type": "Brand",
+            "sequences": [
+                93
+            ]
+        },
+        {
+            "entity": "Lily Collins",
+            "type": "Person",
+            "sequences": [
+                93
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Ludovico Dolce",
+            "type": "Person",
+            "sequences": [
+                105,
+                106
+            ]
+        },
+        {
+            "entity": "María de Zayas",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Venice",
+            "type": "Place",
+            "sequences": [
+                105,
+                106,
+                108
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Convent of Santa Caria",
+            "type": "Organization",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Cosimo Tercero de Medici",
+            "type": "Person",
+            "sequences": [
+                106,
+                108
+            ]
+        },
+        {
+            "entity": "San Mauro de Urano",
+            "type": "Place",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Sister Archangel",
+            "type": "Person",
+            "sequences": [
+                109,
+                110
+            ]
+        },
+        {
+            "entity": "Convent of St. Anne",
+            "type": "Organization",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Isabetta Piccolomini Scarpi",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Marchesa Renata di Claramonte",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Madame de Ano",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Press Palace",
+            "type": "Place",
+            "sequences": [
+                115
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Caliza",
+            "type": "Organization",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                117
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Forbidden Fashions Invisible Luxuries in the Convent by Isabella Campagnol",
+            "sequence": 44
+        }
+    ]
+}

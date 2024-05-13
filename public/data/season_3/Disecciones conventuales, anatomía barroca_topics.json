@@ -1,0 +1,610 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-8",
+            "start_time": 2360,
+            "end_time": 46902
+        },
+        {
+            "topic": "Breakfast Discussion",
+            "sequence_range": "9-17",
+            "start_time": 46966,
+            "end_time": 98126
+        },
+        {
+            "topic": "Trigger Warning and Hypochondria Discussion",
+            "sequence_range": "18-29",
+            "start_time": 98198,
+            "end_time": 301086
+        },
+        {
+            "topic": "Medical Incursions and Anatomical Fantasies",
+            "sequence_range": "30-38",
+            "start_time": 301118,
+            "end_time": 501280
+        },
+        {
+            "topic": "Historical and Anatomical Analysis",
+            "sequence_range": "39-85",
+            "start_time": 503460,
+            "end_time": 1327066
+        },
+        {
+            "topic": "Renaissance Culture and Anatomy",
+            "sequence_range": "86-88",
+            "start_time": 1327138,
+            "end_time": 1417166
+        },
+        {
+            "topic": "Personal Reflections on Biology and Anatomy",
+            "sequence_range": "89-94",
+            "start_time": 1417198,
+            "end_time": 1463486
+        },
+        {
+            "topic": "Literature and Anatomical Obsessions",
+            "sequence_range": "95-98",
+            "start_time": 1463518,
+            "end_time": 1506382
+        },
+        {
+            "topic": "Mythology and Dissection",
+            "sequence_range": "99-101",
+            "start_time": 1506486,
+            "end_time": 1596042
+        },
+        {
+            "topic": "Women in Anatomical Studies",
+            "sequence_range": "102-104",
+            "start_time": 1596066,
+            "end_time": 1753492
+        },
+        {
+            "topic": "Historical and Literary Dissections",
+            "sequence_range": "105-111",
+            "start_time": 1753626,
+            "end_time": 1884016
+        },
+        {
+            "topic": "Anatomical Knowledge in Convents",
+            "sequence_range": "112-123",
+            "start_time": 1884048,
+            "end_time": 2076534
+        },
+        {
+            "topic": "Relics and Anatomical Knowledge",
+            "sequence_range": "124-148",
+            "start_time": 2076542,
+            "end_time": 2352670
+        },
+        {
+            "topic": "Religious Contexts and Anatomical Studies",
+            "sequence_range": "149-165",
+            "start_time": 2352790,
+            "end_time": 2594516
+        },
+        {
+            "topic": "Historical Misinterpretation of Church's Stance on Anatomical Dissection",
+            "sequence_range": "166-170",
+            "start_time": 2594548,
+            "end_time": 2701346
+        },
+        {
+            "topic": "Involvement of Popes and Monarchs in Dissection and Mortuary Practices",
+            "sequence_range": "170-171",
+            "start_time": 2649450,
+            "end_time": 2733370
+        },
+        {
+            "topic": "Dissective Practices in Italian Convents",
+            "sequence_range": "172-192",
+            "start_time": 2733490,
+            "end_time": 3293520
+        },
+        {
+            "topic": "Conclusion and Reflections on the Historical Context of Dissection",
+            "sequence_range": "193-197",
+            "start_time": 3293560,
+            "end_time": 3318796
+        },
+        {
+            "topic": "Podcast Credits",
+            "sequence_range": "198-200",
+            "start_time": 3318828,
+            "end_time": 3368630
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                20,
+                21,
+                39,
+                42,
+                53,
+                68,
+                69,
+                77
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                5,
+                9,
+                39,
+                41,
+                42,
+                43,
+                44,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                75,
+                76,
+                77,
+                78,
+                79
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                13
+            ]
+        },
+        {
+            "entity": "Tomás de Murillo y Velarde",
+            "type": "Person",
+            "sequences": [
+                21
+            ]
+        },
+        {
+            "entity": "Cordoba",
+            "type": "Place",
+            "sequences": [
+                21,
+                26
+            ]
+        },
+        {
+            "entity": "Andrés Besaldi",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "Andreas Vesalius",
+            "type": "Person",
+            "sequences": [
+                33,
+                34,
+                44,
+                49,
+                50,
+                51,
+                52,
+                53,
+                58,
+                59
+            ]
+        },
+        {
+            "entity": "Brussels",
+            "type": "Place",
+            "sequences": [
+                34
+            ]
+        },
+        {
+            "entity": "Juan Valverde",
+            "type": "Person",
+            "sequences": [
+                34
+            ]
+        },
+        {
+            "entity": "Philip's daughters with Ana Garriga and Carmen Urbita",
+            "type": "Event",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Leonardo Fuchs",
+            "type": "Person",
+            "sequences": [
+                39
+            ]
+        },
+        {
+            "entity": "Ainara",
+            "type": "Person",
+            "sequences": [
+                40
+            ]
+        },
+        {
+            "entity": "Juan Herrero Macías",
+            "type": "Person",
+            "sequences": [
+                66,
+                67
+            ]
+        },
+        {
+            "entity": "Carlos de Sigüenza y Góngora",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Gonzalo Fernandez de Oviedo y Valdes",
+            "type": "Person",
+            "sequences": [
+                80
+            ]
+        },
+        {
+            "entity": "Charles V",
+            "type": "Person",
+            "sequences": [
+                80
+            ]
+        },
+        {
+            "entity": "Santo Domingo",
+            "type": "Place",
+            "sequences": [
+                80
+            ]
+        },
+        {
+            "entity": "Juan Camacho",
+            "type": "Person",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Hernando de Sepulveda",
+            "type": "Person",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Rodrigo Navarro",
+            "type": "Person",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Abby Brittany Hansen",
+            "type": "Person",
+            "sequences": [
+                85
+            ]
+        },
+        {
+            "entity": "Andrés Vesalio",
+            "type": "Person",
+            "sequences": [
+                86
+            ]
+        },
+        {
+            "entity": "Jonathan Sodey",
+            "type": "Person",
+            "sequences": [
+                86,
+                95,
+                97,
+                98,
+                99
+            ]
+        },
+        {
+            "entity": "Dario Argento",
+            "type": "Person",
+            "sequences": [
+                86,
+                104
+            ]
+        },
+        {
+            "entity": "Medusa",
+            "type": "Mythological Figure",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "Perseus",
+            "type": "Mythological Figure",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "Sigüenza y Góngora",
+            "type": "Person",
+            "sequences": [
+                101
+            ]
+        },
+        {
+            "entity": "Vesalius",
+            "type": "Person",
+            "sequences": [
+                102,
+                103,
+                115,
+                124
+            ]
+        },
+        {
+            "entity": "Miguel Río Frío",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Gustave Flaubert",
+            "type": "Person",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Sister Juana",
+            "type": "Person",
+            "sequences": [
+                113,
+                115,
+                116,
+                121,
+                122,
+                123
+            ]
+        },
+        {
+            "entity": "Juan de la Fuente",
+            "type": "Person",
+            "sequences": [
+                119
+            ]
+        },
+        {
+            "entity": "St. Teresa of Alba de Tormes",
+            "type": "Person",
+            "sequences": [
+                132
+            ]
+        },
+        {
+            "entity": "Catherine Park",
+            "type": "Person",
+            "sequences": [
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163
+            ]
+        },
+        {
+            "entity": "Francesco della Rovere (Pope Sixtus IV)",
+            "type": "Person",
+            "sequences": [
+                164
+            ]
+        },
+        {
+            "entity": "Clement VII",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Catherine Park",
+            "type": "Person",
+            "sequences": [
+                166,
+                173
+            ]
+        },
+        {
+            "entity": "Sigüenza y Góngora",
+            "type": "Person",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Clement VI",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Charles V",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Salamanca",
+            "type": "Place",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Chiara of Montefalco",
+            "type": "Person",
+            "sequences": [
+                177,
+                178,
+                179,
+                180,
+                181,
+                185,
+                187,
+                189,
+                190,
+                191,
+                192
+            ]
+        },
+        {
+            "entity": "Margherita of Città di Castello",
+            "type": "Person",
+            "sequences": [
+                177
+            ]
+        },
+        {
+            "entity": "Elena Duglioli",
+            "type": "Person",
+            "sequences": [
+                177,
+                192
+            ]
+        },
+        {
+            "entity": "Francesca de Montefalco",
+            "type": "Person",
+            "sequences": [
+                179,
+                181,
+                183,
+                185,
+                187,
+                189,
+                190
+            ]
+        },
+        {
+            "entity": "Tomaso di Bartolomeo",
+            "type": "Person",
+            "sequences": [
+                181
+            ]
+        },
+        {
+            "entity": "Master Simone de Spello",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "Andrea Vesalius",
+            "type": "Person",
+            "sequences": [
+                192
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                200
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Aprobación de ingenios y curación de hipocondríacos by Tomás de Murillo y Velarde, 1671",
+            "sequence": 21
+        }
+    ]
+}

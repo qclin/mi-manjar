@@ -1,0 +1,816 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-2",
+            "start_time": 2360,
+            "end_time": 21758
+        },
+        {
+            "topic": "Daily Meals and Ingredients",
+            "sequence_range": "3-6, 15-20",
+            "start_time": 21814,
+            "end_time": 129186
+        },
+        {
+            "topic": "Chives Discussion",
+            "sequence_range": "7-14",
+            "start_time": 45714,
+            "end_time": 76478
+        },
+        {
+            "topic": "Academic Challenges and Thesis Writing",
+            "sequence_range": "21-28",
+            "start_time": 129258,
+            "end_time": 219800
+        },
+        {
+            "topic": "Slow Academy and Mental Health in Academia",
+            "sequence_range": "29-32",
+            "start_time": 219880,
+            "end_time": 268088
+        },
+        {
+            "topic": "Personal Achievements and Vogue Feature",
+            "sequence_range": "33-34",
+            "start_time": 268224,
+            "end_time": 373380
+        },
+        {
+            "topic": "Upcoming Baroque Show Announcement",
+            "sequence_range": "35-44",
+            "start_time": 373420,
+            "end_time": 460384
+        },
+        {
+            "topic": "Saint Teresa's Teachings on Vanity",
+            "sequence_range": "45-50",
+            "start_time": 460432,
+            "end_time": 573944
+        },
+        {
+            "topic": "Convent Fashion and Sartorial Systems",
+            "sequence_range": "51-89",
+            "start_time": 574032,
+            "end_time": 1260364
+        },
+        {
+            "topic": "School Uniform Memories",
+            "sequence_range": "58-83",
+            "start_time": 772010,
+            "end_time": 1029459
+        },
+        {
+            "topic": "Nuns' Habits and Visual Identity",
+            "sequence_range": "84-92",
+            "start_time": 1029579,
+            "end_time": 1296170
+        },
+        {
+            "topic": "Monastic Life and Slow Living",
+            "sequence_range": "93-98",
+            "start_time": 1296550,
+            "end_time": 1448680
+        },
+        {
+            "topic": "Generational Perspectives on Conventual Life",
+            "sequence_range": "99-105",
+            "start_time": 1449060,
+            "end_time": 1594976
+        },
+        {
+            "topic": "Contemporary and Historical Convent Fashion",
+            "sequence_range": "106-155",
+            "start_time": 1595008,
+            "end_time": 2558168
+        },
+        {
+            "topic": "Viceregal Portraits and Fashion",
+            "sequence_range": "156-160",
+            "start_time": 2558184,
+            "end_time": 2583948
+        },
+        {
+            "topic": "False Moles and Tortoiseshell Patches",
+            "sequence_range": "161-163",
+            "start_time": 2584004,
+            "end_time": 2609976
+        },
+        {
+            "topic": "Baroque Coats of Arms and Devotional Ornaments",
+            "sequence_range": "164-169",
+            "start_time": 2610008,
+            "end_time": 2765534
+        },
+        {
+            "topic": "Nun's Profession and Convent Life",
+            "sequence_range": "170-233",
+            "start_time": 2765662,
+            "end_time": 3782790
+        },
+        {
+            "topic": "Baroque Fashion in Convents",
+            "sequence_range": "235-290",
+            "start_time": 3827138,
+            "end_time": 4663590
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                3,
+                26,
+                33
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                33,
+                51
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Providence, Rhode Island",
+            "type": "Place",
+            "sequences": [
+                26
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Country",
+            "sequences": [
+                26,
+                34
+            ]
+        },
+        {
+            "entity": "Laura",
+            "type": "Person",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "María Jesús de Ágreda",
+            "type": "Person",
+            "sequences": [
+                32,
+                33
+            ]
+        },
+        {
+            "entity": "Felipe Cuarto",
+            "type": "Person",
+            "sequences": [
+                32,
+                33
+            ]
+        },
+        {
+            "entity": "Vogue",
+            "type": "Organization",
+            "sequences": [
+                33,
+                34
+            ]
+        },
+        {
+            "entity": "Alberto Sisí",
+            "type": "Person",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Arden",
+            "type": "Person",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Palacio de la Prensa",
+            "type": "Place",
+            "sequences": [
+                35
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "City",
+            "sequences": [
+                35,
+                36
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                37,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                57
+            ]
+        },
+        {
+            "entity": "British Institute",
+            "type": "Organization",
+            "sequences": [
+                77,
+                78
+            ]
+        },
+        {
+            "entity": "Iesu Communio",
+            "type": "Organization",
+            "sequences": [
+                89,
+                90
+            ]
+        },
+        {
+            "entity": "Alvi",
+            "type": "Person",
+            "sequences": [
+                90
+            ]
+        },
+        {
+            "entity": "Isi",
+            "type": "Person",
+            "sequences": [
+                92
+            ]
+        },
+        {
+            "entity": "Basque Country",
+            "type": "Place",
+            "sequences": [
+                93
+            ]
+        },
+        {
+            "entity": "Sisters of Maria Estela Matutina",
+            "type": "Organization",
+            "sequences": [
+                106,
+                107
+            ]
+        },
+        {
+            "entity": "Sisters of St. John and St. Dominic",
+            "type": "Organization",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Vatican",
+            "type": "Organization",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Conceptionist Nuns",
+            "type": "Organization",
+            "sequences": [
+                115,
+                116,
+                118,
+                119,
+                120,
+                128,
+                129,
+                130,
+                132,
+                136,
+                140,
+                141,
+                142,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                115
+            ]
+        },
+        {
+            "entity": "Saint Catriz de Silva",
+            "type": "Person",
+            "sequences": [
+                118
+            ]
+        },
+        {
+            "entity": "Metropolitan Museum of New York",
+            "type": "Organization",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Rihanna",
+            "type": "Person",
+            "sequences": [
+                123,
+                124,
+                125,
+                126
+            ]
+        },
+        {
+            "entity": "John Galliano",
+            "type": "Person",
+            "sequences": [
+                125
+            ]
+        },
+        {
+            "entity": "Mariana Josefa del Señor San Ignacio",
+            "type": "Person",
+            "sequences": [
+                128
+            ]
+        },
+        {
+            "entity": "Archbishop Mansui Zuniga",
+            "type": "Person",
+            "sequences": [
+                140,
+                143,
+                145,
+                146
+            ]
+        },
+        {
+            "entity": "Maria Jesús de Ágreda",
+            "type": "Person",
+            "sequences": [
+                132,
+                133
+            ]
+        },
+        {
+            "entity": "Sister Juana Inés de la Cruz",
+            "type": "Person",
+            "sequences": [
+                137
+            ]
+        },
+        {
+            "entity": "Francisco Manso de Zúñiga",
+            "type": "Person",
+            "sequences": [
+                143
+            ]
+        },
+        {
+            "entity": "Holy Week of Seville",
+            "type": "Event",
+            "sequences": [
+                161
+            ]
+        },
+        {
+            "entity": "New Spain",
+            "type": "Place",
+            "sequences": [
+                161,
+                180,
+                183,
+                190,
+                215
+            ]
+        },
+        {
+            "entity": "Shaky",
+            "type": "Animal",
+            "sequences": [
+                162,
+                163
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                163,
+                170,
+                176,
+                177,
+                178,
+                222,
+                227,
+                229
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                164
+            ]
+        },
+        {
+            "entity": "Archbishop Paio de Ribera",
+            "type": "Person",
+            "sequences": [
+                164
+            ]
+        },
+        {
+            "entity": "San Jeronimo Convent",
+            "type": "Organization",
+            "sequences": [
+                164
+            ]
+        },
+        {
+            "entity": "Mexico",
+            "type": "Place",
+            "sequences": [
+                164,
+                180,
+                183,
+                190,
+                215,
+                226
+            ]
+        },
+        {
+            "entity": "Hieronymite Orders",
+            "type": "Organization",
+            "sequences": [
+                164
+            ]
+        },
+        {
+            "entity": "Santa Rosa de Lima",
+            "type": "Person",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Ana Ñuñez and Pacora",
+            "type": "Person",
+            "sequences": [
+                191
+            ]
+        },
+        {
+            "entity": "Conceptionist Nuns",
+            "type": "Organization",
+            "sequences": [
+                192,
+                216
+            ]
+        },
+        {
+            "entity": "Netherlands",
+            "type": "Place",
+            "sequences": [
+                194
+            ]
+        },
+        {
+            "entity": "Madalen",
+            "type": "Person",
+            "sequences": [
+                197,
+                198,
+                199
+            ]
+        },
+        {
+            "entity": "San Sebastian",
+            "type": "Place",
+            "sequences": [
+                197
+            ]
+        },
+        {
+            "entity": "Hankidori",
+            "type": "Organization",
+            "sequences": [
+                201
+            ]
+        },
+        {
+            "entity": "Peru",
+            "type": "Place",
+            "sequences": [
+                183
+            ]
+        },
+        {
+            "entity": "Colombia",
+            "type": "Place",
+            "sequences": [
+                183
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                183
+            ]
+        },
+        {
+            "entity": "Company of Mary",
+            "type": "Organization",
+            "sequences": [
+                226
+            ]
+        },
+        {
+            "entity": "María Antonia de Rivera",
+            "type": "Person",
+            "sequences": [
+                226
+            ]
+        },
+        {
+            "entity": "Mexico City",
+            "type": "Place",
+            "sequences": [
+                226
+            ]
+        },
+        {
+            "entity": "Nueva España",
+            "type": "Place",
+            "sequences": [
+                235
+            ]
+        },
+        {
+            "entity": "Venetian nuns",
+            "type": "Group",
+            "sequences": [
+                235
+            ]
+        },
+        {
+            "entity": "Europe",
+            "type": "Place",
+            "sequences": [
+                235
+            ]
+        },
+        {
+            "entity": "Reverend Fray Payo de Rivera",
+            "type": "Person",
+            "sequences": [
+                238
+            ]
+        },
+        {
+            "entity": "San Jeronima",
+            "type": "Organization",
+            "sequences": [
+                238
+            ]
+        },
+        {
+            "entity": "RuPaul",
+            "type": "Person",
+            "sequences": [
+                244
+            ]
+        },
+        {
+            "entity": "Mangas Unidas",
+            "type": "Organization",
+            "sequences": [
+                244
+            ]
+        },
+        {
+            "entity": "Princess of Eboli",
+            "type": "Person",
+            "sequences": [
+                251
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                251
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                251
+            ]
+        },
+        {
+            "entity": "Bourbon reforms",
+            "type": "Event",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "New Spain",
+            "type": "Place",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "Carmelites",
+            "type": "Organization",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "Capuchins",
+            "type": "Organization",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "Hieronymites",
+            "type": "Organization",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "Conceptionists",
+            "type": "Organization",
+            "sequences": [
+                262
+            ]
+        },
+        {
+            "entity": "Santa Clara in Puebla",
+            "type": "Organization",
+            "sequences": [
+                265
+            ]
+        },
+        {
+            "entity": "Elizabeth Perry",
+            "type": "Person",
+            "sequences": [
+                266
+            ]
+        },
+        {
+            "entity": "Brown",
+            "type": "Organization",
+            "sequences": [
+                266
+            ]
+        },
+        {
+            "entity": "Pilar Gonzalo Aizpuru",
+            "type": "Person",
+            "sequences": [
+                268
+            ]
+        },
+        {
+            "entity": "Santa Clara de Querétaro",
+            "type": "Organization",
+            "sequences": [
+                268
+            ]
+        },
+        {
+            "entity": "Poor Clares",
+            "type": "Organization",
+            "sequences": [
+                268
+            ]
+        },
+        {
+            "entity": "Santa Inés",
+            "type": "Organization",
+            "sequences": [
+                276
+            ]
+        },
+        {
+            "entity": "Bologna",
+            "type": "Place",
+            "sequences": [
+                279
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Caliza",
+            "type": "Organization",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                290
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Looking Good a Visual Guide to the Nuns Habit",
+            "sequence": 87
+        }
+    ]
+}

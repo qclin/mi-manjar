@@ -1,0 +1,835 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 29648
+        },
+        {
+            "topic": "Health and Well-being",
+            "sequence_range": "6-17",
+            "start_time": 29704,
+            "end_time": 141308
+        },
+        {
+            "topic": "Historical Anecdotes and Citations",
+            "sequence_range": "12-18",
+            "start_time": 59194,
+            "end_time": 150906
+        },
+        {
+            "topic": "Daily Life and Eating Habits",
+            "sequence_range": "19-33",
+            "start_time": 151018,
+            "end_time": 252486
+        },
+        {
+            "topic": "Personal Appearance and Self-Image",
+            "sequence_range": "58-61",
+            "start_time": 417250,
+            "end_time": 439018
+        },
+        {
+            "topic": "Social Media and Personal History",
+            "sequence_range": "62-68",
+            "start_time": 439074,
+            "end_time": 563564
+        },
+        {
+            "topic": "Art and Portraiture",
+            "sequence_range": "69-89",
+            "start_time": 563612,
+            "end_time": 863558
+        },
+        {
+            "topic": "Fashion and Historical Clothing",
+            "sequence_range": "103-111",
+            "start_time": 1079868,
+            "end_time": 1186538
+        },
+        {
+            "topic": "Biopic of Magdalena Ruiz",
+            "sequence_range": "112-114",
+            "start_time": 1186714,
+            "end_time": 1281440
+        },
+        {
+            "topic": "Self-perception and societal beauty standards",
+            "sequence_range": "115",
+            "start_time": 1290640,
+            "end_time": 1354092
+        },
+        {
+            "topic": "Historical figures and their personal struggles",
+            "sequence_range": "116-122",
+            "start_time": 1354196,
+            "end_time": 1389382
+        },
+        {
+            "topic": "Convent as a space for non-normative bodies",
+            "sequence_range": "123-124",
+            "start_time": 1389486,
+            "end_time": 1426366
+        },
+        {
+            "topic": "Heterotopic spaces and their societal roles",
+            "sequence_range": "125-128",
+            "start_time": 1426508,
+            "end_time": 1459586
+        },
+        {
+            "topic": "Personal letters of Felipe Segundo and their insights",
+            "sequence_range": "129-134",
+            "start_time": 1459738,
+            "end_time": 1595644
+        },
+        {
+            "topic": "Historical perceptions of dwarfs and court jesters",
+            "sequence_range": "142-149",
+            "start_time": 1690536,
+            "end_time": 1872132
+        },
+        {
+            "topic": "Magdalena Ruiz's life and role at the Spanish court",
+            "sequence_range": "137-141, 173-190",
+            "start_time": 1620484,
+            "end_time": 2578172
+        },
+        {
+            "topic": "Magdalena Ruiz's Life and Characteristics",
+            "sequence_range": "191-260",
+            "start_time": 2578276,
+            "end_time": 3688810
+        },
+        {
+            "topic": "Historical Context and Personalities of the 16th Century",
+            "sequence_range": "191-260",
+            "start_time": 2578276,
+            "end_time": 3688810
+        },
+        {
+            "topic": "Cultural and Social Norms of the 16th Century",
+            "sequence_range": "191-260",
+            "start_time": 2578276,
+            "end_time": 3688810
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                4,
+                6,
+                9,
+                34,
+                38,
+                42,
+                44,
+                54,
+                58,
+                59,
+                60,
+                62,
+                63,
+                65,
+                67,
+                68,
+                69,
+                70,
+                72,
+                73,
+                75,
+                76,
+                77,
+                79,
+                80,
+                82,
+                83,
+                84,
+                87,
+                88,
+                89,
+                90,
+                91,
+                93,
+                94,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                4,
+                6,
+                9,
+                10,
+                11,
+                12,
+                14,
+                15,
+                17,
+                18,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113
+            ]
+        },
+        {
+            "entity": "Francisco de Ribera",
+            "type": "Person",
+            "sequences": [
+                12
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                12,
+                16,
+                17
+            ]
+        },
+        {
+            "entity": "Francisco de Cárdenas",
+            "type": "Person",
+            "sequences": [
+                16
+            ]
+        },
+        {
+            "entity": "Andrea Ariza",
+            "type": "Person",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "Bea Lobo",
+            "type": "Person",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                76,
+                79,
+                80
+            ]
+        },
+        {
+            "entity": "Joan of Austria",
+            "type": "Person",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Antonio Moro",
+            "type": "Artist",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Alonso Sánchez Coello",
+            "type": "Artist",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Magdalena Ruiz",
+            "type": "Person",
+            "sequences": [
+                112,
+                113
+            ]
+        },
+        {
+            "entity": "Philip II",
+            "type": "Person",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Location",
+            "sequences": [
+                64,
+                77
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Location",
+            "sequences": [
+                64,
+                65,
+                76
+            ]
+        },
+        {
+            "entity": "Boston",
+            "type": "Location",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Location",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Prado Museum",
+            "type": "Location",
+            "sequences": [
+                79,
+                88
+            ]
+        },
+        {
+            "entity": "Medina del Campo",
+            "type": "Location",
+            "sequences": [
+                107
+            ]
+        },
+        {
+            "entity": "Aerolíneas Federales",
+            "type": "Organization",
+            "sequences": [
+                115
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                116,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                137,
+                138,
+                139,
+                140,
+                141,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190
+            ]
+        },
+        {
+            "entity": "María de San José",
+            "type": "Person",
+            "sequences": [
+                118,
+                161
+            ]
+        },
+        {
+            "entity": "Juana de los Ángeles",
+            "type": "Person",
+            "sequences": [
+                121,
+                122
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                123,
+                124,
+                159,
+                160
+            ]
+        },
+        {
+            "entity": "Magdalena Ruiz",
+            "type": "Person",
+            "sequences": [
+                126,
+                137,
+                138,
+                139,
+                140,
+                141,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190
+            ]
+        },
+        {
+            "entity": "Fernando Bouza",
+            "type": "Person",
+            "sequences": [
+                129
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                135,
+                155,
+                164,
+                165
+            ]
+        },
+        {
+            "entity": "José Moreno Villa",
+            "type": "Person",
+            "sequences": [
+                142,
+                143,
+                162
+            ]
+        },
+        {
+            "entity": "Covarrubias",
+            "type": "Person",
+            "sequences": [
+                149,
+                150,
+                151,
+                152,
+                153,
+                154
+            ]
+        },
+        {
+            "entity": "John Eusebius of Nuremberg",
+            "type": "Person",
+            "sequences": [
+                166,
+                167,
+                168,
+                169
+            ]
+        },
+        {
+            "entity": "Sao Paulo Landfill",
+            "type": "Place",
+            "sequences": [
+                142
+            ]
+        },
+        {
+            "entity": "London",
+            "type": "Place",
+            "sequences": [
+                142
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                130,
+                188
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                133,
+                134,
+                141,
+                178
+            ]
+        },
+        {
+            "entity": "Lisbon",
+            "type": "Place",
+            "sequences": [
+                129,
+                131,
+                134,
+                176
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                176
+            ]
+        },
+        {
+            "entity": "Bagartner",
+            "type": "Person",
+            "sequences": [
+                191
+            ]
+        },
+        {
+            "entity": "Duchess of Alba",
+            "type": "Person",
+            "sequences": [
+                191,
+                206,
+                209,
+                247
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                202,
+                203,
+                204
+            ]
+        },
+        {
+            "entity": "Magdalena Ruiz",
+            "type": "Person",
+            "sequences": [
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                201,
+                202,
+                203,
+                204,
+                206,
+                214,
+                215,
+                216,
+                217,
+                240,
+                241,
+                242,
+                243,
+                244,
+                245,
+                246,
+                247,
+                248,
+                249,
+                250,
+                251
+            ]
+        },
+        {
+            "entity": "Les",
+            "type": "Person",
+            "sequences": [
+                191
+            ]
+        },
+        {
+            "entity": "Luis Tristan",
+            "type": "Person",
+            "sequences": [
+                195,
+                197
+            ]
+        },
+        {
+            "entity": "Bouza",
+            "type": "Person",
+            "sequences": [
+                192
+            ]
+        },
+        {
+            "entity": "Sister Juana",
+            "type": "Person",
+            "sequences": [
+                193
+            ]
+        },
+        {
+            "entity": "Don Fernando Álvarez de Toledo, Duke of Alba",
+            "type": "Person",
+            "sequences": [
+                206,
+                209,
+                210
+            ]
+        },
+        {
+            "entity": "Carlos I",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Descartes",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Humberto Eco",
+            "type": "Author",
+            "sequences": [
+                217,
+                219
+            ]
+        },
+        {
+            "entity": "Robert Burton",
+            "type": "Author",
+            "sequences": [
+                225,
+                227,
+                228,
+                229,
+                230,
+                231,
+                232,
+                233,
+                234,
+                235
+            ]
+        },
+        {
+            "entity": "Dani Rovira",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Don Diego de Córdoba",
+            "type": "Person",
+            "sequences": [
+                240
+            ]
+        },
+        {
+            "entity": "Miguel",
+            "type": "Person",
+            "sequences": [
+                240
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                260
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                260
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                260
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                260
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                260
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                260
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Biography of St. Teresa by Francisco de Ribera",
+            "sequence": 12
+        }
+    ]
+}

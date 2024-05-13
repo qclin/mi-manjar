@@ -1,0 +1,708 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Casual Conversation",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 29080
+        },
+        {
+            "topic": "Daily Routines and Adjustments in Madrid",
+            "sequence_range": "6-10",
+            "start_time": 29120,
+            "end_time": 67088
+        },
+        {
+            "topic": "Food and Eating Habits",
+            "sequence_range": "11-13",
+            "start_time": 67144,
+            "end_time": 79552
+        },
+        {
+            "topic": "Dessert Discussion: Chocolate Black Pudding",
+            "sequence_range": "14-20",
+            "start_time": 79696,
+            "end_time": 118292
+        },
+        {
+            "topic": "Pleasures of Madrid and Providence",
+            "sequence_range": "21-22",
+            "start_time": 118356,
+            "end_time": 145276
+        },
+        {
+            "topic": "Reflections on Quotes and Literature",
+            "sequence_range": "23-27",
+            "start_time": 145468,
+            "end_time": 207934
+        },
+        {
+            "topic": "Finding Joy in Small Things",
+            "sequence_range": "28-32",
+            "start_time": 207982,
+            "end_time": 281140
+        },
+        {
+            "topic": "Discussion on Miniatures and Microscopy",
+            "sequence_range": "33-45",
+            "start_time": 281800,
+            "end_time": 505972
+        },
+        {
+            "topic": "Nativity Scenes and Christmas Traditions",
+            "sequence_range": "46-107",
+            "start_time": 505996,
+            "end_time": 1299586
+        },
+        {
+            "topic": "Carmelite Traditions and Nativity Scenes",
+            "sequence_range": "108-184",
+            "start_time": 1299698,
+            "end_time": 2558198
+        },
+        {
+            "topic": "Baroque Nativity Scenes",
+            "sequence_range": "185-193",
+            "start_time": 2558294,
+            "end_time": 2690784
+        },
+        {
+            "topic": "Symbolism in Nativity Scenes",
+            "sequence_range": "194-203",
+            "start_time": 2690832,
+            "end_time": 2804602
+        },
+        {
+            "topic": "Mythological Creatures and Symbolism",
+            "sequence_range": "204-213",
+            "start_time": 2804666,
+            "end_time": 2932302
+        },
+        {
+            "topic": "Personal Anecdotes and Miniatures",
+            "sequence_range": "214-225",
+            "start_time": 2932406,
+            "end_time": 3069178
+        },
+        {
+            "topic": "The Holy House of Loreto",
+            "sequence_range": "226-239",
+            "start_time": 3069274,
+            "end_time": 3393168
+        },
+        {
+            "topic": "Miniature Art and Exhibitions",
+            "sequence_range": "240-248",
+            "start_time": 3393304,
+            "end_time": 3476630
+        },
+        {
+            "topic": "Podcast Production Credits",
+            "sequence_range": "249-250",
+            "start_time": 3477010,
+            "end_time": 3562390
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1,
+                2,
+                6,
+                17,
+                20,
+                21,
+                22,
+                49,
+                50,
+                52,
+                60,
+                62,
+                70,
+                103,
+                104
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                4,
+                48,
+                50,
+                72,
+                73,
+                78,
+                79,
+                103
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                6,
+                21,
+                30,
+                33,
+                35
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                6,
+                21,
+                77
+            ]
+        },
+        {
+            "entity": "Embassy",
+            "type": "Organization",
+            "sequences": [
+                17
+            ]
+        },
+        {
+            "entity": "Bernardino de Laredo",
+            "type": "Person",
+            "sequences": [
+                23,
+                24,
+                25
+            ]
+        },
+        {
+            "entity": "María de San José",
+            "type": "Person",
+            "sequences": [
+                22,
+                23,
+                80
+            ]
+        },
+        {
+            "entity": "Robert Hooke",
+            "type": "Person",
+            "sequences": [
+                36,
+                37,
+                38,
+                39,
+                41,
+                43,
+                44,
+                45
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Person",
+            "sequences": [
+                48
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                48
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                48
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                48
+            ]
+        },
+        {
+            "entity": "Ángel Peñamartín",
+            "type": "Person",
+            "sequences": [
+                74
+            ]
+        },
+        {
+            "entity": "Sister Juana de la Virgen",
+            "type": "Person",
+            "sequences": [
+                82,
+                84,
+                89
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                80,
+                103,
+                104,
+                105
+            ]
+        },
+        {
+            "entity": "University of Tennessee School of Architecture",
+            "type": "Organization",
+            "sequences": [
+                93
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "St. Joseph",
+            "type": "Person",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Virgin Mary",
+            "type": "Person",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Royal Barefoot Sisters",
+            "type": "Organization",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Ángel Peña Martín",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Medina del Campo",
+            "type": "Place",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Segovia",
+            "type": "Place",
+            "sequences": [
+                112
+            ]
+        },
+        {
+            "entity": "Beas de Segura",
+            "type": "Place",
+            "sequences": [
+                112,
+                115
+            ]
+        },
+        {
+            "entity": "Villanueva de la Jara",
+            "type": "Place",
+            "sequences": [
+                112
+            ]
+        },
+        {
+            "entity": "Friar Antonio de San José",
+            "type": "Person",
+            "sequences": [
+                116
+            ]
+        },
+        {
+            "entity": "Maria de San Alberto",
+            "type": "Person",
+            "sequences": [
+                116
+            ]
+        },
+        {
+            "entity": "Valladolid",
+            "type": "Place",
+            "sequences": [
+                116
+            ]
+        },
+        {
+            "entity": "Susan Stewart",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Olga",
+            "type": "Person",
+            "sequences": [
+                120,
+                124,
+                125,
+                126,
+                127
+            ]
+        },
+        {
+            "entity": "Montse",
+            "type": "Person",
+            "sequences": [
+                127,
+                128
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                130
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                130
+            ]
+        },
+        {
+            "entity": "Sister Isabel Bautista",
+            "type": "Person",
+            "sequences": [
+                130
+            ]
+        },
+        {
+            "entity": "Malagón",
+            "type": "Place",
+            "sequences": [
+                130
+            ]
+        },
+        {
+            "entity": "Carmen de Santiago de Compostela",
+            "type": "Place",
+            "sequences": [
+                140
+            ]
+        },
+        {
+            "entity": "Encarnación de Ávila",
+            "type": "Place",
+            "sequences": [
+                154
+            ]
+        },
+        {
+            "entity": "Mary Read bookstore",
+            "type": "Organization",
+            "sequences": [
+                169
+            ]
+        },
+        {
+            "entity": "Juanmo",
+            "type": "Person",
+            "sequences": [
+                169
+            ]
+        },
+        {
+            "entity": "Doris Marina Electro",
+            "type": "Person",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Capuchin nuns from Mallorca",
+            "type": "Organization",
+            "sequences": [
+                181
+            ]
+        },
+        {
+            "entity": "Capuchin Monastery of the Immaculate Conception",
+            "type": "Place",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Palma de Mallorca",
+            "type": "Place",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                190
+            ]
+        },
+        {
+            "entity": "Capuchin nuns",
+            "type": "Organization",
+            "sequences": [
+                192,
+                193
+            ]
+        },
+        {
+            "entity": "Tuscan bestiary",
+            "type": "Literature",
+            "sequences": [
+                202
+            ]
+        },
+        {
+            "entity": "Jordan River",
+            "type": "Geographical Feature",
+            "sequences": [
+                202
+            ]
+        },
+        {
+            "entity": "Cairo",
+            "type": "Place",
+            "sequences": [
+                202
+            ]
+        },
+        {
+            "entity": "Babylon",
+            "type": "Place",
+            "sequences": [
+                202
+            ]
+        },
+        {
+            "entity": "Jesus Christ",
+            "type": "Person",
+            "sequences": [
+                202
+            ]
+        },
+        {
+            "entity": "Holy Mary the Virgin",
+            "type": "Person",
+            "sequences": [
+                202
+            ]
+        },
+        {
+            "entity": "Granada",
+            "type": "Place",
+            "sequences": [
+                203
+            ]
+        },
+        {
+            "entity": "Corpus Christi of Zamora",
+            "type": "Event",
+            "sequences": [
+                208
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Monastery of Santa Paula",
+            "type": "Place",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "King Gaspar",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Luisa Roldán",
+            "type": "Person",
+            "sequences": [
+                212
+            ]
+        },
+        {
+            "entity": "National Sculpture Museum of Valladolid",
+            "type": "Place",
+            "sequences": [
+                212
+            ]
+        },
+        {
+            "entity": "Holy Virgin",
+            "type": "Person",
+            "sequences": [
+                225
+            ]
+        },
+        {
+            "entity": "Our Lady of Loreto",
+            "type": "Person",
+            "sequences": [
+                225
+            ]
+        },
+        {
+            "entity": "Ancona",
+            "type": "Place",
+            "sequences": [
+                229,
+                231
+            ]
+        },
+        {
+            "entity": "Sanctuary of Loreto",
+            "type": "Place",
+            "sequences": [
+                230,
+                231
+            ]
+        },
+        {
+            "entity": "St. Luke",
+            "type": "Person",
+            "sequences": [
+                231
+            ]
+        },
+        {
+            "entity": "New Spain",
+            "type": "Place",
+            "sequences": [
+                233,
+                234
+            ]
+        },
+        {
+            "entity": "St. Peter's",
+            "type": "Place",
+            "sequences": [
+                234
+            ]
+        },
+        {
+            "entity": "Mexico",
+            "type": "Country",
+            "sequences": [
+                237
+            ]
+        },
+        {
+            "entity": "Casa Mazarrasa",
+            "type": "Place",
+            "sequences": [
+                239
+            ]
+        },
+        {
+            "entity": "Carmen Mazarrasa",
+            "type": "Person",
+            "sequences": [
+                240
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                250
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                250
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                250
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                250
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                250
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                250
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Bernardino de Laredo quote on diminutives",
+            "sequence": 25
+        }
+    ]
+}
