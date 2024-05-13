@@ -1,16 +1,18 @@
 "use client";
 import clsx from "clsx";
-import { Supported_Language, TranslatedString } from "../lib/definitions";
-import { useState } from "react";
+import { SupportedLanguage, } from "../lib/definitions";
+import { useState, createContext } from "react";
 
-function useLangugageToggle(): [keyof TranslatedString, () => JSX.Element] {
-  const [selectedLanguage, setSelectedLanguage] =
-    useState<keyof TranslatedString>("es");
+const defaultLanguage = SupportedLanguage.spanish
+export const LanguageContext = createContext(defaultLanguage)
+
+function useLangugageToggle(): [SupportedLanguage, () => JSX.Element] {
+  const [selectedLanguage, setSelectedLanguage] = useState(defaultLanguage);
 
   const Toggler = () => {
     return (
       <div className="flex align-baseline">
-        {Object.values(Supported_Language).map((lang) => (
+        {Object.values(SupportedLanguage).map((lang) => (
           <button
             onClick={() => setSelectedLanguage(lang)}
             key={lang}

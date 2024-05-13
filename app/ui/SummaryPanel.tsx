@@ -1,12 +1,9 @@
-import {
-  Overview,
-  Supported_Language,
-  TranslatedString,
-} from "@/app/lib/definitions";
-import clsx from "clsx";
+import { Overview } from "@/app/lib/definitions";
 import React, { useState, ReactNode } from "react";
 import downIcon from "../../public/down.svg";
 import Image from "next/image";
+import useLangugageToggle from "./useLanguageToggle";
+import { EpisodeDisplayText, SeasonDisplayText } from "../lib/constants";
 
 interface Props {
   children: ReactNode;
@@ -16,8 +13,7 @@ interface Props {
 const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const [selectedLanguage, setSelectedLanguage] =
-    useState<keyof TranslatedString>("es");
+  const [selectedLanguage, LanguageToggler] = useLangugageToggle();
   const togglePanel = () => setIsOpen(!isOpen);
 
   return (
@@ -43,28 +39,15 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
         style={{ maxHeight: "90vh", overflowY: "auto" }}
       >
         <div className="px-20 py-8">
-          <div className="flex justify-between">
-            <h1 className="mt-5 text-xl font-medium text-slate-900 dark:text-white">
-              {overview.title[selectedLanguage]}
-            </h1>
-            <div className="flex align-baseline">
-              {Object.values(Supported_Language).map((lang) => (
-                <button
-                  onClick={() => setSelectedLanguage(lang)}
-                  key={lang}
-                  className={clsx(
-                    selectedLanguage === lang ? "font-black" : "",
-                    "h-fit pl-2 uppercase"
-                  )}
-                >
-                  {lang}
-                </button>
-              ))}
-            </div>
+          <div className="flex justify-between"> 
+          <h1 className="mt-5 text-xl font-medium text-slate-900 dark:text-white">
+            {overview.title[selectedLanguage]}
+          </h1>
+          <LanguageToggler/>
           </div>
-
           <div className="mb-6 text-xs font-light uppercase text-slate-500 dark:text-slate-400">
-            season {overview.season}, episode {overview.episode}
+            {SeasonDisplayText[selectedLanguage]} {overview.season},{" "}
+            {EpisodeDisplayText[selectedLanguage]} {overview.episode}
           </div>
           <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
             {overview.summary[selectedLanguage]}

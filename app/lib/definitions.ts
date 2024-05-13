@@ -25,6 +25,35 @@ export type Entity = {
   sequences: number[];
 };
 
+// https://www.assemblyai.com/docs/audio-intelligence/entity-detection#supported-entities
+export enum ASEntityType {
+  date="date", 
+  drug="drug", 
+  event="event", 
+  injury="injury",
+  language="language", 
+  location="location",
+  medical_condition="medical_condition", 
+  medical_process="medical_process", 
+  nationality="nationality", 
+  occupation="occupation", 
+  organization="organization", 
+  person_age="person_age", 
+  person_name="person_name", 
+  political_affiliation="political_affiliation", 
+  religion="religion", 
+  time="time", 
+  url="url"
+}
+
+export type ASEntity = {
+  entity_type: ASEntityType, 
+  text: string; 
+  start: number;
+  end: number;
+  sequence: number;
+}
+
 export type Highlight = {
   citations: Citation[];
   topics: Topic[];
@@ -43,7 +72,7 @@ export type TranslatedString = {
   en: string;
 };
 
-export enum Supported_Language {
+export enum SupportedLanguage {
   spanish = "es",
   english = "en",
 }
@@ -61,8 +90,16 @@ export type Overview = {
 export type Podcast = {
   overview: Overview;
   highlight: Highlight;
-  transcription: Sentence[];
+  transcription: Transcription;
 };
+
+export type Transcription = {
+  utterances: Sentence[], 
+  entities: ASEntity[], 
+  audio_url: string, 
+  audio_duration: string, 
+  text: string,
+}
 
 export enum SpeakerName {
   A = "Carmen",
@@ -71,3 +108,14 @@ export enum SpeakerName {
 }
 export type SeasonIndex = "season_1" | "season_2" | "season_3" | "season_4";
 export type SeasonOverview = Record<SeasonIndex, Overview[]>;
+
+export type UtteranceSearch = {
+  id: string;
+  objectID: string;
+  episode: number;
+  season: number;
+  sequence: number;
+  text: string;
+  text_en: string;
+  start: number;
+};

@@ -38,7 +38,7 @@ export default function Player({ podcast }: Props) {
     if (!audioRef.current) return;
     const time = audioRef.current.currentTime;
     setCurrentTime(time);
-    const currentSegment = transcription.find((segment) => {
+    const currentSegment = transcription.utterances.find((segment) => {
       const startSeconds = convertMillisecondsToSeconds(segment.start);
       const endSeconds = convertMillisecondsToSeconds(segment.end);
       return time >= startSeconds && currentTime <= endSeconds;
@@ -88,7 +88,7 @@ export default function Player({ podcast }: Props) {
         highlight={highlight}
         onClick={jumpToTimestamp}
         onSelectSequence={(s) => {
-          const sequence = transcription.find((t) => t.sequence === s);
+          const sequence = transcription.utterances.find((t) => t.sequence === s);
           sequence && jumpToTimestamp(sequence?.start);
         }}
       />
@@ -99,12 +99,12 @@ export default function Player({ podcast }: Props) {
         )}
       >
         <section className="relative p-8 md:p-12 md:pb-36">
-          {transcription.map(
+          {transcription.utterances.map(
             ({ text, start, sequence, speaker, words, text_en }) => {
               const isActiveSequence = currentSequence === sequence;
               const isLater = currentSequence < sequence;
-              const entities = highlight.entities.filter(({ sequences }) =>
-                sequences.includes(sequence)
+              const entities = transcription.entities.filter((entity) =>
+                entity.sequence === sequence
               );
 
               return (
@@ -114,7 +114,7 @@ export default function Player({ podcast }: Props) {
                   className="my-2 grid grid-cols-10 gap-4"
                 >
                   <span className="text-gray-600">
-                    {SpeakerName[speaker as keyof typeof SpeakerName]}
+                    {speaker}
                     <span className="text-xs text-gray-400">{sequence}</span>
                   </span>
                   <div className={clsx("col-span-8 block max-w-prose")}>

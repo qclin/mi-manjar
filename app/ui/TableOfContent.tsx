@@ -54,6 +54,7 @@ const TableOfContent = ({
           citations.map(({ citation, sequence }) => (
             <button
               key={`citation-${sequence}`}
+              className="text-left"
               onClick={() => onSelectSequence(sequence)}
             >
               {citation}

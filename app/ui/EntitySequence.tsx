@@ -1,35 +1,52 @@
 import React from "react";
-import { Entity } from "@/app/lib/definitions";
+import { ASEntity, ASEntityType } from "@/app/lib/definitions";
 
 interface Props {
   text: string;
-  entities: Entity[];
+  entities: ASEntity[];
 }
 
-enum ColorByEntity {
-  Person = "underline decoration-amber-500 decoration-wavy",
-  Character = "underline decoration-green-800 decoration-wavy underline-offset-2",
-  "Historical Figure" = "underline decoration-rose-800 decoration-wavy decoration-4 underline-offset-4",
-  Place = "underline decoration-double decoration-lime-700 bg-lime-100",
-  Location = "underline decoration-double decoration-lime-700",
-  Group = "underline decoration-solid decoration-4 decoration-sky-700",
-  Organization = "underline decoration-solid decoration-4 decoration-sky-700",
-  Event = "underline underline-offset-8 decoration-fuchsia-700 bg-fuchsia-100",
-  default = "underline decoration-yellow-500 decoration-2 decoration-dashed",
+enum ClassnamesByEntity {
+  WavyAmber = "underline decoration-amber-500 decoration-wavy",
+  WavyGreen = "underline decoration-green-800 decoration-wavy underline-offset-2",
+  WavyRoseThick = "underline decoration-rose-800 decoration-wavy decoration-4 underline-offset-4",
+  DoubleGreen = "underline decoration-double decoration-lime-700",
+  DashZinc = "underline decoration-dashed decoration-4 decoration-zinc-400",
+  SolidBlue = "text-sky-700 font-medium",
+  Fushsia = "underline underline-offset-2 decoration-fuchsia-700 text-fuchsia-800 bg-fuchsia-100",
+  default = "underline decoration-yellow-100 decoration-4 decoration-dashed",
 }
 
-const EntitySequence: React.FC<Props> = ({ text, entities }) => {
+const getClassnames = (entity: ASEntityType) => {
+  switch (entity) {
+    case ASEntityType.date,  ASEntityType.person_age, ASEntityType.time:
+      return ClassnamesByEntity.DoubleGreen
+    case ASEntityType.drug, ASEntityType.injury, ASEntityType.medical_condition, ASEntityType.medical_process: 
+      return ClassnamesByEntity.WavyGreen
+    case ASEntityType.location: 
+      return ClassnamesByEntity.DoubleGreen
+    case ASEntityType.person_name: 
+      return ClassnamesByEntity.WavyAmber
+    case ASEntityType.religion, ASEntityType.political_affiliation: 
+      return ClassnamesByEntity.DashZinc
+    case ASEntityType.occupation: 
+      return ClassnamesByEntity.SolidBlue
+    case ASEntityType.event: 
+      return ClassnamesByEntity.Fushsia
+    default:
+      return ClassnamesByEntity.default
+  }
+}
+const EntitySequence: React.FC<Props> = ({ text, entities }) => {  
   // Function to escape special characters in regex patterns
   const escapeRegExp = (text: string) => {
     return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
   };
 
   // Build a regex pattern from the entitys and map them to their colors
-  const entityPatterns = entities.map((entity) => ({
-    pattern: new RegExp(escapeRegExp(entity.entity), "gi"),
-    color: Object.keys(ColorByEntity).includes(entity.type)
-      ? ColorByEntity[entity.type as keyof typeof ColorByEntity]
-      : ColorByEntity.default,
+  const entityPatterns = entities.filter((entity) => entity.text.length >= 3).map((entity) => ({
+    pattern: new RegExp(escapeRegExp(entity.text), "gi"),
+    color: getClassnames(entity.entity_type)
   }));
 
   const tokens = [];

@@ -1,5 +1,5 @@
 "use client";
-import { Entity, Word } from "@/app/lib/definitions";
+import { ASEntity, Word } from "@/app/lib/definitions";
 import { convertMillisecondsToSeconds } from "@/app/lib/helpers";
 import clsx from "clsx";
 import { splitParagraphIntoSentences, matchSentencesToWords } from "./utils";
@@ -10,7 +10,7 @@ interface Props {
   textTranslated: string;
   words: Word[];
   currentTime: number; // Current playback time of the audio in seconds
-  entities: Entity[];
+  entities: ASEntity[];
 }
 
 const calcIsActive = (currentTime: number, start: number, end: number) => {
