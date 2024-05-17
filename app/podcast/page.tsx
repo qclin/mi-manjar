@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { fetchSeasons } from "../lib/api";
 import type { SeasonOverview } from "../lib/definitions";
-import Content from "./content";
+import EpisodeTable from "./EpisodeTable";
+import SearchPanel from "../ui/SearchPanel";
 
 export default function Page() {
   const [overviewData, setOverviewData] = useState<SeasonOverview>();
@@ -20,5 +21,10 @@ export default function Page() {
   }, []);
 
   if (!overviewData) return <>Loading podcast season overview</>;
-  return <Content data={overviewData} />;
+  return (
+    <>
+      <SearchPanel />
+      <EpisodeTable data={overviewData} />
+    </>
+  );
 }

@@ -9,11 +9,10 @@ import {
 import AudioPlayer from "@/app/ui/AudioPlayer";
 import HighlightSequence from "@/app/ui/HighlightSequence";
 import { Podcast } from "@/app/lib/definitions";
-import TableOfContent from "@/app/ui/TableOfContent";
+import useIndexPanel from "@/app/ui/useIndexPanel";
 import SummaryPanel from "@/app/ui/SummaryPanel";
-import downIcon from "@/public/down.svg";
-import Image from "next/image";
 import EntitySequence from "@/app/ui/EntitySequence";
+import { DownChevronIcon } from "@/app/ui/icons";
 
 type Props = {
   podcast: Podcast;
@@ -26,10 +25,8 @@ export default function Player({ podcast, jumpToTime }: Props) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
-  const [isPanelOpen, setIsPanelOpen] = useState(false);
   const [isReady, setIsReady] = useState(false);
-
-  const togglePanel = () => setIsPanelOpen(!isPanelOpen);
+  const [isPanelOpen, TableOfContent] = useIndexPanel(highlight)
   const jumpToTimestamp = (startTime: number) => {
     if (!audioRef.current) return;
     const seconds = convertMillisecondsToSeconds(startTime);
@@ -61,8 +58,7 @@ export default function Player({ podcast, jumpToTime }: Props) {
     });
 
     const sequence = currentSegment?.sequence ?? 0;
-    setCurrentSequence(sequence);
-
+    if (currentSequence != sequence) setCurrentSequence(sequence);
     centerElementIntoViewport(sequence);
   };
 
@@ -79,30 +75,8 @@ export default function Player({ podcast, jumpToTime }: Props) {
 
   return (
     <div className="flex">
-      <button
-        className="absolute -left-3.5 top-1/2 z-20 flex -translate-y-1/2 -rotate-90 transform font-medium underline"
-        onClick={togglePanel}
-      >
-        <Image
-          src={downIcon}
-          alt="expand panel"
-          className={clsx(isPanelOpen && "rotate-180 transform")}
-          width={24}
-          height={24}
-        />
-        Index
-        <Image
-          src={downIcon}
-          alt="expand panel"
-          className={clsx(isPanelOpen && "rotate-180 transform")}
-          width={24}
-          height={24}
-        />
-      </button>
       <TableOfContent
-        isOpen={isPanelOpen}
-        highlight={highlight}
-        onClick={jumpToTimestamp}
+        onSelect={jumpToTimestamp}
         onSelectSequence={(s) => {
           const sequence = transcription.utterances.find((t) => t.sequence === s);
           sequence && jumpToTimestamp(sequence?.start);
@@ -111,7 +85,7 @@ export default function Player({ podcast, jumpToTime }: Props) {
       <div
         className={clsx(
           "transition-margin flex-1 duration-300 ease-in-out",
-          isPanelOpen ? "ml-[33%]" : "ml-0"
+          isPanelOpen ? "mr-[33%]" : "mr-0"
         )}
       >
         <section className="relative p-8 md:p-12 md:pb-36">
@@ -132,7 +106,6 @@ export default function Player({ podcast, jumpToTime }: Props) {
                 >
                   <span className="text-gray-600">
                     {speaker}
-                    <span className="text-xs text-gray-400">{sequence}</span>
                   </span>
                   <div className={clsx("col-span-8 block max-w-prose")}>
                     {isActiveSequence ? (
@@ -146,9 +119,6 @@ export default function Player({ podcast, jumpToTime }: Props) {
                     ) : (
                       <button
                         className={clsx(
-                          {
-                            "font-medium ": speaker === "C",
-                          },
                           isLater ? "text-gray-400" : "text-gray-600",
                           "appearance-none text-justify"
                         )}

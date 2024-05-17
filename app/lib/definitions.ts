@@ -85,6 +85,9 @@ export type Overview = {
   episode: number;
   duration: string;
   audio_path: string;
+  release_date:string;
+  word_count: number;
+  words_per_minute: number; 
 };
 
 export type Podcast = {

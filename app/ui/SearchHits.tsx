@@ -16,15 +16,21 @@ const Hit = ({ hit }: { hit: UtteranceHit }) => {
     selectedLanguage === SupportedLanguage.english ? "text_en" : "text";
 
   return (
-    <Link className="my-2 max-w-prose border-b pb-2" href={`podcast/${hit.season}/${hit.episode}?start=${hit.start}`}>
-      <Snippet hit={hit} attribute={textAttributeToDisplay} className="block" />
-      <EpisodeTag
-        season={hit.season}
-        episode={hit.episode}
-        time={convertMillisecondsToDisplayFriendly(hit.start)}
-        className="text-xs font-medium text-gray-400"
-      />
-    </Link>
+    <li className="my-2 max-w-prose border-b py-2">
+      <Link href={`podcast/${hit.season}/${hit.episode}?start=${hit.start}`}>
+        <Snippet
+          hit={hit}
+          attribute={textAttributeToDisplay}
+          className="block"
+        />
+        <EpisodeTag
+          season={hit.season}
+          episode={hit.episode}
+          time={convertMillisecondsToDisplayFriendly(hit.start)}
+          className="text-sm font-medium text-gray-400"
+        />
+      </Link>
+    </li>
   );
 };
 
@@ -34,15 +40,17 @@ const SearchHits = () => {
   const resultCount = results?.nbHits;
 
   return (
-    <>
+    <section className="pt-4">
       {resultCount}{" "}
       {(resultCount && resultCount > 1) || resultCount === 0
         ? ResultsDisplayText[selectedLanguage].plural
         : ResultsDisplayText[selectedLanguage].singular}
-      {hits.map((h) => (
-        <Hit hit={h as UtteranceHit} key={h.objectID} />
-      ))}
-    </>
+      <ul>
+        {hits.map((h) => (
+          <Hit hit={h as UtteranceHit} key={h.objectID} />
+        ))}
+      </ul>
+    </section>
   );
 };
 
