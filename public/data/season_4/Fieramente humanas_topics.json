@@ -1,0 +1,878 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Setting",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 69680
+        },
+        {
+            "topic": "Food and Dining Experiences in Malaga",
+            "sequence_range": "6-7",
+            "start_time": 70780,
+            "end_time": 125186
+        },
+        {
+            "topic": "Podcast Success and Shared Rituals",
+            "sequence_range": "8-9",
+            "start_time": 125338,
+            "end_time": 204040
+        },
+        {
+            "topic": "Saints and Martyrology",
+            "sequence_range": "10-14",
+            "start_time": 204080,
+            "end_time": 389416
+        },
+        {
+            "topic": "Celebrity and Sainthood",
+            "sequence_range": "15-17",
+            "start_time": 389568,
+            "end_time": 517280
+        },
+        {
+            "topic": "Podcast Production and Themes",
+            "sequence_range": "18-20",
+            "start_time": 532080,
+            "end_time": 591498
+        },
+        {
+            "topic": "Fame and Sanctity Comparison",
+            "sequence_range": "21-43",
+            "start_time": 591594,
+            "end_time": 1235628
+        },
+        {
+            "topic": "Academic Challenges and Doctorate Process",
+            "sequence_range": "44-48",
+            "start_time": 1235684,
+            "end_time": 1336260
+        },
+        {
+            "topic": "Luisa de la Ascensión and Bilocations",
+            "sequence_range": "49-53",
+            "start_time": 1336380,
+            "end_time": 1415936
+        },
+        {
+            "topic": "The life and trials of Luisa de la Ascensión",
+            "sequence_range": "54-66",
+            "start_time": 1415968,
+            "end_time": 2045780
+        },
+        {
+            "topic": "Iconography and the veneration of saints",
+            "sequence_range": "59-80",
+            "start_time": 1703440,
+            "end_time": 2784126
+        },
+        {
+            "topic": "Relics and Martyrs",
+            "sequence_range": "81",
+            "start_time": 2784298,
+            "end_time": 2863484
+        },
+        {
+            "topic": "Bejeweled Bodily Remains",
+            "sequence_range": "82-83",
+            "start_time": 2863572,
+            "end_time": 2924174
+        },
+        {
+            "topic": "Cinema and Perception",
+            "sequence_range": "85-87",
+            "start_time": 2930454,
+            "end_time": 3084400
+        },
+        {
+            "topic": "Saints and Iconography",
+            "sequence_range": "88-106",
+            "start_time": 3084520,
+            "end_time": 3684552
+        },
+        {
+            "topic": "Jesuits and St. Ignatius of Loyola",
+            "sequence_range": "91-105",
+            "start_time": 3131120,
+            "end_time": 3631570
+        },
+        {
+            "topic": "Baroque Women and Saints",
+            "sequence_range": "106-120",
+            "start_time": 3632120,
+            "end_time": 3952166
+        },
+        {
+            "topic": "Podcast Production",
+            "sequence_range": "126",
+            "start_time": 4022300,
+            "end_time": 4054160
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                8,
+                9,
+                27,
+                29,
+                31
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                7,
+                8,
+                15,
+                16,
+                34
+            ]
+        },
+        {
+            "entity": "Villalón Palace",
+            "type": "Place",
+            "sequences": [
+                4
+            ]
+        },
+        {
+            "entity": "Carmen Thyssen Museum",
+            "type": "Organization",
+            "sequences": [
+                4,
+                5,
+                17
+            ]
+        },
+        {
+            "entity": "Malaga",
+            "type": "Place",
+            "sequences": [
+                4,
+                5,
+                6,
+                17
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                5
+            ]
+        },
+        {
+            "entity": "Maria Zambrano Station",
+            "type": "Place",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                5
+            ]
+        },
+        {
+            "entity": "Madame Scudery",
+            "type": "Person",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Descalzas Reales",
+            "type": "Place",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                9
+            ]
+        },
+        {
+            "entity": "Saint Barbara",
+            "type": "Person",
+            "sequences": [
+                10
+            ]
+        },
+        {
+            "entity": "Saint Catherine of Alexandria",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Saint Agatha",
+            "type": "Person",
+            "sequences": [
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "entity": "Ariana Grande",
+            "type": "Person",
+            "sequences": [
+                15
+            ]
+        },
+        {
+            "entity": "Joan Didion",
+            "type": "Person",
+            "sequences": [
+                15
+            ]
+        },
+        {
+            "entity": "Carmentisen Museum",
+            "type": "Organization",
+            "sequences": [
+                17
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                18
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                18
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                18
+            ]
+        },
+        {
+            "entity": "Cosmopolitan",
+            "type": "Organization",
+            "sequences": [
+                19,
+                21,
+                24,
+                25,
+                29,
+                31,
+                39
+            ]
+        },
+        {
+            "entity": "St. Teresa of Wanannoli",
+            "type": "Person",
+            "sequences": [
+                25
+            ]
+        },
+        {
+            "entity": "St. Teresa of Jesus",
+            "type": "Person",
+            "sequences": [
+                25,
+                27,
+                28,
+                30,
+                31,
+                32,
+                33
+            ]
+        },
+        {
+            "entity": "Paul V",
+            "type": "Person",
+            "sequences": [
+                25
+            ]
+        },
+        {
+            "entity": "Pope Gregory 15",
+            "type": "Person",
+            "sequences": [
+                25
+            ]
+        },
+        {
+            "entity": "St. Ignatius of Loyola",
+            "type": "Person",
+            "sequences": [
+                25,
+                17
+            ]
+        },
+        {
+            "entity": "St. Francis Xavier",
+            "type": "Person",
+            "sequences": [
+                25
+            ]
+        },
+        {
+            "entity": "St. Isidore the Farmer",
+            "type": "Person",
+            "sequences": [
+                25
+            ]
+        },
+        {
+            "entity": "St. Philip Neri",
+            "type": "Person",
+            "sequences": [
+                25
+            ]
+        },
+        {
+            "entity": "Philip the Third",
+            "type": "Person",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Princess of Eboli",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "Helen Reed",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "Garcia Alvarez",
+            "type": "Person",
+            "sequences": [
+                32
+            ]
+        },
+        {
+            "entity": "Sacred Congregation of Rites",
+            "type": "Organization",
+            "sequences": [
+                43,
+                46
+            ]
+        },
+        {
+            "entity": "Luisa de la Ascensión",
+            "type": "Person",
+            "sequences": [
+                48,
+                49,
+                51,
+                53
+            ]
+        },
+        {
+            "entity": "Luisa de Carril",
+            "type": "Person",
+            "sequences": [
+                54
+            ]
+        },
+        {
+            "entity": "Luisa of the Ascension",
+            "type": "Person",
+            "sequences": [
+                54,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                63,
+                64,
+                65,
+                66
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                54
+            ]
+        },
+        {
+            "entity": "Franciscan convent of Carrión de los Condes",
+            "type": "Organization",
+            "sequences": [
+                54
+            ]
+        },
+        {
+            "entity": "Palencia",
+            "type": "Place",
+            "sequences": [
+                54
+            ]
+        },
+        {
+            "entity": "Discalced Augustinian Nuns",
+            "type": "Organization",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Valladolid",
+            "type": "Place",
+            "sequences": [
+                56
+            ]
+        },
+        {
+            "entity": "Friar Pedro de Balbas",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Fray Antonio Nieto",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Saint Anthony",
+            "type": "Person",
+            "sequences": [
+                57,
+                58,
+                59
+            ]
+        },
+        {
+            "entity": "convent of Santa Clara de Carrión",
+            "type": "Organization",
+            "sequences": [
+                58
+            ]
+        },
+        {
+            "entity": "Council of Trent",
+            "type": "Event",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Clement Octavo",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Ignatius of Loyola",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "St. Francis Xavier",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Urban the Eighth",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Gwyneth Paltrow",
+            "type": "Person",
+            "sequences": [
+                63
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+            ]
+        },
+        {
+            "entity": "Andrea Bacaro",
+            "type": "Person",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "Dominican convent of the Magdalena",
+            "type": "Organization",
+            "sequences": [
+                67
+            ]
+        },
+        {
+            "entity": "José de Rivera",
+            "type": "Person",
+            "sequences": [
+                68
+            ]
+        },
+        {
+            "entity": "Juan de la Miseria",
+            "type": "Person",
+            "sequences": [
+                68,
+                71,
+                72,
+                74,
+                75
+            ]
+        },
+        {
+            "entity": "convent of the Discalced Carmelite nuns of San José",
+            "type": "Organization",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "Jerónimo Gracián",
+            "type": "Person",
+            "sequences": [
+                71,
+                72,
+                74
+            ]
+        },
+        {
+            "entity": "Taylor Swift",
+            "type": "Person",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Hailey Bieber",
+            "type": "Person",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Via Salaria",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Theatrum crudelitatum",
+            "type": "Literature",
+            "sequences": [
+                80
+            ]
+        },
+        {
+            "entity": "Via Salaria",
+            "type": "Place",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "Paul Kudonaris",
+            "type": "Person",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                82
+            ]
+        },
+        {
+            "entity": "Rosalía",
+            "type": "Person",
+            "sequences": [
+                82,
+                110
+            ]
+        },
+        {
+            "entity": "Kanji West",
+            "type": "Person",
+            "sequences": [
+                82
+            ]
+        },
+        {
+            "entity": "Golan Bacht",
+            "type": "Person",
+            "sequences": [
+                83
+            ]
+        },
+        {
+            "entity": "Greta Garbo",
+            "type": "Person",
+            "sequences": [
+                85,
+                86
+            ]
+        },
+        {
+            "entity": "Valentino",
+            "type": "Person",
+            "sequences": [
+                85
+            ]
+        },
+        {
+            "entity": "Audrey Hepburn",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "Fray Juan de la Miseria",
+            "type": "Person",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Federico Borromeo",
+            "type": "Person",
+            "sequences": [
+                91
+            ]
+        },
+        {
+            "entity": "Saint Ignatius of Loyola",
+            "type": "Person",
+            "sequences": [
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105
+            ]
+        },
+        {
+            "entity": "Cardinal Pacheco",
+            "type": "Person",
+            "sequences": [
+                95
+            ]
+        },
+        {
+            "entity": "Jacopino del Coche",
+            "type": "Person",
+            "sequences": [
+                97
+            ]
+        },
+        {
+            "entity": "Alonso Sánchez Coello",
+            "type": "Person",
+            "sequences": [
+                97
+            ]
+        },
+        {
+            "entity": "Francisco de Borja",
+            "type": "Person",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "Alonso Cano",
+            "type": "Person",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "Adam Jaszenski",
+            "type": "Person",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "St. Francis Xavier",
+            "type": "Person",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                106,
+                117,
+                118,
+                119,
+                120
+            ]
+        },
+        {
+            "entity": "St. Rose of Lima",
+            "type": "Person",
+            "sequences": [
+                106,
+                109
+            ]
+        },
+        {
+            "entity": "St. Rita",
+            "type": "Person",
+            "sequences": [
+                109
+            ]
+        },
+        {
+            "entity": "St. Lucia",
+            "type": "Person",
+            "sequences": [
+                109
+            ]
+        },
+        {
+            "entity": "Kim Kardashian",
+            "type": "Person",
+            "sequences": [
+                109
+            ]
+        },
+        {
+            "entity": "Selena Gomez",
+            "type": "Person",
+            "sequences": [
+                114,
+                115,
+                116,
+                117
+            ]
+        },
+        {
+            "entity": "Fray José de Sigüenza",
+            "type": "Person",
+            "sequences": [
+                120
+            ]
+        },
+        {
+            "entity": "María de San José Agustina",
+            "type": "Person",
+            "sequences": [
+                120
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                126
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Heavenly Bodies, treasures for the cult and spectacular saints of the catacombs by Paul Kudonaris",
+            "sequence": 81
+        }
+    ]
+}

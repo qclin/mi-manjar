@@ -1,0 +1,1139 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Casual Conversation",
+            "sequence_range": "1-3",
+            "start_time": 2360,
+            "end_time": 24250
+        },
+        {
+            "topic": "Podcast Recording Process and Superstitions",
+            "sequence_range": "4-4",
+            "start_time": 24550,
+            "end_time": 55314
+        },
+        {
+            "topic": "Breakfast Discussion",
+            "sequence_range": "5-12",
+            "start_time": 55362,
+            "end_time": 95766
+        },
+        {
+            "topic": "Podcast Days and Eating Habits",
+            "sequence_range": "13-15",
+            "start_time": 95918,
+            "end_time": 119806
+        },
+        {
+            "topic": "Listener Gifts and Appreciation",
+            "sequence_range": "16-33",
+            "start_time": 119838,
+            "end_time": 235686
+        },
+        {
+            "topic": "Gift Giving and Receiving Philosophy",
+            "sequence_range": "34-89",
+            "start_time": 235718,
+            "end_time": 1143390
+        },
+        {
+            "topic": "Personal Gift Experiences",
+            "sequence_range": "90-97",
+            "start_time": 1150010,
+            "end_time": 1304414
+        },
+        {
+            "topic": "Childhood and Gifts",
+            "sequence_range": "98-99",
+            "start_time": 1304422,
+            "end_time": 1377214
+        },
+        {
+            "topic": "Historical Figures and Anecdotes",
+            "sequence_range": "100-107",
+            "start_time": 1377302,
+            "end_time": 1565018
+        },
+        {
+            "topic": "Nobility and Wealth",
+            "sequence_range": "108-126",
+            "start_time": 1565154,
+            "end_time": 1937644
+        },
+        {
+            "topic": "Art and Collecting",
+            "sequence_range": "127-161",
+            "start_time": 1937692,
+            "end_time": 2523124
+        },
+        {
+            "topic": "Souvenirs and Gifts",
+            "sequence_range": "162-198",
+            "start_time": 2523252,
+            "end_time": 3218972
+        },
+        {
+            "topic": "Historical Anecdotes and Customs",
+            "sequence_range": "199-227",
+            "start_time": 3219076,
+            "end_time": 3816214
+        },
+        {
+            "topic": "Corruption and Gifts",
+            "sequence_range": "228-238",
+            "start_time": 3816382,
+            "end_time": 3925210
+        },
+        {
+            "topic": "Historical and Religious Relics",
+            "sequence_range": "239-244",
+            "start_time": 3925370,
+            "end_time": 4051620
+        },
+        {
+            "topic": "Gift Giving Protocols and Anecdotes",
+            "sequence_range": "245-281",
+            "start_time": 4051660,
+            "end_time": 4476428
+        },
+        {
+            "topic": "Podcast Production Credits",
+            "sequence_range": "282-283",
+            "start_time": 4476484,
+            "end_time": 4533250
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1,
+                4,
+                12,
+                17,
+                37,
+                38,
+                40,
+                41,
+                89,
+                90,
+                91
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                4,
+                6,
+                7,
+                11,
+                17,
+                18,
+                19,
+                22,
+                34,
+                37,
+                40,
+                47,
+                48,
+                50,
+                58,
+                59,
+                60,
+                68,
+                69,
+                76,
+                78,
+                80,
+                83,
+                84,
+                85,
+                89,
+                90,
+                95,
+                96
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                19,
+                21
+            ]
+        },
+        {
+            "entity": "Avila",
+            "type": "Place",
+            "sequences": [
+                21
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Person",
+            "sequences": [
+                27,
+                89
+            ]
+        },
+        {
+            "entity": "Catherine of Austria",
+            "type": "Person",
+            "sequences": [
+                28
+            ]
+        },
+        {
+            "entity": "Colegio Oficial de Arquitectura",
+            "type": "Organization",
+            "sequences": [
+                28
+            ]
+        },
+        {
+            "entity": "Prado Museum",
+            "type": "Place",
+            "sequences": [
+                38
+            ]
+        },
+        {
+            "entity": "Rubens",
+            "type": "Person",
+            "sequences": [
+                37,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+            ]
+        },
+        {
+            "entity": "Helena Fuhrman",
+            "type": "Person",
+            "sequences": [
+                41
+            ]
+        },
+        {
+            "entity": "Natalie Simon Davis",
+            "type": "Person",
+            "sequences": [
+                47,
+                50,
+                53,
+                55,
+                57,
+                58,
+                60,
+                62
+            ]
+        },
+        {
+            "entity": "Sebastián de Covarrubias",
+            "type": "Person",
+            "sequences": [
+                64,
+                65,
+                66,
+                70,
+                72,
+                78,
+                80,
+                81,
+                82,
+                89
+            ]
+        },
+        {
+            "entity": "Duke of Lerma",
+            "type": "Person",
+            "sequences": [
+                72
+            ]
+        },
+        {
+            "entity": "Álvaro Pájares",
+            "type": "Person",
+            "sequences": [
+                74
+            ]
+        },
+        {
+            "entity": "USA",
+            "type": "Place",
+            "sequences": [
+                34,
+                36
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                36
+            ]
+        },
+        {
+            "entity": "Claude Lévi Strauss",
+            "type": "Person",
+            "sequences": [
+                55
+            ]
+        },
+        {
+            "entity": "Marcel Mauss",
+            "type": "Person",
+            "sequences": [
+                55
+            ]
+        },
+        {
+            "entity": "Corte Inglés",
+            "type": "Place",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "Sylvanian Family",
+            "type": "Brand",
+            "sequences": [
+                98,
+                99
+            ]
+        },
+        {
+            "entity": "Mencía de Mendoza y Fonseca",
+            "type": "Person",
+            "sequences": [
+                100,
+                101,
+                104,
+                111,
+                112,
+                114,
+                115,
+                118,
+                119,
+                121,
+                123,
+                125,
+                126,
+                128,
+                130,
+                132,
+                134,
+                135,
+                137,
+                138,
+                139,
+                140,
+                141,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156
+            ]
+        },
+        {
+            "entity": "Jango Serg",
+            "type": "Person",
+            "sequences": [
+                100
+            ]
+        },
+        {
+            "entity": "Rodrigo Díaz de Vivar y Mendoza",
+            "type": "Person",
+            "sequences": [
+                104
+            ]
+        },
+        {
+            "entity": "Mencía Josepa López Becerra de Soleil Casanova Cárdenas",
+            "type": "Person",
+            "sequences": [
+                105,
+                106,
+                107,
+                116
+            ]
+        },
+        {
+            "entity": "Hola",
+            "type": "Publication",
+            "sequences": [
+                109,
+                110,
+                111
+            ]
+        },
+        {
+            "entity": "Estefania de Requesens",
+            "type": "Person",
+            "sequences": [
+                112
+            ]
+        },
+        {
+            "entity": "Isabella of Portugal",
+            "type": "Person",
+            "sequences": [
+                112
+            ]
+        },
+        {
+            "entity": "Blue Ivy",
+            "type": "Person",
+            "sequences": [
+                117,
+                118,
+                119
+            ]
+        },
+        {
+            "entity": "Beyoncé",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Jay Z",
+            "type": "Person",
+            "sequences": [
+                117
+            ]
+        },
+        {
+            "entity": "Henry III of Nassau",
+            "type": "Person",
+            "sequences": [
+                128
+            ]
+        },
+        {
+            "entity": "Fernando of Aragon",
+            "type": "Person",
+            "sequences": [
+                130
+            ]
+        },
+        {
+            "entity": "Taylor Swift",
+            "type": "Person",
+            "sequences": [
+                123,
+                124
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                146
+            ]
+        },
+        {
+            "entity": "Leticia",
+            "type": "Person",
+            "sequences": [
+                144,
+                146
+            ]
+        },
+        {
+            "entity": "Mariano José de Larra",
+            "type": "Author",
+            "sequences": [
+                146
+            ]
+        },
+        {
+            "entity": "Maria Tudor",
+            "type": "Person",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "Henry the Eighth",
+            "type": "Person",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "Marquesa",
+            "type": "Person",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Antonio and Francisco de Mendoza",
+            "type": "Person",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Mencia",
+            "type": "Person",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Flanders",
+            "type": "Place",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Barcelona",
+            "type": "Place",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Valencia",
+            "type": "Place",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "America",
+            "type": "Place",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Queen Elizabeth",
+            "type": "Person",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Comarruga",
+            "type": "Place",
+            "sequences": [
+                163
+            ]
+        },
+        {
+            "entity": "St. Peter",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Santa Rita",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Zaragoza",
+            "type": "Place",
+            "sequences": [
+                167
+            ]
+        },
+        {
+            "entity": "Teresa",
+            "type": "Person",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "Quito",
+            "type": "Place",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "San Jose",
+            "type": "Place",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "Carmelites of Madrid",
+            "type": "Organization",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "Jehan Lehrmit",
+            "type": "Person",
+            "sequences": [
+                171
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                171
+            ]
+        },
+        {
+            "entity": "Philip the Third",
+            "type": "Person",
+            "sequences": [
+                171
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                171
+            ]
+        },
+        {
+            "entity": "U.S.",
+            "type": "Place",
+            "sequences": [
+                171,
+                180
+            ]
+        },
+        {
+            "entity": "Quito",
+            "type": "Place",
+            "sequences": [
+                174
+            ]
+        },
+        {
+            "entity": "TikTok",
+            "type": "Organization",
+            "sequences": [
+                175
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                182
+            ]
+        },
+        {
+            "entity": "Mencia de Mendoza",
+            "type": "Person",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Mendoza family",
+            "type": "Family",
+            "sequences": [
+                186
+            ]
+        },
+        {
+            "entity": "Juan Luis Vives",
+            "type": "Person",
+            "sequences": [
+                188
+            ]
+        },
+        {
+            "entity": "Breda",
+            "type": "Place",
+            "sequences": [
+                188
+            ]
+        },
+        {
+            "entity": "Horazio de la Reina",
+            "type": "Person",
+            "sequences": [
+                202,
+                204
+            ]
+        },
+        {
+            "entity": "Catalina de Zúñiga y Sandoval",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Duchess of Lemos",
+            "type": "Title",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Duke of Lerma",
+            "type": "Title",
+            "sequences": [
+                210,
+                215
+            ]
+        },
+        {
+            "entity": "Duchess of Cea",
+            "type": "Title",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Count Villalonga",
+            "type": "Title",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Royal Barefoot Sisters",
+            "type": "Organization",
+            "sequences": [
+                214,
+                215
+            ]
+        },
+        {
+            "entity": "Juana de Austria",
+            "type": "Person",
+            "sequences": [
+                215
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                215
+            ]
+        },
+        {
+            "entity": "Margaret of Austria",
+            "type": "Person",
+            "sequences": [
+                216
+            ]
+        },
+        {
+            "entity": "Maria of Austria",
+            "type": "Person",
+            "sequences": [
+                216
+            ]
+        },
+        {
+            "entity": "Catherine Maria of Este and Savoy",
+            "type": "Person",
+            "sequences": [
+                216
+            ]
+        },
+        {
+            "entity": "Ana Dorotea of Austria",
+            "type": "Person",
+            "sequences": [
+                216,
+                219
+            ]
+        },
+        {
+            "entity": "Rudolph the Second of Germany",
+            "type": "Person",
+            "sequences": [
+                216
+            ]
+        },
+        {
+            "entity": "Rafaela Madrigal y Cardona",
+            "type": "Person",
+            "sequences": [
+                216
+            ]
+        },
+        {
+            "entity": "María Rojas Sandoval y Enríquez",
+            "type": "Person",
+            "sequences": [
+                216
+            ]
+        },
+        {
+            "entity": "Pope Clement the Eighth",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                223
+            ]
+        },
+        {
+            "entity": "Antonio Pablo Bueno",
+            "type": "Person",
+            "sequences": [
+                224
+            ]
+        },
+        {
+            "entity": "Francisco Granados",
+            "type": "Person",
+            "sequences": [
+                224
+            ]
+        },
+        {
+            "entity": "Jesús Sepúlveda",
+            "type": "Person",
+            "sequences": [
+                227
+            ]
+        },
+        {
+            "entity": "Ana Mato",
+            "type": "Person",
+            "sequences": [
+                227
+            ]
+        },
+        {
+            "entity": "Range Rover",
+            "type": "Product",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Arganda",
+            "type": "Place",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "U.S.",
+            "type": "Country",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Polynesia",
+            "type": "Region",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Larra",
+            "type": "Person",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Rita Barbera",
+            "type": "Person",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Louis Vuitton",
+            "type": "Brand",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Saint Ursula",
+            "type": "Person",
+            "sequences": [
+                229,
+                231,
+                232,
+                244,
+                245,
+                281
+            ]
+        },
+        {
+            "entity": "Acciona",
+            "type": "Organization",
+            "sequences": [
+                234
+            ]
+        },
+        {
+            "entity": "Qamed",
+            "type": "Organization",
+            "sequences": [
+                234
+            ]
+        },
+        {
+            "entity": "Turkey",
+            "type": "Country",
+            "sequences": [
+                234
+            ]
+        },
+        {
+            "entity": "Emperor Rudolph",
+            "type": "Person",
+            "sequences": [
+                236
+            ]
+        },
+        {
+            "entity": "St. Agnes",
+            "type": "Person",
+            "sequences": [
+                236
+            ]
+        },
+        {
+            "entity": "King of Hungary",
+            "type": "Title",
+            "sequences": [
+                236
+            ]
+        },
+        {
+            "entity": "Ana Matu",
+            "type": "Person",
+            "sequences": [
+                237
+            ]
+        },
+        {
+            "entity": "Jesús Sepúlveda",
+            "type": "Person",
+            "sequences": [
+                237
+            ]
+        },
+        {
+            "entity": "Emperor Matthias of Germany",
+            "type": "Person",
+            "sequences": [
+                239
+            ]
+        },
+        {
+            "entity": "Queen of Angels",
+            "type": "Title",
+            "sequences": [
+                239
+            ]
+        },
+        {
+            "entity": "Fray Juan Carrillo",
+            "type": "Person",
+            "sequences": [
+                244
+            ]
+        },
+        {
+            "entity": "Monasterio de las Descalzas",
+            "type": "Place",
+            "sequences": [
+                244
+            ]
+        },
+        {
+            "entity": "Saint Victor",
+            "type": "Person",
+            "sequences": [
+                246,
+                248
+            ]
+        },
+        {
+            "entity": "Doña Ana",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Doña Juana",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Rudolph",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Ernest",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Albert",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Vencesla",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Queen Anne",
+            "type": "Person",
+            "sequences": [
+                248
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                249,
+                250,
+                252,
+                253,
+                254,
+                255,
+                257
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                249,
+                250,
+                255,
+                257
+            ]
+        },
+        {
+            "entity": "Maria Jose Perez Gonzalez",
+            "type": "Person",
+            "sequences": [
+                249
+            ]
+        },
+        {
+            "entity": "Carmelite Scalzi of Puzol",
+            "type": "Organization",
+            "sequences": [
+                249
+            ]
+        },
+        {
+            "entity": "Mencía de Mendoza",
+            "type": "Person",
+            "sequences": [
+                273
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                283
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                283
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                283
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                283
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                283
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                283
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "The gift in sixteenth century France by Natalie Simon Davis",
+            "sequence": 47
+        }
+    ]
+}

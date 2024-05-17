@@ -1,0 +1,700 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Recording Experience",
+            "sequence_range": "1-6",
+            "start_time": 2360,
+            "end_time": 44236
+        },
+        {
+            "topic": "Daily Meals and Friendships",
+            "sequence_range": "7-13",
+            "start_time": 44268,
+            "end_time": 104828
+        },
+        {
+            "topic": "Cooking and Food Trends on Social Media",
+            "sequence_range": "14-20",
+            "start_time": 104924,
+            "end_time": 162458
+        },
+        {
+            "topic": "Language and Words Appreciation",
+            "sequence_range": "21-30",
+            "start_time": 162474,
+            "end_time": 335482
+        },
+        {
+            "topic": "Lesbian Representation in Literature and Theater",
+            "sequence_range": "31-80",
+            "start_time": 335626,
+            "end_time": 1339640
+        },
+        {
+            "topic": "Historical and Legal Context of Lesbianism",
+            "sequence_range": "81-82",
+            "start_time": 1339760,
+            "end_time": 1385434
+        },
+        {
+            "topic": "17th Century Prison Practices and Lesbianism",
+            "sequence_range": "83-84",
+            "start_time": 1385522,
+            "end_time": 1417982
+        },
+        {
+            "topic": "Discussion on Lesbian Practices and Legal Risks",
+            "sequence_range": "85-87",
+            "start_time": 1418126,
+            "end_time": 1447066
+        },
+        {
+            "topic": "Character Analysis of Dionisia and Lesbian Representation in Literature",
+            "sequence_range": "88-89",
+            "start_time": 1447098,
+            "end_time": 1577936
+        },
+        {
+            "topic": "Pastoral Novels and Lesbian Imagery",
+            "sequence_range": "90-99",
+            "start_time": 1578008,
+            "end_time": 1741818
+        },
+        {
+            "topic": "The Influence of 'The Diana' on Lesbian Literature",
+            "sequence_range": "100-108",
+            "start_time": 1741834,
+            "end_time": 1969788
+        },
+        {
+            "topic": "María de Zayas's Work and Exploration of Female Relationships",
+            "sequence_range": "109-118",
+            "start_time": 1969884,
+            "end_time": 2128488
+        },
+        {
+            "topic": "Cross-dressing and Lesbian Desire in Baroque Literature",
+            "sequence_range": "119-138",
+            "start_time": 2128544,
+            "end_time": 2535650
+        },
+        {
+            "topic": "Neoplatonism and Lesbian Desire",
+            "sequence_range": "139-146",
+            "start_time": 2535690,
+            "end_time": 2603854
+        },
+        {
+            "topic": "Lesbian insinuations and identification in literature",
+            "sequence_range": "147-147",
+            "start_time": 2603862,
+            "end_time": 2658066
+        },
+        {
+            "topic": "Dangers of fiction and sensual poison",
+            "sequence_range": "148-148",
+            "start_time": 2658178,
+            "end_time": 2676322
+        },
+        {
+            "topic": "Regulation of women's behavior and inclinations through literature",
+            "sequence_range": "149-151",
+            "start_time": 2676386,
+            "end_time": 2730852
+        },
+        {
+            "topic": "Taboo of female masturbation in historical context",
+            "sequence_range": "152-152",
+            "start_time": 2730996,
+            "end_time": 2738052
+        },
+        {
+            "topic": "Confessional manuals and questions for women",
+            "sequence_range": "153-167",
+            "start_time": 2738116,
+            "end_time": 2930260
+        },
+        {
+            "topic": "Historical cases of female masturbation and erotic fantasies",
+            "sequence_range": "168-188",
+            "start_time": 2931240,
+            "end_time": 3401350
+        },
+        {
+            "topic": "Inquisitorial process against Agustina Ruiz",
+            "sequence_range": "189-204",
+            "start_time": 3401430,
+            "end_time": 3773856
+        },
+        {
+            "topic": "Devotional literature as erotic literature",
+            "sequence_range": "205-216",
+            "start_time": 3773928,
+            "end_time": 3850958
+        },
+        {
+            "topic": "Outcome of Agustina Ruiz's inquisitorial process",
+            "sequence_range": "217-219",
+            "start_time": 3851134,
+            "end_time": 3861930
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                13,
+                41,
+                42,
+                49
+            ]
+        },
+        {
+            "entity": "Rhode Island",
+            "type": "Place",
+            "sequences": [
+                5
+            ]
+        },
+        {
+            "entity": "Olga",
+            "type": "Person",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Eva",
+            "type": "Person",
+            "sequences": [
+                10
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                10
+            ]
+        },
+        {
+            "entity": "Jorge aka Santotano",
+            "type": "Person",
+            "sequences": [
+                23
+            ]
+        },
+        {
+            "entity": "Princess of Eboli",
+            "type": "Person",
+            "sequences": [
+                24
+            ]
+        },
+        {
+            "entity": "Jerónimo de Gracián",
+            "type": "Person",
+            "sequences": [
+                24
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                24
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Event",
+            "sequences": [
+                23,
+                49
+            ]
+        },
+        {
+            "entity": "Spanish-language literature festival in London",
+            "type": "Event",
+            "sequences": [
+                41
+            ]
+        },
+        {
+            "entity": "Sara Torres",
+            "type": "Person",
+            "sequences": [
+                41
+            ]
+        },
+        {
+            "entity": "Rodrigo García Marina",
+            "type": "Person",
+            "sequences": [
+                41
+            ]
+        },
+        {
+            "entity": "Javier Cuevas del Barrio",
+            "type": "Person",
+            "sequences": [
+                41
+            ]
+        },
+        {
+            "entity": "Inés Martín Rodrigo",
+            "type": "Person",
+            "sequences": [
+                32,
+                34
+            ]
+        },
+        {
+            "entity": "Covarrubias",
+            "type": "Person",
+            "sequences": [
+                31
+            ]
+        },
+        {
+            "entity": "Adrian Martin",
+            "type": "Person",
+            "sequences": [
+                50
+            ]
+        },
+        {
+            "entity": "Álvaro Cubillo de Aragón",
+            "type": "Person",
+            "sequences": [
+                66,
+                75,
+                78
+            ]
+        },
+        {
+            "entity": "Sherry Velasco",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Valerie Trupp",
+            "type": "Person",
+            "sequences": [
+                73
+            ]
+        },
+        {
+            "entity": "Tirso de Molina",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Doña Inés",
+            "type": "Person",
+            "sequences": [
+                60,
+                61,
+                64
+            ]
+        },
+        {
+            "entity": "Doña Juana",
+            "type": "Person",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Don Gil",
+            "type": "Person",
+            "sequences": [
+                59,
+                60,
+                61,
+                64
+            ]
+        },
+        {
+            "entity": "Don Leonardo",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Leonor",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Dionisia",
+            "type": "Person",
+            "sequences": [
+                78,
+                79,
+                80
+            ]
+        },
+        {
+            "entity": "Dionisia",
+            "type": "Character",
+            "sequences": [
+                81,
+                88
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                81
+            ]
+        },
+        {
+            "entity": "Cristóbal de Chávez",
+            "type": "Author",
+            "sequences": [
+                83
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                83
+            ]
+        },
+        {
+            "entity": "Mané",
+            "type": "Person",
+            "sequences": [
+                85
+            ]
+        },
+        {
+            "entity": "Álvaro Cubillo de Aragón",
+            "type": "Author",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Leonor",
+            "type": "Character",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Jorge de Montemayor",
+            "type": "Author",
+            "sequences": [
+                91
+            ]
+        },
+        {
+            "entity": "Diana",
+            "type": "Literary Work",
+            "sequences": [
+                91,
+                92,
+                94
+            ]
+        },
+        {
+            "entity": "Elizabeth Rose",
+            "type": "Researcher",
+            "sequences": [
+                100
+            ]
+        },
+        {
+            "entity": "María de Zayas",
+            "type": "Author",
+            "sequences": [
+                109,
+                110,
+                111,
+                116,
+                117,
+                128
+            ]
+        },
+        {
+            "entity": "Ismenia",
+            "type": "Character",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Selvagia",
+            "type": "Character",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Minerva",
+            "type": "Deity",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Douro River",
+            "type": "Geographical Feature",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Laurela",
+            "type": "Character",
+            "sequences": [
+                119,
+                121,
+                123,
+                128
+            ]
+        },
+        {
+            "entity": "Esteban/Estefanía",
+            "type": "Character",
+            "sequences": [
+                121,
+                122,
+                123,
+                128,
+                133
+            ]
+        },
+        {
+            "entity": "Enrique",
+            "type": "Character",
+            "sequences": [
+                123
+            ]
+        },
+        {
+            "entity": "Lisa Volendorf",
+            "type": "Researcher",
+            "sequences": [
+                136
+            ]
+        },
+        {
+            "entity": "Antonio de Espinosa",
+            "type": "Person",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Christian republic of 1552",
+            "type": "Event",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Carmelite friar Jesús María",
+            "type": "Person",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Carrie Bradshaw",
+            "type": "Person",
+            "sequences": [
+                149
+            ]
+        },
+        {
+            "entity": "Bartolomé de Alba",
+            "type": "Person",
+            "sequences": [
+                153
+            ]
+        },
+        {
+            "entity": "Novo-Hispanic Franciscan",
+            "type": "Organization",
+            "sequences": [
+                153
+            ]
+        },
+        {
+            "entity": "Querétaro",
+            "type": "Place",
+            "sequences": [
+                169,
+                171
+            ]
+        },
+        {
+            "entity": "Agustina Ruiz",
+            "type": "Person",
+            "sequences": [
+                171,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188
+            ]
+        },
+        {
+            "entity": "Fray Manuel de Santo Tomás",
+            "type": "Person",
+            "sequences": [
+                171
+            ]
+        },
+        {
+            "entity": "Saint Nicholas of Tolentino",
+            "type": "Person",
+            "sequences": [
+                173,
+                175,
+                176,
+                188
+            ]
+        },
+        {
+            "entity": "Saint Diego",
+            "type": "Person",
+            "sequences": [
+                176,
+                177
+            ]
+        },
+        {
+            "entity": "Jesus Christ",
+            "type": "Person",
+            "sequences": [
+                177,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                196
+            ]
+        },
+        {
+            "entity": "Virgin Mary",
+            "type": "Person",
+            "sequences": [
+                185,
+                186,
+                187,
+                188,
+                200
+            ]
+        },
+        {
+            "entity": "Inquisition",
+            "type": "Organization",
+            "sequences": [
+                187
+            ]
+        },
+        {
+            "entity": "Maria Jesus de Agreda",
+            "type": "Person",
+            "sequences": [
+                199
+            ]
+        },
+        {
+            "entity": "St. Catherine of Siena",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "St. Rose of Lima",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                220
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Anerotic Philology of Golden Age Spain by Adrian Martin, 2008",
+            "sequence": 50
+        }
+    ]
+}

@@ -1,0 +1,726 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Personal Anecdotes",
+            "sequence_range": "1-14",
+            "start_time": 2360,
+            "end_time": 82510
+        },
+        {
+            "topic": "Visit to El Greco Museum and Historical Insights",
+            "sequence_range": "15-28",
+            "start_time": 82590,
+            "end_time": 493444
+        },
+        {
+            "topic": "Discussion on Fray José de Sigüenza and El Greco",
+            "sequence_range": "29-39",
+            "start_time": 493532,
+            "end_time": 684260
+        },
+        {
+            "topic": "Historical and Artistic Analysis",
+            "sequence_range": "40-66",
+            "start_time": 684340,
+            "end_time": 1312796
+        },
+        {
+            "topic": "Baroque attitudes towards death",
+            "sequence_range": "67-72",
+            "start_time": 1312828,
+            "end_time": 1503800
+        },
+        {
+            "topic": "Ars moriendi and the art of dying well",
+            "sequence_range": "68-75",
+            "start_time": 1328700,
+            "end_time": 1528792
+        },
+        {
+            "topic": "Death of St. Teresa",
+            "sequence_range": "74-79",
+            "start_time": 1524356,
+            "end_time": 1631720
+        },
+        {
+            "topic": "Good and bad deaths in the Baroque period",
+            "sequence_range": "72-86",
+            "start_time": 1481016,
+            "end_time": 1818700
+        },
+        {
+            "topic": "Jerónimo de Sepúlveda's death",
+            "sequence_range": "82-88",
+            "start_time": 1635540,
+            "end_time": 1862306
+        },
+        {
+            "topic": "Suicide and its treatment in the Baroque period",
+            "sequence_range": "86-94",
+            "start_time": 1781346,
+            "end_time": 2016780
+        },
+        {
+            "topic": "Juan Bautista Poza and the practice of aiding the good death",
+            "sequence_range": "96-113",
+            "start_time": 2018660,
+            "end_time": 2233194
+        },
+        {
+            "topic": "Margaret Magnusson and the art of mortuary cleaning",
+            "sequence_range": "136-144",
+            "start_time": 2465800,
+            "end_time": 2587210
+        },
+        {
+            "topic": "Art of Dying Well",
+            "sequence_range": "145-178",
+            "start_time": 2587670,
+            "end_time": 3089290
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1,
+                16,
+                17,
+                18,
+                19,
+                23,
+                40,
+                55
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                16,
+                41,
+                42,
+                43,
+                60,
+                61,
+                62,
+                63
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                3
+            ]
+        },
+        {
+            "entity": "Twitter",
+            "type": "Organization",
+            "sequences": [
+                5
+            ]
+        },
+        {
+            "entity": "El Greco Museum",
+            "type": "Place",
+            "sequences": [
+                16,
+                17,
+                28,
+                29,
+                40
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                16
+            ]
+        },
+        {
+            "entity": "Teresa of Jesus",
+            "type": "Person",
+            "sequences": [
+                16
+            ]
+        },
+        {
+            "entity": "Mariana of Austria",
+            "type": "Person",
+            "sequences": [
+                17
+            ]
+        },
+        {
+            "entity": "Fray José de Sigüenza",
+            "type": "Person",
+            "sequences": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                33,
+                35,
+                37,
+                38,
+                39,
+                40,
+                41,
+                44,
+                45,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                20,
+                21,
+                24,
+                25,
+                27,
+                28,
+                33,
+                35,
+                37,
+                39,
+                64
+            ]
+        },
+        {
+            "entity": "El Escorial",
+            "type": "Place",
+            "sequences": [
+                20,
+                24,
+                25,
+                35,
+                40,
+                64,
+                65
+            ]
+        },
+        {
+            "entity": "El Greco",
+            "type": "Person",
+            "sequences": [
+                16,
+                25,
+                27,
+                28,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+            ]
+        },
+        {
+            "entity": "St. Maurice",
+            "type": "Person",
+            "sequences": [
+                25,
+                27,
+                28
+            ]
+        },
+        {
+            "entity": "Philippe Arie",
+            "type": "Person",
+            "sequences": [
+                55,
+                56,
+                57,
+                58,
+                59
+            ]
+        },
+        {
+            "entity": "Carlos Eyre",
+            "type": "Person",
+            "sequences": [
+                60,
+                61,
+                62,
+                63,
+                64
+            ]
+        },
+        {
+            "entity": "Yale University",
+            "type": "Organization",
+            "sequences": [
+                63
+            ]
+        },
+        {
+            "entity": "Karol G",
+            "type": "Person",
+            "sequences": [
+                39
+            ]
+        },
+        {
+            "entity": "Baroque",
+            "type": "Cultural Period",
+            "sequences": [
+                68,
+                72,
+                73
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                74,
+                77,
+                79
+            ]
+        },
+        {
+            "entity": "Jerónimo de Sepúlveda",
+            "type": "Person",
+            "sequences": [
+                82,
+                83,
+                84,
+                85,
+                86,
+                87
+            ]
+        },
+        {
+            "entity": "Juan Bautista Poza",
+            "type": "Person",
+            "sequences": [
+                96,
+                98,
+                104,
+                113
+            ]
+        },
+        {
+            "entity": "Margaret Magnusson",
+            "type": "Person",
+            "sequences": [
+                136,
+                138,
+                140
+            ]
+        },
+        {
+            "entity": "Duchess of Alba",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Ana de San Bartolomé",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Father Antonio de Jesus",
+            "type": "Person",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "José de Sigüenza",
+            "type": "Person",
+            "sequences": [
+                82
+            ]
+        },
+        {
+            "entity": "Bea Lobo",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "Olga Iglesias",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "Sceptor Torizi",
+            "type": "Person",
+            "sequences": [
+                88,
+                89
+            ]
+        },
+        {
+            "entity": "Fray Miguel",
+            "type": "Person",
+            "sequences": [
+                90,
+                92,
+                94
+            ]
+        },
+        {
+            "entity": "Covarrubias",
+            "type": "Person",
+            "sequences": [
+                93
+            ]
+        },
+        {
+            "entity": "Sebastian",
+            "type": "Person",
+            "sequences": [
+                99
+            ]
+        },
+        {
+            "entity": "El Greco",
+            "type": "Person",
+            "sequences": [
+                138
+            ]
+        },
+        {
+            "entity": "Burgos",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "San Jose de Avila",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Alba de Tormes",
+            "type": "Place",
+            "sequences": [
+                79
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                82,
+                84,
+                85
+            ]
+        },
+        {
+            "entity": "Mexico",
+            "type": "Place",
+            "sequences": [
+                90
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Sweden",
+            "type": "Place",
+            "sequences": [
+                136,
+                138
+            ]
+        },
+        {
+            "entity": "Stockholm",
+            "type": "Place",
+            "sequences": [
+                138
+            ]
+        },
+        {
+            "entity": "Sondermalm",
+            "type": "Place",
+            "sequences": [
+                138
+            ]
+        },
+        {
+            "entity": "Jesuits",
+            "type": "Organization",
+            "sequences": [
+                99,
+                104
+            ]
+        },
+        {
+            "entity": "Margaret Magnusson",
+            "type": "Person",
+            "sequences": [
+                145
+            ]
+        },
+        {
+            "entity": "John the Baptist",
+            "type": "Person",
+            "sequences": [
+                145,
+                146,
+                147,
+                148
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Stockholm",
+            "type": "Place",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "New Spain",
+            "type": "Place",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Fray Miguel",
+            "type": "Person",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Alejo Venegas",
+            "type": "Person",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Laura Abbas",
+            "type": "Person",
+            "sequences": [
+                149
+            ]
+        },
+        {
+            "entity": "Prado",
+            "type": "Organization",
+            "sequences": [
+                149
+            ]
+        },
+        {
+            "entity": "El Greco",
+            "type": "Person",
+            "sequences": [
+                150,
+                152,
+                153,
+                154,
+                173,
+                174
+            ]
+        },
+        {
+            "entity": "Elena",
+            "type": "Person",
+            "sequences": [
+                151
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                152
+            ]
+        },
+        {
+            "entity": "St. Tome",
+            "type": "Organization",
+            "sequences": [
+                152
+            ]
+        },
+        {
+            "entity": "Santo Domingo el Antiguo",
+            "type": "Place",
+            "sequences": [
+                152,
+                153
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                152
+            ]
+        },
+        {
+            "entity": "Jorge Manuel",
+            "type": "Person",
+            "sequences": [
+                153,
+                154,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168
+            ]
+        },
+        {
+            "entity": "Jerónima de las Cuevas",
+            "type": "Person",
+            "sequences": [
+                153
+            ]
+        },
+        {
+            "entity": "Teresa Velasco",
+            "type": "Person",
+            "sequences": [
+                154
+            ]
+        },
+        {
+            "entity": "Ecofrades de la Caridad",
+            "type": "Organization",
+            "sequences": [
+                156
+            ]
+        },
+        {
+            "entity": "San Pedro Martir",
+            "type": "Place",
+            "sequences": [
+                156
+            ]
+        },
+        {
+            "entity": "Maria Jilana",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Triana",
+            "type": "Place",
+            "sequences": [
+                172
+            ]
+        },
+        {
+            "entity": "María Jiménez",
+            "type": "Person",
+            "sequences": [
+                174
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                180
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                180
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                180
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                180
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                180
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                180
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Essays on the history of death in the West from the Middle Ages to the present day by Philippe Arie",
+            "sequence": 55
+        }
+    ]
+}

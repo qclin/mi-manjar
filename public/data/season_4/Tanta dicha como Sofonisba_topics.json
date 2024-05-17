@@ -1,0 +1,952 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-1",
+            "start_time": 2360,
+            "end_time": 21846
+        },
+        {
+            "topic": "Italian Restaurant Experience",
+            "sequence_range": "2-14",
+            "start_time": 21958,
+            "end_time": 98688
+        },
+        {
+            "topic": "Fine Arts Library Event",
+            "sequence_range": "23-24",
+            "start_time": 150692,
+            "end_time": 255748
+        },
+        {
+            "topic": "Baroque Conversations and Hands",
+            "sequence_range": "25-39",
+            "start_time": 255924,
+            "end_time": 569560
+        },
+        {
+            "topic": "Sor Juana Inés de la Cruz and Baroque Poetry",
+            "sequence_range": "40-54",
+            "start_time": 569680,
+            "end_time": 722890
+        },
+        {
+            "topic": "Manual Work and Artistic Practices",
+            "sequence_range": "55-97",
+            "start_time": 723010,
+            "end_time": 1251210
+        },
+        {
+            "topic": "Podcast Production and Purpose",
+            "sequence_range": "98-102",
+            "start_time": 1265740,
+            "end_time": 1348246
+        },
+        {
+            "topic": "Art and Religion",
+            "sequence_range": "103-166",
+            "start_time": 1348318,
+            "end_time": 2627418
+        },
+        {
+            "topic": "Sister Maria's Life and Challenges",
+            "sequence_range": "167-179",
+            "start_time": 2627474,
+            "end_time": 2864126
+        },
+        {
+            "topic": "Artistic Talent and Bullying in Convents",
+            "sequence_range": "180-182",
+            "start_time": 2864158,
+            "end_time": 2926694
+        },
+        {
+            "topic": "Mystical Experiences and Demonic Attacks",
+            "sequence_range": "183-185",
+            "start_time": 2926742,
+            "end_time": 3051086
+        },
+        {
+            "topic": "Visionary Life and Stigmata",
+            "sequence_range": "186-195",
+            "start_time": 3051278,
+            "end_time": 3154932
+        },
+        {
+            "topic": "Manuscript Illumination and Grotesques",
+            "sequence_range": "196-229",
+            "start_time": 3154996,
+            "end_time": 3910084
+        },
+        {
+            "topic": "Sorestefania of the Incarnation",
+            "sequence_range": "230-231",
+            "start_time": 3910132,
+            "end_time": 3945288
+        },
+        {
+            "topic": "Sorestefania and Artistic Journey",
+            "sequence_range": "232-290",
+            "start_time": 3945344,
+            "end_time": 4817590
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                7,
+                13,
+                16,
+                26,
+                35,
+                37,
+                39,
+                50,
+                61,
+                63,
+                98
+            ]
+        },
+        {
+            "entity": "Fine Arts Library of the Complutense University",
+            "type": "Organization",
+            "sequences": [
+                23,
+                24
+            ]
+        },
+        {
+            "entity": "Javi",
+            "type": "Person",
+            "sequences": [
+                24
+            ]
+        },
+        {
+            "entity": "Vesalius",
+            "type": "Person",
+            "sequences": [
+                26
+            ]
+        },
+        {
+            "entity": "Sor Juana Inés de la Cruz",
+            "type": "Person",
+            "sequences": [
+                39,
+                40,
+                45,
+                46,
+                47,
+                49,
+                50,
+                54,
+                55,
+                59,
+                61,
+                63,
+                75
+            ]
+        },
+        {
+            "entity": "María Luisa Manrique, Countess of Paredes",
+            "type": "Person",
+            "sequences": [
+                45,
+                46,
+                47
+            ]
+        },
+        {
+            "entity": "Pedro Muñoz de Castro",
+            "type": "Person",
+            "sequences": [
+                55,
+                56,
+                57
+            ]
+        },
+        {
+            "entity": "Margot Glanz",
+            "type": "Person",
+            "sequences": [
+                59,
+                60,
+                61,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                74,
+                75
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                98
+            ]
+        },
+        {
+            "entity": "University of Mysticism in Avila",
+            "type": "Organization",
+            "sequences": [
+                99,
+                100,
+                101
+            ]
+        },
+        {
+            "entity": "Monastery of the Incarnation",
+            "type": "Place",
+            "sequences": [
+                101
+            ]
+        },
+        {
+            "entity": "Incarnation",
+            "type": "Place",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Teresa",
+            "type": "Person",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Castile",
+            "type": "Place",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Carmelite",
+            "type": "Organization",
+            "sequences": [
+                103,
+                106,
+                108,
+                110,
+                111,
+                126,
+                127,
+                128,
+                150
+            ]
+        },
+        {
+            "entity": "Avila",
+            "type": "Place",
+            "sequences": [
+                103
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                103,
+                106,
+                111,
+                112,
+                113,
+                114,
+                115,
+                137,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166
+            ]
+        },
+        {
+            "entity": "Jerónima de la Cruz",
+            "type": "Person",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Toledo",
+            "type": "Place",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Manila",
+            "type": "Place",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Prado Museum",
+            "type": "Organization",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Josefa Sanchez",
+            "type": "Person",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Segovia",
+            "type": "Place",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Andrea Maria de la Encarnación",
+            "type": "Person",
+            "sequences": [
+                111,
+                114,
+                116
+            ]
+        },
+        {
+            "entity": "Claudia Juana de la Asunción",
+            "type": "Person",
+            "sequences": [
+                111,
+                114,
+                116
+            ]
+        },
+        {
+            "entity": "Pedro de Mena",
+            "type": "Person",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Plautilla Nelly",
+            "type": "Person",
+            "sequences": [
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166
+            ]
+        },
+        {
+            "entity": "Giorgio Vasari",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Propercia de Rossi",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Plautilla Britchi",
+            "type": "Person",
+            "sequences": [
+                127
+            ]
+        },
+        {
+            "entity": "Girolamo Savonarola",
+            "type": "Person",
+            "sequences": [
+                127
+            ]
+        },
+        {
+            "entity": "Santa Caterina",
+            "type": "Place",
+            "sequences": [
+                127,
+                128
+            ]
+        },
+        {
+            "entity": "Florence",
+            "type": "Place",
+            "sequences": [
+                126,
+                127,
+                128,
+                144,
+                145,
+                146,
+                147,
+                148,
+                149,
+                150
+            ]
+        },
+        {
+            "entity": "Baltasar Castiglioni",
+            "type": "Person",
+            "sequences": [
+                148
+            ]
+        },
+        {
+            "entity": "Sevillian convent of the Assumption of Mercenaries",
+            "type": "Place",
+            "sequences": [
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166
+            ]
+        },
+        {
+            "entity": "Sister María de la Santísima Trinidad",
+            "type": "Person",
+            "sequences": [
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166
+            ]
+        },
+        {
+            "entity": "Sister Maria",
+            "type": "Person",
+            "sequences": [
+                167,
+                169,
+                176,
+                177,
+                179,
+                183,
+                185,
+                195
+            ]
+        },
+        {
+            "entity": "Doris Marina",
+            "type": "Person",
+            "sequences": [
+                170,
+                176
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                172
+            ]
+        },
+        {
+            "entity": "Felipe de Loza",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Sister Estefania de la Encarnacion",
+            "type": "Person",
+            "sequences": [
+                177
+            ]
+        },
+        {
+            "entity": "Saint Peter Nolasco",
+            "type": "Person",
+            "sequences": [
+                177,
+                183
+            ]
+        },
+        {
+            "entity": "Father Master Herrera",
+            "type": "Person",
+            "sequences": [
+                185
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                186,
+                218,
+                219,
+                221
+            ]
+        },
+        {
+            "entity": "Plautila Nelli",
+            "type": "Person",
+            "sequences": [
+                204
+            ]
+        },
+        {
+            "entity": "Girolamo Savonarola",
+            "type": "Person",
+            "sequences": [
+                204
+            ]
+        },
+        {
+            "entity": "Euphrasia Burlamachi",
+            "type": "Person",
+            "sequences": [
+                204,
+                206,
+                212,
+                214,
+                216,
+                222
+            ]
+        },
+        {
+            "entity": "Bernard Palissy",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Hieronymus Bosch",
+            "type": "Person",
+            "sequences": [
+                211
+            ]
+        },
+        {
+            "entity": "Mary Carruthers",
+            "type": "Person",
+            "sequences": [
+                226,
+                227
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                226
+            ]
+        },
+        {
+            "entity": "Convent of San Domenico",
+            "type": "Organization",
+            "sequences": [
+                204,
+                206
+            ]
+        },
+        {
+            "entity": "Company of Mary",
+            "type": "Organization",
+            "sequences": [
+                229
+            ]
+        },
+        {
+            "entity": "Sorestefania",
+            "type": "Person",
+            "sequences": [
+                232,
+                233,
+                234,
+                240,
+                241,
+                242,
+                243,
+                244,
+                246,
+                247,
+                249,
+                251,
+                252,
+                253,
+                254,
+                255,
+                256,
+                257,
+                258,
+                259,
+                260,
+                261,
+                264,
+                265,
+                266,
+                267,
+                268,
+                269,
+                270,
+                271,
+                274,
+                275,
+                276,
+                277,
+                278,
+                279,
+                280,
+                281,
+                282,
+                283,
+                284,
+                285,
+                286,
+                287,
+                288
+            ]
+        },
+        {
+            "entity": "Estefanía de la encarnación",
+            "type": "Person",
+            "sequences": [
+                234
+            ]
+        },
+        {
+            "entity": "Carmelite",
+            "type": "Organization",
+            "sequences": [
+                234
+            ]
+        },
+        {
+            "entity": "Convent of the Enchantress",
+            "type": "Place",
+            "sequences": [
+                234
+            ]
+        },
+        {
+            "entity": "Laura Bass",
+            "type": "Person",
+            "sequences": [
+                240
+            ]
+        },
+        {
+            "entity": "Tania Tiffany",
+            "type": "Person",
+            "sequences": [
+                241
+            ]
+        },
+        {
+            "entity": "Alonso de Villa Mediana",
+            "type": "Person",
+            "sequences": [
+                244
+            ]
+        },
+        {
+            "entity": "Pedro de Mena",
+            "type": "Person",
+            "sequences": [
+                246
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                247
+            ]
+        },
+        {
+            "entity": "Duke of Lerma",
+            "type": "Person",
+            "sequences": [
+                247,
+                253
+            ]
+        },
+        {
+            "entity": "Monastery of the Elevator of our Lord of Lerma",
+            "type": "Place",
+            "sequences": [
+                247
+            ]
+        },
+        {
+            "entity": "Alonso Paez",
+            "type": "Person",
+            "sequences": [
+                249
+            ]
+        },
+        {
+            "entity": "Sofonisba Anguissola",
+            "type": "Person",
+            "sequences": [
+                251
+            ]
+        },
+        {
+            "entity": "David Vestue",
+            "type": "Person",
+            "sequences": [
+                274
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                274
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                290
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "The Humani Corporis Fabrica",
+            "sequence": 26
+        }
+    ]
+}

@@ -1,0 +1,809 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Personal Anecdotes",
+            "sequence_range": "1-7",
+            "start_time": 2360,
+            "end_time": 64710
+        },
+        {
+            "topic": "Celiac Disease and Gluten-Free Eating",
+            "sequence_range": "3-6",
+            "start_time": 28752,
+            "end_time": 63242
+        },
+        {
+            "topic": "Barcelona Visit and Apologies for Delay",
+            "sequence_range": "7-8",
+            "start_time": 63306,
+            "end_time": 101806
+        },
+        {
+            "topic": "Historical Anecdotes and Carmelites of Pamplona",
+            "sequence_range": "9-13",
+            "start_time": 101918,
+            "end_time": 187026
+        },
+        {
+            "topic": "Lesbian Cultures Festival and Personal Reflections",
+            "sequence_range": "14-18",
+            "start_time": 187178,
+            "end_time": 402290
+        },
+        {
+            "topic": "Listener Testimonials and Love Stories",
+            "sequence_range": "19-24",
+            "start_time": 402710,
+            "end_time": 490422
+        },
+        {
+            "topic": "Baroque Love Casuistry and Lesbian Love",
+            "sequence_range": "25-34",
+            "start_time": 490606,
+            "end_time": 828018
+        },
+        {
+            "topic": "Jesuit Casuistry and Moral Theology",
+            "sequence_range": "35-50",
+            "start_time": 828074,
+            "end_time": 1151326
+        },
+        {
+            "topic": "Baroque Casuistry and Amorous Anxiety",
+            "sequence_range": "51-60",
+            "start_time": 1151438,
+            "end_time": 1551572
+        },
+        {
+            "topic": "Love Descriptions and Philosophical Reflections",
+            "sequence_range": "61-64",
+            "start_time": 1551636,
+            "end_time": 1655926
+        },
+        {
+            "topic": "Ekphrasis and ASMR",
+            "sequence_range": "65-66",
+            "start_time": 1656098,
+            "end_time": 1773786
+        },
+        {
+            "topic": "17th and 18th Century French Society",
+            "sequence_range": "66-69",
+            "start_time": 1703780,
+            "end_time": 1877882
+        },
+        {
+            "topic": "The Precious Ones and Affective Cartography",
+            "sequence_range": "68-76",
+            "start_time": 1774874,
+            "end_time": 2091951
+        },
+        {
+            "topic": "Madeleine de Scudery and the Map of Tenderness",
+            "sequence_range": "76-82",
+            "start_time": 2041012,
+            "end_time": 2277570
+        },
+        {
+            "topic": "Agamy and Lesbian Sociability",
+            "sequence_range": "82-88",
+            "start_time": 2210684,
+            "end_time": 2420490
+        },
+        {
+            "topic": "The Cañitas Case",
+            "sequence_range": "91-115",
+            "start_time": 2442430,
+            "end_time": 3146234
+        },
+        {
+            "topic": "Historical Lesbian Relationships and Trials",
+            "sequence_range": "116-123",
+            "start_time": 3146362,
+            "end_time": 3445540
+        },
+        {
+            "topic": "Reflections on Love and Relationships",
+            "sequence_range": "124-133",
+            "start_time": 3445620,
+            "end_time": 3644314
+        },
+        {
+            "topic": "Carmelite Nuns and Lesbian Identity",
+            "sequence_range": "134-165",
+            "start_time": 3644402,
+            "end_time": 4198268
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                1,
+                7,
+                8,
+                16,
+                17,
+                20,
+                24,
+                25,
+                28,
+                30,
+                31,
+                33,
+                34,
+                35,
+                36,
+                56
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                5,
+                6,
+                7,
+                17,
+                18,
+                20,
+                25,
+                27,
+                28,
+                30,
+                34,
+                35,
+                36,
+                37,
+                42,
+                43,
+                47,
+                56,
+                58,
+                59,
+                60,
+                64
+            ]
+        },
+        {
+            "entity": "Barcelona",
+            "type": "Place",
+            "sequences": [
+                8,
+                10,
+                12,
+                13,
+                15,
+                16,
+                17
+            ]
+        },
+        {
+            "entity": "Pamplona",
+            "type": "Place",
+            "sequences": [
+                9,
+                10,
+                11,
+                12,
+                13
+            ]
+        },
+        {
+            "entity": "Catalina de Cristo",
+            "type": "Person",
+            "sequences": [
+                10,
+                13,
+                15,
+                16
+            ]
+        },
+        {
+            "entity": "Carmelites of Pamplona",
+            "type": "Organization",
+            "sequences": [
+                10,
+                12,
+                13
+            ]
+        },
+        {
+            "entity": "Carmelites of Barcelona",
+            "type": "Organization",
+            "sequences": [
+                10,
+                12,
+                13,
+                15
+            ]
+        },
+        {
+            "entity": "Andrés Vesalius",
+            "type": "Person",
+            "sequences": [
+                15
+            ]
+        },
+        {
+            "entity": "ViSIBLES Festival",
+            "type": "Event",
+            "sequences": [
+                16
+            ]
+        },
+        {
+            "entity": "Labón Cultural Center",
+            "type": "Place",
+            "sequences": [
+                17
+            ]
+        },
+        {
+            "entity": "Granada",
+            "type": "Place",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "St. John",
+            "type": "Person",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                20,
+                53
+            ]
+        },
+        {
+            "entity": "Maria de Zayas",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "Arias Montano",
+            "type": "Person",
+            "sequences": [
+                30
+            ]
+        },
+        {
+            "entity": "St. Lawrence",
+            "type": "Person",
+            "sequences": [
+                31
+            ]
+        },
+        {
+            "entity": "St. Teresa's arm",
+            "type": "Object",
+            "sequences": [
+                31
+            ]
+        },
+        {
+            "entity": "St. Ursula",
+            "type": "Person",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Descalzas Reales",
+            "type": "Place",
+            "sequences": [
+                34
+            ]
+        },
+        {
+            "entity": "Society of Jesus (Jesuits)",
+            "type": "Organization",
+            "sequences": [
+                37,
+                38,
+                40,
+                41,
+                42,
+                43,
+                44,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                54,
+                55,
+                56,
+                58
+            ]
+        },
+        {
+            "entity": "Miguel Agnes",
+            "type": "Person",
+            "sequences": [
+                55
+            ]
+        },
+        {
+            "entity": "Juana of Austria",
+            "type": "Person",
+            "sequences": [
+                42
+            ]
+        },
+        {
+            "entity": "Sebastián de Covarrubias",
+            "type": "Person",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Fourth Lateran Council",
+            "type": "Event",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "García López de Alvarado",
+            "type": "Person",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Madame de Scudery",
+            "type": "Person",
+            "sequences": [
+                64
+            ]
+        },
+        {
+            "entity": "Madeleine Descuderi",
+            "type": "Person",
+            "sequences": [
+                65,
+                66,
+                72,
+                76,
+                78,
+                80,
+                82
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                66,
+                74,
+                78,
+                85,
+                86
+            ]
+        },
+        {
+            "entity": "Paris",
+            "type": "Place",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Marie Antoinette",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Madame de Rambouillet",
+            "type": "Person",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "María de Zayas",
+            "type": "Person",
+            "sequences": [
+                70,
+                73
+            ]
+        },
+        {
+            "entity": "Golan Bag",
+            "type": "Person",
+            "sequences": [
+                75
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                75
+            ]
+        },
+        {
+            "entity": "Clelia",
+            "type": "Fictional Character",
+            "sequences": [
+                78,
+                80,
+                81
+            ]
+        },
+        {
+            "entity": "Israel Sanchez",
+            "type": "Person",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                83,
+                85,
+                86,
+                99,
+                104
+            ]
+        },
+        {
+            "entity": "Inés de Santa Cruz",
+            "type": "Person",
+            "sequences": [
+                91,
+                92,
+                93,
+                94,
+                96,
+                98,
+                100,
+                101,
+                103,
+                104,
+                105,
+                108,
+                110,
+                111,
+                115
+            ]
+        },
+        {
+            "entity": "Catalina del Edesma",
+            "type": "Person",
+            "sequences": [
+                91,
+                92,
+                93,
+                94,
+                96,
+                98,
+                100,
+                101,
+                103,
+                104,
+                105,
+                108,
+                110,
+                111,
+                115
+            ]
+        },
+        {
+            "entity": "Salamanca",
+            "type": "Place",
+            "sequences": [
+                92,
+                93,
+                96,
+                100,
+                104
+            ]
+        },
+        {
+            "entity": "Valladolid",
+            "type": "Place",
+            "sequences": [
+                92,
+                93,
+                96,
+                100,
+                104
+            ]
+        },
+        {
+            "entity": "Ángela Jerónima",
+            "type": "Person",
+            "sequences": [
+                115
+            ]
+        },
+        {
+            "entity": "Angela Jerónima",
+            "type": "Person",
+            "sequences": [
+                116
+            ]
+        },
+        {
+            "entity": "Catalina del Edesma",
+            "type": "Person",
+            "sequences": [
+                116,
+                117,
+                118,
+                121,
+                123
+            ]
+        },
+        {
+            "entity": "Inés de Santa Cruz",
+            "type": "Person",
+            "sequences": [
+                116,
+                118,
+                121,
+                123
+            ]
+        },
+        {
+            "entity": "Valladolid",
+            "type": "Place",
+            "sequences": [
+                118
+            ]
+        },
+        {
+            "entity": "Segovia",
+            "type": "Place",
+            "sequences": [
+                118
+            ]
+        },
+        {
+            "entity": "Arevalo",
+            "type": "Place",
+            "sequences": [
+                118
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                126,
+                127,
+                131
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                128,
+                130,
+                131,
+                132
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                137,
+                148
+            ]
+        },
+        {
+            "entity": "Ana de Jesús",
+            "type": "Person",
+            "sequences": [
+                142,
+                143,
+                146,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160
+            ]
+        },
+        {
+            "entity": "Beatriz de la Concepción",
+            "type": "Person",
+            "sequences": [
+                142,
+                143,
+                147,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160
+            ]
+        },
+        {
+            "entity": "Medina del Campo",
+            "type": "Place",
+            "sequences": [
+                146
+            ]
+        },
+        {
+            "entity": "San José de Ávila",
+            "type": "Place",
+            "sequences": [
+                146
+            ]
+        },
+        {
+            "entity": "Arévalo",
+            "type": "Place",
+            "sequences": [
+                147
+            ]
+        },
+        {
+            "entity": "Salamanca",
+            "type": "Place",
+            "sequences": [
+                147,
+                150
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                148,
+                149
+            ]
+        },
+        {
+            "entity": "France",
+            "type": "Place",
+            "sequences": [
+                148,
+                150
+            ]
+        },
+        {
+            "entity": "Belgium",
+            "type": "Place",
+            "sequences": [
+                148,
+                150,
+                151
+            ]
+        },
+        {
+            "entity": "Brussels",
+            "type": "Place",
+            "sequences": [
+                152,
+                160
+            ]
+        },
+        {
+            "entity": "Mons",
+            "type": "Place",
+            "sequences": [
+                151
+            ]
+        },
+        {
+            "entity": "Empress Maria of Austria",
+            "type": "Person",
+            "sequences": [
+                149
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                160
+            ]
+        },
+        {
+            "entity": "Philip",
+            "type": "Person",
+            "sequences": [
+                160
+            ]
+        },
+        {
+            "entity": "Ángel Manrique",
+            "type": "Person",
+            "sequences": [
+                162
+            ]
+        },
+        {
+            "entity": "Pope Francis",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                166
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                166
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Brief compendium of confession of 1552 by García López de Alvarado",
+            "sequence": 59
+        }
+    ]
+}

@@ -1,0 +1,708 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Episode Recording",
+            "sequence_range": "1-6",
+            "start_time": 2360,
+            "end_time": 111580
+        },
+        {
+            "topic": "Food and Diet",
+            "sequence_range": "7-10",
+            "start_time": 111730,
+            "end_time": 145542
+        },
+        {
+            "topic": "Historical Meals and Traditions",
+            "sequence_range": "11-17",
+            "start_time": 145646,
+            "end_time": 306230
+        },
+        {
+            "topic": "Baroque Farewells and Separations",
+            "sequence_range": "18-34",
+            "start_time": 306350,
+            "end_time": 728262
+        },
+        {
+            "topic": "Season Finale Announcement",
+            "sequence_range": "35-43",
+            "start_time": 728326,
+            "end_time": 917562
+        },
+        {
+            "topic": "Historical Chronicles and Literature",
+            "sequence_range": "44-74",
+            "start_time": 917666,
+            "end_time": 1367490
+        },
+        {
+            "topic": "Analysis of Enrique Koc's Chronicle",
+            "sequence_range": "75-76",
+            "start_time": 1367990,
+            "end_time": 1467810
+        },
+        {
+            "topic": "Historical and Cultural Insights",
+            "sequence_range": "77-79",
+            "start_time": 1467850,
+            "end_time": 1533448
+        },
+        {
+            "topic": "Personal Reflections and Theories",
+            "sequence_range": "80-88",
+            "start_time": 1533584,
+            "end_time": 1748614
+        },
+        {
+            "topic": "Critique of Enrique Koc's Narrative Style",
+            "sequence_range": "89-93",
+            "start_time": 1748662,
+            "end_time": 1927010
+        },
+        {
+            "topic": "Infantas' Farewell and Imaginative Reconstructions",
+            "sequence_range": "94-132",
+            "start_time": 1927870,
+            "end_time": 2658996
+        },
+        {
+            "topic": "Communication and Patience",
+            "sequence_range": "133-134",
+            "start_time": 2659188,
+            "end_time": 2772240
+        },
+        {
+            "topic": "Spiritual and Personal Growth",
+            "sequence_range": "135-137",
+            "start_time": 2773540,
+            "end_time": 2849824
+        },
+        {
+            "topic": "Apostolate and Baroque Enthusiasm",
+            "sequence_range": "138-139",
+            "start_time": 2849832,
+            "end_time": 2912438
+        },
+        {
+            "topic": "Farewell and Appreciation",
+            "sequence_range": "140-197",
+            "start_time": 2912454,
+            "end_time": 4017974
+        },
+        {
+            "topic": "Art of Dying Well",
+            "sequence_range": "198-200",
+            "start_time": 4018062,
+            "end_time": 4125645
+        },
+        {
+            "topic": "Appreciation and Recommendations",
+            "sequence_range": "199-204",
+            "start_time": 4095710,
+            "end_time": 4136237
+        },
+        {
+            "topic": "Goodbyes and Farewells",
+            "sequence_range": "205-218",
+            "start_time": 4136293,
+            "end_time": 4225130
+        },
+        {
+            "topic": "Podcast Production Credits",
+            "sequence_range": "219",
+            "start_time": 4239290,
+            "end_time": 4271190
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                3,
+                4,
+                21,
+                22,
+                26,
+                27,
+                29,
+                37,
+                58,
+                59,
+                63
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                5,
+                11,
+                12,
+                13,
+                17,
+                37
+            ]
+        },
+        {
+            "entity": "Olga",
+            "type": "Person",
+            "sequences": [
+                8
+            ]
+        },
+        {
+            "entity": "Infantas Isabel Clara Eugenia and Catalina Micaela",
+            "type": "Person",
+            "sequences": [
+                11,
+                17,
+                59
+            ]
+        },
+        {
+            "entity": "Duke of Savoy",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Enrique Koc",
+            "type": "Person",
+            "sequences": [
+                13,
+                15,
+                64,
+                67
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                22
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                22
+            ]
+        },
+        {
+            "entity": "Jerónima de la Asunción",
+            "type": "Person",
+            "sequences": [
+                23,
+                25,
+                26,
+                30,
+                31
+            ]
+        },
+        {
+            "entity": "Velázquez",
+            "type": "Person",
+            "sequences": [
+                23,
+                30
+            ]
+        },
+        {
+            "entity": "Ana de Jesús",
+            "type": "Person",
+            "sequences": [
+                26
+            ]
+        },
+        {
+            "entity": "St. John of the Cross",
+            "type": "Person",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                37
+            ]
+        },
+        {
+            "entity": "Lolita de la Colina",
+            "type": "Person",
+            "sequences": [
+                48
+            ]
+        },
+        {
+            "entity": "Felipe González",
+            "type": "Person",
+            "sequences": [
+                62
+            ]
+        },
+        {
+            "entity": "Ana González",
+            "type": "Person",
+            "sequences": [
+                63
+            ]
+        },
+        {
+            "entity": "Carmen González",
+            "type": "Person",
+            "sequences": [
+                63
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Leonor",
+            "type": "Person",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Sofia",
+            "type": "Person",
+            "sequences": [
+                59
+            ]
+        },
+        {
+            "entity": "Enrique Koc",
+            "type": "Person",
+            "sequences": [
+                75,
+                76,
+                78,
+                81,
+                89,
+                92,
+                93,
+                95,
+                125,
+                128
+            ]
+        },
+        {
+            "entity": "Duke of Albuquerque",
+            "type": "Title",
+            "sequences": [
+                75,
+                92
+            ]
+        },
+        {
+            "entity": "Duke of Pastrana",
+            "type": "Title",
+            "sequences": [
+                75,
+                92
+            ]
+        },
+        {
+            "entity": "Prince of Ascoli",
+            "type": "Title",
+            "sequences": [
+                75,
+                92
+            ]
+        },
+        {
+            "entity": "Duke of Maqueda",
+            "type": "Title",
+            "sequences": [
+                75,
+                92
+            ]
+        },
+        {
+            "entity": "Count of Valencia",
+            "type": "Title",
+            "sequences": [
+                75,
+                92
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                75
+            ]
+        },
+        {
+            "entity": "Alfred Morel Fatio",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                76,
+                80,
+                84,
+                95,
+                96,
+                113,
+                114,
+                115,
+                119,
+                122,
+                130,
+                131,
+                132
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                84,
+                86,
+                95,
+                96,
+                97,
+                111,
+                130
+            ]
+        },
+        {
+            "entity": "Catalina Micaela",
+            "type": "Person",
+            "sequences": [
+                84,
+                86,
+                88,
+                95,
+                96,
+                97,
+                111,
+                130
+            ]
+        },
+        {
+            "entity": "Anne of Dietrichstein",
+            "type": "Person",
+            "sequences": [
+                96,
+                97,
+                111,
+                112
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                97
+            ]
+        },
+        {
+            "entity": "Juana of Austria",
+            "type": "Person",
+            "sequences": [
+                97
+            ]
+        },
+        {
+            "entity": "Sophonis Vanguisola",
+            "type": "Person",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                132
+            ]
+        },
+        {
+            "entity": "Mary of St. Joseph",
+            "type": "Person",
+            "sequences": [
+                132
+            ]
+        },
+        {
+            "entity": "Beatriz de la Concepción",
+            "type": "Person",
+            "sequences": [
+                132
+            ]
+        },
+        {
+            "entity": "Ana de Jesús",
+            "type": "Person",
+            "sequences": [
+                132
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                133
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                134,
+                138,
+                160,
+                174,
+                179
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                134,
+                137,
+                138
+            ]
+        },
+        {
+            "entity": "Estre",
+            "type": "Person",
+            "sequences": [
+                146,
+                148,
+                149
+            ]
+        },
+        {
+            "entity": "Glenda Galore",
+            "type": "Person",
+            "sequences": [
+                158,
+                160,
+                162
+            ]
+        },
+        {
+            "entity": "Brianda Fritz James Stewart",
+            "type": "Person",
+            "sequences": [
+                165,
+                166
+            ]
+        },
+        {
+            "entity": "Alba Carrillo",
+            "type": "Person",
+            "sequences": [
+                170,
+                172,
+                174
+            ]
+        },
+        {
+            "entity": "Ana Arden",
+            "type": "Person",
+            "sequences": [
+                179,
+                180
+            ]
+        },
+        {
+            "entity": "Laura Bass",
+            "type": "Person",
+            "sequences": [
+                189,
+                190
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                191,
+                192,
+                193
+            ]
+        },
+        {
+            "entity": "Alana Portero",
+            "type": "Person",
+            "sequences": [
+                195,
+                196,
+                197
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Organization",
+            "sequences": [
+                143,
+                144,
+                152,
+                154,
+                160,
+                162,
+                167,
+                169,
+                170,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                184,
+                185,
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                149,
+                155,
+                157
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                198,
+                210,
+                212
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                198,
+                210,
+                212
+            ]
+        },
+        {
+            "entity": "Sora Lana de las Santas Llagas",
+            "type": "Person",
+            "sequences": [
+                198
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                198
+            ]
+        },
+        {
+            "entity": "El Greco",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Martyrdom St. Maurice",
+            "type": "Artwork",
+            "sequences": [
+                202,
+                203
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                219
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                219
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                219
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                219
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                219
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                219
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Relación del viaje hecho por Felipe Segundo en 1585, Zaragoza, Barcelona y Valencia, written by Enrique Koc, apostolic notary and archero de la guardia del cuerpo real",
+            "sequence": 13
+        }
+    ]
+}

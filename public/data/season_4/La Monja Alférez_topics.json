@@ -1,0 +1,875 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Recording and Personal Interaction",
+            "sequence_range": "1-5",
+            "start_time": 2360,
+            "end_time": 33216
+        },
+        {
+            "topic": "Lunch and Food Preferences",
+            "sequence_range": "6-25",
+            "start_time": 33248,
+            "end_time": 115500
+        },
+        {
+            "topic": "Event Announcement and Preparation",
+            "sequence_range": "26-30",
+            "start_time": 116320,
+            "end_time": 156766
+        },
+        {
+            "topic": "Audience Engagement and Feedback",
+            "sequence_range": "31-36",
+            "start_time": 156798,
+            "end_time": 198986
+        },
+        {
+            "topic": "Historical and Biographical Discussion on Catalina de Arauso",
+            "sequence_range": "37-65",
+            "start_time": 199058,
+            "end_time": 1272894
+        },
+        {
+            "topic": "Catalina de Erauso's biography and historical context",
+            "sequence_range": "66-76",
+            "start_time": 1273062,
+            "end_time": 1673870
+        },
+        {
+            "topic": "Historical and cultural analysis of transvestism and gender identity",
+            "sequence_range": "77-114",
+            "start_time": 1674370,
+            "end_time": 2435034
+        },
+        {
+            "topic": "Literary and cultural references to transvestism and gender roles",
+            "sequence_range": "115-118",
+            "start_time": 2435082,
+            "end_time": 2590324
+        },
+        {
+            "topic": "Gender and Identity",
+            "sequence_range": "119-122",
+            "start_time": 2590452,
+            "end_time": 2666804
+        },
+        {
+            "topic": "Literary and Historical Analysis",
+            "sequence_range": "123-126",
+            "start_time": 2666852,
+            "end_time": 2743784
+        },
+        {
+            "topic": "Theatrical Representations and Social Commentary",
+            "sequence_range": "127-153",
+            "start_time": 2743832,
+            "end_time": 3125932
+        },
+        {
+            "topic": "Cultural and Gender Norms",
+            "sequence_range": "154-176",
+            "start_time": 3125996,
+            "end_time": 3571050
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1,
+                4,
+                39,
+                40
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                30
+            ]
+        },
+        {
+            "entity": "Gallarre theater",
+            "type": "Place",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Pamplona",
+            "type": "Place",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Letra heridas festival",
+            "type": "Event",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Hola magazine",
+            "type": "Organization",
+            "sequences": [
+                31
+            ]
+        },
+        {
+            "entity": "Alba Carrillo",
+            "type": "Person",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Pietro de Lavalle",
+            "type": "Person",
+            "sequences": [
+                39,
+                40
+            ]
+        },
+        {
+            "entity": "Pope Urban the Eighth",
+            "type": "Person",
+            "sequences": [
+                39
+            ]
+        },
+        {
+            "entity": "Catalina de Arauso",
+            "type": "Person",
+            "sequences": [
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                51,
+                52,
+                53,
+                58,
+                59
+            ]
+        },
+        {
+            "entity": "Juan van der Hammen y León",
+            "type": "Person",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Donostia",
+            "type": "Place",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "San Sebastian",
+            "type": "Place",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Dominican convent of San Sebastian el Antiguo",
+            "type": "Organization",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Ursula de Urizá y Sarasti",
+            "type": "Person",
+            "sequences": [
+                44
+            ]
+        },
+        {
+            "entity": "Chile",
+            "type": "Place",
+            "sequences": [
+                46
+            ]
+        },
+        {
+            "entity": "Peru",
+            "type": "Place",
+            "sequences": [
+                46
+            ]
+        },
+        {
+            "entity": "Ecuador",
+            "type": "Place",
+            "sequences": [
+                46
+            ]
+        },
+        {
+            "entity": "Argentina",
+            "type": "Place",
+            "sequences": [
+                46
+            ]
+        },
+        {
+            "entity": "Huamanga",
+            "type": "Place",
+            "sequences": [
+                46,
+                52
+            ]
+        },
+        {
+            "entity": "Felipe Cuarto",
+            "type": "Person",
+            "sequences": [
+                47,
+                48
+            ]
+        },
+        {
+            "entity": "New Spain",
+            "type": "Place",
+            "sequences": [
+                48
+            ]
+        },
+        {
+            "entity": "Antonio de Arauso",
+            "type": "Person",
+            "sequences": [
+                48
+            ]
+        },
+        {
+            "entity": "Maite Pizarro",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Purificación Beltrán",
+            "type": "Person",
+            "sequences": [
+                57
+            ]
+        },
+        {
+            "entity": "Gabriela Cabezón Cámara",
+            "type": "Person",
+            "sequences": [
+                58
+            ]
+        },
+        {
+            "entity": "Las niñas del naranjel",
+            "type": "Literature",
+            "sequences": [
+                58
+            ]
+        },
+        {
+            "entity": "Stephanie Merrim",
+            "type": "Person",
+            "sequences": [
+                58
+            ]
+        },
+        {
+            "entity": "Brown",
+            "type": "Organization",
+            "sequences": [
+                58
+            ]
+        },
+        {
+            "entity": "Cabello Carceller",
+            "type": "Person",
+            "sequences": [
+                61,
+                63
+            ]
+        },
+        {
+            "entity": "Polvo E. Preciado",
+            "type": "Person",
+            "sequences": [
+                61,
+                63
+            ]
+        },
+        {
+            "entity": "Alhóndiga",
+            "type": "Place",
+            "sequences": [
+                61
+            ]
+        },
+        {
+            "entity": "Bilbao",
+            "type": "Place",
+            "sequences": [
+                61
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Potosi",
+            "type": "Place",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Chuncos",
+            "type": "Place",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Erauso",
+            "type": "Person",
+            "sequences": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+            ]
+        },
+        {
+            "entity": "Mapuche Indians",
+            "type": "Ethnic Group",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Aquis Pihuautza",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Franco regime",
+            "type": "Organization",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Cristóbal de Castro",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Isabel the Catholic",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Catalina de Arauz",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                67,
+                81
+            ]
+        },
+        {
+            "entity": "Margaret of the Cross",
+            "type": "Person",
+            "sequences": [
+                68
+            ]
+        },
+        {
+            "entity": "Joan of Austria",
+            "type": "Person",
+            "sequences": [
+                68
+            ]
+        },
+        {
+            "entity": "Carceller",
+            "type": "Person",
+            "sequences": [
+                69
+            ]
+        },
+        {
+            "entity": "Alhóndiga",
+            "type": "Place",
+            "sequences": [
+                74
+            ]
+        },
+        {
+            "entity": "Bilbao",
+            "type": "Place",
+            "sequences": [
+                74
+            ]
+        },
+        {
+            "entity": "Paul Bepreciado",
+            "type": "Person",
+            "sequences": [
+                75
+            ]
+        },
+        {
+            "entity": "Van der Hammen",
+            "type": "Person",
+            "sequences": [
+                75
+            ]
+        },
+        {
+            "entity": "Reina Sofia Museum",
+            "type": "Organization",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Maite Pizarro",
+            "type": "Person",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Andrés Gutiérrez Husillos",
+            "type": "Person",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Museum of America",
+            "type": "Organization",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Antonio de Arauso",
+            "type": "Person",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Esther Mayocco",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Espacio Afro",
+            "type": "Event",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Heleno de Cespedes",
+            "type": "Person",
+            "sequences": [
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+            ]
+        },
+        {
+            "entity": "Jack Halberstand",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "Leslie Feinberg",
+            "type": "Person",
+            "sequences": [
+                108,
+                109,
+                110,
+                111,
+                112,
+                113
+            ]
+        },
+        {
+            "entity": "Joan of Arc",
+            "type": "Person",
+            "sequences": [
+                108,
+                109,
+                110,
+                111
+            ]
+        },
+        {
+            "entity": "Mulan",
+            "type": "Person",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Saint Thecla",
+            "type": "Person",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Maria Perez",
+            "type": "Person",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "RuPaul",
+            "type": "Person",
+            "sequences": [
+                108
+            ]
+        },
+        {
+            "entity": "Erauso",
+            "type": "Person",
+            "sequences": [
+                120,
+                124,
+                125,
+                126,
+                134,
+                135,
+                136,
+                137,
+                170
+            ]
+        },
+        {
+            "entity": "Pietro",
+            "type": "Person",
+            "sequences": [
+                120
+            ]
+        },
+        {
+            "entity": "Serri Velasco",
+            "type": "Person",
+            "sequences": [
+                122,
+                123,
+                124,
+                126
+            ]
+        },
+        {
+            "entity": "Catalina de Arauzo",
+            "type": "Person",
+            "sequences": [
+                124
+            ]
+        },
+        {
+            "entity": "Montalbán",
+            "type": "Person",
+            "sequences": [
+                124,
+                135,
+                137,
+                138,
+                167,
+                170
+            ]
+        },
+        {
+            "entity": "Diego de Solarte",
+            "type": "Person",
+            "sequences": [
+                128
+            ]
+        },
+        {
+            "entity": "Juan de Urquiza",
+            "type": "Person",
+            "sequences": [
+                128
+            ]
+        },
+        {
+            "entity": "Luisa de Robles",
+            "type": "Person",
+            "sequences": [
+                138,
+                152,
+                155,
+                157,
+                159,
+                161,
+                166
+            ]
+        },
+        {
+            "entity": "Elizabeth Marie Cruz Peterson",
+            "type": "Person",
+            "sequences": [
+                144
+            ]
+        },
+        {
+            "entity": "Pacheco de Narváez",
+            "type": "Person",
+            "sequences": [
+                146,
+                147,
+                153
+            ]
+        },
+        {
+            "entity": "Manuel Vallejo",
+            "type": "Person",
+            "sequences": [
+                159,
+                160,
+                162
+            ]
+        },
+        {
+            "entity": "Góngora",
+            "type": "Person",
+            "sequences": [
+                161,
+                162,
+                163,
+                165
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                176
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                176
+            ]
+        },
+        {
+            "entity": "Jesús Blanco Blanquiño",
+            "type": "Person",
+            "sequences": [
+                176
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                176
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                176
+            ]
+        },
+        {
+            "entity": "Trujillo",
+            "type": "Place",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Lima",
+            "type": "Place",
+            "sequences": [
+                126,
+                128
+            ]
+        },
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                123,
+                134,
+                170
+            ]
+        },
+        {
+            "entity": "Americas",
+            "type": "Place",
+            "sequences": [
+                134
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                176
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Las niñas del naranjel by Gabriela Cabezón Cámara",
+            "sequence": 58
+        }
+    ]
+}

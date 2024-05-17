@@ -1,202 +1,244 @@
 {
     "topics": [
         {
-            "topic": "Introduction and Personal Anecdotes",
-            "sequence_range": "1-10",
-            "start_time": 18335,
-            "end_time": 74192
+            "topic": "Introduction and periodicity",
+            "sequence_range": "1-4",
+            "start_time": 18440,
+            "end_time": 38898
         },
         {
-            "topic": "Recording Challenges and University Issues",
-            "sequence_range": "5-6",
-            "start_time": 40522,
-            "end_time": 58016
+            "topic": "Recording challenges",
+            "sequence_range": "5-10",
+            "start_time": 38954,
+            "end_time": 71538
         },
         {
-            "topic": "Historical and Religious Artifacts",
+            "topic": "St. Teresa's pinky and relics",
             "sequence_range": "11-19",
-            "start_time": 74412,
-            "end_time": 147543
+            "start_time": 71714,
+            "end_time": 161646
         },
         {
-            "topic": "Literature and Body",
-            "sequence_range": "21-30",
-            "start_time": 152307,
-            "end_time": 200344
+            "topic": "Body and its parts",
+            "sequence_range": "20-26",
+            "start_time": 161718,
+            "end_time": 200342
         },
         {
-            "topic": "Food and Health",
-            "sequence_range": "31-45",
-            "start_time": 200364,
-            "end_time": 297690
+            "topic": "Food and diet",
+            "sequence_range": "27-42",
+            "start_time": 200366,
+            "end_time": 290508
         },
         {
-            "topic": "Music and Altered States of Consciousness",
-            "sequence_range": "46-52",
-            "start_time": 298110,
-            "end_time": 348662
+            "topic": "Altered states of consciousness and drugs",
+            "sequence_range": "43-48",
+            "start_time": 290564,
+            "end_time": 348452
         },
         {
-            "topic": "Historical Letters and Medicinal Practices",
-            "sequence_range": "53-93",
-            "start_time": 348682,
-            "end_time": 848885
+            "topic": "Historical anecdotes and research",
+            "sequence_range": "49-72",
+            "start_time": 348556,
+            "end_time": 760070
         },
         {
-            "topic": "Convent Crafts and Medicinal Knowledge",
-            "sequence_range": "94-105",
-            "start_time": 849425,
-            "end_time": 1108244
+            "topic": "Apothecary nuns and medicinal practices",
+            "sequence_range": "73-85",
+            "start_time": 760150,
+            "end_time": 1198136
         },
         {
-            "topic": "Legal and Illicit Substances",
-            "sequence_range": "106-118",
-            "start_time": 1108465,
-            "end_time": 1288882
+            "topic": "Legal and illicit substances",
+            "sequence_range": "86-93",
+            "start_time": 1198208,
+            "end_time": 1305810
         },
         {
-            "topic": "Drug Smuggling Story",
-            "sequence_range": "119-124",
-            "start_time": 1290083,
-            "end_time": 1570170
+            "topic": "Smuggling story",
+            "sequence_range": "94-96",
+            "start_time": 1317390,
+            "end_time": 1570210
         },
         {
-            "topic": "Music and Cultural Impact",
-            "sequence_range": "125-126",
-            "start_time": 1576735,
-            "end_time": 1592504
+            "topic": "Song reaction",
+            "sequence_range": "97-100",
+            "start_time": 1576430,
+            "end_time": 1592606
         },
         {
-            "topic": "Identity and Club Names",
-            "sequence_range": "127-128",
-            "start_time": 1592804,
-            "end_time": 1613466
+            "topic": "Club Names and Personal Interests",
+            "sequence_range": "101-102",
+            "start_time": 1592678,
+            "end_time": 1613414
         },
         {
-            "topic": "Historical and Cultural Discussions",
-            "sequence_range": "129-220",
-            "start_time": 1613526,
-            "end_time": 2932188
+            "topic": "Tribute to Semidea Poggi and Apothecary in Bologna",
+            "sequence_range": "102-104",
+            "start_time": 1606358,
+            "end_time": 1639590
         },
         {
-            "topic": "Cristobal Ayo's treatise on moderation",
-            "sequence_range": "221-221",
-            "start_time": 2932488,
-            "end_time": 2979249
+            "topic": "Eurocentric Episodes and Moving to America",
+            "sequence_range": "104-112",
+            "start_time": 1615086,
+            "end_time": 1726292
         },
         {
-            "topic": "Personal anecdotes and reflections on moderation",
-            "sequence_range": "222-226",
-            "start_time": 2980150,
-            "end_time": 3013011
+            "topic": "Tobacco and Chocolate in Global Capitalism and Christian Ideology",
+            "sequence_range": "112-114",
+            "start_time": 1668884,
+            "end_time": 1771650
         },
         {
-            "topic": "Historical context and thesis discussion",
-            "sequence_range": "227-231",
-            "start_time": 3013031,
-            "end_time": 3045961
+            "topic": "Baroque Toxicology and Tobacco Debate",
+            "sequence_range": "114-118",
+            "start_time": 1729580,
+            "end_time": 1827994
         },
         {
-            "topic": "Muchio Vitellacchi and the Jesuits' stance on chocolate",
-            "sequence_range": "232-243",
-            "start_time": 3046162,
-            "end_time": 3218005
+            "topic": "Columbus' Diaries and the Introduction of Tobacco",
+            "sequence_range": "119-122",
+            "start_time": 1828082,
+            "end_time": 1913068
         },
         {
-            "topic": "Chocolate consumption controversies and prohibitions",
-            "sequence_range": "244-290",
-            "start_time": 3218045,
-            "end_time": 3603995
+            "topic": "Tobacco, Chocolate, and Their Cultural and Medicinal Impact",
+            "sequence_range": "123-168",
+            "start_time": 1913164,
+            "end_time": 2649358
         },
         {
-            "topic": "Introduction to Maria de San Jose and spiritual autobiography",
-            "sequence_range": "291-308",
-            "start_time": 3604315,
-            "end_time": 3777322
+            "topic": "Witchcraft, Women, and Chocolate",
+            "sequence_range": "149-165",
+            "start_time": 2271330,
+            "end_time": 2606178
         },
         {
-            "topic": "Tobacco discourse and ecclesiastical monopoly",
-            "sequence_range": "309-338",
-            "start_time": 3777362,
-            "end_time": 4199544
+            "topic": "Tobacco Treatises and Propaganda",
+            "sequence_range": "168-183",
+            "start_time": 2621634,
+            "end_time": 2920992
         },
         {
-            "topic": "Ecclesiastical Debate on Fasting and Consumption of Chocolate and Tobacco",
-            "sequence_range": "339-345",
-            "start_time": 4200785,
-            "end_time": 4327972
+            "topic": "Tobacco and its effects",
+            "sequence_range": "184-250",
+            "start_time": 2921056,
+            "end_time": 3874208
         },
         {
-            "topic": "Historical and Cultural Context of Chocolate and Tobacco",
-            "sequence_range": "346-364",
-            "start_time": 4332895,
-            "end_time": 4600597
+            "topic": "Chocolate consumption among Jesuits",
+            "sequence_range": "191-233",
+            "start_time": 3071608,
+            "end_time": 3604988
         },
         {
-            "topic": "Medicinal and Psychological Effects of Chocolate",
-            "sequence_range": "357-363",
-            "start_time": 4426333,
-            "end_time": 4598596
+            "topic": "Spiritual autobiography and personal narratives",
+            "sequence_range": "238-246",
+            "start_time": 3618962,
+            "end_time": 3756528
         },
         {
-            "topic": "Exploration and Exploitation of Tobacco",
-            "sequence_range": "382-386",
-            "start_time": 4731132,
-            "end_time": 5095942
+            "topic": "Ecclesiastical debates on chocolate and tobacco",
+            "sequence_range": "247-273",
+            "start_time": 3756624,
+            "end_time": 4233360
         },
         {
-            "topic": "Hallucinogenic Plants and Their Effects",
-            "sequence_range": "390-435",
-            "start_time": 5102765,
-            "end_time": 5606516
+            "topic": "Discussion on fasting, communion, and consumption of non-nutritive elements",
+            "sequence_range": "274-276",
+            "start_time": 4233400,
+            "end_time": 4295974
         },
         {
-            "topic": "Ergot and Ergotism",
-            "sequence_range": "437-444",
-            "start_time": 5612376,
-            "end_time": 5725850
+            "topic": "Theological debate on tobacco and its effects",
+            "sequence_range": "274-278",
+            "start_time": 4233400,
+            "end_time": 4330760
         },
         {
-            "topic": "Ergotism and Historical Epidemics",
-            "sequence_range": "445-452",
-            "start_time": 5725870,
-            "end_time": 5856485
+            "topic": "Consumption habits and their theological implications",
+            "sequence_range": "279-287",
+            "start_time": 4332060,
+            "end_time": 4395522
         },
         {
-            "topic": "Saint Anthony Abbot and Hallucinations",
-            "sequence_range": "448-451",
-            "start_time": 5777831,
-            "end_time": 5854323
+            "topic": "Historical and moral debate on chocolate",
+            "sequence_range": "289-293",
+            "start_time": 4423850,
+            "end_time": 4555676
         },
         {
-            "topic": "Salem Witch Trials and Ergotism",
-            "sequence_range": "453-458",
-            "start_time": 5856785,
-            "end_time": 5960074
+            "topic": "Medicinal benefits and drawbacks of cocoa",
+            "sequence_range": "293-297",
+            "start_time": 4507404,
+            "end_time": 4598350
         },
         {
-            "topic": "Cinema and Ergotism",
-            "sequence_range": "459-470",
-            "start_time": 5960094,
-            "end_time": 6014378
+            "topic": "Discussion on substances altering consciousness and their exploitation",
+            "sequence_range": "316-327",
+            "start_time": 4730290,
+            "end_time": 5095862
         },
         {
-            "topic": "Early Drug Experimentation and Psychoactive Substances",
-            "sequence_range": "477-489",
-            "start_time": 6036250,
-            "end_time": 6218845
+            "topic": "Exploration of hallucinogenic plants and their effects",
+            "sequence_range": "331-355",
+            "start_time": 5101822,
+            "end_time": 5571990
         },
         {
-            "topic": "Historical Figures and Contributions to Science",
-            "sequence_range": "490-517",
-            "start_time": 6218905,
-            "end_time": 6422836
+            "topic": "Ergot and its historical context",
+            "sequence_range": "357-362",
+            "start_time": 5586686,
+            "end_time": 5725762
         },
         {
-            "topic": "Personal Anecdotes and Modern Addictions",
-            "sequence_range": "518-543",
-            "start_time": 6423036,
-            "end_time": 6646721
+            "topic": "Ergotism and its historical impact",
+            "sequence_range": "363-369",
+            "start_time": 5725826,
+            "end_time": 5927438
+        },
+        {
+            "topic": "Saint Anthony and hallucinations",
+            "sequence_range": "364-367",
+            "start_time": 5777744,
+            "end_time": 5855726
+        },
+        {
+            "topic": "Salem witch trials and ergotism",
+            "sequence_range": "369-371",
+            "start_time": 5856646,
+            "end_time": 5959852
+        },
+        {
+            "topic": "Cinema and ergotism",
+            "sequence_range": "372-378",
+            "start_time": 5959916,
+            "end_time": 6010496
+        },
+        {
+            "topic": "Addictive substances and their control",
+            "sequence_range": "383-401",
+            "start_time": 6034566,
+            "end_time": 6312910
+        },
+        {
+            "topic": "Psychoactive substances for medical treatments",
+            "sequence_range": "389-390",
+            "start_time": 6188570,
+            "end_time": 6242612
+        },
+        {
+            "topic": "Robert Boyle and his desiderata",
+            "sequence_range": "390-408",
+            "start_time": 6191098,
+            "end_time": 6422752
+        },
+        {
+            "topic": "Strange addictions",
+            "sequence_range": "409-425",
+            "start_time": 6422896,
+            "end_time": 6590460
         }
     ],
     "entities": [
@@ -212,9 +254,10 @@
             "type": "Person",
             "sequences": [
                 2,
-                28,
-                50,
-                100
+                5,
+                26,
+                46,
+                80
             ]
         },
         {
@@ -229,7 +272,9 @@
             "type": "Person",
             "sequences": [
                 11,
-                60
+                12,
+                56,
+                66
             ]
         },
         {
@@ -241,12 +286,15 @@
             ]
         },
         {
-            "entity": "Seville",
+            "entity": "Escorial",
             "type": "Place",
             "sequences": [
-                16,
-                17,
-                111
+                18,
+                19,
+                66,
+                67,
+                68,
+                77
             ]
         },
         {
@@ -260,92 +308,218 @@
             "entity": "Augustinians",
             "type": "Organization",
             "sequences": [
-                19
+                19,
+                65,
+                67,
+                77
             ]
         },
         {
-            "entity": "Esto es un cuerpo",
+            "entity": "This is a body",
             "type": "Publication",
             "sequences": [
-                21
-            ]
-        },
-        {
-            "entity": "Paula",
-            "type": "Person",
-            "sequences": [
-                53
-            ]
-        },
-        {
-            "entity": "Matilde Ras",
-            "type": "Person",
-            "sequences": [
-                55
-            ]
-        },
-        {
-            "entity": "Fray Luis de León",
-            "type": "Person",
-            "sequences": [
-                55,
-                57,
-                59,
-                63,
-                67,
-                85,
-                86,
-                91
-            ]
-        },
-        {
-            "entity": "Ana de Espinosa",
-            "type": "Person",
-            "sequences": [
-                59,
-                60,
-                63,
-                64,
-                67,
-                78
+                19,
+                23,
+                24
             ]
         },
         {
             "entity": "Maria Bautista",
             "type": "Person",
             "sequences": [
-                60
+                56
+            ]
+        },
+        {
+            "entity": "Valladolid",
+            "type": "Place",
+            "sequences": [
+                56,
+                59
+            ]
+        },
+        {
+            "entity": "Ana de Espinosa",
+            "type": "Person",
+            "sequences": [
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                69
+            ]
+        },
+        {
+            "entity": "Fray Luis de León",
+            "type": "Person",
+            "sequences": [
+                51,
+                53,
+                55,
+                56,
+                57,
+                59,
+                60,
+                61,
+                69,
+                70,
+                71
+            ]
+        },
+        {
+            "entity": "Madrigal",
+            "type": "Place",
+            "sequences": [
+                55,
+                59
             ]
         },
         {
             "entity": "Bernardo de Espinosa",
             "type": "Person",
             "sequences": [
-                63
+                59
             ]
         },
         {
-            "entity": "Florentina de Mijancas",
+            "entity": "Florentina de Mijankas",
             "type": "Person",
             "sequences": [
-                63
+                59
             ]
         },
         {
-            "entity": "Macarena de las Estrellas",
-            "type": "Person",
+            "entity": "Bologna",
+            "type": "Place",
             "sequences": [
-                76,
+                75,
                 77
             ]
         },
         {
-            "entity": "Semidea Bozzi",
+            "entity": "Semidea",
             "type": "Person",
             "sequences": [
-                97,
-                98,
-                99,
+                77,
+                78,
+                79
+            ]
+        },
+        {
+            "entity": "San Lorenzo",
+            "type": "Place",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Andrés Zamudio",
+            "type": "Person",
+            "sequences": [
+                85
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                85
+            ]
+        },
+        {
+            "entity": "Catalina María de Mora Guerrero",
+            "type": "Person",
+            "sequences": [
+                86,
+                88
+            ]
+        },
+        {
+            "entity": "Daimy",
+            "type": "Place",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Ciudad Real",
+            "type": "Place",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Tomás de Prado Figueroa",
+            "type": "Person",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Durango",
+            "type": "Place",
+            "sequences": [
+                94,
+                96
+            ]
+        },
+        {
+            "entity": "Tijuana",
+            "type": "Place",
+            "sequences": [
+                94
+            ]
+        },
+        {
+            "entity": "Nogales",
+            "type": "Place",
+            "sequences": [
+                94
+            ]
+        },
+        {
+            "entity": "Sacramento",
+            "type": "Place",
+            "sequences": [
+                96
+            ]
+        },
+        {
+            "entity": "Sister Juana",
+            "type": "Person",
+            "sequences": [
+                96
+            ]
+        },
+        {
+            "entity": "Surprise",
+            "type": "Person",
+            "sequences": [
+                96
+            ]
+        },
+        {
+            "entity": "Sor Juana",
+            "type": "Person",
+            "sequences": [
+                101,
+                102
+            ]
+        },
+        {
+            "entity": "Sorpresa",
+            "type": "Person",
+            "sequences": [
+                101
+            ]
+        },
+        {
+            "entity": "Semidea Poggi",
+            "type": "Person",
+            "sequences": [
                 102,
                 103,
                 104
@@ -355,493 +529,422 @@
             "entity": "Bologna",
             "type": "Place",
             "sequences": [
-                97,
-                98,
-                99,
-                100,
-                102
+                104
             ]
         },
         {
-            "entity": "San Lorenzo",
+            "entity": "Puebla",
             "type": "Place",
             "sequences": [
-                99
-            ]
-        },
-        {
-            "entity": "Andrés Zamudio",
-            "type": "Person",
-            "sequences": [
-                109,
-                110
-            ]
-        },
-        {
-            "entity": "Catalina María de Mora Guerrero",
-            "type": "Person",
-            "sequences": [
-                114,
-                115,
-                116
-            ]
-        },
-        {
-            "entity": "Tomás de Prado Figueroa",
-            "type": "Person",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Daimí",
-            "type": "Place",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Ciudad Real",
-            "type": "Place",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Durango",
-            "type": "Place",
-            "sequences": [
-                119,
-                120,
-                124
-            ]
-        },
-        {
-            "entity": "Tijuana",
-            "type": "Place",
-            "sequences": [
-                120
-            ]
-        },
-        {
-            "entity": "Nogales",
-            "type": "Place",
-            "sequences": [
-                122,
-                123,
-                124
-            ]
-        },
-        {
-            "entity": "Sacramento",
-            "type": "Place",
-            "sequences": [
-                124
-            ]
-        },
-        {
-            "entity": "Sor Juana",
-            "type": "Person",
-            "sequences": [
-                124
-            ]
-        },
-        {
-            "entity": "Sorpresa",
-            "type": "Person",
-            "sequences": [
-                124
-            ]
-        },
-        {
-            "entity": "Madrid",
-            "type": "Place",
-            "sequences": [
-                125
-            ]
-        },
-        {
-            "entity": "Sor Juana",
-            "type": "Person",
-            "sequences": [
-                127,
-                128
-            ]
-        },
-        {
-            "entity": "Sorpresa",
-            "type": "Person",
-            "sequences": [
-                127,
-                128
-            ]
-        },
-        {
-            "entity": "Semidea Pochi",
-            "type": "Person",
-            "sequences": [
-                128,
-                129,
-                130
-            ]
-        },
-        {
-            "entity": "Bologna",
-            "type": "Place",
-            "sequences": [
-                130
-            ]
-        },
-        {
-            "entity": "Relic of Puebla",
-            "type": "Event",
-            "sequences": [
-                130
+                104
             ]
         },
         {
             "entity": "Mexico",
             "type": "Place",
             "sequences": [
-                130
+                104
             ]
         },
         {
             "entity": "America",
             "type": "Place",
             "sequences": [
-                130,
-                132,
-                135,
-                139,
-                140
-            ]
-        },
-        {
-            "entity": "Baroque Toxicology",
-            "type": "Literature",
-            "sequences": [
-                144
+                104,
+                106,
+                108,
+                111,
+                112,
+                166
             ]
         },
         {
             "entity": "Columbus",
             "type": "Person",
             "sequences": [
-                152,
-                154,
-                155,
-                156
+                119,
+                120,
+                122,
+                123,
+                124,
+                125,
+                126
             ]
         },
         {
-            "entity": "Tesorio de Cobarrubias",
-            "type": "Literature",
+            "entity": "Covarrubias",
+            "type": "Person",
             "sequences": [
-                162,
-                164
+                132,
+                133,
+                134,
+                135,
+                136
             ]
         },
         {
             "entity": "Nicolás Monardes",
             "type": "Person",
             "sequences": [
-                182
+                148
             ]
         },
         {
             "entity": "Fernández de Oviedo",
             "type": "Person",
             "sequences": [
-                186
-            ]
-        },
-        {
-            "entity": "Jesuits",
-            "type": "Organization",
-            "sequences": [
-                200
+                152
             ]
         },
         {
             "entity": "Cristóbal Ayo",
             "type": "Person",
             "sequences": [
-                205,
-                215
+                170,
+                179,
+                180,
+                181
             ]
         },
         {
-            "entity": "Cristobal Ayo",
+            "entity": "Cristóbal Hayo",
             "type": "Person",
             "sequences": [
-                221
+                184
             ]
         },
         {
             "entity": "Leviticus 19",
-            "type": "Biblical reference",
+            "type": "Literature",
             "sequences": [
-                221
+                184
             ]
         },
         {
             "entity": "Mexico",
             "type": "Place",
             "sequences": [
-                228,
-                236
+                187,
+                191,
+                193,
+                195,
+                197,
+                201,
+                207,
+                209,
+                239,
+                242,
+                243,
+                247,
+                249,
+                250,
+                256
             ]
         },
         {
             "entity": "Rome",
             "type": "Place",
             "sequences": [
-                228,
-                234
-            ]
-        },
-        {
-            "entity": "Muchio Vitellacchi",
-            "type": "Person",
-            "sequences": [
-                232,
-                234,
-                236,
-                238,
-                240,
-                258
+                187,
+                191,
+                193,
+                227
             ]
         },
         {
             "entity": "Jesuits",
             "type": "Organization",
             "sequences": [
-                234,
-                236,
-                238,
-                240,
-                242,
-                244,
-                288,
-                290,
-                309,
-                325,
-                327
+                191,
+                192,
+                193,
+                195,
+                197,
+                201,
+                207,
+                227,
+                229,
+                231,
+                233,
+                247,
+                249,
+                250,
+                252,
+                256,
+                258
+            ]
+        },
+        {
+            "entity": "Muzio Vitele",
+            "type": "Person",
+            "sequences": [
+                191,
+                193,
+                203
             ]
         },
         {
             "entity": "Aquaviva",
             "type": "Person",
             "sequences": [
-                258
-            ]
-        },
-        {
-            "entity": "Juan Jurado",
-            "type": "Person",
-            "sequences": [
-                276,
-                278,
-                282,
-                284
+                205,
+                206,
+                207
             ]
         },
         {
             "entity": "Maria de San Jose",
             "type": "Person",
             "sequences": [
-                297,
-                299,
-                306,
-                307
+                238,
+                239,
+                243,
+                245,
+                246
             ]
         },
         {
-            "entity": "Agustina Recoleta",
+            "entity": "Juan Jurado",
             "type": "Person",
             "sequences": [
-                301,
-                303,
-                304
+                220,
+                221,
+                223,
+                224,
+                225
             ]
         },
         {
-            "entity": "Alexander VII",
+            "entity": "Pope Alexander the Seventh",
             "type": "Person",
             "sequences": [
-                327
+                258
             ]
         },
         {
-            "entity": "Urban VIII",
+            "entity": "Pope Urban the Eighth",
             "type": "Person",
             "sequences": [
-                336
+                269
+            ]
+        },
+        {
+            "entity": "Francisco Leiva de Aguilar",
+            "type": "Person",
+            "sequences": [
+                254
+            ]
+        },
+        {
+            "entity": "Seville",
+            "type": "Place",
+            "sequences": [
+                269
+            ]
+        },
+        {
+            "entity": "Bologna",
+            "type": "Place",
+            "sequences": [
+                258
             ]
         },
         {
             "entity": "Antonio de León",
             "type": "Person",
             "sequences": [
-                357
+                289
             ]
         },
         {
             "entity": "Society of Jesus",
             "type": "Organization",
             "sequences": [
-                361
+                293
             ]
         },
         {
-            "entity": "Antonio Colmenaro del Edesmo",
+            "entity": "Antonio Colmenero de Ledesma",
             "type": "Person",
             "sequences": [
-                371
+                307
             ]
         },
         {
             "entity": "Nicolás Monardes",
             "type": "Person",
             "sequences": [
-                384
+                325
             ]
         },
         {
             "entity": "Juan de Cárdenas",
             "type": "Person",
             "sequences": [
-                390,
-                397,
-                402,
-                415,
-                417
+                331,
+                335,
+                337,
+                339,
+                347
             ]
         },
         {
-            "entity": "Pliny",
-            "type": "Person",
+            "entity": "Inquisition",
+            "type": "Organization",
             "sequences": [
-                390
+                335
             ]
         },
         {
-            "entity": "Cobarrubias",
+            "entity": "Santa Teresa",
             "type": "Person",
             "sequences": [
+                357,
+                358
+            ]
+        },
+        {
+            "entity": "St. Anthony",
+            "type": "Person",
+            "sequences": [
+                361
+            ]
+        },
+        {
+            "entity": "Christ",
+            "type": "Person",
+            "sequences": [
+                363
+            ]
+        },
+        {
+            "entity": "San Antonio",
+            "type": "Place/Organization",
+            "sequences": [
+                363,
+                364,
+                365,
+                366,
                 367
-            ]
-        },
-        {
-            "entity": "St. Teresa",
-            "type": "Person",
-            "sequences": [
-                437,
-                438
-            ]
-        },
-        {
-            "entity": "Saint Anthony",
-            "type": "Person",
-            "sequences": [
-                443
             ]
         },
         {
             "entity": "Saint Anthony Abbot",
             "type": "Person",
             "sequences": [
-                445,
-                448,
-                449,
-                450,
-                451
+                363
             ]
         },
         {
-            "entity": "Europe",
-            "type": "Place",
-            "sequences": [
-                445
-            ]
-        },
-        {
-            "entity": "Henry IV",
+            "entity": "Henry the Fourth",
             "type": "Person",
             "sequences": [
-                451
+                367
             ]
         },
         {
             "entity": "Salem",
             "type": "Place",
             "sequences": [
-                453
+                369
             ]
         },
         {
             "entity": "Tituba",
             "type": "Person",
             "sequences": [
-                456
+                371
             ]
         },
         {
-            "entity": "Robert Boyle",
-            "type": "Person",
+            "entity": "Witch's Witch (Movie)",
+            "type": "Event",
             "sequences": [
-                491,
-                494,
-                495,
-                497
-            ]
-        },
-        {
-            "entity": "University in Madison",
-            "type": "Organization",
-            "sequences": [
-                489
-            ]
-        },
-        {
-            "entity": "Robert Hooke",
-            "type": "Person",
-            "sequences": [
-                511,
-                512
-            ]
-        },
-        {
-            "entity": "Ana",
-            "type": "Person",
-            "sequences": [
-                505,
-                506,
-                507,
-                508,
-                509
+                372,
+                373,
+                374,
+                375,
+                376
             ]
         },
         {
             "entity": "Cárdenas",
             "type": "Person",
             "sequences": [
-                519
+                380
             ]
         },
         {
-            "entity": "My Strange Addiction",
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                384
+            ]
+        },
+        {
+            "entity": "French engraving",
+            "type": "Object",
+            "sequences": [
+                385,
+                386
+            ]
+        },
+        {
+            "entity": "University in Madison",
+            "type": "Organization",
+            "sequences": [
+                390
+            ]
+        },
+        {
+            "entity": "MDMA",
+            "type": "Substance",
+            "sequences": [
+                390
+            ]
+        },
+        {
+            "entity": "Robert Boyle",
+            "type": "Person",
+            "sequences": [
+                390,
+                393,
+                394,
+                395,
+                396,
+                406
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                397,
+                402,
+                403,
+                404,
+                405
+            ]
+        },
+        {
+            "entity": "Robert Hook",
+            "type": "Person",
+            "sequences": [
+                406
+            ]
+        },
+        {
+            "entity": "My strange addiction (TV Program)",
             "type": "Event",
             "sequences": [
-                521
+                410
             ]
         }
     ],
     "citations": [
         {
-            "citation": "Esto es un cuerpo",
-            "sequence": 21
+            "citation": "This is a body",
+            "sequence": 19
         }
     ]
 }

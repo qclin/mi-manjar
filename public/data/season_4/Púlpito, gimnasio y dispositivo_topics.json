@@ -1,0 +1,786 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Casual Conversation",
+            "sequence_range": "1-8",
+            "start_time": 2360,
+            "end_time": 49694
+        },
+        {
+            "topic": "Boxing and Personal Experiences",
+            "sequence_range": "4-7",
+            "start_time": 29110,
+            "end_time": 47302
+        },
+        {
+            "topic": "Dining Out and Food Choices",
+            "sequence_range": "9-18",
+            "start_time": 49862,
+            "end_time": 137008
+        },
+        {
+            "topic": "Gym and Exercise",
+            "sequence_range": "19-26",
+            "start_time": 137164,
+            "end_time": 310530
+        },
+        {
+            "topic": "Historical and Cultural References",
+            "sequence_range": "23-28, 33-42, 62-87",
+            "start_time": 216820,
+            "end_time": 1424834
+        },
+        {
+            "topic": "Grimes and Her Lifestyle",
+            "sequence_range": "43-61",
+            "start_time": 689280,
+            "end_time": 984768
+        },
+        {
+            "topic": "Historical and Cultural Analysis of Body Perception",
+            "sequence_range": "88-97",
+            "start_time": 1424882,
+            "end_time": 1568278
+        },
+        {
+            "topic": "Imperialism and Body Politics",
+            "sequence_range": "93-95",
+            "start_time": 1466498,
+            "end_time": 1524206
+        },
+        {
+            "topic": "Conquistadors and Body Image",
+            "sequence_range": "96-97",
+            "start_time": 1524358,
+            "end_time": 1568278
+        },
+        {
+            "topic": "Historical Figures and Their Contributions",
+            "sequence_range": "103-105",
+            "start_time": 1601526,
+            "end_time": 1684114
+        },
+        {
+            "topic": "Cultural and Bodily Transformations in New Spain",
+            "sequence_range": "108-125",
+            "start_time": 1695010,
+            "end_time": 1986308
+        },
+        {
+            "topic": "Preaching and Ecclesiastical Influence",
+            "sequence_range": "121-172",
+            "start_time": 1887554,
+            "end_time": 2683084
+        },
+        {
+            "topic": "Preaching and Rhetoric",
+            "sequence_range": "173-256",
+            "start_time": 2683132,
+            "end_time": 3890728
+        },
+        {
+            "topic": "Jesuit Sermons and Preaching Techniques",
+            "sequence_range": "257-266",
+            "start_time": 3890784,
+            "end_time": 4060494
+        },
+        {
+            "topic": "Physical and Mental Strain of Preaching",
+            "sequence_range": "267-277",
+            "start_time": 4060622,
+            "end_time": 4306542
+        },
+        {
+            "topic": "Health Advice and Preaching Practices",
+            "sequence_range": "278-300",
+            "start_time": 4306566,
+            "end_time": 4575126
+        },
+        {
+            "topic": "Women in Preaching and St. Joan's Story",
+            "sequence_range": "301-329",
+            "start_time": 4575238,
+            "end_time": 5078200
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                10,
+                13
+            ]
+        },
+        {
+            "entity": "Boxing",
+            "type": "Sport",
+            "sequences": [
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "entity": "Hamburger",
+            "type": "Food",
+            "sequences": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "entity": "Crunch chocolate",
+            "type": "Food",
+            "sequences": [
+                14,
+                16,
+                17,
+                18
+            ]
+        },
+        {
+            "entity": "Slaughterhouse",
+            "type": "Place",
+            "sequences": [
+                21
+            ]
+        },
+        {
+            "entity": "Dr. Cristóbal Méndez",
+            "type": "Person",
+            "sequences": [
+                23,
+                62,
+                64,
+                69
+            ]
+        },
+        {
+            "entity": "Sebastián de Covarrubias",
+            "type": "Person",
+            "sequences": [
+                27
+            ]
+        },
+        {
+            "entity": "Grimes",
+            "type": "Person",
+            "sequences": [
+                43,
+                44,
+                46,
+                47,
+                49,
+                51,
+                52,
+                53,
+                54,
+                57,
+                58,
+                59,
+                60,
+                61
+            ]
+        },
+        {
+            "entity": "Elon Musk",
+            "type": "Person",
+            "sequences": [
+                46
+            ]
+        },
+        {
+            "entity": "Maite Borjabad",
+            "type": "Person",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Climat Fitness",
+            "type": "Event",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Matadero",
+            "type": "Place",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                33
+            ]
+        },
+        {
+            "entity": "John Don",
+            "type": "Person",
+            "sequences": [
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81
+            ]
+        },
+        {
+            "entity": "Robert Burton",
+            "type": "Person",
+            "sequences": [
+                87
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                42
+            ]
+        },
+        {
+            "entity": "Philip's daughters",
+            "type": "Podcast",
+            "sequences": [
+                42
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                42
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                42
+            ]
+        },
+        {
+            "entity": "Robert Burton",
+            "type": "Person",
+            "sequences": [
+                88
+            ]
+        },
+        {
+            "entity": "Dani Rovira",
+            "type": "Person",
+            "sequences": [
+                88,
+                91
+            ]
+        },
+        {
+            "entity": "Castilians",
+            "type": "Group",
+            "sequences": [
+                92
+            ]
+        },
+        {
+            "entity": "Michael Anton Butt",
+            "type": "Person",
+            "sequences": [
+                93
+            ]
+        },
+        {
+            "entity": "Santiago Abascal",
+            "type": "Person",
+            "sequences": [
+                97
+            ]
+        },
+        {
+            "entity": "Enrico Martinez",
+            "type": "Person",
+            "sequences": [
+                103,
+                104,
+                105
+            ]
+        },
+        {
+            "entity": "Mexico",
+            "type": "Place",
+            "sequences": [
+                104,
+                105
+            ]
+        },
+        {
+            "entity": "Juan Lopez de Velasco",
+            "type": "Person",
+            "sequences": [
+                110,
+                112
+            ]
+        },
+        {
+            "entity": "Philip the Second",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Helkia Crook",
+            "type": "Person",
+            "sequences": [
+                114
+            ]
+        },
+        {
+            "entity": "Pedro de Feria",
+            "type": "Person",
+            "sequences": [
+                121,
+                122,
+                123
+            ]
+        },
+        {
+            "entity": "Chiapas",
+            "type": "Place",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Bernardino de Sahagún",
+            "type": "Person",
+            "sequences": [
+                125
+            ]
+        },
+        {
+            "entity": "Council of Trent",
+            "type": "Event",
+            "sequences": [
+                126,
+                129,
+                134,
+                136,
+                138,
+                140
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                129,
+                130,
+                133,
+                139
+            ]
+        },
+        {
+            "entity": "Juan Luis Vives",
+            "type": "Person",
+            "sequences": [
+                143,
+                145,
+                146,
+                149,
+                150,
+                153,
+                154,
+                155,
+                156
+            ]
+        },
+        {
+            "entity": "Benito Carlos Quintero",
+            "type": "Person",
+            "sequences": [
+                159
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                141,
+                161,
+                162
+            ]
+        },
+        {
+            "entity": "Elizabeth Charlotte of the Palatinate",
+            "type": "Person",
+            "sequences": [
+                167,
+                168,
+                169,
+                170,
+                171
+            ]
+        },
+        {
+            "entity": "Louis 14th",
+            "type": "Person",
+            "sequences": [
+                168
+            ]
+        },
+        {
+            "entity": "John Boniface",
+            "type": "Person",
+            "sequences": [
+                172
+            ]
+        },
+        {
+            "entity": "Father Damian Maria",
+            "type": "Person",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Redemptorist missionary",
+            "type": "Occupation",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "San Gerardo",
+            "type": "Place",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Aluche",
+            "type": "Place",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Baltasar Gracia",
+            "type": "Person",
+            "sequences": [
+                175
+            ]
+        },
+        {
+            "entity": "Franciscan Francisco de Ameyuga",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "Belén Martí",
+            "type": "Person",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "La Mesías",
+            "type": "Event",
+            "sequences": [
+                189
+            ]
+        },
+        {
+            "entity": "Rodríguez de la Flor",
+            "type": "Person",
+            "sequences": [
+                202,
+                203,
+                204
+            ]
+        },
+        {
+            "entity": "Juan Vi Tulli",
+            "type": "Person",
+            "sequences": [
+                205,
+                206,
+                207
+            ]
+        },
+        {
+            "entity": "Franciscan José Antonio de Brea",
+            "type": "Person",
+            "sequences": [
+                213
+            ]
+        },
+        {
+            "entity": "Arias Montano",
+            "type": "Person",
+            "sequences": [
+                216
+            ]
+        },
+        {
+            "entity": "Vesalius",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Benedetta Carlini",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Benvenuto Cellini",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Mary of St. Joseph",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Luis Vives",
+            "type": "Person",
+            "sequences": [
+                225
+            ]
+        },
+        {
+            "entity": "Fray Luis de Granada",
+            "type": "Person",
+            "sequences": [
+                227,
+                238
+            ]
+        },
+        {
+            "entity": "Juan de Caramuel y Lobcó",
+            "type": "Person",
+            "sequences": [
+                240,
+                241,
+                242,
+                251,
+                252
+            ]
+        },
+        {
+            "entity": "Society of Jesus",
+            "type": "Organization",
+            "sequences": [
+                257
+            ]
+        },
+        {
+            "entity": "Albert Rivera",
+            "type": "Person",
+            "sequences": [
+                257
+            ]
+        },
+        {
+            "entity": "Antonio Vieira",
+            "type": "Person",
+            "sequences": [
+                259,
+                260
+            ]
+        },
+        {
+            "entity": "Pedro Sanchez",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Abascal",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Mateo Salvini",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Fray Jenónimo Gracián",
+            "type": "Person",
+            "sequences": [
+                267
+            ]
+        },
+        {
+            "entity": "Juan Bonifacio",
+            "type": "Person",
+            "sequences": [
+                268,
+                269
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                270,
+                271,
+                272,
+                273,
+                274
+            ]
+        },
+        {
+            "entity": "Fray Bartolomé",
+            "type": "Person",
+            "sequences": [
+                274
+            ]
+        },
+        {
+            "entity": "Cristóbal Méndez",
+            "type": "Person",
+            "sequences": [
+                277,
+                300
+            ]
+        },
+        {
+            "entity": "Bishop of Tui",
+            "type": "Person",
+            "sequences": [
+                280,
+                281,
+                282,
+                283,
+                284,
+                285,
+                286
+            ]
+        },
+        {
+            "entity": "Juana Vázquez Gutiérrez",
+            "type": "Person",
+            "sequences": [
+                311
+            ]
+        },
+        {
+            "entity": "Jerónima de la Cruz",
+            "type": "Person",
+            "sequences": [
+                312
+            ]
+        },
+        {
+            "entity": "Cardinal Cisneros",
+            "type": "Person",
+            "sequences": [
+                319
+            ]
+        },
+        {
+            "entity": "Charles V",
+            "type": "Person",
+            "sequences": [
+                319
+            ]
+        },
+        {
+            "entity": "Angelica Liddell",
+            "type": "Person",
+            "sequences": [
+                318,
+                319,
+                322,
+                323
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                330
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                330
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                330
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                330
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                330
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                330
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Book of Corporal Exercise and its benefits, 1553, by Dr. Cristóbal Méndez",
+            "sequence": 23
+        }
+    ]
+}

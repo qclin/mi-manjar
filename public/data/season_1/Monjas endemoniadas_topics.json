@@ -1,58 +1,64 @@
 {
     "topics": [
         {
-            "topic": "Personal Conversations",
-            "sequence_range": "1-10",
-            "start_time": 15601,
-            "end_time": 105369
+            "topic": "Personal catch-up and food discussion",
+            "sequence_range": "1-6",
+            "start_time": 15720,
+            "end_time": 77110
         },
         {
-            "topic": "Demonology and Possessions",
-            "sequence_range": "11-69",
-            "start_time": 106470,
-            "end_time": 1515679
+            "topic": "Demonology and possessions in Europe, with a focus on 16th and 17th centuries",
+            "sequence_range": "9-27",
+            "start_time": 91910,
+            "end_time": 937626
         },
         {
-            "topic": "Convent of San Placido and its historical events",
-            "sequence_range": "70-76",
-            "start_time": 1515699,
-            "end_time": 1676869
+            "topic": "Specific cases of demon possession and the role of women",
+            "sequence_range": "28-44",
+            "start_time": 937658,
+            "end_time": 1498910
         },
         {
-            "topic": "Cases of demonic possession and public characters in convents",
-            "sequence_range": "77-88",
-            "start_time": 1677789,
-            "end_time": 1942010
+            "topic": "Genealogies and historical narratives",
+            "sequence_range": "45",
+            "start_time": 1499490,
+            "end_time": 1505242
         },
         {
-            "topic": "Teresa Valle de la Cerda's case and its implications",
-            "sequence_range": "89-92",
-            "start_time": 1942726,
-            "end_time": 2061396
+            "topic": "17th century Madrid and the Convent of San Placido",
+            "sequence_range": "46-51",
+            "start_time": 1505426,
+            "end_time": 1654136
         },
         {
-            "topic": "Public and private manifestations of demonic possessions",
-            "sequence_range": "93-96",
-            "start_time": 2062496,
-            "end_time": 2215780
+            "topic": "Cases of demonic possession and societal reactions",
+            "sequence_range": "52-67",
+            "start_time": 1654168,
+            "end_time": 2216120
         },
         {
-            "topic": "The Loudon demonic possession case",
-            "sequence_range": "97-124",
-            "start_time": 2216960,
-            "end_time": 3010100
+            "topic": "The Loudun possessions in France",
+            "sequence_range": "68-82",
+            "start_time": 2216740,
+            "end_time": 2923390
         },
         {
-            "topic": "Historical and Religious Figures",
-            "sequence_range": "125-141",
-            "start_time": 3011501,
-            "end_time": 3327196
+            "topic": "Fame and Public Perception of Historical Figures",
+            "sequence_range": "83-85",
+            "start_time": 2926570,
+            "end_time": 3105938
         },
         {
-            "topic": "Literature and Adaptations",
-            "sequence_range": "137-141",
-            "start_time": 3217857,
-            "end_time": 3327196
+            "topic": "Autobiography and Legacy of Juana de los Ángeles",
+            "sequence_range": "86-87",
+            "start_time": 3105954,
+            "end_time": 3216790
+        },
+        {
+            "topic": "Recommendations on Juana de los Ángeles and Related Works",
+            "sequence_range": "88-90",
+            "start_time": 3217610,
+            "end_time": 3327110
         }
     ],
     "entities": [
@@ -74,432 +80,367 @@
             "entity": "Rhode Island",
             "type": "Place",
             "sequences": [
-                8
+                7
             ]
         },
         {
             "entity": "California",
             "type": "Place",
             "sequences": [
-                10
+                9
             ]
         },
         {
             "entity": "Europe",
             "type": "Place",
             "sequences": [
-                11,
-                16
+                10,
+                14,
+                25,
+                26,
+                27
             ]
         },
         {
             "entity": "Spain",
-            "type": "Country",
+            "type": "Place",
             "sequences": [
-                11,
-                16,
-                17,
-                41
+                10,
+                14,
+                25,
+                26,
+                27,
+                31,
+                33,
+                35,
+                43
             ]
         },
         {
-            "entity": "Jean Bodin",
+            "entity": "Jean Baudin",
             "type": "Person",
             "sequences": [
-                17,
-                18
+                14,
+                15
             ]
         },
         {
             "entity": "Jan Gerson",
             "type": "Person",
             "sequences": [
-                24
+                17
             ]
         },
         {
-            "entity": "Philip II",
+            "entity": "Silvia Federici",
             "type": "Person",
             "sequences": [
-                24,
-                52
+                22
             ]
         },
         {
-            "entity": "Silvia Federico",
+            "entity": "Philip the Second",
             "type": "Person",
             "sequences": [
-                37
+                17,
+                35
             ]
         },
         {
             "entity": "Magdalena de la Cruz",
             "type": "Person",
             "sequences": [
-                43,
-                44,
-                48,
-                49,
-                50,
-                52,
-                53,
-                55,
-                56,
-                57,
-                58,
-                59,
-                60,
-                61,
-                62,
-                63,
-                65,
-                66
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43
             ]
         },
         {
             "entity": "Santa Teresa",
             "type": "Person",
             "sequences": [
-                44
+                31
             ]
         },
         {
-            "entity": "St. Catherine of Siena",
+            "entity": "Santa Catalina de Siena",
             "type": "Person",
             "sequences": [
-                50
+                33
             ]
         },
         {
             "entity": "Isabel of Portugal",
             "type": "Person",
             "sequences": [
-                52
-            ]
-        },
-        {
-            "entity": "Santa Isabel de los Angeles",
-            "type": "Place",
-            "sequences": [
-                50,
-                55
-            ]
-        },
-        {
-            "entity": "Cordoba",
-            "type": "Place",
-            "sequences": [
-                50,
-                55
-            ]
-        },
-        {
-            "entity": "Peru",
-            "type": "Country",
-            "sequences": [
-                41,
-                48
-            ]
-        },
-        {
-            "entity": "Mexico",
-            "type": "Country",
-            "sequences": [
-                41,
-                48,
-                66
+                35
             ]
         },
         {
             "entity": "María de San José",
             "type": "Person",
             "sequences": [
-                66
+                43
+            ]
+        },
+        {
+            "entity": "Peru",
+            "type": "Place",
+            "sequences": [
+                26,
+                27
+            ]
+        },
+        {
+            "entity": "Mexico",
+            "type": "Place",
+            "sequences": [
+                26,
+                27,
+                43
+            ]
+        },
+        {
+            "entity": "Santa Isabel de los Angeles",
+            "type": "Organization",
+            "sequences": [
+                33,
+                38
+            ]
+        },
+        {
+            "entity": "Cordoba",
+            "type": "Place",
+            "sequences": [
+                33,
+                38
             ]
         },
         {
             "entity": "Puebla",
             "type": "Place",
             "sequences": [
-                66
+                43
             ]
         },
         {
             "entity": "Madrid",
             "type": "Place",
             "sequences": [
-                70,
-                71,
-                72
+                46,
+                47
             ]
         },
         {
             "entity": "Magdalena",
             "type": "Person",
             "sequences": [
-                70,
-                71,
-                84,
-                85
+                47,
+                50
             ]
         },
         {
             "entity": "Convent of San Placido",
             "type": "Organization",
             "sequences": [
-                72,
-                74,
-                76,
-                77,
-                78,
-                79,
-                82,
-                83,
-                84,
-                85,
-                86,
-                87,
-                88,
-                89,
-                90,
-                91,
-                92,
-                93,
-                95,
-                96
-            ]
-        },
-        {
-            "entity": "Carmen",
-            "type": "Person",
-            "sequences": [
-                70
+                47,
+                51,
+                55,
+                57
             ]
         },
         {
             "entity": "Sister Margarita de la Cruz",
             "type": "Person",
             "sequences": [
-                74
+                51
             ]
         },
         {
-            "entity": "Felipe IV",
+            "entity": "Felipe Cuarto",
             "type": "Person",
             "sequences": [
-                74,
-                78
+                51
             ]
         },
         {
-            "entity": "Olivares",
+            "entity": "Condeduco de Olivares",
             "type": "Person",
             "sequences": [
-                74
+                51
             ]
         },
         {
-            "entity": "National Library",
-            "type": "Organization",
+            "entity": "Christ of Velázquez",
+            "type": "Artwork",
             "sequences": [
-                78
+                51
             ]
         },
         {
             "entity": "Teresa Valle de la Cerda",
             "type": "Person",
             "sequences": [
-                78,
-                80,
-                82,
-                85,
-                86,
-                89,
-                90
+                55,
+                57,
+                59,
+                60,
+                61
+            ]
+        },
+        {
+            "entity": "National Library",
+            "type": "Organization",
+            "sequences": [
+                55
             ]
         },
         {
             "entity": "Jerónimo de Villanueva",
             "type": "Person",
             "sequences": [
-                82,
-                90
+                57
             ]
         },
         {
             "entity": "Count Duke of Olivares",
             "type": "Person",
             "sequences": [
-                90
+                57,
+                63
             ]
         },
         {
-            "entity": "Inquisition",
-            "type": "Organization",
-            "sequences": [
-                82,
-                90
-            ]
-        },
-        {
-            "entity": "France",
+            "entity": "Loudun",
             "type": "Place",
             "sequences": [
-                97,
-                99
+                68
             ]
         },
         {
-            "entity": "Loudon",
-            "type": "Place",
-            "sequences": [
-                97,
-                99,
-                119
-            ]
-        },
-        {
-            "entity": "Ursuline convent",
+            "entity": "Ursuline nuns",
             "type": "Organization",
             "sequences": [
-                97,
-                99,
-                103,
-                109,
-                119,
-                123
+                68,
+                72,
+                82
             ]
         },
         {
             "entity": "Juana de los Angeles",
             "type": "Person",
             "sequences": [
-                99,
-                101,
-                103,
-                107,
-                109,
-                110,
-                111,
-                113,
-                115,
-                118,
-                119,
-                121,
-                123,
-                124
+                72,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                82
             ]
         },
         {
             "entity": "Urbain Grandier",
             "type": "Person",
             "sequences": [
-                103,
-                107
+                72
             ]
         },
         {
             "entity": "St. Teresa",
             "type": "Person",
             "sequences": [
-                99,
-                109
+                72,
+                75
+            ]
+        },
+        {
+            "entity": "Juana de los Ángeles",
+            "type": "Person",
+            "sequences": [
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+            ]
+        },
+        {
+            "entity": "Ursuline nuns",
+            "type": "Organization",
+            "sequences": [
+                83,
+                84
             ]
         },
         {
             "entity": "Richelieu",
             "type": "Person",
             "sequences": [
-                125
+                84
             ]
         },
         {
             "entity": "Anne of Austria",
             "type": "Person",
             "sequences": [
-                125
+                84
             ]
         },
         {
             "entity": "St. Joseph",
             "type": "Person",
             "sequences": [
-                125
-            ]
-        },
-        {
-            "entity": "Juana de los Angeles",
-            "type": "Person",
-            "sequences": [
-                125,
-                131,
-                133,
-                136,
-                137,
-                139
-            ]
-        },
-        {
-            "entity": "Ursuline convent",
-            "type": "Organization",
-            "sequences": [
-                125
-            ]
-        },
-        {
-            "entity": "Nadia",
-            "type": "Person",
-            "sequences": [
-                125
-            ]
-        },
-        {
-            "entity": "Austria",
-            "type": "Place",
-            "sequences": [
-                125
+                84
             ]
         },
         {
             "entity": "San Placido",
-            "type": "Organization",
-            "sequences": [
-                136
-            ]
-        },
-        {
-            "entity": "Ludon",
             "type": "Place",
             "sequences": [
-                136
+                87
             ]
         },
         {
             "entity": "Aldous Huxley",
             "type": "Person",
             "sequences": [
-                139
+                88
             ]
         },
         {
-            "entity": "Michel Descartes",
+            "entity": "Michel Deserteau",
             "type": "Person",
             "sequences": [
-                139
+                88
             ]
         },
         {
-            "entity": "Jerzy Kawalerowicz",
+            "entity": "Jersey Kualerowicz",
             "type": "Person",
             "sequences": [
-                141
+                90
             ]
         }
     ],
     "citations": [
         {
-            "citation": "De la démonomanie des sorciers by Jean Bodin, 1881",
-            "sequence": 17
+            "citation": "de la demonomanie de sorcières by Jean Baudin, 1581",
+            "sequence": 14
         }
     ]
 }

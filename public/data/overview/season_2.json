@@ -12,7 +12,10 @@
     "episode": 17,
     "duration": "61:47",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3216100/",
-    "audio_path": "season_2/Confusión de confusiones: los dineros.mp3"
+    "audio_path": "season_2/Confusión de confusiones_los dineros.mp3",
+    "words_per_minute": 179.95,
+    "word_count": 11118,
+    "release_date": "2022-05-09"
   },
   {
     "title": {
@@ -27,7 +30,10 @@
     "episode": 16,
     "duration": "74:39",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3216099/",
-    "audio_path": "season_2/Pecado nefando.mp3"
+    "audio_path": "season_2/Pecado nefando.mp3",
+    "words_per_minute": 170.68,
+    "word_count": 12741,
+    "release_date": "2022-04-11"
   },
   {
     "title": {
@@ -42,7 +48,10 @@
     "episode": 15,
     "duration": "85:26",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3208688/",
-    "audio_path": "season_2/Monjas, dinero y TikTok.mp3"
+    "audio_path": "season_2/Monjas, dinero y TikTok.mp3",
+    "words_per_minute": 153.35,
+    "word_count": 13101,
+    "release_date": "2022-03-15"
   },
   {
     "title": {
@@ -57,7 +66,10 @@
     "episode": 14,
     "duration": "73:45",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3208692/",
-    "audio_path": "season_2/Almidonadas y aderezadas: moda barroca.mp3"
+    "audio_path": "season_2/Almidonadas y aderezadas: moda barroca.mp3",
+    "words_per_minute": 170.49,
+    "word_count": 12574,
+    "release_date": "2022-02-25"
   },
   {
     "title": {
@@ -72,7 +84,10 @@
     "episode": 13,
     "duration": "85:52",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3208691/",
-    "audio_path": "season_2/Bilocadas: FOMO barroco.mp3"
+    "audio_path": "season_2/Bilocadas: FOMO barroco.mp3",
+    "words_per_minute": 163.5,
+    "word_count": 14039,
+    "release_date": "2022-01-10"
   },
   {
     "title": {
@@ -87,7 +102,10 @@
     "episode": 12,
     "duration": "98:09",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3208695/",
-    "audio_path": "season_2/No saben calzarse unos zapatos sin especular el astrolabio.mp3"
+    "audio_path": "season_2/No saben calzarse unos zapatos sin especular el astrolabio.mp3",
+    "words_per_minute": 162.67,
+    "word_count": 15966,
+    "release_date": "2021-11-20"
   },
   {
     "title": {
@@ -102,11 +120,14 @@
     "episode": 11,
     "duration": "110:59",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3208693/",
-    "audio_path": "season_2/Una caja de polvos que ella solía hacer.mp3"
+    "audio_path": "season_2/Una caja de polvos que ella solía hacer.mp3",
+    "words_per_minute": 162.03,
+    "word_count": 17983,
+    "release_date": "2021-10-23"
   },
   {
     "title": {
-      "es": "No toquéis las reliquias",
+      "es": "No toquéis las reliquias",
       "en": "Do not touch the relics"
     },
     "summary": {
@@ -117,7 +138,10 @@
     "episode": 10,
     "duration": "145:52",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3208696/",
-    "audio_path": "season_2/No toquéis las reliquias.mp3"
+    "audio_path": "season_2/No toquéis las reliquias.mp3",
+    "words_per_minute": 160.13,
+    "word_count": 23357,
+    "release_date": "2021-10-09"
   },
   {
     "title": {
@@ -132,6 +156,9 @@
     "episode": 9,
     "duration": "40:36",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3208697/",
-    "audio_path": "season_2/Fábula de la Corte.mp3"
+    "audio_path": "season_2/Fábula de la Corte.mp3",
+    "words_per_minute": 173.57,
+    "word_count": 7047,
+    "release_date": "2021-09-26"
   }
 ]

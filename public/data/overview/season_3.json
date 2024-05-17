@@ -12,7 +12,10 @@
     "episode": 22,
     "duration": "56:08",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3585045/",
-    "audio_path": "season_3/Disecciones conventuales, anatomía barroca.mp3"
+    "audio_path": "season_3/Disecciones conventuales, anatomía barroca.mp3",
+    "words_per_minute": 176.6,
+    "word_count": 9913,
+    "release_date": "2023-07-10"
   },
   {
     "title": {
@@ -27,7 +30,10 @@
     "episode": 21,
     "duration": "84:57",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3583955/",
-    "audio_path": "season_3/Invencioneras y ardilosas: Javiera Mena y Úrsula Suárez.mp3"
+    "audio_path": "season_3/Invencioneras y ardilosas: Javiera Mena y Úrsula Suárez.mp3",
+    "words_per_minute": 185.46,
+    "word_count": 15755,
+    "release_date": "2023-06-26"
   },
   {
     "title": {
@@ -42,7 +48,10 @@
     "episode": 20,
     "duration": "55:04",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3570705/",
-    "audio_path": "season_3/Estas son las lágrimas de tu bebé.mp3"
+    "audio_path": "season_3/Estas son las lágrimas de tu bebé.mp3",
+    "words_per_minute": 174.57,
+    "word_count": 9613,
+    "release_date": "2023-06-12"
   },
   {
     "title": {
@@ -57,7 +66,10 @@
     "episode": 19,
     "duration": "60:04",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3547360/",
-    "audio_path": "season_3/De Toledo a Manila: clarisas aventureras.mp3"
+    "audio_path": "season_3/De Toledo a Manila: clarisas aventureras.mp3",
+    "words_per_minute": 189.34,
+    "word_count": 11373,
+    "release_date": "2023-05-29"
   },
   {
     "title": {
@@ -72,7 +84,10 @@
     "episode": 18,
     "duration": "51:55",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3532193/",
-    "audio_path": "season_3/Moda en el convento 2: monjas veneciana.mp3"
+    "audio_path": "season_3/Moda en el convento 2: monjas veneciana.mp3",
+    "words_per_minute": 173.64,
+    "word_count": 9015,
+    "release_date": "2023-05-15"
   },
   {
     "title": {
@@ -87,7 +102,10 @@
     "episode": 17,
     "duration": "77:43",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3512166/",
-    "audio_path": "season_3/Moda en el convento: monjas coronadas.mp3"
+    "audio_path": "season_3/Moda en el convento: monjas coronadas.mp3",
+    "words_per_minute": 181.97,
+    "word_count": 14142,
+    "release_date": "2023-05-01"
   },
   {
     "title": {
@@ -102,7 +120,10 @@
     "episode": 16,
     "duration": "71:57",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3497220/",
-    "audio_path": "season_3/Clarisas endemoniadas.mp3"
+    "audio_path": "season_3/Clarisas endemoniadas.mp3",
+    "words_per_minute": 169.76,
+    "word_count": 12214,
+    "release_date": "2023-04-17"
   },
   {
     "title": {
@@ -117,7 +138,10 @@
     "episode": 15,
     "duration": "61:29",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3473499/",
-    "audio_path": "season_3/Biopic Magdalena Ruiz: Mal parada, y flaca, y vieja, y sorda, y medio caduca.mp3"
+    "audio_path": "season_3/Biopic Magdalena Ruiz: Mal parada, y flaca, y vieja, y sorda, y medio caduca.mp3",
+    "words_per_minute": 177.98,
+    "word_count": 10943,
+    "release_date": "2023-04-03"
   },
   {
     "title": {
@@ -132,7 +156,10 @@
     "episode": 14,
     "duration": "68:27",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3458274/",
-    "audio_path": "season_3/Desveladas.mp3"
+    "audio_path": "season_3/Desveladas.mp3",
+    "words_per_minute": 182.12,
+    "word_count": 12466,
+    "release_date": "2023-03-20"
   },
   {
     "title": {
@@ -147,7 +174,10 @@
     "episode": 13,
     "duration": "80:54",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3432635/",
-    "audio_path": "season_3/Mal de madre.mp3"
+    "audio_path": "season_3/Mal de madre.mp3",
+    "words_per_minute": 179.85,
+    "word_count": 14550,
+    "release_date": "2023-03-06"
   },
   {
     "title": {
@@ -162,7 +192,10 @@
     "episode": 12,
     "duration": "71:46",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3418034/",
-    "audio_path": "season_3/Bellacas, embelecos y boquisecas: falsos milagros.mp3"
+    "audio_path": "season_3/Bellacas, embelecos y boquisecas: falsos milagros.mp3",
+    "words_per_minute": 188.42,
+    "word_count": 13522,
+    "release_date": "2023-02-20"
   },
   {
     "title": {
@@ -177,7 +210,10 @@
     "episode": 11,
     "duration": "56:16",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3396346/",
-    "audio_path": "season_3/Obediencia: vil gusanillo complaciente.mp3"
+    "audio_path": "season_3/Obediencia: vil gusanillo complaciente.mp3",
+    "words_per_minute": 185.31,
+    "word_count": 10427,
+    "release_date": "2023-02-06"
   },
   {
     "title": {
@@ -192,7 +228,10 @@
     "episode": 10,
     "duration": "56:05",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3380956/",
-    "audio_path": "season_3/Arquitecturas de emergencia.mp3"
+    "audio_path": "season_3/Arquitecturas de emergencia.mp3",
+    "words_per_minute": 178.02,
+    "word_count": 9984,
+    "release_date": "2023-01-23"
   },
   {
     "title": {
@@ -207,7 +246,10 @@
     "episode": 9,
     "duration": "70:41",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3361710/",
-    "audio_path": "season_3/Cosa de sueño, gozo cumplido: Santa Teresa.mp3"
+    "audio_path": "season_3/Cosa de sueño, gozo cumplido: Santa Teresa.mp3",
+    "words_per_minute": 167.58,
+    "word_count": 11845,
+    "release_date": "2023-01-09"
   },
   {
     "title": {
@@ -222,7 +264,10 @@
     "episode": 8,
     "duration": "59:22",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3337900/",
-    "audio_path": "season_3/Mundos abreviados.mp3"
+    "audio_path": "season_3/Mundos abreviados.mp3",
+    "words_per_minute": 181.16,
+    "word_count": 10755,
+    "release_date": "2022-12-26"
   },
   {
     "title": {
@@ -237,22 +282,28 @@
     "episode": 7,
     "duration": "48:18",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3329821/",
-    "audio_path": "season_3/Grandissima repunansia.mp3"
+    "audio_path": "season_3/Grandissima repunansia.mp3",
+    "words_per_minute": 188.32,
+    "word_count": 9096,
+    "release_date": "2022-12-12"
   },
   {
     "title": {
-      "es": "Son estas lágrimas mi manjar",
+      "es": "Son estas lágrimas mi manjar",
       "en": "These tears are my delicacy"
     },
     "summary": {
-      "es": "“Son estas lágrimas mi manjar”, decía le beguina María de Oignies, “mi pan de cada día y cada noche. Me colman el alma, sosegándola con dulcísima unción, como pócima curativa”. Con temor de estar abusando del lamento quejicoso y plañidero en que nos sume la celdita de Rhode Island, en este episodio recurrimos a las lágrimas de nuestras visionarias, santas y biblical weepers más favoritas para categorizar y enjuiciar (pero también acariciar) nuestro propio llanto. De la taxonomía lacrimógena de Catalina de Siena y su “Doctrina de las lágrimas” al funambulismo gestual de la llorera escénica de María de Santo Domingo; de la lacrifagia, los humores sanguíneos en movimiento y los ardores vaporizados por la vista a la proteína de las lágrimas; de las lágrimas de compunción y las de dulzura a los handsome weeping boys japoneses; de los selfies afligidos de Bella Hadid a la Semana Santa y la arriesgada iconografía de la corredentora. Con el documental de Dulceida aún ardiendo en las pupilas y espoleadas por la sospecha de nuestro propio sadfishing, nos preguntamos si será cierto que, como decía Ángela de Foligno, “en el instante el que el mundo adula y mira, más crecen las lágrimas”. Amiga, si quieres saber qué opinaba nuestra Santa Teresa sobre las “personas tiernas que por cada cosita lloran” y descubrir la receta con huevo asado de Agustín Farfán para detener las lágrimas, prepárate para el copiosísimo derrame de este episodio y dale a play.",
+      "es": "“Son estas lágrimas mi manjar”, decía le beguina María de Oignies, “mi pan de cada día y cada noche. Me colman el alma, sosegándola con dulcísima unción, como pócima curativa”. Con temor de estar abusando del lamento quejicoso y plañidero en que nos sume la celdita de Rhode Island, en este episodio recurrimos a las lágrimas de nuestras visionarias, santas y biblical weepers más favoritas para categorizar y enjuiciar (pero también acariciar) nuestro propio llanto. De la taxonomía lacrimógena de Catalina de Siena y su “Doctrina de las lágrimas” al funambulismo gestual de la llorera escénica de María de Santo Domingo; de la lacrifagia, los humores sanguíneos en movimiento y los ardores vaporizados por la vista a la proteína de las lágrimas; de las lágrimas de compunción y las de dulzura a los handsome weeping boys japoneses; de los selfies afligidos de Bella Hadid a la Semana Santa y la arriesgada iconografía de la corredentora. Con el documental de Dulceida aún ardiendo en las pupilas y espoleadas por la sospecha de nuestro propio sadfishing, nos preguntamos si será cierto que, como decía Ángela de Foligno, “en el instante el que el mundo adula y mira, más crecen las lágrimas”. Amiga, si quieres saber qué opinaba nuestra Santa Teresa sobre las “personas tiernas que por cada cosita lloran” y descubrir la receta con huevo asado de Agustín Farfán para detener las lágrimas, prepárate para el copiosísimo derrame de este episodio y dale a play.",
       "en": "\"These tears are my delicacy,\" said the Beguine Marie d'Oignies, \"my daily and nightly bread. They fill my soul, soothing it with sweetest unction, like a healing potion\". Fearing that we are abusing the plaintive and plaintive lament in which the little cell from Rhode Island plunges us, in this episode we turn to the tears of our most favorite visionaries, saints and biblical weepers to categorize and judge (but also caress) our own weeping. From the lachrymatory taxonomy of Catherine of Siena and her \"Doctrine of Tears\" to the gestural funambulism of Mary of St. Dominic's scenic weeping; from lacriphagia, moving blood humors and vaporized burning by sight to the protein of tears; from tears of compunction and tears of sweetness to Japanese handsome weeping boys; from Bella Hadid's grieving selfies to Easter and the risky iconography of the coredemptrix. With Dulceida's documentary still burning in our pupils and spurred by the suspicion of our own sadfishing, we wonder if it is true that, as Angela de Foligno said, \"in the instant the world flatters and watches, the more tears grow\". Amiga, if you want to know what our Saint Teresa thought about the \"tender people who cry for every little thing\" and discover Agustín Farfán's recipe with roasted egg to stop the tears, get ready for the copious spill of this episode and press play."
     },
     "season": 3,
     "episode": 6,
     "duration": "86:11",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3307229/",
-    "audio_path": "season_3/Son estas lágrimas mi manjar.mp3"
+    "audio_path": "season_3/Son estas lágrimas mi manjar.mp3",
+    "words_per_minute": 183.89,
+    "word_count": 15848,
+    "release_date": "2022-11-28"
   },
   {
     "title": {
@@ -267,7 +318,10 @@
     "episode": 5,
     "duration": "69:08",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3295555/",
-    "audio_path": "season_3/Ermitañas teatreras, monjas performers y actrices barrocas.mp3"
+    "audio_path": "season_3/Ermitañas teatreras, monjas performers y actrices barrocas.mp3",
+    "words_per_minute": 159.94,
+    "word_count": 11057,
+    "release_date": "2022-11-14"
   },
   {
     "title": {
@@ -282,7 +336,10 @@
     "episode": 4,
     "duration": "79:54",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3280108/",
-    "audio_path": "season_3/Carceleras y encarceladas: “Muger contra mugeres”.mp3"
+    "audio_path": "season_3/Carceleras y encarceladas: “Muger contra mugeres”.mp3",
+    "words_per_minute": 139.95,
+    "word_count": 11182,
+    "release_date": "2022-10-31"
   },
   {
     "title": {
@@ -297,7 +354,10 @@
     "episode": 3,
     "duration": "79:08",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3261633/",
-    "audio_path": "season_3/Hawai, Marfisa, Asicomovós.mp3"
+    "audio_path": "season_3/Hawai, Marfisa, Asicomovós.mp3",
+    "words_per_minute": 177.55,
+    "word_count": 14050,
+    "release_date": "2022-10-17"
   },
   {
     "title": {
@@ -312,7 +372,10 @@
     "episode": 2,
     "duration": "67:39",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3239651/",
-    "audio_path": "season_3/De arreboles y solimanes.mp3"
+    "audio_path": "season_3/De arreboles y solimanes.mp3",
+    "words_per_minute": 173.32,
+    "word_count": 11725,
+    "release_date": "2022-10-03"
   },
   {
     "title": {
@@ -327,7 +390,10 @@
     "episode": 1,
     "duration": "38:18",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3221586/",
-    "audio_path": "season_3/¿Quiénes eran las verdaderas hijas de Felipe?.mp3"
+    "audio_path": "season_3/¿Quiénes eran las verdaderas hijas de Felipe?.mp3",
+    "words_per_minute": 186.68,
+    "word_count": 7150,
+    "release_date": "2022-09-19"
   },
   {
     "title": {
@@ -342,6 +408,9 @@
     "episode": 0,
     "duration": "0:28",
     "podcast_url": "https://www.podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os/episodio/3210218/",
-    "audio_path": "season_3/Las hijas de Felipe - Temporada 3 en Podium Podcast.mp3"
+    "audio_path": "season_3/Las hijas de Felipe - Temporada 3 en Podium Podcast.mp3",
+    "words_per_minute": 124.29,
+    "word_count": 58,
+    "release_date": "2022-09-09"
   }
 ]

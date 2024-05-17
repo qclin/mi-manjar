@@ -1,115 +1,178 @@
 {
     "topics": [
         {
-            "topic": "Radio broadcasting",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Introduction and casual conversation",
+            "sequence_range": "1-7",
+            "start_time": 4080,
+            "end_time": 53140
         },
         {
-            "topic": "Personal interactions and dietary choices",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Discussion on personal preferences and experiences",
+            "sequence_range": "8-13",
+            "start_time": 53540,
+            "end_time": 116136
         },
         {
-            "topic": "Nuns, money, TikTok, and economic affairs",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Nuns of Santa Clara de Manresa and TikTok",
+            "sequence_range": "14-20",
+            "start_time": 116168,
+            "end_time": 236812
         },
         {
-            "topic": "Historical and contemporary nuns' engagement with social media and entrepreneurship",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Financial strategies and personal anecdotes",
+            "sequence_range": "21-28",
+            "start_time": 236916,
+            "end_time": 282666
         },
         {
-            "topic": "Music and its role in convents and nun's lives",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Historical and entrepreneurial insights on nuns",
+            "sequence_range": "29-43",
+            "start_time": 282698,
+            "end_time": 495472
         },
         {
-            "topic": "Saint Teresa's relationship with money and economic management",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Hildegard von Bingen's contributions and legacy",
+            "sequence_range": "44-60",
+            "start_time": 495576,
+            "end_time": 712022
         },
         {
-            "topic": "Conventual life, challenges, and economic survival",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Discussion on monetizable talents and personal aspirations",
+            "sequence_range": "61-74",
+            "start_time": 712086,
+            "end_time": 857672
         },
         {
-            "topic": "Millennial nuns and their adaptation to modern technology and social media",
-            "sequence_range": "1",
-            "start_time": 4144,
-            "end_time": 7514
+            "topic": "Saint Teresa's life, works, and economic dealings",
+            "sequence_range": "75-130",
+            "start_time": 857736,
+            "end_time": 1474674
         },
         {
-            "topic": "Monetary aspects of religious life",
-            "sequence_range": "3-15",
-            "start_time": 3554445,
-            "end_time": 3650951
+            "topic": "Financial Management and Religious Life",
+            "sequence_range": "131-143",
+            "start_time": 1474682,
+            "end_time": 1776620
         },
         {
-            "topic": "Artistic expression and economic survival",
-            "sequence_range": "13-17",
-            "start_time": 3632365,
-            "end_time": 3783953
+            "topic": "Musical Talent and Religious Practices",
+            "sequence_range": "144-219",
+            "start_time": 1776920,
+            "end_time": 2835442
         },
         {
-            "topic": "Impact of pandemic on personal projects and social media",
-            "sequence_range": "16-27",
-            "start_time": 3650971,
-            "end_time": 3855937
+            "topic": "Music and Education in Convents",
+            "sequence_range": "220-225",
+            "start_time": 2835466,
+            "end_time": 2923522
         },
         {
-            "topic": "Religious content on TikTok and its implications",
-            "sequence_range": "28-92",
-            "start_time": 3855957,
-            "end_time": 4336589
+            "topic": "Contemporary Religious Life and Social Media",
+            "sequence_range": "237-240",
+            "start_time": 2975256,
+            "end_time": 3147366
         },
         {
-            "topic": "Personal anecdotes and experiences with religion and art",
-            "sequence_range": "93-126",
-            "start_time": 4336609,
-            "end_time": 4601683
+            "topic": "Economic Aspects of Convent Life",
+            "sequence_range": "243-244",
+            "start_time": 3176840,
+            "end_time": 3345424
         },
         {
-            "topic": "Engagement with the youth through social media",
-            "sequence_range": "116-138",
-            "start_time": 4442605,
-            "end_time": 4682663
+            "topic": "Art, Religion, and Social Media Influence",
+            "sequence_range": "266-314",
+            "start_time": 3486030,
+            "end_time": 3973490
         },
         {
-            "topic": "Conceptualizing a religious theme park",
-            "sequence_range": "145-167",
-            "start_time": 4745670,
-            "end_time": 4840027
+            "topic": "Personal Experiences and Reflections on Religious and Artistic Life",
+            "sequence_range": "315-377",
+            "start_time": 3973650,
+            "end_time": 4393324
+        },
+        {
+            "topic": "Social Media and Audience Engagement",
+            "sequence_range": "380-383",
+            "start_time": 4395668,
+            "end_time": 4487600
+        },
+        {
+            "topic": "Content Creation and Public Reception",
+            "sequence_range": "381-387",
+            "start_time": 4424984,
+            "end_time": 4524500
+        },
+        {
+            "topic": "Audience Demographics and Interests",
+            "sequence_range": "382-383, 413-423",
+            "start_time": 4442484,
+            "end_time": 4711480
+        },
+        {
+            "topic": "Religious Theme Park Concept",
+            "sequence_range": "429-449",
+            "start_time": 4721332,
+            "end_time": 4842470
+        },
+        {
+            "topic": "Historical and Religious Discussions",
+            "sequence_range": "450-462",
+            "start_time": 4842770,
+            "end_time": 5030750
+        },
+        {
+            "topic": "Cultural Events and Performances",
+            "sequence_range": "463-472",
+            "start_time": 5031530,
+            "end_time": 5095490
         }
     ],
     "entities": [
         {
-            "entity": "Radio",
-            "type": "Medium",
-            "sequences": [
-                1
-            ]
-        },
-        {
             "entity": "Ana",
             "type": "Person",
             "sequences": [
-                1
+                2,
+                3,
+                7,
+                23,
+                70,
+                73,
+                74,
+                94,
+                95,
+                102,
+                104,
+                111,
+                120
             ]
         },
         {
             "entity": "Carmen",
             "type": "Person",
             "sequences": [
+                2,
+                11,
+                14,
+                85,
+                86,
+                87,
+                93,
+                94,
+                95,
+                102,
+                104,
+                105,
+                106,
+                107,
+                111,
+                112
+            ]
+        },
+        {
+            "entity": "Radio",
+            "type": "Organization",
+            "sequences": [
                 1
             ]
         },
@@ -117,391 +180,726 @@
             "entity": "Matías",
             "type": "Person",
             "sequences": [
-                1
+                12
             ]
         },
         {
             "entity": "Nuns of Santa Clara de Manresa",
             "type": "Organization",
             "sequences": [
-                1
+                14,
+                16,
+                18,
+                29
             ]
         },
         {
-            "entity": "Dominican Sisters of Manresa",
-            "type": "Organization",
+            "entity": "Sister Lucia Karam",
+            "type": "Person",
             "sequences": [
-                1
+                20
             ]
         },
         {
             "entity": "Fundación Tutelar Santa Clara",
             "type": "Organization",
             "sequences": [
-                1
+                18
             ]
         },
         {
-            "entity": "Sister Lucia Caram",
+            "entity": "Jason the Ruler",
             "type": "Person",
             "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Jason Derulo",
-            "type": "Person",
-            "sequences": [
-                1
+                16,
+                17
             ]
         },
         {
             "entity": "Hildegard von Bingen",
             "type": "Person",
             "sequences": [
-                1
+                43,
+                47,
+                49,
+                51,
+                53,
+                57,
+                58,
+                60,
+                68
             ]
         },
         {
-            "entity": "Jutta",
-            "type": "Person",
+            "entity": "Journal of Biblical Integration in Business",
+            "type": "Publication",
             "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Ruppersberg Convent",
-            "type": "Place",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Wingen Convent",
-            "type": "Place",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Saint Teresa",
-            "type": "Person",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Ricardo García Cárcel",
-            "type": "Person",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Maria de San Jose",
-            "type": "Person",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Lucrezia Orsina Vizzana",
-            "type": "Person",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Craig Monson",
-            "type": "Person",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Daughters of St. Paul",
-            "type": "Organization",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "David Macho",
-            "type": "Person",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Damián María Montes",
-            "type": "Person",
-            "sequences": [
-                1
-            ]
-        },
-        {
-            "entity": "Lucia",
-            "type": "Person",
-            "sequences": [
-                4
+                33,
+                35
             ]
         },
         {
             "entity": "St. Teresa",
             "type": "Person",
             "sequences": [
-                4,
-                10,
-                99,
-                101
-            ]
-        },
-        {
-            "entity": "Rosalía",
-            "type": "Person",
-            "sequences": [
-                7
-            ]
-        },
-        {
-            "entity": "David",
-            "type": "Person",
-            "sequences": [
-                16,
-                55,
-                56,
-                58,
-                164,
-                165
-            ]
-        },
-        {
-            "entity": "Disney",
-            "type": "Organization",
-            "sequences": [
-                16
-            ]
-        },
-        {
-            "entity": "Amazon",
-            "type": "Organization",
-            "sequences": [
-                19
-            ]
-        },
-        {
-            "entity": "Google",
-            "type": "Organization",
-            "sequences": [
-                20,
-                21
-            ]
-        },
-        {
-            "entity": "TikTok",
-            "type": "Platform",
-            "sequences": [
-                16,
-                23,
-                24,
-                25,
-                31,
-                32,
-                36,
-                37,
-                39,
-                41,
-                42,
-                91,
-                92,
-                93,
-                116,
-                117,
-                121,
-                129,
-                135,
-                136,
-                137,
-                138,
-                142,
-                143
-            ]
-        },
-        {
-            "entity": "Damian",
-            "type": "Person",
-            "sequences": [
-                36,
-                42,
-                43,
-                108,
-                109,
-                111,
-                112,
-                113,
-                114,
-                115,
-                116,
-                117,
-                129,
-                144,
-                145,
-                146,
-                147,
-                148,
-                149,
-                150,
-                151,
-                152,
-                153,
-                154,
-                155,
-                156,
-                157,
-                158,
-                159,
-                160,
-                161,
-                162,
-                163,
-                164,
-                165,
-                166,
-                167
-            ]
-        },
-        {
-            "entity": "Jordi Lavanda",
-            "type": "Person",
-            "sequences": [
-                66,
-                67,
-                68,
-                69,
-                70,
-                71
-            ]
-        },
-        {
-            "entity": "St. Jude Thaddeus",
-            "type": "Person",
-            "sequences": [
-                93,
-                94,
-                95,
-                96,
-                97,
-                98
-            ]
-        },
-        {
-            "entity": "St. John of the Cross",
-            "type": "Person",
-            "sequences": [
-                103,
-                104,
-                105
-            ]
-        },
-        {
-            "entity": "Federico García Lorca",
-            "type": "Person",
-            "sequences": [
-                106,
-                107
-            ]
-        },
-        {
-            "entity": "Chisquia",
-            "type": "Person",
-            "sequences": [
+                77,
+                78,
+                79,
                 81,
-                82,
                 83,
-                84,
-                85,
-                86,
                 87,
-                88,
                 89,
-                90,
-                120,
-                121,
-                122,
-                123,
-                124,
-                125,
-                126
+                105,
+                107,
+                111
             ]
         },
         {
-            "entity": "Matías",
+            "entity": "Ricardo García Cárcel",
             "type": "Person",
             "sequences": [
                 80
             ]
         },
         {
-            "entity": "Siskia",
+            "entity": "Maria de San Jose",
             "type": "Person",
             "sequences": [
-                82
+                86
             ]
         },
         {
-            "entity": "Maria",
+            "entity": "Hildegirls",
+            "type": "Organization",
+            "sequences": [
+                60
+            ]
+        },
+        {
+            "entity": "Luisa de la Cerda",
             "type": "Person",
             "sequences": [
-                81
+                105
+            ]
+        },
+        {
+            "entity": "Duchess of Alba",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Princess of Eboli",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Georgina",
+            "type": "Person",
+            "sequences": [
+                128,
+                129
+            ]
+        },
+        {
+            "entity": "Georgina",
+            "type": "Person",
+            "sequences": [
+                131
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                131,
+                143
+            ]
+        },
+        {
+            "entity": "María Bautista",
+            "type": "Person",
+            "sequences": [
+                131
+            ]
+        },
+        {
+            "entity": "Rome",
+            "type": "Place",
+            "sequences": [
+                131,
+                210
+            ]
+        },
+        {
+            "entity": "Brianda de San José",
+            "type": "Person",
+            "sequences": [
+                135,
+                137
+            ]
+        },
+        {
+            "entity": "Convent of Malagón",
+            "type": "Organization",
+            "sequences": [
+                137
+            ]
+        },
+        {
+            "entity": "Ana de la madre de Dios",
+            "type": "Person",
+            "sequences": [
+                139
+            ]
+        },
+        {
+            "entity": "Castilian bourgeoisie",
+            "type": "Group",
+            "sequences": [
+                143
+            ]
+        },
+        {
+            "entity": "Italy",
+            "type": "Place",
+            "sequences": [
+                151,
+                152
+            ]
+        },
+        {
+            "entity": "Bologna",
+            "type": "Place",
+            "sequences": [
+                152,
+                154,
+                156,
+                164,
+                172,
+                202
+            ]
+        },
+        {
+            "entity": "Convent of Santa Cristina della Fondazza",
+            "type": "Organization",
+            "sequences": [
+                155,
+                156,
+                184
+            ]
+        },
+        {
+            "entity": "Craig Monson",
+            "type": "Person",
+            "sequences": [
+                178
+            ]
+        },
+        {
+            "entity": "Lucrezia Orsina Vizzana",
+            "type": "Person",
+            "sequences": [
+                182,
+                184,
+                189
+            ]
+        },
+        {
+            "entity": "Ercole Tinelli",
+            "type": "Person",
+            "sequences": [
+                192
+            ]
+        },
+        {
+            "entity": "Sister Emilia",
+            "type": "Person",
+            "sequences": [
+                194,
+                196
+            ]
+        },
+        {
+            "entity": "Sister Cecilia",
+            "type": "Person",
+            "sequences": [
+                194,
+                196
+            ]
+        },
+        {
+            "entity": "Virgin Mary",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Elizabeth",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Jesus",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "St. John the Baptist",
+            "type": "Person",
+            "sequences": [
+                210
+            ]
+        },
+        {
+            "entity": "Bologna",
+            "type": "Place",
+            "sequences": [
+                220
             ]
         },
         {
             "entity": "Santa Cristina",
+            "type": "Organization",
+            "sequences": [
+                220,
+                222,
+                223,
+                224,
+                225
+            ]
+        },
+        {
+            "entity": "Daughters of St. Paul",
+            "type": "Organization",
+            "sequences": [
+                238,
+                239,
+                240
+            ]
+        },
+        {
+            "entity": "Pauline Sisters",
+            "type": "Organization",
+            "sequences": [
+                238
+            ]
+        },
+        {
+            "entity": "Fundación de Clausura",
+            "type": "Organization",
+            "sequences": [
+                243
+            ]
+        },
+        {
+            "entity": "Nuns of Manresa",
+            "type": "Organization",
+            "sequences": [
+                237
+            ]
+        },
+        {
+            "entity": "David",
+            "type": "Person",
+            "sequences": [
+                266,
+                329,
+                330,
+                335,
+                336,
+                337,
+                338,
+                339,
+                340,
+                341,
+                343,
+                344,
+                345,
+                346,
+                347,
+                348,
+                349,
+                350,
+                351,
+                352,
+                353,
+                354,
+                355,
+                356,
+                357,
+                358,
+                359,
+                360,
+                361,
+                362,
+                363,
+                364,
+                365,
+                366,
+                367,
+                368,
+                369,
+                370,
+                371,
+                372,
+                373
+            ]
+        },
+        {
+            "entity": "Damian Maria Montes",
+            "type": "Person",
+            "sequences": [
+                267,
+                268,
+                269,
+                270,
+                271,
+                272,
+                273,
+                274,
+                275,
+                276,
+                277,
+                278,
+                279,
+                280,
+                281,
+                282,
+                283,
+                284,
+                285,
+                286,
+                287,
+                288,
+                289,
+                290,
+                291,
+                292,
+                293,
+                294,
+                295,
+                296,
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                306,
+                307,
+                308,
+                309,
+                310,
+                311,
+                312,
+                313,
+                314,
+                315,
+                316,
+                317,
+                318,
+                319,
+                320,
+                321,
+                322,
+                323,
+                324,
+                325,
+                326,
+                327,
+                328,
+                329,
+                330,
+                331,
+                332,
+                333,
+                334,
+                335,
+                336,
+                337,
+                338,
+                339,
+                340,
+                341,
+                342,
+                343,
+                344,
+                345,
+                346,
+                347,
+                348,
+                349,
+                350,
+                351,
+                352,
+                353,
+                354,
+                355,
+                356,
+                357,
+                358,
+                359,
+                360,
+                361,
+                362,
+                363,
+                364,
+                365,
+                366,
+                367,
+                368,
+                369,
+                370,
+                371,
+                372,
+                373,
+                374,
+                375,
+                376,
+                377
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                280,
+                281,
+                374,
+                375,
+                376,
+                377
+            ]
+        },
+        {
+            "entity": "Rosalía",
+            "type": "Person",
+            "sequences": [
+                252,
+                279
+            ]
+        },
+        {
+            "entity": "Jordi Lavanda",
+            "type": "Person",
+            "sequences": [
+                335,
+                336,
+                337,
+                338,
+                339,
+                340,
+                341
+            ]
+        },
+        {
+            "entity": "Malú",
+            "type": "Person",
+            "sequences": [
+                317
+            ]
+        },
+        {
+            "entity": "St. Jude Thaddeus",
+            "type": "Person",
+            "sequences": [
+                365,
+                366,
+                367,
+                368,
+                369
+            ]
+        },
+        {
+            "entity": "San Juan",
             "type": "Place",
             "sequences": [
-                45,
-                47,
-                48,
-                49,
-                50,
-                51,
-                52,
-                53,
-                168
+                378
+            ]
+        },
+        {
+            "entity": "Federico Marcia Lorca",
+            "type": "Person",
+            "sequences": [
+                380
+            ]
+        },
+        {
+            "entity": "Damien",
+            "type": "Person",
+            "sequences": [
+                380,
+                405
+            ]
+        },
+        {
+            "entity": "TikTok",
+            "type": "Organization",
+            "sequences": [
+                380,
+                382,
+                383,
+                396,
+                397,
+                401,
+                402
+            ]
+        },
+        {
+            "entity": "Instagram",
+            "type": "Organization",
+            "sequences": [
+                383
+            ]
+        },
+        {
+            "entity": "Matías",
+            "type": "Person",
+            "sequences": [
+                386
+            ]
+        },
+        {
+            "entity": "Damian",
+            "type": "Person",
+            "sequences": [
+                387,
+                435
+            ]
+        },
+        {
+            "entity": "David",
+            "type": "Person",
+            "sequences": [
+                387,
+                445
+            ]
+        },
+        {
+            "entity": "St. Jude Thaddeus",
+            "type": "Person",
+            "sequences": [
+                393
+            ]
+        },
+        {
+            "entity": "Chisquia",
+            "type": "Place",
+            "sequences": [
+                401
+            ]
+        },
+        {
+            "entity": "Felipe",
+            "type": "Person",
+            "sequences": [
+                408
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                421,
+                447
+            ]
+        },
+        {
+            "entity": "Andrea",
+            "type": "Person",
+            "sequences": [
+                426
+            ]
+        },
+        {
+            "entity": "José",
+            "type": "Person",
+            "sequences": [
+                427
             ]
         },
         {
             "entity": "Holy Land",
             "type": "Concept",
             "sequences": [
-                147,
-                148,
-                149,
-                150,
-                151,
-                152,
-                153,
-                154,
-                155,
-                156,
-                157,
-                158,
-                159,
-                160,
-                161,
-                162,
-                163,
-                164,
-                165,
-                166,
-                167
+                433
+            ]
+        },
+        {
+            "entity": "Eden",
+            "type": "Concept",
+            "sequences": [
+                433
+            ]
+        },
+        {
+            "entity": "Santa Cristina",
+            "type": "Organization",
+            "sequences": [
+                450,
+                452
+            ]
+        },
+        {
+            "entity": "Bologna",
+            "type": "Place",
+            "sequences": [
+                452
+            ]
+        },
+        {
+            "entity": "Sister Lucia",
+            "type": "Person",
+            "sequences": [
+                454,
+                455
+            ]
+        },
+        {
+            "entity": "Carmelites in Valladolid",
+            "type": "Organization",
+            "sequences": [
+                456
+            ]
+        },
+        {
+            "entity": "Amadora llama Beza",
+            "type": "Event",
+            "sequences": [
+                465
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                466
+            ]
+        },
+        {
+            "entity": "Radi",
+            "type": "Person",
+            "sequences": [
+                473
             ]
         }
     ],
     "citations": [
         {
-            "citation": "Journal of Biblical Integration in Business",
-            "sequence": 1
+            "citation": "Journal of Biblical Integration in Business, article titled 'Entrepreneurship and faith: What a 12th century nun can say to 21st century entrepreneurs.'",
+            "sequence": 35
         }
     ]
 }

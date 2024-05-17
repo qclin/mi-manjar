@@ -1,52 +1,76 @@
 {
     "topics": [
         {
-            "topic": "Greetings and Casual Conversation",
-            "sequence_range": "1-5",
-            "start_time": 18745,
-            "end_time": 33708
+            "topic": "Greetings and Casual Conversations",
+            "sequence_range": "1-9",
+            "start_time": 18760,
+            "end_time": 60840
         },
         {
             "topic": "Food and Eating Habits",
-            "sequence_range": "6-15",
-            "start_time": 33908,
-            "end_time": 96294
+            "sequence_range": "10-19",
+            "start_time": 60960,
+            "end_time": 122568
         },
         {
             "topic": "Disability Studies and Historical Perspectives on Disability",
-            "sequence_range": "24",
-            "start_time": 121428,
-            "end_time": 175513
+            "sequence_range": "20",
+            "start_time": 122664,
+            "end_time": 173510
         },
         {
             "topic": "Lesbianism in Historical Context",
-            "sequence_range": "25-90",
-            "start_time": 176113,
-            "end_time": 1413242
+            "sequence_range": "21-76",
+            "start_time": 173550,
+            "end_time": 1457850
         },
         {
-            "topic": "Historical Analysis of Lesbian Relationships and Female Friendships in Religious Contexts",
-            "sequence_range": "91-167",
-            "start_time": 1413362,
-            "end_time": 2860948
+            "topic": "Lesbian relationships and historical perceptions",
+            "sequence_range": "77-77",
+            "start_time": 1457930,
+            "end_time": 1513260
         },
         {
-            "topic": "Release and discussion of the movie Benedetta",
-            "sequence_range": "168-178",
-            "start_time": 2861529,
-            "end_time": 2918940
+            "topic": "St. Teresa's concerns and reforms regarding private friendships in convents",
+            "sequence_range": "78-78",
+            "start_time": 1514320,
+            "end_time": 1678772
         },
         {
-            "topic": "Discussion on the book about lesbian nuns",
-            "sequence_range": "179-190",
-            "start_time": 2919020,
-            "end_time": 3174539
+            "topic": "Convent regulations and the avoidance of particular friendships",
+            "sequence_range": "79-90",
+            "start_time": 1678836,
+            "end_time": 1946662
         },
         {
-            "topic": "Closing remarks and personal reflections",
-            "sequence_range": "191-200",
-            "start_time": 3175180,
-            "end_time": 3209526
+            "topic": "Personal anecdotes related to privacy and friendships",
+            "sequence_range": "91-97",
+            "start_time": 1946686,
+            "end_time": 2033310
+        },
+        {
+            "topic": "Particular friendships among Discalced Carmelites and their historical context",
+            "sequence_range": "98-106",
+            "start_time": 2034250,
+            "end_time": 2218496
+        },
+        {
+            "topic": "Exploration of mysticism and spiritual autobiographies",
+            "sequence_range": "117-151",
+            "start_time": 2360248,
+            "end_time": 2936234
+        },
+        {
+            "topic": "Publication and impact of a cult book by former nuns",
+            "sequence_range": "152-156",
+            "start_time": 2936242,
+            "end_time": 3166790
+        },
+        {
+            "topic": "Personal reflections and farewell",
+            "sequence_range": "157-163",
+            "start_time": 3166870,
+            "end_time": 3209500
         }
     ],
     "entities": [
@@ -62,7 +86,7 @@
             "type": "Person",
             "sequences": [
                 2,
-                46
+                42
             ]
         },
         {
@@ -77,54 +101,130 @@
             "entity": "Cadiz",
             "type": "Place",
             "sequences": [
-                13
+                11
+            ]
+        },
+        {
+            "entity": "Maro",
+            "type": "Person",
+            "sequences": [
+                17
             ]
         },
         {
             "entity": "Charles V",
             "type": "Person",
             "sequences": [
-                35
+                29
             ]
         },
         {
             "entity": "Antonio Gomez",
             "type": "Person",
             "sequences": [
-                37
+                31
             ]
         },
         {
             "entity": "Ludovico Maria Sinistrari",
             "type": "Person",
             "sequences": [
-                39,
-                41
+                33,
+                35
             ]
         },
         {
-            "entity": "Bernardino de Villegas",
+            "entity": "Heleno de Céspedes",
             "type": "Person",
             "sequences": [
-                65
+                38
+            ]
+        },
+        {
+            "entity": "Juana de los Angeles",
+            "type": "Person",
+            "sequences": [
+                39
+            ]
+        },
+        {
+            "entity": "Diderot",
+            "type": "Person",
+            "sequences": [
+                41,
+                42,
+                49
+            ]
+        },
+        {
+            "entity": "Susan",
+            "type": "Person",
+            "sequences": [
+                45
             ]
         },
         {
             "entity": "Serri Velasco",
             "type": "Person",
             "sequences": [
-                63
+                51
             ]
         },
         {
-            "entity": "Saint Teresa",
+            "entity": "Bernardino de Villegas",
             "type": "Person",
             "sequences": [
-                26
+                53
             ]
         },
         {
             "entity": "Villegas",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "Sherry Velas",
+            "type": "Person",
+            "sequences": [
+                77
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                78,
+                82,
+                85,
+                86,
+                98
+            ]
+        },
+        {
+            "entity": "Bernardinueva",
+            "type": "Person",
+            "sequences": [
+                78
+            ]
+        },
+        {
+            "entity": "Convent of St. Joseph",
+            "type": "Organization",
+            "sequences": [
+                84
+            ]
+        },
+        {
+            "entity": "Villegas",
+            "type": "Person",
+            "sequences": [
+                85
+            ]
+        },
+        {
+            "entity": "Andrea",
             "type": "Person",
             "sequences": [
                 91,
@@ -132,254 +232,142 @@
             ]
         },
         {
-            "entity": "Serri Velas",
+            "entity": "Grandma Conchi",
             "type": "Person",
             "sequences": [
-                91
-            ]
-        },
-        {
-            "entity": "Santa Teresa",
-            "type": "Person",
-            "sequences": [
-                92,
                 94,
-                98,
-                100,
-                101,
-                102,
-                113,
-                114
-            ]
-        },
-        {
-            "entity": "Bernardino de Villegas",
-            "type": "Person",
-            "sequences": [
-                92
-            ]
-        },
-        {
-            "entity": "Convent of St. Joseph",
-            "type": "Organization",
-            "sequences": [
-                100
-            ]
-        },
-        {
-            "entity": "Carmen",
-            "type": "Person",
-            "sequences": [
-                99
+                95
             ]
         },
         {
             "entity": "Ana de Jesus",
             "type": "Person",
             "sequences": [
-                114
+                98,
+                100
             ]
         },
         {
             "entity": "Beatriz de la Concepción",
             "type": "Person",
             "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Discalced Carmelites of First Generation",
-            "type": "Organization",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Salamanca",
-            "type": "Place",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "France",
-            "type": "Place",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Flanders",
-            "type": "Place",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Brussels",
-            "type": "Place",
-            "sequences": [
-                114
-            ]
-        },
-        {
-            "entity": "Lidia Damund",
-            "type": "Person",
-            "sequences": [
-                122
+                98,
+                100
             ]
         },
         {
             "entity": "Judith Brown",
             "type": "Person",
             "sequences": [
-                134,
-                158
-            ]
-        },
-        {
-            "entity": "Medici",
-            "type": "Family",
-            "sequences": [
-                134
-            ]
-        },
-        {
-            "entity": "Florence",
-            "type": "Place",
-            "sequences": [
-                134
+                117,
+                119,
+                133
             ]
         },
         {
             "entity": "Sister Benedetta Carlini",
             "type": "Person",
             "sequences": [
-                136,
-                138,
-                140,
-                142,
-                144,
-                148,
-                150,
-                154,
-                156,
-                157,
-                162,
-                164
-            ]
-        },
-        {
-            "entity": "Theatine Nuns of Pesquia",
-            "type": "Organization",
-            "sequences": [
-                136,
-                138
+                119,
+                127,
+                131,
+                137,
+                139
             ]
         },
         {
             "entity": "Bartolomea Crivelli",
             "type": "Person",
             "sequences": [
-                142,
-                154,
-                156,
-                157,
-                162
+                121,
+                129,
+                131
             ]
         },
         {
-            "entity": "Benedetta",
-            "type": "Movie",
+            "entity": "Splenditello",
+            "type": "Person",
             "sequences": [
-                168,
-                173
+                132
             ]
         },
         {
             "entity": "Basic Instinct",
             "type": "Movie",
             "sequences": [
-                168
+                143
             ]
         },
         {
-            "entity": "Mephela",
-            "type": "Place",
-            "sequences": [
-                172
-            ]
-        },
-        {
-            "entity": "Temptation Island",
-            "type": "Event",
-            "sequences": [
-                172
-            ]
-        },
-        {
-            "entity": "Ainara",
+            "entity": "Inara",
             "type": "Person",
             "sequences": [
-                180,
-                181
+                149,
+                150
             ]
         },
         {
-            "entity": "Monjas lesbianas, se rompe el silencio",
+            "entity": "Monjas lesbianas se rompe el silencio",
             "type": "Book",
             "sequences": [
-                183
+                152
             ]
         },
         {
-            "entity": "Sex Barral",
+            "entity": "Seix Barral",
             "type": "Publisher",
             "sequences": [
-                183
+                152
             ]
         },
         {
-            "entity": "Rosemary Kerr",
+            "entity": "Rosemary Kirby",
             "type": "Person",
             "sequences": [
-                183
+                152
             ]
         },
         {
             "entity": "Nancy Manahan",
             "type": "Person",
             "sequences": [
-                183
+                152
             ]
         },
         {
             "entity": "Dominican nuns",
             "type": "Organization",
             "sequences": [
-                183
+                153,
+                154
             ]
         },
         {
-            "entity": "Shinsinawa, Wisconsin",
+            "entity": "Shin Sinagua, Wisconsin",
             "type": "Place",
             "sequences": [
-                183
+                154
+            ]
+        },
+        {
+            "entity": "COUNTRY",
+            "type": "General reference to a place",
+            "sequences": [
+                156
             ]
         },
         {
             "entity": "Chelo",
             "type": "Person",
             "sequences": [
-                199,
-                200
+                161
             ]
         }
     ],
     "citations": [
         {
-            "citation": "De Secretis Mulieron",
-            "sequence": 29
+            "citation": "de secretis mulierum",
+            "sequence": 23
         }
     ]
 }

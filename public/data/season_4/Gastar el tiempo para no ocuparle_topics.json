@@ -1,0 +1,751 @@
+{
+    "topics": [
+        {
+            "topic": "Gastric Virus in Spain",
+            "sequence_range": "1-6",
+            "start_time": 2360,
+            "end_time": 60822
+        },
+        {
+            "topic": "Personal Health and Food",
+            "sequence_range": "7-20",
+            "start_time": 60846,
+            "end_time": 143616
+        },
+        {
+            "topic": "New Year Resolutions",
+            "sequence_range": "33-42",
+            "start_time": 216086,
+            "end_time": 351692
+        },
+        {
+            "topic": "Procrastination and Historical Anachronism",
+            "sequence_range": "43-61",
+            "start_time": 351756,
+            "end_time": 696016
+        },
+        {
+            "topic": "Strategic Anachronism and Felipe Segundo",
+            "sequence_range": "62-75",
+            "start_time": 696048,
+            "end_time": 933546
+        },
+        {
+            "topic": "Julio Iglesias and Strategic Anachronism",
+            "sequence_range": "76-108",
+            "start_time": 933658,
+            "end_time": 1378894
+        },
+        {
+            "topic": "Influencers and Social Media",
+            "sequence_range": "109-110",
+            "start_time": 1379022,
+            "end_time": 1425824
+        },
+        {
+            "topic": "Historical Fiction and Literature",
+            "sequence_range": "111-112",
+            "start_time": 1425952,
+            "end_time": 1491848
+        },
+        {
+            "topic": "Baroque Period and Felipe Segundo",
+            "sequence_range": "113-120",
+            "start_time": 1492024,
+            "end_time": 1796672
+        },
+        {
+            "topic": "Writing and Procrastination",
+            "sequence_range": "121-174",
+            "start_time": 1796816,
+            "end_time": 2589342
+        },
+        {
+            "topic": "Lack of Sleep and Work",
+            "sequence_range": "175-176",
+            "start_time": 2589446,
+            "end_time": 2694646
+        },
+        {
+            "topic": "Revenge Bedtime Procrastination",
+            "sequence_range": "176-182",
+            "start_time": 2673046,
+            "end_time": 2758226
+        },
+        {
+            "topic": "Philip II's Health and Rest",
+            "sequence_range": "183-189",
+            "start_time": 2758418,
+            "end_time": 2860656
+        },
+        {
+            "topic": "Proxemia and Resting Spaces",
+            "sequence_range": "193-199",
+            "start_time": 2879440,
+            "end_time": 2930392
+        },
+        {
+            "topic": "Working Efficiency and Procrastination",
+            "sequence_range": "205-218",
+            "start_time": 3010368,
+            "end_time": 3412586
+        },
+        {
+            "topic": "Methods to Overcome Procrastination",
+            "sequence_range": "219-226",
+            "start_time": 3412618,
+            "end_time": 3532886
+        },
+        {
+            "topic": "Personal Procrastination Habits",
+            "sequence_range": "229-243",
+            "start_time": 3549366,
+            "end_time": 3746046
+        },
+        {
+            "topic": "Philip II and Architecture",
+            "sequence_range": "243-251",
+            "start_time": 3714334,
+            "end_time": 3824542
+        },
+        {
+            "topic": "Historical Letters and Their Impact",
+            "sequence_range": "252-254",
+            "start_time": 3824646,
+            "end_time": 3919144
+        },
+        {
+            "topic": "Procrastination and Self-Reflection",
+            "sequence_range": "255-257",
+            "start_time": 3919192,
+            "end_time": 3955984
+        },
+        {
+            "topic": "Podcast Production Details",
+            "sequence_range": "259",
+            "start_time": 3957680,
+            "end_time": 4012780
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Spain",
+            "type": "Place",
+            "sequences": [
+                2,
+                6
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                4,
+                6,
+                9
+            ]
+        },
+        {
+            "entity": "Almeria",
+            "type": "Place",
+            "sequences": [
+                6
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                1,
+                43,
+                52,
+                57,
+                60,
+                61,
+                75,
+                82
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                1,
+                36,
+                76,
+                77,
+                78,
+                81,
+                82,
+                104
+            ]
+        },
+        {
+            "entity": "Elena",
+            "type": "Person",
+            "sequences": [
+                4
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                43
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                43,
+                60,
+                61,
+                75,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104
+            ]
+        },
+        {
+            "entity": "María de San José",
+            "type": "Person",
+            "sequences": [
+                43
+            ]
+        },
+        {
+            "entity": "Julio Iglesias",
+            "type": "Person",
+            "sequences": [
+                75,
+                76,
+                83,
+                84,
+                85,
+                86,
+                88,
+                89,
+                91,
+                92,
+                93,
+                94,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103,
+                104
+            ]
+        },
+        {
+            "entity": "Patricia Esquivias",
+            "type": "Person",
+            "sequences": [
+                75,
+                76
+            ]
+        },
+        {
+            "entity": "Isabel Preissler",
+            "type": "Person",
+            "sequences": [
+                79,
+                81,
+                101
+            ]
+        },
+        {
+            "entity": "Ivanka Trump",
+            "type": "Person",
+            "sequences": [
+                96
+            ]
+        },
+        {
+            "entity": "Nicholas Jones and Chad Lehy",
+            "type": "Person",
+            "sequences": [
+                61
+            ]
+        },
+        {
+            "entity": "Indian Creek",
+            "type": "Place",
+            "sequences": [
+                86,
+                96,
+                98,
+                99
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                86,
+                96,
+                98,
+                99,
+                100
+            ]
+        },
+        {
+            "entity": "Society of Jesus",
+            "type": "Organization",
+            "sequences": [
+                61
+            ]
+        },
+        {
+            "entity": "Hola Magazine",
+            "type": "Organization",
+            "sequences": [
+                82,
+                88
+            ]
+        },
+        {
+            "entity": "hammock online",
+            "type": "Organization",
+            "sequences": [
+                62,
+                67,
+                69,
+                70,
+                71
+            ]
+        },
+        {
+            "entity": "Cristina and Victoria Iglesias",
+            "type": "Person",
+            "sequences": [
+                104,
+                105
+            ]
+        },
+        {
+            "entity": "Isabel Car Eugenia and Catalina Micaela",
+            "type": "Person",
+            "sequences": [
+                104
+            ]
+        },
+        {
+            "entity": "Enrique Iglesias",
+            "type": "Person",
+            "sequences": [
+                102
+            ]
+        },
+        {
+            "entity": "Cristina",
+            "type": "Person",
+            "sequences": [
+                109
+            ]
+        },
+        {
+            "entity": "Victoria",
+            "type": "Person",
+            "sequences": [
+                109
+            ]
+        },
+        {
+            "entity": "Indian Creek",
+            "type": "Place",
+            "sequences": [
+                109
+            ]
+        },
+        {
+            "entity": "Miranda",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                111,
+                113,
+                116,
+                117,
+                120,
+                137,
+                139,
+                144,
+                145,
+                152,
+                154,
+                155
+            ]
+        },
+        {
+            "entity": "Federico Carlos Sainz de Rawlings",
+            "type": "Person",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Julio Iglesias",
+            "type": "Person",
+            "sequences": [
+                112,
+                117
+            ]
+        },
+        {
+            "entity": "Isabel Clara Eugenia",
+            "type": "Person",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Catalina Francisca",
+            "type": "Person",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Sánchez Coello",
+            "type": "Person",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Fernando Bouza",
+            "type": "Person",
+            "sequences": [
+                139
+            ]
+        },
+        {
+            "entity": "Rafael Sirves",
+            "type": "Person",
+            "sequences": [
+                141
+            ]
+        },
+        {
+            "entity": "Henry Camen",
+            "type": "Person",
+            "sequences": [
+                142
+            ]
+        },
+        {
+            "entity": "Geoffrey Parker",
+            "type": "Person",
+            "sequences": [
+                142
+            ]
+        },
+        {
+            "entity": "Felipe Tercero",
+            "type": "Person",
+            "sequences": [
+                142
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                145,
+                168
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                161,
+                167,
+                168
+            ]
+        },
+        {
+            "entity": "Mateo Vázquez",
+            "type": "Person",
+            "sequences": [
+                144,
+                153
+            ]
+        },
+        {
+            "entity": "Ana de San Bartolomé",
+            "type": "Person",
+            "sequences": [
+                171
+            ]
+        },
+        {
+            "entity": "Akal",
+            "type": "Organization",
+            "sequences": [
+                155
+            ]
+        },
+        {
+            "entity": "Felipe Segundo (Philip II)",
+            "type": "Person",
+            "sequences": [
+                175,
+                180,
+                181,
+                183,
+                185,
+                229,
+                243
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                176,
+                198,
+                226,
+                232,
+                244,
+                246
+            ]
+        },
+        {
+            "entity": "Saint Theresa",
+            "type": "Person",
+            "sequences": [
+                183
+            ]
+        },
+        {
+            "entity": "Jehan Lermy",
+            "type": "Person",
+            "sequences": [
+                185
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                186,
+                188,
+                191,
+                192
+            ]
+        },
+        {
+            "entity": "Indian Creek Beach",
+            "type": "Place",
+            "sequences": [
+                195
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                197
+            ]
+        },
+        {
+            "entity": "Colegio de Arquitectos",
+            "type": "Organization",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Golembach",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Almeria",
+            "type": "Place",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Olga",
+            "type": "Person",
+            "sequences": [
+                200
+            ]
+        },
+        {
+            "entity": "Providence",
+            "type": "Place",
+            "sequences": [
+                194,
+                203
+            ]
+        },
+        {
+            "entity": "Mel Robbins",
+            "type": "Person",
+            "sequences": [
+                218,
+                219
+            ]
+        },
+        {
+            "entity": "Diego de Silva",
+            "type": "Person",
+            "sequences": [
+                213,
+                215,
+                217,
+                218
+            ]
+        },
+        {
+            "entity": "Vainica Doble",
+            "type": "Organization",
+            "sequences": [
+                205
+            ]
+        },
+        {
+            "entity": "Parker",
+            "type": "Person",
+            "sequences": [
+                210,
+                211
+            ]
+        },
+        {
+            "entity": "Elena",
+            "type": "Person",
+            "sequences": [
+                232
+            ]
+        },
+        {
+            "entity": "Carmen's letter",
+            "type": "Document",
+            "sequences": [
+                252
+            ]
+        },
+        {
+            "entity": "Felipe Segundo",
+            "type": "Person",
+            "sequences": [
+                252,
+                254
+            ]
+        },
+        {
+            "entity": "Aranjuez",
+            "type": "Place",
+            "sequences": [
+                252,
+                254
+            ]
+        },
+        {
+            "entity": "Escorial",
+            "type": "Place",
+            "sequences": [
+                252,
+                254
+            ]
+        },
+        {
+            "entity": "Ribera's palace",
+            "type": "Place",
+            "sequences": [
+                254
+            ]
+        },
+        {
+            "entity": "Lisbon",
+            "type": "Place",
+            "sequences": [
+                254
+            ]
+        },
+        {
+            "entity": "Alcazar",
+            "type": "Place",
+            "sequences": [
+                254
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                254
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                259
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Pornographic Sensibilities by Nicholas Jones and Chad Lehy",
+            "sequence": 61
+        }
+    ]
+}

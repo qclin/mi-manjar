@@ -1,0 +1,812 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction",
+            "sequence_range": "1-2",
+            "start_time": 2360,
+            "end_time": 21570
+        },
+        {
+            "topic": "Personal Health and Well-being",
+            "sequence_range": "3-5",
+            "start_time": 22190,
+            "end_time": 34970
+        },
+        {
+            "topic": "Live Performance Incident",
+            "sequence_range": "6-13",
+            "start_time": 35130,
+            "end_time": 80522
+        },
+        {
+            "topic": "Emotions and Expressions",
+            "sequence_range": "14-16",
+            "start_time": 80586,
+            "end_time": 106322
+        },
+        {
+            "topic": "Book Announcement",
+            "sequence_range": "17-19",
+            "start_time": 106346,
+            "end_time": 141092
+        },
+        {
+            "topic": "Editor and Agent Acknowledgment",
+            "sequence_range": "20",
+            "start_time": 141196,
+            "end_time": 160520
+        },
+        {
+            "topic": "Historical and Religious Figures",
+            "sequence_range": "21-24",
+            "start_time": 161740,
+            "end_time": 231660
+        },
+        {
+            "topic": "Carmelite Devotion and Relics",
+            "sequence_range": "25-27",
+            "start_time": 231780,
+            "end_time": 288412
+        },
+        {
+            "topic": "Personal Anecdotes and Breakfast",
+            "sequence_range": "28-42",
+            "start_time": 288436,
+            "end_time": 401736
+        },
+        {
+            "topic": "Baroque Culture and Humoral Theory",
+            "sequence_range": "43-52",
+            "start_time": 401768,
+            "end_time": 599490
+        },
+        {
+            "topic": "Historical Medical Beliefs",
+            "sequence_range": "53-62",
+            "start_time": 599570,
+            "end_time": 661264
+        },
+        {
+            "topic": "Baroque Milk and Nursing Practices",
+            "sequence_range": "63-89",
+            "start_time": 661312,
+            "end_time": 1183454
+        },
+        {
+            "topic": "Breastfeeding and Cultural Perceptions",
+            "sequence_range": "90-100",
+            "start_time": 1183502,
+            "end_time": 1300748
+        },
+        {
+            "topic": "Wet Nurses and Social Perceptions",
+            "sequence_range": "101-102",
+            "start_time": 1300804,
+            "end_time": 1367842
+        },
+        {
+            "topic": "Historical Figures and Literature",
+            "sequence_range": "103-109",
+            "start_time": 1367946,
+            "end_time": 1435810
+        },
+        {
+            "topic": "Breastfeeding and Social Implications",
+            "sequence_range": "110-112",
+            "start_time": 1435850,
+            "end_time": 1534246
+        },
+        {
+            "topic": "Economic Aspects of Wet Nursing",
+            "sequence_range": "113-116",
+            "start_time": 1534398,
+            "end_time": 1630072
+        },
+        {
+            "topic": "Mystical and Theological Aspects of Breastfeeding",
+            "sequence_range": "117-138",
+            "start_time": 1630136,
+            "end_time": 2172522
+        },
+        {
+            "topic": "Marian Milk and Relics",
+            "sequence_range": "139-146",
+            "start_time": 2172586,
+            "end_time": 2396720
+        },
+        {
+            "topic": "Eroticism and Breastfeeding in Media",
+            "sequence_range": "147-148",
+            "start_time": 2412270,
+            "end_time": 2496752
+        },
+        {
+            "topic": "The Suckling Christ and Art",
+            "sequence_range": "149-156",
+            "start_time": 2496896,
+            "end_time": 2552928
+        },
+        {
+            "topic": "Autobiography and Biography",
+            "sequence_range": "157-158",
+            "start_time": 2552944,
+            "end_time": 2573674
+        },
+        {
+            "topic": "Literary Analysis",
+            "sequence_range": "159-176",
+            "start_time": 2573682,
+            "end_time": 2783762
+        },
+        {
+            "topic": "Medieval Theology and Feminization of Christ",
+            "sequence_range": "177-187",
+            "start_time": 2783826,
+            "end_time": 2984094
+        },
+        {
+            "topic": "16th and 17th Century Nun Writers",
+            "sequence_range": "188-199",
+            "start_time": 2984142,
+            "end_time": 3215006
+        },
+        {
+            "topic": "Breastfeeding Imagery in Religious Writing",
+            "sequence_range": "200-212",
+            "start_time": 3215118,
+            "end_time": 3327478
+        },
+        {
+            "topic": "Historical Anecdotes and Gender Transformation",
+            "sequence_range": "213-217",
+            "start_time": 3327574,
+            "end_time": 3516250
+        },
+        {
+            "topic": "Podcast Production Details",
+            "sequence_range": "220",
+            "start_time": 3549290,
+            "end_time": 3581130
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                2,
+                6,
+                7,
+                20,
+                26,
+                38,
+                53,
+                71,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                3,
+                5,
+                8,
+                27,
+                28,
+                29,
+                38,
+                49,
+                50,
+                71,
+                91,
+                97
+            ]
+        },
+        {
+            "entity": "Gallarre Theater",
+            "type": "Place",
+            "sequences": [
+                8,
+                24,
+                25,
+                47,
+                72,
+                98
+            ]
+        },
+        {
+            "entity": "Pamplona",
+            "type": "Place",
+            "sequences": [
+                8,
+                10,
+                12,
+                13,
+                14,
+                22,
+                23,
+                24,
+                27,
+                72,
+                91,
+                98
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                10
+            ]
+        },
+        {
+            "entity": "Sister Catalina de Cristo",
+            "type": "Person",
+            "sequences": [
+                22,
+                23,
+                24
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                22
+            ]
+        },
+        {
+            "entity": "Barcelona",
+            "type": "Place",
+            "sequences": [
+                24,
+                27
+            ]
+        },
+        {
+            "entity": "Blacky Books",
+            "type": "Organization",
+            "sequences": [
+                19
+            ]
+        },
+        {
+            "entity": "Jan",
+            "type": "Person",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "Maria Cardona",
+            "type": "Person",
+            "sequences": [
+                20
+            ]
+        },
+        {
+            "entity": "Pino",
+            "type": "Person",
+            "sequences": [
+                37,
+                41,
+                42,
+                91,
+                92,
+                97,
+                98,
+                99
+            ]
+        },
+        {
+            "entity": "Felipe's daughters",
+            "type": "Book",
+            "sequences": [
+                18
+            ]
+        },
+        {
+            "entity": "Huaman Poma de Ayala",
+            "type": "Person",
+            "sequences": [
+                72,
+                73,
+                74
+            ]
+        },
+        {
+            "entity": "Felipe Tercero",
+            "type": "Person",
+            "sequences": [
+                72,
+                73
+            ]
+        },
+        {
+            "entity": "Julio Caro Baroja",
+            "type": "Person",
+            "sequences": [
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86
+            ]
+        },
+        {
+            "entity": "Navarre",
+            "type": "Place",
+            "sequences": [
+                77,
+                78,
+                79,
+                80,
+                81
+            ]
+        },
+        {
+            "entity": "Ambroise Paré",
+            "type": "Person",
+            "sequences": [
+                55
+            ]
+        },
+        {
+            "entity": "Laurent Joubert",
+            "type": "Person",
+            "sequences": [
+                63
+            ]
+        },
+        {
+            "entity": "Juan Luis Vives",
+            "type": "Person",
+            "sequences": [
+                66
+            ]
+        },
+        {
+            "entity": "Bernardo de Godino",
+            "type": "Person",
+            "sequences": [
+                90
+            ]
+        },
+        {
+            "entity": "Godino",
+            "type": "Person",
+            "sequences": [
+                101
+            ]
+        },
+        {
+            "entity": "Juan Luis Vives",
+            "type": "Person",
+            "sequences": [
+                103,
+                107,
+                108,
+                109,
+                110
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                105,
+                114,
+                130,
+                152
+            ]
+        },
+        {
+            "entity": "Pío Baroja",
+            "type": "Person",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Antonio de Guevara",
+            "type": "Person",
+            "sequences": [
+                110
+            ]
+        },
+        {
+            "entity": "Albert",
+            "type": "Person",
+            "sequences": [
+                113
+            ]
+        },
+        {
+            "entity": "Count of Lemos",
+            "type": "Person",
+            "sequences": [
+                116
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                116
+            ]
+        },
+        {
+            "entity": "Paula Ortiz",
+            "type": "Person",
+            "sequences": [
+                120
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                122
+            ]
+        },
+        {
+            "entity": "Maria Jesus de Agreda",
+            "type": "Person",
+            "sequences": [
+                119
+            ]
+        },
+        {
+            "entity": "Sister Mariana Agueda de San Ignacio",
+            "type": "Person",
+            "sequences": [
+                125,
+                126,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138
+            ]
+        },
+        {
+            "entity": "Sister María Ana Josefina Muriel",
+            "type": "Person",
+            "sequences": [
+                126
+            ]
+        },
+        {
+            "entity": "Calvin",
+            "type": "Person",
+            "sequences": [
+                144
+            ]
+        },
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                115,
+                149,
+                151,
+                152,
+                153
+            ]
+        },
+        {
+            "entity": "Caroline Walker Vinum",
+            "type": "Person",
+            "sequences": [
+                149
+            ]
+        },
+        {
+            "entity": "Puebla",
+            "type": "Place",
+            "sequences": [
+                127
+            ]
+        },
+        {
+            "entity": "Santa Maria Maggiore",
+            "type": "Place",
+            "sequences": [
+                145
+            ]
+        },
+        {
+            "entity": "St. Mark's in Venice",
+            "type": "Place",
+            "sequences": [
+                145
+            ]
+        },
+        {
+            "entity": "Avignon",
+            "type": "Place",
+            "sequences": [
+                145
+            ]
+        },
+        {
+            "entity": "St. Anthony of Padua",
+            "type": "Place",
+            "sequences": [
+                145
+            ]
+        },
+        {
+            "entity": "Toulon",
+            "type": "Place",
+            "sequences": [
+                145
+            ]
+        },
+        {
+            "entity": "Oviedo",
+            "type": "Place",
+            "sequences": [
+                145
+            ]
+        },
+        {
+            "entity": "Bethlehem",
+            "type": "Place",
+            "sequences": [
+                146
+            ]
+        },
+        {
+            "entity": "Hatillo",
+            "type": "Place",
+            "sequences": [
+                157
+            ]
+        },
+        {
+            "entity": "Luis Vives",
+            "type": "Person",
+            "sequences": [
+                157
+            ]
+        },
+        {
+            "entity": "Ágatha Ruiz de la Prada",
+            "type": "Person",
+            "sequences": [
+                157,
+                158,
+                161,
+                162
+            ]
+        },
+        {
+            "entity": "Walker Vinum",
+            "type": "Person",
+            "sequences": [
+                163,
+                179
+            ]
+        },
+        {
+            "entity": "Sans Soleilla Ediciones",
+            "type": "Organization",
+            "sequences": [
+                163
+            ]
+        },
+        {
+            "entity": "Catherine of Siena",
+            "type": "Person",
+            "sequences": [
+                167,
+                168,
+                170,
+                171,
+                173,
+                174,
+                175,
+                176
+            ]
+        },
+        {
+            "entity": "Gallardo theater",
+            "type": "Place",
+            "sequences": [
+                169
+            ]
+        },
+        {
+            "entity": "Basilica of St. Dominic in Siena",
+            "type": "Place",
+            "sequences": [
+                167
+            ]
+        },
+        {
+            "entity": "Saint Teresa",
+            "type": "Person",
+            "sequences": [
+                178
+            ]
+        },
+        {
+            "entity": "Caroline Walker Binum",
+            "type": "Person",
+            "sequences": [
+                179
+            ]
+        },
+        {
+            "entity": "Maria del Antiguo",
+            "type": "Person",
+            "sequences": [
+                191,
+                192,
+                195,
+                196,
+                197,
+                198,
+                199
+            ]
+        },
+        {
+            "entity": "Clarisa",
+            "type": "Organization",
+            "sequences": [
+                191
+            ]
+        },
+        {
+            "entity": "Convent of Santa Clara de Marchena",
+            "type": "Organization",
+            "sequences": [
+                191
+            ]
+        },
+        {
+            "entity": "Luisa de Carvajal",
+            "type": "Person",
+            "sequences": [
+                199
+            ]
+        },
+        {
+            "entity": "Violante de Oceu",
+            "type": "Person",
+            "sequences": [
+                199
+            ]
+        },
+        {
+            "entity": "Marcela de San Félix",
+            "type": "Person",
+            "sequences": [
+                199,
+                205,
+                212
+            ]
+        },
+        {
+            "entity": "John Fragoso",
+            "type": "Person",
+            "sequences": [
+                213
+            ]
+        },
+        {
+            "entity": "Monastery of Santo Domingo of Madrid",
+            "type": "Organization",
+            "sequences": [
+                214
+            ]
+        },
+        {
+            "entity": "Rodrigo Montes",
+            "type": "Person",
+            "sequences": [
+                214
+            ]
+        },
+        {
+            "entity": "Francisco de Lira",
+            "type": "Person",
+            "sequences": [
+                214
+            ]
+        },
+        {
+            "entity": "Dominican nun of Úbeda",
+            "type": "Person",
+            "sequences": [
+                214
+            ]
+        },
+        {
+            "entity": "John Eusebius Nuremberg",
+            "type": "Person",
+            "sequences": [
+                215
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Elizabeth Búa",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                220
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                220
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "La leche polifónica. Studies on wet nurses in the Iberian Peninsula. Centuries 15th and 16th, coordinated by Sophie Gigel and Helene Tiolin Pardo",
+            "sequence": 70
+        }
+    ]
+}

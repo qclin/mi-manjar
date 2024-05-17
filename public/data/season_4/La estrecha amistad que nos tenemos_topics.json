@@ -1,0 +1,736 @@
+{
+    "topics": [
+        {
+            "topic": "Podcast Introduction and Personal Experiences",
+            "sequence_range": "1-10",
+            "start_time": 2360,
+            "end_time": 44454
+        },
+        {
+            "topic": "Summer Recap and Episode Dedication",
+            "sequence_range": "11-11",
+            "start_time": 44582,
+            "end_time": 77720
+        },
+        {
+            "topic": "Lunch Discussion and Personal Preferences",
+            "sequence_range": "12-21",
+            "start_time": 78100,
+            "end_time": 135996
+        },
+        {
+            "topic": "Season Four Kick-off and Inspirational Quote",
+            "sequence_range": "22-33",
+            "start_time": 136028,
+            "end_time": 204514
+        },
+        {
+            "topic": "Historical and Spiritual Reflections",
+            "sequence_range": "34-50",
+            "start_time": 204562,
+            "end_time": 460216
+        },
+        {
+            "topic": "Friendship and Historical Female Figures",
+            "sequence_range": "51-105",
+            "start_time": 460328,
+            "end_time": 1338014
+        },
+        {
+            "topic": "Marie de Gournet's contributions and controversies",
+            "sequence_range": "106-108",
+            "start_time": 1338062,
+            "end_time": 1421512
+        },
+        {
+            "topic": "Montaigne's essays and his relationship with Marie de Hugne",
+            "sequence_range": "109-110",
+            "start_time": 1421536,
+            "end_time": 1492720
+        },
+        {
+            "topic": "Montaigne's friendship with Etienne de la Boiti and its literary representation",
+            "sequence_range": "111-115",
+            "start_time": 1492760,
+            "end_time": 1601500
+        },
+        {
+            "topic": "Critique of male friendships in literature",
+            "sequence_range": "116-120",
+            "start_time": 1601960,
+            "end_time": 1693374
+        },
+        {
+            "topic": "Literary historiography and friendships between writers",
+            "sequence_range": "121-127",
+            "start_time": 1693422,
+            "end_time": 1813956
+        },
+        {
+            "topic": "Garcilaso de la Vega and Juan Boscan's friendship",
+            "sequence_range": "128-133",
+            "start_time": 1814068,
+            "end_time": 1967966
+        },
+        {
+            "topic": "Christine de Pizan's The City of Ladies",
+            "sequence_range": "136-138",
+            "start_time": 1971582,
+            "end_time": 2100008
+        },
+        {
+            "topic": "María de Zayas and female friendship in literature",
+            "sequence_range": "144-153",
+            "start_time": 2180908,
+            "end_time": 2309820
+        },
+        {
+            "topic": "Ana Caro de Mayenne and María de Zayas's friendship",
+            "sequence_range": "154-163",
+            "start_time": 2310240,
+            "end_time": 2602254
+        },
+        {
+            "topic": "Female Friendship in the Baroque Period",
+            "sequence_range": "164-165",
+            "start_time": 2602382,
+            "end_time": 2679334
+        },
+        {
+            "topic": "Reflections on Friendship",
+            "sequence_range": "166-178",
+            "start_time": 2679422,
+            "end_time": 2902126
+        },
+        {
+            "topic": "Convent Friendships and Radicalism",
+            "sequence_range": "169-173",
+            "start_time": 2702806,
+            "end_time": 2792372
+        },
+        {
+            "topic": "Classical Culture and Friendship",
+            "sequence_range": "174-177",
+            "start_time": 2792436,
+            "end_time": 2843000
+        },
+        {
+            "topic": "Conventual Life and Friendship",
+            "sequence_range": "179-212",
+            "start_time": 2902198,
+            "end_time": 3496410
+        },
+        {
+            "topic": "Health and Care in Friendship",
+            "sequence_range": "213-216",
+            "start_time": 3496450,
+            "end_time": 3665080
+        },
+        {
+            "topic": "Podcast Production Details",
+            "sequence_range": "218",
+            "start_time": 3668160,
+            "end_time": 3695220
+        }
+    ],
+    "entities": [
+        {
+            "entity": "Ana",
+            "type": "Person",
+            "sequences": [
+                2,
+                26,
+                28,
+                65,
+                103
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                3,
+                17,
+                20,
+                22,
+                39,
+                41,
+                42,
+                58,
+                59,
+                71,
+                72,
+                74,
+                75,
+                77,
+                79,
+                81,
+                87,
+                88,
+                97,
+                98
+            ]
+        },
+        {
+            "entity": "Nerea",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Santa Teresa",
+            "type": "Person",
+            "sequences": [
+                11
+            ]
+        },
+        {
+            "entity": "Sister Angela Maria de la Concepcion",
+            "type": "Person",
+            "sequences": [
+                26,
+                30,
+                37,
+                39,
+                43,
+                44,
+                48,
+                50,
+                51,
+                57,
+                98,
+                101
+            ]
+        },
+        {
+            "entity": "Recollect Trinitarians",
+            "type": "Organization",
+            "sequences": [
+                30,
+                32,
+                39
+            ]
+        },
+        {
+            "entity": "El Toboso",
+            "type": "Place",
+            "sequences": [
+                39,
+                40
+            ]
+        },
+        {
+            "entity": "Escorial de la Mancha",
+            "type": "Place",
+            "sequences": [
+                39
+            ]
+        },
+        {
+            "entity": "Lisa Vollendorf",
+            "type": "Person",
+            "sequences": [
+                46
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                51,
+                55
+            ]
+        },
+        {
+            "entity": "Ana de Jesus",
+            "type": "Person",
+            "sequences": [
+                61
+            ]
+        },
+        {
+            "entity": "Beatriz de la Concepción",
+            "type": "Person",
+            "sequences": [
+                61
+            ]
+        },
+        {
+            "entity": "Las hijas de Felipe",
+            "type": "Organization",
+            "sequences": [
+                68
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                1,
+                68
+            ]
+        },
+        {
+            "entity": "Golden Girls",
+            "type": "Event",
+            "sequences": [
+                76
+            ]
+        },
+        {
+            "entity": "Girlfriends Forever",
+            "type": "Event",
+            "sequences": [
+                80,
+                82,
+                83,
+                84,
+                85
+            ]
+        },
+        {
+            "entity": "Ella baila sola",
+            "type": "Event",
+            "sequences": [
+                89
+            ]
+        },
+        {
+            "entity": "Carmen Laforet",
+            "type": "Person",
+            "sequences": [
+                91,
+                93
+            ]
+        },
+        {
+            "entity": "Michel de Montaigne",
+            "type": "Person",
+            "sequences": [
+                101,
+                102
+            ]
+        },
+        {
+            "entity": "Mari de Gourmet",
+            "type": "Person",
+            "sequences": [
+                102,
+                103
+            ]
+        },
+        {
+            "entity": "Christina of Sweden",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Catherine de Medici",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Anna Silgering",
+            "type": "Person",
+            "sequences": [
+                105
+            ]
+        },
+        {
+            "entity": "Marie de Gournet",
+            "type": "Person",
+            "sequences": [
+                106,
+                107
+            ]
+        },
+        {
+            "entity": "Jesuits",
+            "type": "Organization",
+            "sequences": [
+                106,
+                107
+            ]
+        },
+        {
+            "entity": "King Henry the Fourth",
+            "type": "Person",
+            "sequences": [
+                106
+            ]
+        },
+        {
+            "entity": "Montaigne",
+            "type": "Person",
+            "sequences": [
+                108,
+                109,
+                110,
+                111,
+                114,
+                115,
+                116,
+                118,
+                120,
+                121,
+                123,
+                144
+            ]
+        },
+        {
+            "entity": "Etienne de la Boiti",
+            "type": "Person",
+            "sequences": [
+                111,
+                114,
+                115,
+                118,
+                120
+            ]
+        },
+        {
+            "entity": "Ana Herrera",
+            "type": "Person",
+            "sequences": [
+                111
+            ]
+        },
+        {
+            "entity": "Jean Luc Henning",
+            "type": "Person",
+            "sequences": [
+                118
+            ]
+        },
+        {
+            "entity": "Garcilaso de la Vega",
+            "type": "Person",
+            "sequences": [
+                123,
+                128,
+                130,
+                132,
+                133
+            ]
+        },
+        {
+            "entity": "Juan Boscan",
+            "type": "Person",
+            "sequences": [
+                123,
+                128,
+                130,
+                132,
+                133
+            ]
+        },
+        {
+            "entity": "Anne Cruz",
+            "type": "Person",
+            "sequences": [
+                133
+            ]
+        },
+        {
+            "entity": "Beatriz Serrano",
+            "type": "Person",
+            "sequences": [
+                133
+            ]
+        },
+        {
+            "entity": "Christine de Pizan",
+            "type": "Person",
+            "sequences": [
+                136,
+                137
+            ]
+        },
+        {
+            "entity": "María de Zayas",
+            "type": "Person",
+            "sequences": [
+                144,
+                146,
+                152,
+                153,
+                157,
+                158,
+                160
+            ]
+        },
+        {
+            "entity": "Ana de Caro y Mayenne",
+            "type": "Person",
+            "sequences": [
+                153,
+                154,
+                156,
+                157,
+                158,
+                160,
+                162
+            ]
+        },
+        {
+            "entity": "Count Duke of Olivares",
+            "type": "Person",
+            "sequences": [
+                156
+            ]
+        },
+        {
+            "entity": "Countess of Paredes",
+            "type": "Person",
+            "sequences": [
+                156
+            ]
+        },
+        {
+            "entity": "Sor Juana Inés de la Cruz",
+            "type": "Person",
+            "sequences": [
+                156
+            ]
+        },
+        {
+            "entity": "Madrid",
+            "type": "Place",
+            "sequences": [
+                164
+            ]
+        },
+        {
+            "entity": "Lope",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Carmen",
+            "type": "Person",
+            "sequences": [
+                165,
+                167,
+                169,
+                170,
+                172,
+                175,
+                188,
+                193,
+                195,
+                196,
+                199,
+                201,
+                202,
+                208,
+                209,
+                214
+            ]
+        },
+        {
+            "entity": "Zayas",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Caro",
+            "type": "Person",
+            "sequences": [
+                165
+            ]
+        },
+        {
+            "entity": "Derrida",
+            "type": "Person",
+            "sequences": [
+                169,
+                171,
+                173,
+                174
+            ]
+        },
+        {
+            "entity": "Descartes",
+            "type": "Person",
+            "sequences": [
+                170
+            ]
+        },
+        {
+            "entity": "Montaigne",
+            "type": "Person",
+            "sequences": [
+                170,
+                174,
+                176,
+                177,
+                178
+            ]
+        },
+        {
+            "entity": "Aristotle",
+            "type": "Person",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Kant",
+            "type": "Person",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Nietzsche",
+            "type": "Person",
+            "sequences": [
+                173
+            ]
+        },
+        {
+            "entity": "Sister Violante Doceu",
+            "type": "Person",
+            "sequences": [
+                183,
+                187,
+                194,
+                195,
+                203,
+                204,
+                207
+            ]
+        },
+        {
+            "entity": "Paula Perez",
+            "type": "Person",
+            "sequences": [
+                185
+            ]
+        },
+        {
+            "entity": "Sister Juana",
+            "type": "Person",
+            "sequences": [
+                187
+            ]
+        },
+        {
+            "entity": "Boscán",
+            "type": "Person",
+            "sequences": [
+                187,
+                180
+            ]
+        },
+        {
+            "entity": "Garcilaso",
+            "type": "Person",
+            "sequences": [
+                187,
+                180
+            ]
+        },
+        {
+            "entity": "Aldana",
+            "type": "Person",
+            "sequences": [
+                187
+            ]
+        },
+        {
+            "entity": "Menandra",
+            "type": "Person",
+            "sequences": [
+                192
+            ]
+        },
+        {
+            "entity": "Carmen Undiez",
+            "type": "Person",
+            "sequences": [
+                193
+            ]
+        },
+        {
+            "entity": "St. Teresa",
+            "type": "Person",
+            "sequences": [
+                211,
+                212,
+                213
+            ]
+        },
+        {
+            "entity": "Brianda de San Jose",
+            "type": "Person",
+            "sequences": [
+                213
+            ]
+        },
+        {
+            "entity": "Maria de San Jose",
+            "type": "Person",
+            "sequences": [
+                213
+            ]
+        },
+        {
+            "entity": "Ana Garriga",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Carmen Urbita",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Jesús Blanquiño",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "elisabeth Búa",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Lourdes Moreno Cazalla",
+            "type": "Person",
+            "sequences": [
+                218
+            ]
+        },
+        {
+            "entity": "Podium Podcast",
+            "type": "Organization",
+            "sequences": [
+                218
+            ]
+        }
+    ],
+    "citations": [
+        {
+            "citation": "Spiritual Irrigation for New Plants by Sister Angela Maria de la Concepcion, 1691",
+            "sequence": 30
+        }
+    ]
+}
