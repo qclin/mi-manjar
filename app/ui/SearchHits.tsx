@@ -10,7 +10,7 @@ import Link from "next/link";
 
 type UtteranceHit = Hit<UtteranceSearch & BaseHit>;
 
-const Hit = ({ hit }: { hit: UtteranceHit }) => {
+const CustomHit = ({ hit }: { hit: UtteranceHit }) => {
   const selectedLanguage = useContext(LanguageContext);
   const textAttributeToDisplay =
     selectedLanguage === SupportedLanguage.english ? "text_en" : "text";
@@ -47,7 +47,7 @@ const SearchHits = () => {
         : ResultsDisplayText[selectedLanguage].singular}
       <ul>
         {hits.map((h) => (
-          <Hit hit={h as UtteranceHit} key={h.objectID} />
+          <CustomHit hit={h as UtteranceHit} key={h.objectID} />
         ))}
       </ul>
     </section>

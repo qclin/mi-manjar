@@ -21,15 +21,15 @@ const useIndexPanel = (
   const TableOfContext = ({ onSelect, onSelectSequence }: Props) => (
     <>
       <button
-        className="absolute right-0 top-0 uppercase flex mx-12 py-4 items-center z-20"
+        className="absolute right-0 top-0 z-20 mx-12 flex items-center py-4 uppercase"
         onClick={togglePanel}
       >
         <span className="mx-4">Index</span>
-      <MoonIcon alt="display mode" size={24}  />
+        <MoonIcon alt="display mode" size={24} />
       </button>
       <div
         className={clsx(
-          "transition-width bg-paper-dark fixed right-0 top-14 h-[80vh] overflow-y-scroll duration-300 ease-in-out z-30",
+          "transition-width fixed right-0 top-14 z-30 h-[80vh] overflow-y-scroll bg-paper-dark duration-300 ease-in-out",
           isPanelOpen ? "w-1/3 min-w-[350px]" : "w-0"
         )}
       >
@@ -45,7 +45,7 @@ const useIndexPanel = (
               {topics.map(({ topic, start_time }, index) => (
                 <tr
                   key={`topic-${index}`}
-                  className="cursor-pointer border-y border-gray-400 [&>*]:py-2 hover:border-black hover:font-medium"
+                  className="cursor-pointer border-y border-gray-400 hover:border-black hover:font-medium [&>*]:py-2"
                   tabIndex={0}
                   onClick={() => onSelect(start_time)}
                 >

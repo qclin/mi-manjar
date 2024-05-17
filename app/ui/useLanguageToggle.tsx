@@ -1,10 +1,10 @@
 "use client";
 import clsx from "clsx";
-import { SupportedLanguage, } from "../lib/definitions";
+import { SupportedLanguage } from "../lib/definitions";
 import { useState, createContext } from "react";
 
-const defaultLanguage = SupportedLanguage.spanish
-export const LanguageContext = createContext(defaultLanguage)
+const defaultLanguage = SupportedLanguage.spanish;
+export const LanguageContext = createContext(defaultLanguage);
 
 function useLangugageToggle(): [SupportedLanguage, () => JSX.Element] {
   const [selectedLanguage, setSelectedLanguage] = useState(defaultLanguage);

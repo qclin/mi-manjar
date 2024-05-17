@@ -9,7 +9,7 @@ type Props = {
   size: number;
   alt: string;
   className?: string;
-}
+};
 
 export const DownChevronIcon = ({ size, alt, className }: Props) => (
   <Image

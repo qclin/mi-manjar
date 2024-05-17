@@ -27,32 +27,32 @@ export type Entity = {
 
 // https://www.assemblyai.com/docs/audio-intelligence/entity-detection#supported-entities
 export enum ASEntityType {
-  date="date", 
-  drug="drug", 
-  event="event", 
-  injury="injury",
-  language="language", 
-  location="location",
-  medical_condition="medical_condition", 
-  medical_process="medical_process", 
-  nationality="nationality", 
-  occupation="occupation", 
-  organization="organization", 
-  person_age="person_age", 
-  person_name="person_name", 
-  political_affiliation="political_affiliation", 
-  religion="religion", 
-  time="time", 
-  url="url"
+  date = "date",
+  drug = "drug",
+  event = "event",
+  injury = "injury",
+  language = "language",
+  location = "location",
+  medical_condition = "medical_condition",
+  medical_process = "medical_process",
+  nationality = "nationality",
+  occupation = "occupation",
+  organization = "organization",
+  person_age = "person_age",
+  person_name = "person_name",
+  political_affiliation = "political_affiliation",
+  religion = "religion",
+  time = "time",
+  url = "url",
 }
 
 export type ASEntity = {
-  entity_type: ASEntityType, 
-  text: string; 
+  entity_type: ASEntityType;
+  text: string;
   start: number;
   end: number;
   sequence: number;
-}
+};
 
 export type Highlight = {
   citations: Citation[];
@@ -85,9 +85,9 @@ export type Overview = {
   episode: number;
   duration: string;
   audio_path: string;
-  release_date:string;
+  release_date: string;
   word_count: number;
-  words_per_minute: number; 
+  words_per_minute: number;
 };
 
 export type Podcast = {
@@ -97,12 +97,12 @@ export type Podcast = {
 };
 
 export type Transcription = {
-  utterances: Sentence[], 
-  entities: ASEntity[], 
-  audio_url: string, 
-  audio_duration: string, 
-  text: string,
-}
+  utterances: Sentence[];
+  entities: ASEntity[];
+  audio_url: string;
+  audio_duration: string;
+  text: string;
+};
 
 export enum SpeakerName {
   A = "Carmen",

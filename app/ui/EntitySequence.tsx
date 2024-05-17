@@ -19,35 +19,40 @@ enum ClassnamesByEntity {
 
 const getClassnames = (entity: ASEntityType) => {
   switch (entity) {
-    case ASEntityType.date,  ASEntityType.person_age, ASEntityType.time:
-      return ClassnamesByEntity.DoubleGreen
-    case ASEntityType.drug, ASEntityType.injury, ASEntityType.medical_condition, ASEntityType.medical_process: 
-      return ClassnamesByEntity.WavyGreen
-    case ASEntityType.location: 
-      return ClassnamesByEntity.DoubleGreen
-    case ASEntityType.person_name: 
-      return ClassnamesByEntity.WavyAmber
-    case ASEntityType.religion, ASEntityType.political_affiliation: 
-      return ClassnamesByEntity.DashZinc
-    case ASEntityType.occupation: 
-      return ClassnamesByEntity.SolidBlue
-    case ASEntityType.event: 
-      return ClassnamesByEntity.Fushsia
+    case (ASEntityType.date, ASEntityType.person_age, ASEntityType.time):
+      return ClassnamesByEntity.DoubleGreen;
+    case (ASEntityType.drug,
+    ASEntityType.injury,
+    ASEntityType.medical_condition,
+    ASEntityType.medical_process):
+      return ClassnamesByEntity.WavyGreen;
+    case ASEntityType.location:
+      return ClassnamesByEntity.DoubleGreen;
+    case ASEntityType.person_name:
+      return ClassnamesByEntity.WavyAmber;
+    case (ASEntityType.religion, ASEntityType.political_affiliation):
+      return ClassnamesByEntity.DashZinc;
+    case ASEntityType.occupation:
+      return ClassnamesByEntity.SolidBlue;
+    case ASEntityType.event:
+      return ClassnamesByEntity.Fushsia;
     default:
-      return ClassnamesByEntity.default
+      return ClassnamesByEntity.default;
   }
-}
-const EntitySequence: React.FC<Props> = ({ text, entities }) => {  
+};
+const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   // Function to escape special characters in regex patterns
   const escapeRegExp = (text: string) => {
     return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
   };
 
   // Build a regex pattern from the entitys and map them to their colors
-  const entityPatterns = entities.filter((entity) => entity.text.length >= 3).map((entity) => ({
-    pattern: new RegExp(escapeRegExp(entity.text), "gi"),
-    color: getClassnames(entity.entity_type)
-  }));
+  const entityPatterns = entities
+    .filter((entity) => entity.text.length >= 3)
+    .map((entity) => ({
+      pattern: new RegExp(escapeRegExp(entity.text), "gi"),
+      color: getClassnames(entity.entity_type),
+    }));
 
   const tokens = [];
   let lastOffset = 0;

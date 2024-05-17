@@ -36,16 +36,16 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
   );
   return (
     <table className="container mx-auto my-24 table-auto">
-      <thead className="bg-paper-light sticky top-0 border-b">
+      <thead className="sticky top-0 border-b bg-paper-light">
         <tr className="[&>*]:border-b[&>*]:py-2[&>*]:border-b-black [&>*]:px-4 [&>*]:py-2 [&>*]:font-normal [&>*]:uppercase [&>*]:text-gray-500">
           <th>
             <button onClick={toggleAllRows}>
-              <PlusIcon alt="expand all rows" size={20}/>
+              <PlusIcon alt="expand all rows" size={20} />
             </button>
           </th>
           <th className="text-left">Episode Title</th>
           <th className="text-left">English</th>
-          <th className="text-left whitespace-nowrap text-sm">Date</th>
+          <th className="whitespace-nowrap text-left text-sm">Date</th>
           <th className="whitespace-nowrap text-sm">Season - Episode</th>
           <th className="text-sm">Duration</th>
           <th className="whitespace-nowrap text-sm">Words per minute</th>
@@ -57,7 +57,15 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
           .map((seasonIndex) => {
             return data[`season_${seasonIndex}` as keyof SeasonOverview].map(
               (
-                { title, season, episode, summary, release_date, duration, words_per_minute },
+                {
+                  title,
+                  season,
+                  episode,
+                  summary,
+                  release_date,
+                  duration,
+                  words_per_minute,
+                },
                 index
               ) => (
                 <>

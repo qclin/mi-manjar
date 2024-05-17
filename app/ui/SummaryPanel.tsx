@@ -27,7 +27,7 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   );
 
   const OverviewInfo = () => (
-    <div className="grid grid-cols-3 gap-4 items-baseline">
+    <div className="grid grid-cols-3 items-baseline gap-4">
       <h1 className="text-left">{overview.title.es}</h1>
       <h1 className="text-left">{overview.title.en}</h1>
       <p className="flex items-baseline justify-between">
@@ -41,14 +41,14 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   );
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 p-2">
-      <div className="bg-paper-light border-t border-black">
+      <div className="border-t border-black bg-paper-light">
         <button onClick={togglePanel} className="w-full px-10 pt-2">
           <OverviewInfo />
         </button>
         {children}
       </div>
       <div
-        className={`bg-paper-light fixed inset-x-0 bottom-0 z-20 transform shadow-md transition-transform duration-300 ease-in-out dark:bg-slate-800 ${
+        className={`fixed inset-x-0 bottom-0 z-20 transform bg-paper-light shadow-md transition-transform duration-300 ease-in-out dark:bg-slate-800 ${
           isOpen ? "translate-y-0 border-t border-black" : "translate-y-full"
         }`}
         style={{ maxHeight: "90vh", overflowY: "auto" }}
@@ -64,7 +64,7 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
 
       {isOpen && (
         <div
-          className="bg-paper-light fixed inset-0 z-10 bg-opacity-50  transition-opacity duration-300 ease-in-out dark:bg-slate-800"
+          className="fixed inset-0 z-10 bg-paper-light bg-opacity-50  transition-opacity duration-300 ease-in-out dark:bg-slate-800"
           onClick={togglePanel}
         ></div>
       )}

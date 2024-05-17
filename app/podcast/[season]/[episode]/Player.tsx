@@ -20,13 +20,12 @@ type Props = {
 };
 
 export default function Player({ podcast, jumpToTime }: Props) {
-
   const { overview, highlight, transcription } = podcast;
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [isReady, setIsReady] = useState(false);
-  const [isPanelOpen, TableOfContent] = useIndexPanel(highlight)
+  const [isPanelOpen, TableOfContent] = useIndexPanel(highlight);
   const jumpToTimestamp = (startTime: number) => {
     if (!audioRef.current) return;
     const seconds = convertMillisecondsToSeconds(startTime);
@@ -34,18 +33,18 @@ export default function Player({ podcast, jumpToTime }: Props) {
     audioRef.current.play();
   };
 
-
   const handleCanPlayThrough = useCallback(() => {
     // Jump to timestamp in the route search param
     const audio = audioRef.current;
     if (!audio || !jumpToTime || isReady) return;
-    const startTime = convertMillisecondsToSeconds(parseInt(jumpToTime))
-    console.log("Audio is fully loaded and can play through without interruption.");
-    audio.currentTime = startTime;  
-    audio.play(); 
+    const startTime = convertMillisecondsToSeconds(parseInt(jumpToTime));
+    console.log(
+      "Audio is fully loaded and can play through without interruption."
+    );
+    audio.currentTime = startTime;
+    audio.play();
     setIsReady(true);
-}, [jumpToTime, isReady, audioRef.current]);
-
+  }, [jumpToTime, isReady]);
 
   const updateCurrentSequence = () => {
     if (!audioRef.current) return;
@@ -78,7 +77,9 @@ export default function Player({ podcast, jumpToTime }: Props) {
       <TableOfContent
         onSelect={jumpToTimestamp}
         onSelectSequence={(s) => {
-          const sequence = transcription.utterances.find((t) => t.sequence === s);
+          const sequence = transcription.utterances.find(
+            (t) => t.sequence === s
+          );
           sequence && jumpToTimestamp(sequence?.start);
         }}
       />
@@ -94,8 +95,8 @@ export default function Player({ podcast, jumpToTime }: Props) {
             ({ text, start, sequence, speaker, words, text_en }) => {
               const isActiveSequence = currentSequence === sequence;
               const isLater = currentSequence < sequence;
-              const entities = transcription.entities.filter((entity) =>
-                entity.sequence === sequence
+              const entities = transcription.entities.filter(
+                (entity) => entity.sequence === sequence
               );
 
               return (
@@ -104,9 +105,7 @@ export default function Player({ podcast, jumpToTime }: Props) {
                   id={`sequence-${sequence}`}
                   className="my-2 grid grid-cols-10 gap-4"
                 >
-                  <span className="text-gray-600">
-                    {speaker}
-                  </span>
+                  <span className="text-gray-600">{speaker}</span>
                   <div className={clsx("col-span-8 block max-w-prose")}>
                     {isActiveSequence ? (
                       <HighlightSequence
