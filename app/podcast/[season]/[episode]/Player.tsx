@@ -12,7 +12,7 @@ import { Podcast } from "@/app/lib/definitions";
 import useIndexPanel from "@/app/ui/useIndexPanel";
 import SummaryPanel from "@/app/ui/SummaryPanel";
 import EntitySequence from "@/app/ui/EntitySequence";
-import { DownChevronIcon } from "@/app/ui/icons";
+import TranscriptionLog from "@/app/ui/TranscriptionLog";
 
 type Props = {
   podcast: Podcast;
@@ -91,50 +91,27 @@ export default function Player({ podcast, jumpToTime }: Props) {
       >
         <section className="relative p-8 md:p-12 md:pb-36">
           {!isReady && jumpToTime && <p> ... Loading audio file</p>}
-          {transcription.utterances.map(
-            ({ text, start, sequence, speaker, words, text_en }) => {
-              const isActiveSequence = currentSequence === sequence;
-              const isLater = currentSequence < sequence;
-              const entities = transcription.entities.filter(
-                (entity) => entity.sequence === sequence
-              );
+          {transcription.utterances.map((utterance) => {
+            const isActiveSequence = currentSequence === utterance.sequence;
+            const entities = transcription.entities.filter(
+              (entity) => entity.sequence === utterance.sequence
+            );
+            const translatedEntities = highlight.entities.filter((entity) =>
+              entity.sequences.includes(utterance.sequence)
+            );
 
-              return (
-                <div
-                  key={sequence}
-                  id={`sequence-${sequence}`}
-                  className="my-2 grid grid-cols-10 gap-4"
-                >
-                  <span className="text-gray-600">{speaker}</span>
-                  <div className={clsx("col-span-8 block max-w-prose")}>
-                    {isActiveSequence ? (
-                      <HighlightSequence
-                        text={text}
-                        textTranslated={text_en || ""}
-                        words={words}
-                        currentTime={currentTime}
-                        entities={entities}
-                      />
-                    ) : (
-                      <button
-                        className={clsx(
-                          isLater ? "text-gray-400" : "text-gray-600",
-                          "appearance-none text-justify"
-                        )}
-                        onClick={() => jumpToTimestamp(start)}
-                      >
-                        {entities.length > 0 ? (
-                          <EntitySequence text={text} entities={entities} />
-                        ) : (
-                          text
-                        )}
-                      </button>
-                    )}
-                  </div>
-                </div>
-              );
-            }
-          )}
+            return (
+              <TranscriptionLog
+                key={utterance.sequence}
+                currentTime={currentTime}
+                isActive={isActiveSequence}
+                entities={entities}
+                translatedEntities={translatedEntities}
+                onSelect={jumpToTimestamp}
+                utterance={utterance}
+              />
+            );
+          })}
           <SummaryPanel overview={overview}>
             <AudioPlayer
               ref={audioRef}

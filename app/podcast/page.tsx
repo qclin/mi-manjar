@@ -20,7 +20,7 @@ export default function Page() {
     fetchData();
   }, []);
 
-  if (!overviewData) return <>Loading podcast season overview</>;
+  if (!overviewData) return <>Loading podcast table</>;
   return (
     <>
       <SearchPanel />

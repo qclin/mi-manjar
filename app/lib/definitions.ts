@@ -4,7 +4,7 @@ export type Word = {
   end: number; // End timestamp in seconds
 };
 
-export type Sentence = {
+export type Utterance = {
   sequence: number;
   start: number;
   end: number;
@@ -21,13 +21,42 @@ export type Citation = {
 
 export type Entity = {
   entity: string;
-  type: string;
+  type: EntityType;
   sequences: number[];
 };
+
+export enum EntityType {
+  Angel = "Angel",
+  Artist = "Artist",
+  Artwork = "Artwork",
+  Author = "Author",
+  Authors = "Authors",
+  Brand = "Brand",
+  Book = "Book",
+  Deity = "Deity",
+  Demon = "Demon",
+  Concept = "Concept",
+  Metaphorical = "Metaphorical",
+  Film = "Film",
+  Food = "Food",
+  "Historical Figure" = "Historical Figure",
+  "Fictional Character" = "Fictional Character",
+  Group = "Group",
+  "Music Group" = "Music Group",
+  Person = "Person",
+  Literature = "Literature",
+  Location = "Location",
+  Place = "Place",
+  Organization = "Organization",
+  Saint = "Saint",
+  "Religious Figure" = "Religious Figure",
+  "Religious Concept" = "Religious Concept",
+}
 
 // https://www.assemblyai.com/docs/audio-intelligence/entity-detection#supported-entities
 export enum ASEntityType {
   date = "date",
+  date_interval = "date_interval",
   drug = "drug",
   event = "event",
   injury = "injury",
@@ -38,12 +67,38 @@ export enum ASEntityType {
   nationality = "nationality",
   occupation = "occupation",
   organization = "organization",
+  gender_sexuality = "gender_sexuality",
   person_age = "person_age",
   person_name = "person_name",
   political_affiliation = "political_affiliation",
   religion = "religion",
   time = "time",
   url = "url",
+  Angel = "Angel",
+  Artist = "Artist",
+  Artwork = "Artwork",
+  Author = "Author",
+  Authors = "Authors",
+  Brand = "Brand",
+  Book = "Book",
+  Deity = "Deity",
+  Demon = "Demon",
+  Concept = "Concept",
+  Metaphorical = "Metaphorical",
+  Film = "Film",
+  Food = "Food",
+  "Historical Figure" = "Historical Figure",
+  "Fictional Character" = "Fictional Character",
+  Group = "Group",
+  "Music Group" = "Music Group",
+  Person = "Person",
+  Literature = "Literature",
+  // Location = "Location",
+  Place = "Place",
+  Organization = "Organization",
+  Saint = "Saint",
+  "Religious Figure" = "Religious Figure",
+  "Religious Concept" = "Religious Concept",
 }
 
 export type ASEntity = {
@@ -97,7 +152,7 @@ export type Podcast = {
 };
 
 export type Transcription = {
-  utterances: Sentence[];
+  utterances: Utterance[];
   entities: ASEntity[];
   audio_url: string;
   audio_duration: string;

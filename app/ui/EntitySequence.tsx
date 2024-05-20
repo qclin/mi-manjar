@@ -1,9 +1,14 @@
 import React from "react";
-import { ASEntity, ASEntityType } from "@/app/lib/definitions";
+import {
+  ASEntity,
+  ASEntityType,
+  Entity,
+  EntityType,
+} from "@/app/lib/definitions";
 
 interface Props {
   text: string;
-  entities: ASEntity[];
+  entities: ASEntity[] | Entity[];
 }
 
 enum ClassnamesByEntity {
@@ -14,17 +19,21 @@ enum ClassnamesByEntity {
   DashZinc = "underline decoration-dashed decoration-4 decoration-zinc-400",
   SolidBlue = "text-sky-700 font-medium",
   Fushsia = "underline underline-offset-2 decoration-fuchsia-700 text-fuchsia-800 bg-fuchsia-100",
-  default = "underline decoration-yellow-100 decoration-4 decoration-dashed",
+  default = "underline decoration-yellow decoration-4 decoration-dashed",
 }
 
-const getClassnames = (entity: ASEntityType) => {
-  switch (entity) {
-    case (ASEntityType.date, ASEntityType.person_age, ASEntityType.time):
+const getASClassnames = (type: ASEntityType) => {
+  switch (type) {
+    case (ASEntityType.date,
+    ASEntityType.date_interval,
+    ASEntityType.person_age,
+    ASEntityType.time):
       return ClassnamesByEntity.DoubleGreen;
     case (ASEntityType.drug,
     ASEntityType.injury,
     ASEntityType.medical_condition,
-    ASEntityType.medical_process):
+    ASEntityType.medical_process,
+    ASEntityType.gender_sexuality):
       return ClassnamesByEntity.WavyGreen;
     case ASEntityType.location:
       return ClassnamesByEntity.DoubleGreen;
@@ -40,6 +49,46 @@ const getClassnames = (entity: ASEntityType) => {
       return ClassnamesByEntity.default;
   }
 };
+
+const getClassnames = (type: EntityType) => {
+  switch (type) {
+    case EntityType.Food:
+      return ClassnamesByEntity.DoubleGreen;
+    case EntityType.Brand:
+      return ClassnamesByEntity.WavyGreen;
+    case EntityType.Location:
+      return ClassnamesByEntity.DoubleGreen;
+    case (EntityType.Person,
+    EntityType.Artist,
+    EntityType.Author,
+    EntityType.Authors):
+      return ClassnamesByEntity.WavyAmber;
+    case (EntityType["Religious Concept"],
+    EntityType["Religious Figure"],
+    EntityType.Deity,
+    EntityType.Demon,
+    EntityType.Angel):
+      return ClassnamesByEntity.DashZinc;
+    case (EntityType.Saint,
+    EntityType["Historical Figure"],
+    EntityType["Fictional Character"]):
+      return ClassnamesByEntity.SolidBlue;
+    case (EntityType.Concept,
+    EntityType.Metaphorical,
+    EntityType.Book,
+    EntityType.Artwork):
+      return ClassnamesByEntity.Fushsia;
+    default:
+      return ClassnamesByEntity.default;
+  }
+};
+
+const textToCheck = (entity: Entity | ASEntity) =>
+  "text" in entity ? entity.text : entity.entity;
+const getClassNamesByType = (entity: Entity | ASEntity) =>
+  "entity_type" in entity
+    ? getASClassnames(entity.entity_type)
+    : getClassnames(entity.type);
 const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   // Function to escape special characters in regex patterns
   const escapeRegExp = (text: string) => {
@@ -47,12 +96,17 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   };
 
   // Build a regex pattern from the entitys and map them to their colors
+
   const entityPatterns = entities
-    .filter((entity) => entity.text.length >= 3)
-    .map((entity) => ({
-      pattern: new RegExp(escapeRegExp(entity.text), "gi"),
-      color: getClassnames(entity.entity_type),
-    }));
+    .filter((entity) => textToCheck(entity).length >= 3)
+    .map((entity) => {
+      console.log(textToCheck(entity), getClassNamesByType(entity));
+
+      return {
+        pattern: new RegExp(escapeRegExp(textToCheck(entity)), "gi"),
+        color: getClassNamesByType(entity),
+      };
+    });
 
   const tokens = [];
   let lastOffset = 0;

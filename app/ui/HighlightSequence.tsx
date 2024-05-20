@@ -43,37 +43,45 @@ const HighlightSequence = ({
           sentence.startTime,
           sentence.endTime
         );
-        const isAfter = calcIsAfter(currentTime, sentence.startTime);
-        return isActiveSentence ? (
-          <>
-            <div className="font-semibold">
-              {sentence.words.map((word, index) => {
-                const isActiveWord = calcIsActive(
-                  currentTime,
-                  word.start,
-                  word.end
-                );
-                return (
-                  <span
-                    key={index}
-                    className={clsx(isActiveWord && "bg-yellow-200", "mr-1")}
-                  >
-                    {word.text}
-                  </span>
-                );
-              })}
-            </div>
-            <p className="border-t border-rose-300 py-2">
+        return (
+          <div className="grid grid-cols-2 gap-8 text-3xl" key={index}>
+            {isActiveSentence ? (
+              <div className="border-b border-b-fuchsia text-3xl">
+                {sentence.words.map((word, index) => {
+                  const isActiveWord = calcIsActive(
+                    currentTime,
+                    word.start,
+                    word.end
+                  );
+                  return (
+                    <span
+                      key={index}
+                      className={clsx(isActiveWord && "bg-yellow-200", "mr-1")}
+                    >
+                      {word.text}
+                    </span>
+                  );
+                })}
+              </div>
+            ) : (
+              <p className="text-gray-700">
+                {entities.length > 0 ? (
+                  <EntitySequence
+                    text={sentence.sentence}
+                    entities={entities}
+                  />
+                ) : (
+                  sentence.sentence
+                )}
+              </p>
+            )}
+            <p
+              className={clsx(
+                isActiveSentence ? "border-b border-b-fuchsia" : "text-gray-700"
+              )}
+            >
               {translatedSentences[index]}
             </p>
-          </>
-        ) : (
-          <div className={isAfter ? "text-gray-400" : "text-gray-600"}>
-            {entities.length > 0 ? (
-              <EntitySequence text={sentence.sentence} entities={entities} />
-            ) : (
-              sentence.sentence
-            )}
           </div>
         );
       })}
