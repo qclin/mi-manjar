@@ -4,7 +4,7 @@ import range from "lodash/range";
 import { type SeasonOverview } from "@/app/lib/definitions";
 import { useState } from "react";
 import clsx from "clsx";
-import { PlayIcon, PlusIcon } from "../ui/icons";
+import { PlayIcon, PlusIcon } from "@/app/ui/icons";
 
 const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
   const [expandedRows, setExpandedRows] = useState<number[]>([]);
@@ -31,24 +31,28 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
 
   const SummaryTextCell = ({ text }: { text: string }) => (
     <td>
-      <p className="line-clamp-3 max-w-prose text-sm text-gray-700">{text}</p>
+      <p className="line-clamp-5 max-w-prose text-sm text-gray-700">{text}</p>
     </td>
   );
   return (
     <table className="container mx-auto my-24 table-auto">
       <thead className="sticky top-0 border-b bg-paper-light">
-        <tr className="[&>*]:border-b[&>*]:py-2[&>*]:border-b-black [&>*]:px-4 [&>*]:py-2 [&>*]:font-normal [&>*]:uppercase [&>*]:text-gray-500">
-          <th>
+        <tr className="[&>*]:border-b [&>*]:border-b-black [&>*]:font-normal [&>*]:uppercase [&>*]:text-gray-500">
+          <th className="">
             <button onClick={toggleAllRows}>
               <PlusIcon alt="expand all rows" size={20} />
             </button>
           </th>
-          <th className="text-left">Episode Title</th>
-          <th className="text-left">English</th>
-          <th className="whitespace-nowrap text-left text-sm">Date</th>
-          <th className="whitespace-nowrap text-sm">Season - Episode</th>
-          <th className="text-sm">Duration</th>
-          <th className="whitespace-nowrap text-sm">Words per minute</th>
+          <th className="px-4 py-2 text-left">Episode Title</th>
+          <th className="px-4 py-2 text-left">English</th>
+          <th className="whitespace-nowrap px-4 py-2 text-sm">Date</th>
+          <th className="whitespace-nowrap px-4 py-2 text-sm">
+            Season - Episode
+          </th>
+          <th className="px-4 py-2 text-sm">Duration</th>
+          <th className="whitespace-nowrap px-4 py-2 text-sm">
+            Words per minute
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -71,24 +75,24 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                 <>
                   <tr
                     onClick={() => handleRowClick(index)}
-                    key={`row-data-${index}`}
-                    className="hover:bg-gray-100 [&>*]:cursor-pointer [&>*]:border-b [&>*]:p-2 [&>*]:px-4"
+                    key={`season${seasonIndex}_episode${index}`}
+                    className="hover:bg-gray-100 [&>*]:cursor-pointer [&>*]:border-b"
                   >
-                    <td>
+                    <td className="w-8 px-2">
                       <PlayIcon alt="play audio" size={24} />
                     </td>
-                    <td>{title.es}</td>
+                    <td className="p-2">{title.es}</td>
                     <td>{title.en}</td>
-                    <td className="text-sm text-gray-500">
+                    <td className="p-2 text-sm text-gray-500">
                       {new Date(release_date).toLocaleDateString()}
                     </td>
-                    <td className="text-sm text-gray-500">
+                    <td className="p-2 text-sm text-gray-500">
                       S{season} - EP {episode}
                     </td>
-                    <td className="text-sm uppercase text-gray-500">
+                    <td className="p-2 text-sm uppercase text-gray-500">
                       {duration}
                     </td>
-                    <td className="text-sm uppercase text-gray-500">
+                    <td className="p-2 text-sm uppercase text-gray-500">
                       {words_per_minute} wpm
                     </td>
                   </tr>

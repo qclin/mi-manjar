@@ -100,8 +100,7 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   const entityPatterns = entities
     .filter((entity) => textToCheck(entity).length >= 3)
     .map((entity) => {
-      console.log(textToCheck(entity), getClassNamesByType(entity));
-
+      // console.log(textToCheck(entity), getClassNamesByType(entity));
       return {
         pattern: new RegExp(escapeRegExp(textToCheck(entity)), "gi"),
         color: getClassNamesByType(entity),

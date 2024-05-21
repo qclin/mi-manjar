@@ -40,7 +40,7 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
     </div>
   );
   return (
-    <div className="fixed inset-x-0 bottom-0 z-50 p-2">
+    <div className="summary-panel fixed inset-x-0 bottom-0 z-50 p-2">
       <div className="border-t border-black bg-paper-light">
         <button onClick={togglePanel} className="w-full px-10 pt-2">
           <OverviewInfo />

@@ -29,11 +29,11 @@ const useIndexPanel = (
       </button>
       <div
         className={clsx(
-          "transition-width fixed right-0 top-14 z-30 h-[80vh] overflow-y-scroll bg-paper-dark duration-300 ease-in-out",
+          "transition-width fixed right-0 top-[54px] z-20 h-[80vh] overflow-y-scroll bg-paper-dark duration-500 ease-in-out",
           isPanelOpen ? "w-1/3 min-w-[350px]" : "w-0"
         )}
       >
-        <div className="p-8 pb-28">
+        <div className="px-8 pb-28 pt-4">
           <table className="w-full table-auto">
             <thead>
               <tr className="text-left text-sm font-semibold uppercase [&>*]:pb-2">

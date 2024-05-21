@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Player from "./Player";
 import { fetchPodcast } from "@/app/lib/api";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 
 type RouteParams = { season: string; episode: string };
 
@@ -32,5 +33,14 @@ export default function Page({ params }: { params: RouteParams }) {
   if (!podcastData)
     return <div>Loading podcast data for: {params.episode}</div>;
 
-  return <Player podcast={podcastData} jumpToTime={jumpToTime} />;
+  return (
+    <>
+      <header className="fixed sticky top-0 z-20 w-full border-b border-b-black bg-paper-light px-8 py-3 dark:border-b-white">
+        <h1 className="mt-1 uppercase">
+          <Link href="/podcast">Mi manjar</Link>
+        </h1>
+      </header>
+      <Player podcast={podcastData} jumpToTime={jumpToTime} />
+    </>
+  );
 }

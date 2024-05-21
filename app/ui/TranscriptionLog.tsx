@@ -25,7 +25,7 @@ const TranscriptionLog = ({
   return (
     <div id={`sequence-${sequence}`} className="my-2 grid grid-cols-10 gap-4">
       <span className="text-gray-600">{speaker}</span>
-      <div className="col-span-8">
+      <div className="col-span-9">
         {isActive ? (
           <HighlightSequence
             text={text}

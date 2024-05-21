@@ -3,6 +3,7 @@ import downIcon from "@/public/icons/down.svg";
 import moonIcon from "@/public/icons/moon.svg";
 import plusIcon from "@/public/icons/plus.svg";
 import playIcon from "@/public/icons/play.svg";
+
 import Image from "next/image";
 
 type Props = {

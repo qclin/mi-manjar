@@ -41,27 +41,47 @@ export const convertMillisecondsToDisplayDuration = (
   return `${padWithZero(minutes)}:${padWithZero(remainingSeconds)}`;
 };
 
-export const isInViewport = (element: HTMLElement) => {
+export const isElementInViewport = (
+  element: HTMLElement,
+  topOffset = 0,
+  bottomOffset = 0
+) => {
   const rect = element.getBoundingClientRect();
+  const viewportHeight =
+    window.innerHeight || document.documentElement.clientHeight;
+
   return (
-    rect.top >= 0 &&
+    rect.top >= topOffset &&
     rect.left >= 0 &&
-    rect.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.bottom <= viewportHeight - bottomOffset &&
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 };
 
-export const isElementOverlappingViewport = (element: HTMLElement) => {
-  const rect = element.getBoundingClientRect();
-  const windowHeight =
-    window.innerHeight || document.documentElement.clientHeight;
-  const windowWidth = window.innerWidth || document.documentElement.clientWidth;
+export const scrollToElementCenter = (
+  element: HTMLElement,
+  topOffset = 0,
+  bottomOffset = 0
+) => {
+  // Scroll the element into view, centered in the viewport considering the offsets
+  element.scrollIntoView({
+    behavior: "smooth",
+    block: "center",
+    inline: "nearest",
+  });
 
-  return (
-    rect.bottom > 0 && // Bottom edge is below the top of the viewport
-    rect.right > 0 && // Right edge is to the right of the left side of the viewport
-    rect.top < windowHeight && // Top edge is above the bottom of the viewport
-    rect.left < windowWidth // Left edge is to the left of the right side of the viewport
-  );
+  // Adjust the scroll position after a short delay to ensure it's centered considering the offsets
+  setTimeout(() => {
+    const elementRect = element.getBoundingClientRect();
+    const absoluteElementTop = elementRect.top + window.scrollY;
+    const offsetPosition =
+      absoluteElementTop -
+      (window.innerHeight - topOffset - bottomOffset) / 2 +
+      elementRect.height / 2;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
+  }, 300); // Delay in milliseconds; adjust if necessary
 };
