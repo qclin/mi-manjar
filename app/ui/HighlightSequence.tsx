@@ -79,7 +79,7 @@ const HighlightSequence = ({
             id={`sentence-${index}`}
           >
             {active === index ? (
-              <div className="flex-wrap flex">
+              <div className="flex flex-wrap">
                 {sentence.words.map((word, index) => {
                   const isActiveWord = calcIsActive(
                     currentTime,

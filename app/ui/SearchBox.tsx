@@ -55,7 +55,11 @@ function CustomSearchBox(props: UseSearchBoxProps) {
         autoFocus
         className="w-96 border-0 bg-gray-300 px-2 py-1 focus:outline-none"
       />
-      <button type="reset" hidden={inputValue.length === 0 || isSearchStalled}>
+      <button
+        className="px-2"
+        type="reset"
+        hidden={inputValue.length === 0 || isSearchStalled}
+      >
         X
       </button>
       <MoonIcon alt="reset search" size={24} className="ml-3 inline" />

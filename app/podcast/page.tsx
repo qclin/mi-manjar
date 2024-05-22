@@ -5,6 +5,7 @@ import { fetchSeasons } from "../lib/api";
 import type { SeasonOverview } from "../lib/definitions";
 import EpisodeTable from "./EpisodeTable";
 import SearchPanel from "../ui/SearchPanel";
+import { Loader } from "../ui/Loader";
 
 export default function Page() {
   const [overviewData, setOverviewData] = useState<SeasonOverview>();
@@ -20,7 +21,7 @@ export default function Page() {
     fetchData();
   }, []);
 
-  if (!overviewData) return <>Loading podcast table</>;
+  if (!overviewData) return <Loader text="Loading podcast table" />;
   return (
     <>
       <SearchPanel />

@@ -6,6 +6,8 @@ import Player from "./Player";
 import { fetchPodcast } from "@/app/lib/api";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import { Loader } from "@/app/ui/Loader";
+import { useAppContext } from "@/app/ui/AppContext";
 
 type RouteParams = { season: string; episode: string };
 
@@ -14,6 +16,7 @@ export default function Page({ params }: { params: RouteParams }) {
 
   const searchParams = useSearchParams();
   const jumpToTime = searchParams?.get("start");
+  const { navigationState } = useAppContext();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,8 +33,11 @@ export default function Page({ params }: { params: RouteParams }) {
     fetchData();
   }, [params.episode, params.season]);
 
+  const episodeText =
+    navigationState?.title ??
+    `episode ${params.episode} of season ${params.season}`;
   if (!podcastData)
-    return <div>Loading podcast data for: {params.episode}</div>;
+    return <Loader text={`Loading podcast transcript for ${episodeText}`} />;
 
   return (
     <>

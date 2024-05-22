@@ -5,8 +5,10 @@ import { type SeasonOverview } from "@/app/lib/definitions";
 import { useState } from "react";
 import clsx from "clsx";
 import { PlayIcon, PlusIcon } from "@/app/ui/icons";
+import { useAppContext } from "@/app/ui/AppContext";
 
 const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
+  const { setNavigationState } = useAppContext();
   const [expandedRows, setExpandedRows] = useState<string[]>([]);
   const [allExpanded, setAllExpanded] = useState(false);
   const router = useRouter();
@@ -27,6 +29,12 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
       : currentExpandedRows.concat(index);
 
     setExpandedRows(newExpandedRows);
+  };
+
+  const handleNavigation = (season: number, episode: number, title: string) => {
+    const stateData = { season, episode, title };
+    setNavigationState(stateData);
+    router.push(`podcast/${season}/${episode}`);
   };
 
   const SummaryTextCell = ({ text }: { text: string }) => (
@@ -97,11 +105,12 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                     </td>
                   </tr>
                   <tr
-                    onClick={() => router.push(`podcast/${season}/${episode}`)}
+                    onClick={() => handleNavigation(season, episode, title.es)}
                     key={`row-data-${index}-summary`}
                     className={clsx(
                       "cursor-pointer [&>*]:border-b [&>*]:px-4 [&>*]:py-2",
-                      allExpanded || expandedRows.includes(`s${seasonIndex}-ep${index}`)
+                      allExpanded ||
+                        expandedRows.includes(`s${seasonIndex}-ep${index}`)
                         ? "visible"
                         : "hidden"
                     )}

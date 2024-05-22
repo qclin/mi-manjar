@@ -13,8 +13,8 @@ export default function Home() {
               href="https://podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os"
               target="_blank"
             >
-              <span className="underline">Las Hijas de Filipe</span> by Ana Garriga and
-              Carmen Urbita
+              <span className="underline">Las Hijas de Filipe</span> by Ana
+              Garriga and Carmen Urbita
             </a>
           </p>
           <Link
