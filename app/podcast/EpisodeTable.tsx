@@ -7,7 +7,7 @@ import clsx from "clsx";
 import { PlayIcon, PlusIcon } from "@/app/ui/icons";
 
 const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
-  const [expandedRows, setExpandedRows] = useState<number[]>([]);
+  const [expandedRows, setExpandedRows] = useState<string[]>([]);
   const [allExpanded, setAllExpanded] = useState(false);
   const router = useRouter();
 
@@ -18,7 +18,7 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
     setAllExpanded(!allExpanded);
   };
 
-  const handleRowClick = (index: number) => {
+  const handleRowClick = (index: string) => {
     const currentExpandedRows = expandedRows;
     const isRowExpanded = currentExpandedRows.includes(index);
 
@@ -74,9 +74,9 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
               ) => (
                 <>
                   <tr
-                    onClick={() => handleRowClick(index)}
+                    onClick={() => handleRowClick(`s${seasonIndex}-ep${index}`)}
                     key={`season${seasonIndex}_episode${index}`}
-                    className="hover:bg-gray-100 [&>*]:cursor-pointer [&>*]:border-b"
+                    className="hover:bg-yellow-100 [&>*]:cursor-pointer [&>*]:border-b"
                   >
                     <td className="w-8 px-2">
                       <PlayIcon alt="play audio" size={24} />
@@ -101,7 +101,7 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                     key={`row-data-${index}-summary`}
                     className={clsx(
                       "cursor-pointer [&>*]:border-b [&>*]:px-4 [&>*]:py-2",
-                      allExpanded || expandedRows.includes(index)
+                      allExpanded || expandedRows.includes(`s${seasonIndex}-ep${index}`)
                         ? "visible"
                         : "hidden"
                     )}

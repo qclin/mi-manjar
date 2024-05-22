@@ -65,7 +65,7 @@ const HighlightSequence = ({
   };
 
   return (
-    <div className="block break-words">
+    <div className="break-normal">
       {sentenceInfo.map((sentence, index) => {
         return (
           <div
@@ -79,7 +79,7 @@ const HighlightSequence = ({
             id={`sentence-${index}`}
           >
             {active === index ? (
-              <div>
+              <div className="flex-wrap flex">
                 {sentence.words.map((word, index) => {
                   const isActiveWord = calcIsActive(
                     currentTime,
@@ -89,7 +89,7 @@ const HighlightSequence = ({
                   return (
                     <span
                       key={index}
-                      className={clsx(isActiveWord && "bg-yellow-200", "mr-1")}
+                      className={clsx(isActiveWord && "bg-yellow-200", "mx-1")}
                     >
                       {word.text}
                     </span>

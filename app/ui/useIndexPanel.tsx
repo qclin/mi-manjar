@@ -72,6 +72,12 @@ const useIndexPanel = (
             ))}
         </div>
       </div>
+      {isPanelOpen && (
+        <div
+          className="fixed inset-0 z-10 bg-paper-light bg-opacity-50  transition-opacity duration-300 ease-in-out dark:bg-slate-800"
+          onClick={togglePanel}
+        ></div>
+      )}
     </>
   );
 
