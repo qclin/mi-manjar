@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex-column flex min-h-screen items-center justify-between px-12 py-8">
-      <div className="grid grid-cols-2">
+    <main className="flex-column flex min-h-screen items-center justify-between px-12 py-8 w-full">
+      <div className="grid md:grid-cols-2 mx-auto">
         <section className="my-auto flex flex-col items-center gap-4">
-          <h1 className="text-4xl">Mi manjar </h1>
+          <h1 className="text-8xl textura">Mi manjar </h1>
 
           <p>
             Mi manjar, is a podcast translator for the series <br />
@@ -24,7 +24,7 @@ export default function Home() {
             Enter archive
           </Link>
         </section>
-        <section className="flex max-w-prose flex-col justify-between gap-4">
+        <section className="flex max-w-prose flex-col justify-between gap-4 text-lg">
           <p>
             The project began as a romantic exchange with my girlfriend, who
             suggested episodes from the series discussing topics such as bodily

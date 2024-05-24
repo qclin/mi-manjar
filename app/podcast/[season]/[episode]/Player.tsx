@@ -65,12 +65,7 @@ export default function Player({ podcast, jumpToTime }: Props) {
           sequence && jumpToTimestamp(sequence?.start);
         }}
       />
-      <div
-        className={clsx(
-          "transition-margin flex-1 duration-300 ease-in-out",
-          isPanelOpen ? "mr-[33%]" : "mr-0"
-        )}
-      >
+      <div>
         <section className="relative p-8 md:p-12 md:pb-36">
           {!isReady && jumpToTime && <p> ... Loading audio file</p>}
           {transcription.utterances.map((utterance) => {

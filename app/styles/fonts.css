@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "LeRosart TexturaA";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TexturaA.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayBold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayBoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayLight.otf");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayLightItalic.otf");
+  font-weight: light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayMedium.otf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayMediumItalic.otf");
+  font-weight: medium;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayRegular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Display";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-DisplayRegularItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+/* ------------------------------- TEXT ------------------------------------- */
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextBold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextBoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextLight.otf");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextLightItalic.otf");
+  font-weight: light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextMedium.otf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextMediumItalic.otf");
+  font-weight: medium;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextRegular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeRosart Text";
+  src: url("/fonts/Le Rosart/Le Rosart/LeRosart-TextRegularItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}

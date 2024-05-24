@@ -32,7 +32,7 @@ const SearchPanel = () => {
     <LanguageContext.Provider value={selectedLanguage}>
       <InstantSearch searchClient={searchClient} indexName="utterances">
         <div className="flex w-full items-baseline justify-between border-b border-b-black px-8 py-3 dark:border-b-white">
-          <h1 className="uppercase">Mi manjar</h1>
+          <h1 className="uppercase textura">Mi manjar</h1>
           <div className="flex items-baseline">
             <SearchBox />
             <LanguageToggler />

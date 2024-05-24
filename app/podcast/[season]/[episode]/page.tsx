@@ -43,8 +43,8 @@ export default function Page({ params }: { params: RouteParams }) {
   return (
     <>
       <header className="fixed sticky top-0 z-20 w-full border-b border-b-black bg-paper-light px-8 py-3 dark:border-b-white">
-        <h1 className="mt-1 uppercase">
-          <Link href="/podcast">Mi manjar</Link>
+        <h1 className="mt-1 uppercase ">
+          <Link href="/podcast" className="textura">Mi manjar</Link>
         </h1>
       </header>
       <Player podcast={podcastData} jumpToTime={jumpToTime} />

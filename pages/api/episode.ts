@@ -22,7 +22,6 @@ export default async function handler(
       (ep) => ep.episode === parseInt(episode as string)
     );
     const title = overview?.title.es;
-
     const decodedTitle = decodeURIComponent(title as string);
 
     const files: FileStructure[] = [

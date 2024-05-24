@@ -21,11 +21,11 @@ const useIndexPanel = (
   const TableOfContext = ({ onSelect, onSelectSequence }: Props) => (
     <>
       <button
-        className="absolute right-0 top-0 z-20 mx-12 flex items-center py-4 uppercase"
+        className="fixed right-0 top-0 z-20 mx-12 flex items-center py-4 uppercase"
         onClick={togglePanel}
       >
         <span className="mx-4">Index</span>
-        <MoonIcon alt="display mode" size={24} />
+        {/* <MoonIcon alt="display mode" size={24} /> */}
       </button>
       <div
         className={clsx(
