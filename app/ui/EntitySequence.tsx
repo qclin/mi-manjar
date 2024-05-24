@@ -98,22 +98,12 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   };
 
   // Build a regex pattern from the entitys and map them to their colors
-
   const entityPatterns = entities
     .filter((entity) => textToCheck(entity).length >= 3)
-    .map((entity) => {
-      if ("type" in entity) {
-        console.log(
-          textToCheck(entity),
-          getClassNamesByType(entity),
-          entity.type
-        );
-      }
-      return {
+    .map((entity) => ({
         pattern: new RegExp(escapeRegExp(textToCheck(entity)), "gi"),
-        color: getClassNamesByType(entity),
-      };
-    });
+        color: getClassNamesByType(entity)
+    }));
 
   const tokens = [];
   let lastOffset = 0;
