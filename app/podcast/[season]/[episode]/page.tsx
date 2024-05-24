@@ -36,6 +36,7 @@ export default function Page({ params }: { params: RouteParams }) {
   const episodeText =
     navigationState?.title ??
     `episode ${params.episode} of season ${params.season}`;
+
   if (!podcastData)
     return <Loader text={`Loading podcast transcript for ${episodeText}`} />;
 

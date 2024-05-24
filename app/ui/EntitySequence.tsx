@@ -19,27 +19,28 @@ enum ClassnamesByEntity {
   DashZinc = "underline decoration-dashed decoration-4 decoration-zinc-400",
   SolidBlue = "text-sky-700 font-medium",
   Fushsia = "underline underline-offset-2 decoration-fuchsia-700 text-fuchsia-800 bg-fuchsia-100",
-  default = "underline decoration-yellow decoration-4 decoration-dashed",
+  default = "underline decoration-purple-500 decoration-3 decoration-dashed",
 }
 
 const getASClassnames = (type: ASEntityType) => {
   switch (type) {
-    case (ASEntityType.date,
-    ASEntityType.date_interval,
-    ASEntityType.person_age,
-    ASEntityType.time):
+    case ASEntityType.date:
+    case ASEntityType.date_interval:
+    case ASEntityType.person_age:
+    case ASEntityType.time:
       return ClassnamesByEntity.DoubleGreen;
-    case (ASEntityType.drug,
-    ASEntityType.injury,
-    ASEntityType.medical_condition,
-    ASEntityType.medical_process,
-    ASEntityType.gender_sexuality):
+    case ASEntityType.drug:
+    case ASEntityType.injury:
+    case ASEntityType.medical_condition:
+    case ASEntityType.medical_process:
+    case ASEntityType.gender_sexuality:
       return ClassnamesByEntity.WavyGreen;
     case ASEntityType.location:
       return ClassnamesByEntity.DoubleGreen;
     case ASEntityType.person_name:
       return ClassnamesByEntity.WavyAmber;
-    case (ASEntityType.religion, ASEntityType.political_affiliation):
+    case ASEntityType.religion:
+    case ASEntityType.political_affiliation:
       return ClassnamesByEntity.DashZinc;
     case ASEntityType.occupation:
       return ClassnamesByEntity.SolidBlue;
@@ -55,28 +56,29 @@ const getClassnames = (type: EntityType) => {
     case EntityType.Food:
       return ClassnamesByEntity.DoubleGreen;
     case EntityType.Brand:
+    case EntityType.Family:
       return ClassnamesByEntity.WavyGreen;
     case EntityType.Location:
       return ClassnamesByEntity.DoubleGreen;
-    case (EntityType.Person,
-    EntityType.Artist,
-    EntityType.Author,
-    EntityType.Authors):
+    case EntityType.Person:
+    case EntityType.Artist:
+    case EntityType.Author:
+    case EntityType.Authors:
       return ClassnamesByEntity.WavyAmber;
-    case (EntityType["Religious Concept"],
-    EntityType["Religious Figure"],
-    EntityType.Deity,
-    EntityType.Demon,
-    EntityType.Angel):
+    case EntityType["Religious Concept"]:
+    case EntityType["Religious Figure"]:
+    case EntityType.Deity:
+    case EntityType.Demon:
+    case EntityType.Angel:
       return ClassnamesByEntity.DashZinc;
-    case (EntityType.Saint,
-    EntityType["Historical Figure"],
-    EntityType["Fictional Character"]):
+    case EntityType.Saint:
+    case EntityType["Historical Figure"]:
+    case EntityType["Fictional Character"]:
       return ClassnamesByEntity.SolidBlue;
-    case (EntityType.Concept,
-    EntityType.Metaphorical,
-    EntityType.Book,
-    EntityType.Artwork):
+    case EntityType.Concept:
+    case EntityType.Metaphorical:
+    case EntityType.Book:
+    case EntityType.Artwork:
       return ClassnamesByEntity.Fushsia;
     default:
       return ClassnamesByEntity.default;
@@ -100,7 +102,13 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   const entityPatterns = entities
     .filter((entity) => textToCheck(entity).length >= 3)
     .map((entity) => {
-      // console.log(textToCheck(entity), getClassNamesByType(entity));
+      if ("type" in entity) {
+        console.log(
+          textToCheck(entity),
+          getClassNamesByType(entity),
+          entity.type
+        );
+      }
       return {
         pattern: new RegExp(escapeRegExp(textToCheck(entity)), "gi"),
         color: getClassNamesByType(entity),
