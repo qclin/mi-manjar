@@ -1,6 +1,10 @@
 import Link from "next/link";
 
 export default function Home() {
+  const HighlightedText = ({text}:{text: string}) => (
+<span className="font-medium text-sky-700">{text}</span>
+  ); 
+
   return (
     <main className="flex-column flex min-h-screen items-center justify-between px-12 py-8 w-full">
       <div className="grid md:grid-cols-2 mx-auto">
@@ -13,7 +17,7 @@ export default function Home() {
               href="https://podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os"
               target="_blank"
             >
-              <span className="underline">Las Hijas de Filipe</span> by Ana
+              <span className="underline underline-offset-2">Las Hijas de Filipe</span> by Ana
               Garriga and Carmen Urbita
             </a>
           </p>
@@ -24,8 +28,8 @@ export default function Home() {
             Enter archive
           </Link>
         </section>
-        <section className="flex max-w-prose flex-col justify-between gap-4 text-lg">
-          <p>
+        <section className="flex max-w-prose flex-col justify-between gap-4">
+          <p className="decorative">
             The project began as a romantic exchange with my girlfriend, who
             suggested episodes from the series discussing topics such as bodily
             fluids (tears, milk, secretions) and the austere lifestyles of
@@ -33,22 +37,24 @@ export default function Home() {
             language and to find these specific moments of discussion in
             hour-long audios.
           </p>
-          <p>
+          <p className="decorative">
             In the end, I built{" "}
             <span className="font-medium text-fuchsia underline decoration-fuchsia decoration-wavy">
               Mi manjar
             </span>
             , an archive of all 52 episodes of the podcast. Each episode has
             been transcribed with{" "}
-            <span className="font-medium text-sky-700">Assembly.ai</span>,
+            
+            <HighlightedText text="Assembly.ai"/>,
             translated into English with{" "}
-            <span className="font-medium text-sky-700">DeepL</span>, and
+            <HighlightedText text="Deepl"/>
+            , and
             highlighted using{" "}
-            <span className="font-medium text-sky-700">Chat GPT-4</span>. Every
+            <HighlightedText text="Chat GPT-4"/>. Every
             episode features an index table of highlights to peruse, along with
             citations of literal references mentioned in the show. The archive
             is a fully searchable database of 12.82k records, powered by the{" "}
-            <span className="font-medium text-sky-700">Algolia Search API</span>
+            <HighlightedText text="Algolia Search API"/>
             .
           </p>
           <p>
@@ -56,7 +62,7 @@ export default function Home() {
             project for me. More on mi manjar from the authors themselve in
             <Link
               href={`podcast/3/6?start=950962`}
-              className="mx-2 underline decoration-lime-700 decoration-double"
+              className="mx-2 underline underline-offset-2"
             >
               Son estas lágrimas mi manjar
             </Link>

@@ -35,9 +35,7 @@ h1 h2,
 h3,
 h4,
 h5,
-h6,
-button,
-a {
+h6 {
   font-family: "LeRosart Display";
 }
 
@@ -45,4 +43,11 @@ table,
 div,
 p {
   font-family: "LeRosart Text";
+}
+
+p.decorative::first-letter {
+  font-family: "LeRosart TexturaA";
+  font-size: 3rem;
+  margin-right: 5px;
+  float: left;
 }

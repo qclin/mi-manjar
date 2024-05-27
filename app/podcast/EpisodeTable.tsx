@@ -32,9 +32,9 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
   };
 
   const handleNavigation = (season: number, episode: number, title: string) => {
-    const stateData = { season, episode, title };
+    const stateData = { season, episode, title}; 
     setNavigationState(stateData);
-    router.push(`podcast/${season}/${episode}`);
+    router.push(`podcast/${season}/${episode}`)
   };
 
   const SummaryTextCell = ({ text }: { text: string }) => (
@@ -109,8 +109,7 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                     key={`row-data-${index}-summary`}
                     className={clsx(
                       "cursor-pointer [&>*]:border-b [&>*]:px-4 [&>*]:py-2",
-                      allExpanded ||
-                        expandedRows.includes(`s${seasonIndex}-ep${index}`)
+                      allExpanded || expandedRows.includes(`s${seasonIndex}-ep${index}`)
                         ? "visible"
                         : "hidden"
                     )}

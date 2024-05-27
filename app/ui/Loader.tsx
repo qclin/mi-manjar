@@ -16,7 +16,7 @@ const ImageRoster = [
   },
   {
     src: infantsImage,
-    alt: "Las infantas Isabel Clara Eugenia y Catalina Micaela, SÁNCHEZ COELLO, ALONSO, Museo Nacional del Prado",
+    alt: "Las infantas Isabel Clara Eugenia y Catalina Micaela, Alonso Sanchez Coello, Museo Nacional del Prado",
   },
 ];
 
@@ -25,6 +25,7 @@ export const Loader = ({ text, className }: Props) => {
     ImageRoster[Math.floor(Math.random() * ImageRoster.length)];
   return (
     <div className="flex h-screen flex-col items-center justify-center">
+        <p className="textura text-5xl text-zinc-400 fixed top-1/2 inset-0 z-10 mx-auto filter w-1/2">{randomImage.alt}</p>
       <Image
         src={randomImage.src}
         alt={randomImage.alt}
@@ -34,3 +35,4 @@ export const Loader = ({ text, className }: Props) => {
     </div>
   );
 };
+ 

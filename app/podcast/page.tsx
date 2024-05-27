@@ -21,7 +21,7 @@ export default function Page() {
     fetchData();
   }, []);
 
-  if (!overviewData) return <Loader text="Loading podcast table" />;
+  if (!overviewData) return <Loader text="Loading podcast table"/>;
   return (
     <>
       <SearchPanel />

@@ -116,3 +116,31 @@
   font-weight: normal;
   font-style: italic;
 }
+
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("/fonts/Akzidenz Grotesk/Akzidenz-grotesk-roman.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("/fonts/Akzidenz Grotesk/Akzidenz-grotesk-light.ttf");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("/fonts/Akzidenz Grotesk/Akzidenz-grotesk-bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("/fonts/Akzidenz Grotesk/Akzidenz-grotesk-black.ttf");
+  font-weight: black;
+  font-style: normal;
+}
