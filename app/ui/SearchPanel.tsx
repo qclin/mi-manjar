@@ -31,15 +31,15 @@ const SearchPanel = () => {
   return (
     <LanguageContext.Provider value={selectedLanguage}>
       <InstantSearch searchClient={searchClient} indexName="utterances">
-        <div className="flex w-full items-baseline justify-between border-b border-b-black px-8 py-3 dark:border-b-white">
-          <h1 className="uppercase textura">Mi manjar</h1>
+        <div className="flex w-full items-baseline justify-between border-b border-b-primary px-8 py-3 text-primary ">
+          <h1 className="textura uppercase">Mi manjar</h1>
           <div className="flex items-baseline">
             <SearchBox />
             <LanguageToggler />
           </div>
         </div>
         <EmptyQueryBoundary>
-          <div className="fixed right-0 z-50 h-[93vh] max-w-prose overflow-y-scroll bg-white px-8 pb-12">
+          <div className="fixed right-0 z-50 h-[93vh] max-w-prose overflow-y-scroll bg-paper-dark px-8 pb-12 text-primary">
             <SearchHits />
             <Pagination className="[&>ul>*]:px-2 [&>ul]:flex [&>ul]:w-fit [&>ul]:flex-row" />
           </div>

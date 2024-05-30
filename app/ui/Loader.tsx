@@ -24,8 +24,10 @@ export const Loader = ({ text, className }: Props) => {
   const randomImage =
     ImageRoster[Math.floor(Math.random() * ImageRoster.length)];
   return (
-    <div className="flex h-screen flex-col items-center justify-center">
-        <p className="textura text-5xl text-zinc-400 fixed top-1/2 inset-0 z-10 mx-auto filter w-1/2">{randomImage.alt}</p>
+    <div className="flex h-screen flex-col items-center justify-center text-primary">
+      <p className="textura fixed inset-0 top-1/2 z-10 mx-auto w-1/2 text-5xl text-zinc-400 filter">
+        {randomImage.alt}
+      </p>
       <Image
         src={randomImage.src}
         alt={randomImage.alt}
@@ -35,4 +37,3 @@ export const Loader = ({ text, className }: Props) => {
     </div>
   );
 };
- 

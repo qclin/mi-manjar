@@ -16,9 +16,8 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   const [selectedLanguage] = useLangugageToggle();
   const togglePanel = () => setIsOpen(!isOpen);
 
-  const tagClassname = clsx(
-    "text-xs uppercase text-slate-500 dark:text-slate-200"
-  );
+  const tagClassname = clsx("text-xs uppercase text-secondary");
+
   const EpisodeTag = () => (
     <div className={tagClassname}>
       {SeasonDisplayText[selectedLanguage]} {overview.season},{" "}
@@ -39,23 +38,31 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
       </p>
     </div>
   );
+
+  const styles = {
+    backgroundText: clsx("border-t border-primary bg-paper-light text-primary"),
+    panelTransition: clsx("fixed duration-300 ease-in-out"),
+  };
   return (
-    <div className="summary-panel fixed inset-x-0 bottom-0 z-50 p-2">
-      <div className="border-t border-black bg-paper-light">
-        <button onClick={togglePanel} className="w-full px-10 pt-2">
+    <div className="summary-panel fixed inset-x-0 bottom-0 z-50">
+      <div className={clsx(" bg-paper-light", styles.backgroundText)}>
+        <button onClick={togglePanel} className="w-full px-10 py-2">
           <OverviewInfo />
         </button>
         {children}
       </div>
       <div
-        className={`fixed inset-x-0 bottom-0 z-20 transform bg-paper-light shadow-md transition-transform duration-300 ease-in-out dark:bg-slate-800 ${
-          isOpen ? "translate-y-0 border-t border-black" : "translate-y-full"
-        }`}
+        className={clsx(
+          "inset-x-0 bottom-0 z-20 transform shadow-md transition-transform",
+          isOpen ? "translate-y-0 " : "translate-y-full",
+          styles.backgroundText,
+          styles.panelTransition
+        )}
         style={{ maxHeight: "90vh", overflowY: "auto" }}
       >
         <div className="px-10 py-8">
           <OverviewInfo />
-          <div className="mt-2 grid grid-cols-3 gap-4 text-sm text-slate-500 dark:text-slate-400">
+          <div className="mt-2 grid grid-cols-3 gap-4 text-sm text-secondary">
             <p>{overview.summary.es}</p>
             <p>{overview.summary.en}</p>
           </div>
@@ -64,7 +71,10 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
 
       {isOpen && (
         <div
-          className="fixed inset-0 z-10 bg-paper-light bg-opacity-50  transition-opacity duration-300 ease-in-out dark:bg-slate-800"
+          className={clsx(
+            "inset-0 z-10 bg-paper-light opacity-50 transition-opacity",
+            styles.panelTransition
+          )}
           onClick={togglePanel}
         ></div>
       )}

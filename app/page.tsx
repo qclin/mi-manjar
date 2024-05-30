@@ -1,15 +1,15 @@
 import Link from "next/link";
 
 export default function Home() {
-  const HighlightedText = ({text}:{text: string}) => (
-<span className="font-medium text-sky-700">{text}</span>
-  ); 
+  const HighlightedText = ({ text }: { text: string }) => (
+    <span className="font-medium text-sky-700">{text}</span>
+  );
 
   return (
-    <main className="flex-column flex min-h-screen items-center justify-between px-12 py-8 w-full">
-      <div className="grid md:grid-cols-2 mx-auto">
+    <main className="flex-column flex min-h-screen w-full items-center justify-between px-12 py-8 text-primary">
+      <div className="mx-auto grid md:grid-cols-2">
         <section className="my-auto flex flex-col items-center gap-4">
-          <h1 className="text-8xl textura">Mi manjar </h1>
+          <h1 className="textura text-8xl">Mi manjar </h1>
 
           <p>
             Mi manjar, is a podcast translator for the series <br />
@@ -17,8 +17,10 @@ export default function Home() {
               href="https://podiumpodcast.com/podcasts/las-hijas-de-felipe-podium-os"
               target="_blank"
             >
-              <span className="underline underline-offset-2">Las Hijas de Filipe</span> by Ana
-              Garriga and Carmen Urbita
+              <span className="underline underline-offset-2">
+                Las Hijas de Filipe
+              </span>{" "}
+              by Ana Garriga and Carmen Urbita
             </a>
           </p>
           <Link
@@ -43,19 +45,13 @@ export default function Home() {
               Mi manjar
             </span>
             , an archive of all 52 episodes of the podcast. Each episode has
-            been transcribed with{" "}
-            
-            <HighlightedText text="Assembly.ai"/>,
-            translated into English with{" "}
-            <HighlightedText text="Deepl"/>
-            , and
-            highlighted using{" "}
-            <HighlightedText text="Chat GPT-4"/>. Every
+            been transcribed with <HighlightedText text="Assembly.ai" />,
+            translated into English with <HighlightedText text="Deepl" />, and
+            highlighted using <HighlightedText text="Chat GPT-4" />. Every
             episode features an index table of highlights to peruse, along with
             citations of literal references mentioned in the show. The archive
             is a fully searchable database of 12.82k records, powered by the{" "}
-            <HighlightedText text="Algolia Search API"/>
-            .
+            <HighlightedText text="Algolia Search API" />.
           </p>
           <p>
             Mi manjar means my delicacy, as this has been such a pleasure

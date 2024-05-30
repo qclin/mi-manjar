@@ -27,7 +27,7 @@ const CustomHit = ({ hit }: { hit: UtteranceHit }) => {
           season={hit.season}
           episode={hit.episode}
           time={convertMillisecondsToDisplayFriendly(hit.start)}
-          className="text-sm font-medium text-gray-400"
+          className="text-sm font-medium text-secondary"
         />
       </Link>
     </li>

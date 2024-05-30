@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,14 +9,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors:{
-        current: 'currentColor',
-        paper:{
-          dark:"#FEEEB9", 
-          light:'#fffae9'
+      colors: {
+        current: "currentColor",
+        paper: {
+          light: 'rgb(var(--color-background) / <alpha-value>)',
+          dark: 'rgb(var(--color-background-darker) / <alpha-value>)',
         },
-        fuchsia: '#EF3CFF', 
-        lightGreen:'#b2ef9b'
+        primary: 'rgb(var(--color-primary) / <alpha-value>)',
+        secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
+        fuchsia: "#EF3CFF",
+        lightGreen: "#b2ef9b",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

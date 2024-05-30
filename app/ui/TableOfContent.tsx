@@ -6,22 +6,21 @@ import { useState } from "react";
 import { MoonIcon } from "./icons";
 
 interface Props {
+  highlight: Highlight;
   onSelect(start_time: number): void;
   onSelectSequence(sequence: number): void;
 }
 
-const useIndexPanel = (
-  highlight: Highlight
-): [boolean, ({ onSelect, onSelectSequence }: Props) => JSX.Element] => {
+const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
   const { citations, topics } = highlight;
 
   const [isPanelOpen, setIsPanelOpen] = useState(false);
   const togglePanel = () => setIsPanelOpen(!isPanelOpen);
 
-  const TableOfContext = ({ onSelect, onSelectSequence }: Props) => (
+  return (
     <>
       <button
-        className="fixed right-0 top-0 z-20 mx-12 flex items-center py-4 uppercase"
+        className="fixed right-0 top-0 z-20 mx-12 flex items-center py-4 uppercase text-primary"
         onClick={togglePanel}
       >
         <span className="mx-4">Index</span>
@@ -29,7 +28,7 @@ const useIndexPanel = (
       </button>
       <div
         className={clsx(
-          "transition-width fixed right-0 top-[54px] z-20 h-[80vh] overflow-y-scroll bg-paper-dark duration-500 ease-in-out",
+          "transition-width fixed right-0 top-[54px] z-20 h-[80vh] overflow-y-scroll bg-paper-dark text-primary duration-500 ease-in-out",
           isPanelOpen ? "w-1/3 min-w-[350px]" : "w-0"
         )}
       >
@@ -45,7 +44,7 @@ const useIndexPanel = (
               {topics.map(({ topic, start_time }, index) => (
                 <tr
                   key={`topic-${index}`}
-                  className="cursor-pointer border-y border-gray-400 hover:border-black hover:font-medium [&>*]:py-2"
+                  className="cursor-pointer border-y border-secondary hover:border-primary hover:bg-paper-light hover:font-medium [&>*]:py-2"
                   tabIndex={0}
                   onClick={() => onSelect(start_time)}
                 >
@@ -74,14 +73,12 @@ const useIndexPanel = (
       </div>
       {isPanelOpen && (
         <div
-          className="fixed inset-0 z-10 bg-paper-light bg-opacity-50  transition-opacity duration-300 ease-in-out dark:bg-slate-800"
+          className="bg-paper-translucent fixed inset-0 z-10 transition-opacity duration-300 ease-in-out"
           onClick={togglePanel}
         ></div>
       )}
     </>
   );
-
-  return [isPanelOpen, TableOfContext];
 };
 
-export default useIndexPanel;
+export default TableOfContent;

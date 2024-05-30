@@ -1,11 +1,10 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
-import clsx from "clsx";
 import { convertMillisecondsToSeconds } from "@/app/lib/helpers";
 import AudioPlayer from "@/app/ui/AudioPlayer";
 import { Podcast } from "@/app/lib/definitions";
-import useIndexPanel from "@/app/ui/useIndexPanel";
+import TableOfContent from "@/app/ui/TableOfContent";
 import SummaryPanel from "@/app/ui/SummaryPanel";
 import TranscriptionLog from "@/app/ui/TranscriptionLog";
 
@@ -20,7 +19,6 @@ export default function Player({ podcast, jumpToTime }: Props) {
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [isReady, setIsReady] = useState(false);
-  const [isPanelOpen, TableOfContent] = useIndexPanel(highlight);
 
   const jumpToTimestamp = (startTime: number) => {
     if (!audioRef.current) return;
@@ -57,6 +55,7 @@ export default function Player({ podcast, jumpToTime }: Props) {
   return (
     <div className="flex">
       <TableOfContent
+        highlight={highlight}
         onSelect={jumpToTimestamp}
         onSelectSequence={(s) => {
           const sequence = transcription.utterances.find(
@@ -66,7 +65,7 @@ export default function Player({ podcast, jumpToTime }: Props) {
         }}
       />
       <div>
-        <section className="relative p-8 md:p-12 md:pb-36">
+        <section className="relative bg-paper-light p-8 text-primary md:p-12 md:pb-36">
           {!isReady && jumpToTime && <p> ... Loading audio file</p>}
           {transcription.utterances.map((utterance) => {
             const isActiveSequence = currentSequence === utterance.sequence;

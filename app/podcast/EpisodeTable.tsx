@@ -32,23 +32,27 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
   };
 
   const handleNavigation = (season: number, episode: number, title: string) => {
-    const stateData = { season, episode, title}; 
+    const stateData = { season, episode, title };
     setNavigationState(stateData);
-    router.push(`podcast/${season}/${episode}`)
+    router.push(`podcast/${season}/${episode}`);
   };
 
   const SummaryTextCell = ({ text }: { text: string }) => (
     <td>
-      <p className="line-clamp-5 max-w-prose text-sm text-gray-700">{text}</p>
+      <p className="line-clamp-5 max-w-prose text-sm text-secondary">{text}</p>
     </td>
   );
   return (
     <table className="container mx-auto my-24 table-auto">
-      <thead className="sticky top-0 border-b bg-paper-light">
-        <tr className="[&>*]:border-b [&>*]:border-b-black [&>*]:font-normal [&>*]:uppercase [&>*]:text-gray-500">
+      <thead className="sticky top-0 border-b bg-paper-light text-primary">
+        <tr className="[&>*]:border-b [&>*]:border-b-primary [&>*]:font-normal [&>*]:uppercase [&>*]:text-secondary">
           <th className="">
             <button onClick={toggleAllRows}>
-              <PlusIcon alt="expand all rows" size={20} />
+              <PlusIcon
+                alt="expand all rows"
+                size={20}
+                className="text-primary"
+              />
             </button>
           </th>
           <th className="px-4 py-2 text-left">Episode Title</th>
@@ -84,23 +88,27 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                   <tr
                     onClick={() => handleRowClick(`s${seasonIndex}-ep${index}`)}
                     key={`season${seasonIndex}_episode${index}`}
-                    className="hover:bg-yellow-100 [&>*]:cursor-pointer [&>*]:border-b"
+                    className="hover:bg-paper-dark [&>*]:cursor-pointer [&>*]:border-b"
                   >
                     <td className="w-8 px-2">
-                      <PlayIcon alt="play audio" size={24} />
+                      <PlayIcon
+                        alt="play audio"
+                        size={24}
+                        className="text-primary"
+                      />
                     </td>
-                    <td className="p-2">{title.es}</td>
-                    <td>{title.en}</td>
-                    <td className="p-2 text-sm text-gray-500">
+                    <td className="p-2 text-primary">{title.es}</td>
+                    <td className="text-primary">{title.en}</td>
+                    <td className="p-2 text-sm text-secondary">
                       {new Date(release_date).toLocaleDateString()}
                     </td>
-                    <td className="p-2 text-sm text-gray-500">
+                    <td className="p-2 text-sm text-secondary">
                       S{season} - EP {episode}
                     </td>
-                    <td className="p-2 text-sm uppercase text-gray-500">
+                    <td className="p-2 text-sm uppercase text-secondary">
                       {duration}
                     </td>
-                    <td className="p-2 text-sm uppercase text-gray-500">
+                    <td className="p-2 text-sm uppercase text-secondary">
                       {words_per_minute} wpm
                     </td>
                   </tr>
@@ -109,7 +117,8 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                     key={`row-data-${index}-summary`}
                     className={clsx(
                       "cursor-pointer [&>*]:border-b [&>*]:px-4 [&>*]:py-2",
-                      allExpanded || expandedRows.includes(`s${seasonIndex}-ep${index}`)
+                      allExpanded ||
+                        expandedRows.includes(`s${seasonIndex}-ep${index}`)
                         ? "visible"
                         : "hidden"
                     )}
