@@ -22,7 +22,10 @@ export default async function handler(
       (ep) => ep.episode === parseInt(episode as string)
     );
     const title = overview?.title.es;
+
     const decodedTitle = decodeURIComponent(title as string);
+
+    console.log(`GET podcast data for ${title}, ${decodedTitle}`);
 
     const files: FileStructure[] = [
       { name: `${decodedTitle}_topics.json`, key: "highlight" },
