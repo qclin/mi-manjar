@@ -31,7 +31,7 @@ const AudioPlayer = forwardRef<HTMLAudioElement, AudioPlayerProps>(
     }, [filename]);
 
     if (!audioUrl) {
-      return <div>Loading audio...</div>;
+      return <p>Loading audio file...</p>;
     }
 
     return (
