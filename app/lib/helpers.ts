@@ -31,15 +31,6 @@ function padWithZero(num: number): string {
   return num.toString().padStart(2, "0");
 }
 
-export const convertMillisecondsToDisplayDuration = (
-  milliseconds: number
-): string => {
-  const seconds = Math.floor(milliseconds / 1000);
-  const minutes = Math.floor((seconds % 3600) / 60);
-  const remainingSeconds = seconds % 60;
-  // Format to HH:MM:SS
-  return `${padWithZero(minutes)}:${padWithZero(remainingSeconds)}`;
-};
 
 export const isElementInViewport = (
   element: HTMLElement,
