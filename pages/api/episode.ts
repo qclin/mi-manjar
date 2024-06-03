@@ -9,33 +9,25 @@ export default async function handler(
   res: NextApiResponse<ResponseObject | { message: string }>
 ) {
   const { season, episode } = req.query;
-  const baseDir = path.join(process.cwd(), "public/data", `season_${season}`);
+  const baseDir = path.join(process.cwd(), "public/data");
 
   const seasonFile = path.join(
-    process.cwd(),
-    `public/data/overview/season_${season}.json`
+    baseDir,
+    `overview/season_${season}.json`
   );
 
   try {
     const episodes = (await readFilePromise(seasonFile)) as Overview[];
-    console.log(
-      `GET podcast data season ${season}, episode ${episode} \n${episodes}`
-    );
 
     const overview = episodes.find(
       (ep) => ep.episode === parseInt(episode as string)
     );
 
-    console.log(`GET podcast data overview ${overview}`);
-    const title = overview?.title.es;
-
-    const decodedTitle = decodeURIComponent(title as string);
-
-    console.log(`GET podcast data for ${title}, ${decodedTitle}`);
-
+    const filename = `S${season}E${episode}.json`
+    
     const files: FileStructure[] = [
-      { name: `${decodedTitle}_topics.json`, key: "highlight" },
-      { name: `${decodedTitle}_utterances.json`, key: "transcription" },
+      { name: `topics/${filename}`, key: "highlight" },
+      { name: `utterances/${filename}`, key: "transcription" },
     ];
 
     const fileReadPromises = files.map(({ name, key }) =>

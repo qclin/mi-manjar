@@ -39,7 +39,7 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
 
   const SummaryTextCell = ({ text }: { text: string }) => (
     <td>
-      <p className="line-clamp-5 max-w-prose text-sm text-secondary">{text}</p>
+      <p className="line-clamp-5 max-w-prose text-sm text-secondary pr-4">{text}</p>
     </td>
   );
   return (
@@ -116,7 +116,7 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                     onClick={() => handleNavigation(season, episode, title.es)}
                     key={`row-data-${index}-summary`}
                     className={clsx(
-                      "cursor-pointer [&>*]:border-b [&>*]:px-4 [&>*]:py-2",
+                      "cursor-pointer [&>*]:border-b [&>*]:py-2 hover:bg-paper-dark ",
                       allExpanded ||
                         expandedRows.includes(`s${seasonIndex}-ep${index}`)
                         ? "visible"
@@ -126,6 +126,7 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
                     <td></td>
                     <SummaryTextCell text={summary.es} />
                     <SummaryTextCell text={summary.en} />
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
