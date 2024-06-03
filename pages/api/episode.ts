@@ -11,10 +11,7 @@ export default async function handler(
   const { season, episode } = req.query;
   const baseDir = path.join(process.cwd(), "public/data");
 
-  const seasonFile = path.join(
-    baseDir,
-    `overview/season_${season}.json`
-  );
+  const seasonFile = path.join(baseDir, `overview/season_${season}.json`);
 
   try {
     const episodes = (await readFilePromise(seasonFile)) as Overview[];
@@ -23,8 +20,8 @@ export default async function handler(
       (ep) => ep.episode === parseInt(episode as string)
     );
 
-    const filename = `S${season}E${episode}.json`
-    
+    const filename = `S${season}E${episode}.json`;
+
     const files: FileStructure[] = [
       { name: `topics/${filename}`, key: "highlight" },
       { name: `utterances/${filename}`, key: "transcription" },
