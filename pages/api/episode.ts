@@ -18,7 +18,9 @@ export default async function handler(
 
   try {
     const episodes = (await readFilePromise(seasonFile)) as Overview[];
-    console.log(`GET podcast data season ${season}, episode ${episode} \n${episodes}`);
+    console.log(
+      `GET podcast data season ${season}, episode ${episode} \n${episodes}`
+    );
 
     const overview = episodes.find(
       (ep) => ep.episode === parseInt(episode as string)
