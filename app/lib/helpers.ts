@@ -34,8 +34,8 @@ export const innerViewportHeightOffset = () => {
   const bottomOffset =
     (document.querySelector(".summary-panel") as HTMLElement)?.offsetHeight ||
     0;
-    return topOffset + bottomOffset
-}
+  return topOffset + bottomOffset;
+};
 
 export const isElementInViewport = (
   element: HTMLElement,

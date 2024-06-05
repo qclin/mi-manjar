@@ -1,5 +1,8 @@
 "use client";
-import { convertMillisecondsToDisplayFriendly, innerViewportHeightOffset } from "@/app/lib/helpers";
+import {
+  convertMillisecondsToDisplayFriendly,
+  innerViewportHeightOffset,
+} from "@/app/lib/helpers";
 import { Highlight } from "@/app/lib/definitions";
 import clsx from "clsx";
 import { useState } from "react";
@@ -19,14 +22,14 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
 
   return (
     <>
-    <div className="fixed right-0 top-0 z-20 mx-12 flex">
-      <button
-        className="flex items-center py-4 uppercase text-primary"
-        onClick={togglePanel}
-      >
-        Index
-      </button>
-      <DarkModeToggle />
+      <div className="fixed right-0 top-0 z-20 mx-12 flex">
+        <button
+          className="flex items-center py-4 uppercase text-primary"
+          onClick={togglePanel}
+        >
+          Index
+        </button>
+        <DarkModeToggle />
       </div>
       <div
         className={clsx(
@@ -34,7 +37,7 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
           isPanelOpen ? "w-1/3 min-w-[350px]" : "w-0"
         )}
         style={{
-          height: `calc(100vh - ${innerViewportHeightOffset()}px)`
+          height: `calc(100vh - ${innerViewportHeightOffset()}px)`,
         }}
       >
         <div className="px-8 pb-28 pt-4">
