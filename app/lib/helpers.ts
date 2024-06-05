@@ -27,8 +27,14 @@ export const convertMillisecondsToDisplayFriendly = (
   return `${padWithZero(hours)}:${padWithZero(minutes)}:${padWithZero(remainingSeconds)}`;
 };
 
-function padWithZero(num: number): string {
-  return num.toString().padStart(2, "0");
+const padWithZero = (num: number) => num.toString().padStart(2, "0");
+
+export const innerViewportHeightOffset = () => {
+  const topOffset = document.querySelector("header")?.offsetHeight || 0;
+  const bottomOffset =
+    (document.querySelector(".summary-panel") as HTMLElement)?.offsetHeight ||
+    0;
+    return topOffset + bottomOffset
 }
 
 export const isElementInViewport = (

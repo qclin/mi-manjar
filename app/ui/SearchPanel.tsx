@@ -10,6 +10,7 @@ import SearchBox from "./SearchBox";
 import useLangugageToggle, {
   LanguageContext,
 } from "@/app/ui/useLanguageToggle";
+import DarkModeToggle from "./DarkModeToggle";
 
 const searchClient = algoliasearch(
   process.env.NEXT_PUBLIC_ALGOLIA_APPLICATION_ID || "",
@@ -35,11 +36,12 @@ const SearchPanel = () => {
           <h1 className="textura uppercase">Mi manjar</h1>
           <div className="flex items-baseline">
             <SearchBox />
+            <DarkModeToggle />
             <LanguageToggler />
           </div>
         </div>
         <EmptyQueryBoundary>
-          <div className="fixed right-0 z-50 h-[93vh] max-w-prose overflow-y-scroll bg-paper-dark px-8 pb-12 text-primary">
+          <div className="fixed right-0 z-20 h-[93vh] max-w-prose overflow-y-scroll bg-paper-dark px-8 pb-12 text-primary">
             <SearchHits />
             <Pagination className="[&>ul>*]:px-2 [&>ul]:flex [&>ul]:w-fit [&>ul]:flex-row" />
           </div>

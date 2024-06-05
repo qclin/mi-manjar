@@ -1,9 +1,9 @@
 "use client";
-import { convertMillisecondsToDisplayFriendly } from "@/app/lib/helpers";
+import { convertMillisecondsToDisplayFriendly, innerViewportHeightOffset } from "@/app/lib/helpers";
 import { Highlight } from "@/app/lib/definitions";
 import clsx from "clsx";
 import { useState } from "react";
-import { MoonIcon } from "./icons";
+import DarkModeToggle from "./DarkModeToggle";
 
 interface Props {
   highlight: Highlight;
@@ -19,18 +19,23 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
 
   return (
     <>
+    <div className="fixed right-0 top-0 z-20 mx-12 flex">
       <button
-        className="fixed right-0 top-0 z-20 mx-12 flex items-center py-4 uppercase text-primary"
+        className="flex items-center py-4 uppercase text-primary"
         onClick={togglePanel}
       >
-        <span className="mx-4">Index</span>
-        {/* <MoonIcon alt="display mode" size={24} /> */}
+        Index
       </button>
+      <DarkModeToggle />
+      </div>
       <div
         className={clsx(
-          "transition-width fixed right-0 top-[54px] z-20 h-[80vh] overflow-y-scroll bg-paper-dark text-primary duration-500 ease-in-out",
+          "transition-width fixed right-0 top-[54px] z-20 overflow-y-scroll bg-paper-dark text-primary duration-500 ease-in-out",
           isPanelOpen ? "w-1/3 min-w-[350px]" : "w-0"
         )}
+        style={{
+          height: `calc(100vh - ${innerViewportHeightOffset()}px)`
+        }}
       >
         <div className="px-8 pb-28 pt-4">
           <table className="w-full table-auto">
