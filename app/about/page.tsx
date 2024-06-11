@@ -6,44 +6,46 @@ export default function Page() {
   );
 
   return (
-    <main className="flex-column flex min-h-screen w-full items-center justify-between px-12 py-8 text-primary">
-        <section className="flex max-w-prose flex-col justify-between gap-4">
-          <p className="decorative">
-            The project began as a romantic exchange with my girlfriend, who
-            suggested episodes from the series discussing topics such as bodily
-            fluids (tears, milk, secretions) and the austere lifestyles of
-            Baroque nuns. My goal was to understand a podcast in another
-            language and to find these specific moments of discussion in
-            hour-long audios.
-          </p>
-          <p className="decorative">
-            In the end, I built{" "}
-            <span className="font-medium text-fuchsia underline decoration-fuchsia decoration-wavy">
-              Mi manjar
-            </span>
-            , an archive of all 52 episodes of the podcast. Each episode has
-            been transcribed with <HighlightedText text="Assembly.ai" />,
-            translated into English with <HighlightedText text="Deepl" />, and
-            highlighted using <HighlightedText text="Chat GPT-4" />. Every
-            episode features an index table of highlights to peruse, along with
-            citations of literal references mentioned in the show. The archive
-            is a fully searchable database of 12.82k records, powered by the{" "}
-            <HighlightedText text="Algolia Search API" />.
-          </p>
-          <p>
-            Mi manjar means my delicacy, as this has been such a pleasure
-            project for me. More on mi manjar from the authors themselve in
-            <Link
-              href={`podcast/3/6?start=950962`}
-              className="mx-2 underline underline-offset-2"
-            >
-              Son estas lágrimas mi manjar
-            </Link>
-          </p>
-          <p>
-            Thanks to Studio Hold for design support, and thanks to mi amor.
-          </p>
-        </section>
+    <main>
+      <div className="flex w-full items-baseline justify-between border-b border-b-primary px-8 py-3 text-primary ">
+        <Link href="/podcast" className="uppercase hover:underline">
+          <h1 className="textura uppercase">Mi manjar</h1>
+        </Link>
+      </div>
+      <section className="max-w-prose flex flex-col gap-4 px-12 justify-center min-h-[93vh]">
+        <p className="decorative">
+          The project began as a romantic exchange with my girlfriend, who
+          suggested episodes from the series discussing topics such as bodily
+          fluids (tears, milk, secretions) and the austere lifestyles of Baroque
+          nuns. My goal was to understand a podcast in another language and to
+          find these specific moments of discussion in hour-long audios.
+        </p>
+        <p className="decorative">
+          In the end, I built{" "}
+          <span className="font-medium text-fuchsia underline decoration-fuchsia decoration-wavy">
+            Mi manjar
+          </span>
+          , an archive of all 52 episodes of the podcast. Each episode has been
+          transcribed with <HighlightedText text="Assembly.ai" />, translated
+          into English with <HighlightedText text="Deepl" />, and highlighted
+          using <HighlightedText text="Chat GPT-4" />. Every episode features an
+          index table of highlights to peruse, along with citations of literal
+          references mentioned in the show. The archive is a fully searchable
+          database of 12.82k records, powered by the{" "}
+          <HighlightedText text="Algolia Search API" />.
+        </p>
+        <p>
+          Mi manjar means my delicacy, as this has been such a pleasure project
+          for me. More on mi manjar from the authors themselve in
+          <Link
+            href={`podcast/3/6?start=950962`}
+            className="mx-2 underline underline-offset-2"
+          >
+            Son estas lágrimas mi manjar
+          </Link>
+        </p>
+        <p>Thanks to <a href="https://studio-hold.com/" target="_blank" className="underline underline-offset-2">Studio Hold</a> for design support, and thanks to mi amor.</p>
+      </section>
     </main>
   );
 }
