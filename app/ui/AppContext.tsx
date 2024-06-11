@@ -1,5 +1,6 @@
 "use client";
 import { ReactNode, createContext, useContext, useState } from "react";
+import { Overview } from "../lib/definitions";
 
 interface StateData {
   season: number;
@@ -10,6 +11,8 @@ interface StateData {
 interface AppContextProps {
   navigationState: StateData | null;
   setNavigationState: React.Dispatch<React.SetStateAction<StateData | null>>;
+  episodesList: Overview[]; 
+  setEpisodeList: React.Dispatch<React.SetStateAction<Overview[]>>;
 }
 
 const AppContext = createContext<AppContextProps | undefined>(undefined);
@@ -19,8 +22,10 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
     null
   );
 
+  const [episodesList, setEpisodeList] = useState<Overview[]>([])
+  
   return (
-    <AppContext.Provider value={{ navigationState, setNavigationState }}>
+    <AppContext.Provider value={{ navigationState, setNavigationState, episodesList, setEpisodeList }}>
       {children}
     </AppContext.Provider>
   );

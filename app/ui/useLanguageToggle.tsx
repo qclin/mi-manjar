@@ -6,19 +6,19 @@ import { useState, createContext } from "react";
 const defaultLanguage = SupportedLanguage.spanish;
 export const LanguageContext = createContext(defaultLanguage);
 
-function useLangugageToggle(): [SupportedLanguage, () => JSX.Element] {
+function useLangugageToggle(): [SupportedLanguage, ({className}:{className: string}) => JSX.Element] {
   const [selectedLanguage, setSelectedLanguage] = useState(defaultLanguage);
 
-  const Toggler = () => {
+  const Toggler = ({className}:{className: string}) => {
     return (
-      <div className="flex align-baseline">
+      <div className={clsx("flex align-baseline", className)}>
         {Object.values(SupportedLanguage).map((lang) => (
           <button
             onClick={() => setSelectedLanguage(lang)}
             key={lang}
             className={clsx(
               selectedLanguage === lang ? "font-medium underline" : "",
-              "h-fit pl-2 uppercase"
+              "h-fit px-1 uppercase hover:underline"
             )}
           >
             {lang}

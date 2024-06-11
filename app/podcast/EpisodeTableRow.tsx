@@ -2,13 +2,11 @@ import clsx from "clsx";
 import { TopicFilter, Overview } from "../lib/definitions";
 import { useAppContext } from "@/app/ui/AppContext";
 import { useRouter } from "next/navigation";
-import { PlayIcon, PlusIcon } from "@/app/ui/icons";
+import PlayIcon from "@/public/icons/play.svg";
 
 type Props = {
-  isExpanded: boolean;
   topic?: TopicFilter;
   overview: Overview;
-  onClick(): void;
 };
 
 const SummaryTextCell = ({ text }: { text: string }) => (
@@ -19,18 +17,17 @@ const SummaryTextCell = ({ text }: { text: string }) => (
   </td>
 );
 
-const EpisodeTableRow = ({ isExpanded, topic, overview, onClick }: Props) => {
+const EpisodeTableRow = ({ topic, overview }: Props) => {
   const {
     title,
     season,
     episode,
-    summary,
     release_date,
     duration,
     words_per_minute,
   } = overview;
 
-  const { topics, sub_topics, key_figures, keywords } = topic as TopicFilter;
+  const { key_figures, keywords } = topic as TopicFilter;
   const router = useRouter();
   const { setNavigationState } = useAppContext();
 
@@ -43,7 +40,7 @@ const EpisodeTableRow = ({ isExpanded, topic, overview, onClick }: Props) => {
   return (
     <>
       <tr
-        onClick={onClick}
+        onClick={() => handleNavigation(season, episode, title.es)}
         className="items-start hover:bg-paper-dark [&>*]:cursor-pointer [&>*]:border-b"
       >
         <td className="w-8 px-2">
@@ -62,7 +59,7 @@ const EpisodeTableRow = ({ isExpanded, topic, overview, onClick }: Props) => {
           {words_per_minute} wpm
         </td>
       </tr>
-      <tr
+      {/* <tr
         onClick={() => handleNavigation(season, episode, title.es)}
         className={clsx(
           "cursor-pointer hover:bg-paper-dark [&>*]:border-b [&>*]:py-2 [&>*]:align-baseline",
@@ -86,7 +83,7 @@ const EpisodeTableRow = ({ isExpanded, topic, overview, onClick }: Props) => {
             <dd className="text-sm text-secondary">{keywords.join(", ")}</dd>
           </dl>
         </td>
-      </tr>
+      </tr> */}
     </>
   );
 };

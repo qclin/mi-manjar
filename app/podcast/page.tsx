@@ -8,14 +8,19 @@ import SearchPanel, { searchClient } from "../ui/SearchPanel";
 import { Loader } from "../ui/Loader";
 import { FilterPanel } from "../ui/Refinement/FilterPanel";
 import { InstantSearch, Configure } from "react-instantsearch";
+import { useAppContext } from "../ui/AppContext";
 
 export default function Page() {
   const [overviewData, setOverviewData] = useState<SeasonOverview>();
+  const { setEpisodeList } = useAppContext();
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
         const data = await fetchSeasons();
         setOverviewData(data);
+        if(data) setEpisodeList(Array.prototype.concat.apply([], Object.values(data))
+        )
       } catch (err) {
         console.error(err);
       }
@@ -24,7 +29,7 @@ export default function Page() {
   }, []);
 
   if (!overviewData) return <Loader text="Loading podcast table" />;
-
+  
   return (
     <>
       <SearchPanel />

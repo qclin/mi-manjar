@@ -7,11 +7,10 @@ export const FilterPanel = () => {
   const [isOpen, setIsOpen] = useState(false);
   const togglePanel = () => setIsOpen(!isOpen);
   return (
-    <section className="p-8">
+    <section>
       <button onClick={togglePanel}>Filter</button>
       <CurrentRefinements />
-
-      <div className={clsx(isOpen ? "h-100" : "h-0 overflow-hidden")}>
+      <div className={clsx(isOpen ? "h-100 p-8" : "h-0 overflow-hidden", '')}>
         <RefinementList
           attribute="key_figures"
           limit={10}
