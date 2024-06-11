@@ -4,7 +4,8 @@ import range from "lodash/range";
 import { type SeasonOverview } from "@/app/lib/definitions";
 import { useState } from "react";
 import clsx from "clsx";
-import { PlayIcon, PlusIcon } from "@/app/ui/icons";
+import PlayIcon from "@/public/icons/play.svg";
+import PlusIcon from "@/public/icons/plus.svg";
 import { useAppContext } from "@/app/ui/AppContext";
 
 const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
@@ -52,7 +53,7 @@ const EpisodeTable = ({ data }: { data: SeasonOverview }) => {
             <button onClick={toggleAllRows}>
               <PlusIcon
                 alt="expand all rows"
-                size={20}
+                size={24}
                 className="text-primary"
               />
             </button>

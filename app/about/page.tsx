@@ -12,7 +12,7 @@ export default function Page() {
           <h1 className="textura uppercase">Mi manjar</h1>
         </Link>
       </div>
-      <section className="max-w-prose flex flex-col gap-4 px-12 justify-center min-h-[93vh]">
+      <section className="flex min-h-[93vh] max-w-prose flex-col justify-center gap-4 px-12">
         <p className="decorative">
           The project began as a romantic exchange with my girlfriend, who
           suggested episodes from the series discussing topics such as bodily
@@ -44,7 +44,17 @@ export default function Page() {
             Son estas lágrimas mi manjar
           </Link>
         </p>
-        <p>Thanks to <a href="https://studio-hold.com/" target="_blank" className="underline underline-offset-2">Studio Hold</a> for design support, and thanks to mi amor.</p>
+        <p>
+          Thanks to{" "}
+          <a
+            href="https://studio-hold.com/"
+            target="_blank"
+            className="underline underline-offset-2"
+          >
+            Studio Hold
+          </a>{" "}
+          for design support, and thanks to mi amor.
+        </p>
       </section>
     </main>
   );

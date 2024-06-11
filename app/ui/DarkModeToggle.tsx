@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { MoonIcon } from "./icons";
-
+import MoonIcon from "@/public/icons/moon.svg";
 const DarkModeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -39,7 +38,7 @@ const DarkModeToggle = () => {
 
   return (
     <button onClick={toggleDarkMode}>
-      <MoonIcon alt="reset search" size={24} className="ml-3 inline" />
+      <MoonIcon size={24} className="ml-3 inline" />
     </button>
   );
 };
