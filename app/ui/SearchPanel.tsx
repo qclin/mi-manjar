@@ -11,6 +11,7 @@ import useLangugageToggle, {
   LanguageContext,
 } from "@/app/ui/useLanguageToggle";
 import DarkModeToggle from "./DarkModeToggle";
+import Link from "next/link";
 
 const searchClient = algoliasearch(
   process.env.NEXT_PUBLIC_ALGOLIA_APPLICATION_ID || "",
@@ -35,6 +36,7 @@ const SearchPanel = () => {
         <div className="flex w-full items-baseline justify-between border-b border-b-primary px-8 py-3 text-primary ">
           <h1 className="textura uppercase">Mi manjar</h1>
           <div className="flex items-baseline">
+            <Link href="/about" className="uppercase hover:underline">About</Link>
             <SearchBox />
             <DarkModeToggle />
             <LanguageToggler />
