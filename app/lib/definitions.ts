@@ -153,3 +153,18 @@ export type UtteranceSearch = {
   text_en: string;
   start: number;
 };
+
+export type TopicFilter = {
+  id: string;
+  objectID: string;
+  episode: number;
+  season: number;
+  title: TranslatedString;
+  topics: string[];
+  sub_topics: string[];
+  keywords: string[];
+  key_figures: string[];
+  literature?: string[];
+  objects?: string[];
+  paintings?: string[];
+};
