@@ -20,6 +20,14 @@
   }
 }
 
+.dark {
+  --color-primary: 237 242 247;
+  --color-secondary: 160 174 192;
+  --color-background: 26 32 44;
+  --color-background-darker: 45 55 72;
+  --color-border-light: 74 85 104;
+}
+
 body {
   color: rgb(var(--color-primary));
   background: var(--color-background);

@@ -4,7 +4,6 @@ import {
   useSearchBox,
   UseSearchBoxProps,
 } from "react-instantsearch";
-import { MoonIcon } from "./icons";
 import "./customSearch.css";
 
 function CustomSearchBox(props: UseSearchBoxProps) {
@@ -62,7 +61,6 @@ function CustomSearchBox(props: UseSearchBoxProps) {
       >
         X
       </button>
-      <MoonIcon alt="reset search" size={24} className="ml-3 inline" />
       <span hidden={!isSearchStalled}>Searching…</span>
     </form>
   );
