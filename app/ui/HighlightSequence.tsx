@@ -89,7 +89,10 @@ const HighlightSequence = ({
                   return (
                     <span
                       key={index}
-                      className={clsx(isActiveWord && "bg-yellow-200", "mx-1")}
+                      className={clsx(
+                        isActiveWord && "bg-yellow-200 dark:bg-lime-700",
+                        "mx-1"
+                      )}
                     >
                       {word.text}
                     </span>

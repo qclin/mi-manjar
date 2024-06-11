@@ -11,7 +11,7 @@ interface StateData {
 interface AppContextProps {
   navigationState: StateData | null;
   setNavigationState: React.Dispatch<React.SetStateAction<StateData | null>>;
-  episodesList: Overview[]; 
+  episodesList: Overview[];
   setEpisodeList: React.Dispatch<React.SetStateAction<Overview[]>>;
 }
 
@@ -22,10 +22,17 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
     null
   );
 
-  const [episodesList, setEpisodeList] = useState<Overview[]>([])
-  
+  const [episodesList, setEpisodeList] = useState<Overview[]>([]);
+
   return (
-    <AppContext.Provider value={{ navigationState, setNavigationState, episodesList, setEpisodeList }}>
+    <AppContext.Provider
+      value={{
+        navigationState,
+        setNavigationState,
+        episodesList,
+        setEpisodeList,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

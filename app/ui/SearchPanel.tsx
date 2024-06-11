@@ -13,7 +13,6 @@ import useLangugageToggle, {
 import DarkModeToggle from "./DarkModeToggle";
 import Link from "next/link";
 
-
 export const searchClient = algoliasearch(
   process.env.NEXT_PUBLIC_ALGOLIA_APPLICATION_ID || "",
   process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY || ""
@@ -29,7 +28,6 @@ function EmptyQueryBoundary({ children }: { children: ReactElement }) {
 }
 
 const SearchPanel = () => {
-
   const [selectedLanguage, LanguageToggler] = useLangugageToggle();
   return (
     <LanguageContext.Provider value={selectedLanguage}>
@@ -46,7 +44,7 @@ const SearchPanel = () => {
         </div>
         <EmptyQueryBoundary>
           <div className="fixed right-0 z-20 h-[93vh] max-w-prose overflow-y-scroll bg-paper-dark px-8 pb-12 text-primary">
-            <LanguageToggler className="absolute top-4 right-12"/>
+            <LanguageToggler className="absolute right-12 top-4" />
             <SearchHits />
             <Pagination className="[&>ul>*]:px-2 [&>ul]:flex [&>ul]:w-fit [&>ul]:flex-row" />
           </div>

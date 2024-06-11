@@ -18,14 +18,8 @@ const SummaryTextCell = ({ text }: { text: string }) => (
 );
 
 const EpisodeTableRow = ({ topic, overview }: Props) => {
-  const {
-    title,
-    season,
-    episode,
-    release_date,
-    duration,
-    words_per_minute,
-  } = overview;
+  const { title, season, episode, release_date, duration, words_per_minute } =
+    overview;
 
   const { key_figures, keywords } = topic as TopicFilter;
   const router = useRouter();

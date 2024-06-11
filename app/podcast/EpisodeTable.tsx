@@ -12,17 +12,17 @@ type FiterHit = TopicFilter & BaseHit;
 
 const EpisodeTable = ({ data, ...rest }: UseHitsProps<FiterHit> & Props) => {
   const { hits } = useHits({ ...rest });
-  
+
   return (
-    <table className="container mx-auto my-24 table-auto">
+    <table className="container mx-auto mb-12 table-auto">
       <thead className="sticky top-0 border-b bg-paper-light text-primary">
         <tr className="[&>*]:border-b [&>*]:border-b-primary [&>*]:font-normal [&>*]:uppercase [&>*]:text-secondary">
           <th>
-          <PlusIcon
-                alt="expand all rows"
-                size={24}
-                className="text-primary"
-              />
+            <PlusIcon
+              alt="expand all rows"
+              size={24}
+              className="text-primary"
+            />
           </th>
           <th className="px-4 py-2 text-left">Episode Title</th>
           <th className="px-4 py-2 text-left">English</th>
@@ -49,15 +49,15 @@ const EpisodeTable = ({ data, ...rest }: UseHitsProps<FiterHit> & Props) => {
                 )
               )
               .map((overview, index) => (
-                  <EpisodeTableRow
-                    key={`season${seasonIndex}_episode${index}`}
-                    overview={overview}
-                    topic={hits.find(
-                      (hit) =>
-                        overview.season === hit.season &&
-                        overview.episode === hit.episode
-                    )}
-                  />
+                <EpisodeTableRow
+                  key={`season${seasonIndex}_episode${index}`}
+                  overview={overview}
+                  topic={hits.find(
+                    (hit) =>
+                      overview.season === hit.season &&
+                      overview.episode === hit.episode
+                  )}
+                />
               ));
           })}
       </tbody>
