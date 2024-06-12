@@ -1,39 +1,53 @@
-import { Podcast, SeasonOverview } from "./definitions";
+import {
+  MediaCaption,
+  Podcast,
+  SeasonOverview,
+  SignedURL,
+} from "./definitions";
 
-export const fetchPodcast = async (season: string, episode: string) => {
+const fetchData = async <T>(path: string): Promise<T | undefined> => {
   try {
-    console.log(
-      "[fetchPodcast]",
-      season,
-      episode,
-      `/api/episode?season=${season}&episode=${episode}`
-    );
-
-    const response = await fetch(
-      `/api/episode?season=${season}&episode=${episode}`
-    );
+    const response = await fetch(`/api/${path}`);
     if (!response.ok) {
       throw new Error(
-        `Error fetching podcast data for episode: ${response.statusText}`
+        `Error fetching data from ${path}: ${response.statusText}`
       );
     }
-    const data = (await response.json()) as Podcast;
+    const data = (await response.json()) as T;
     return data;
   } catch (error) {
-    console.error("Failed to fetch podcast data", error);
+    console.error(`Failed to fetch data from ${path}`, error);
   }
 };
 
-export const fetchSeasons = async () => {
-  try {
-    const response = await fetch("api/seasons");
+export const fetchPodcast = async (season: string, episode: string) => {
+  const path = `episode?season=${season}&episode=${episode}`;
+  return fetchData<Podcast>(path);
+};
 
-    if (!response.ok) {
-      throw new Error(`Error fetching season overview: ${response.statusText}`);
-    }
-    const data = (await response.json()) as SeasonOverview;
-    return data;
-  } catch (error) {
-    console.error("Failed to fetch season overview", error);
-  }
+export const fetchSeasons = async () => {
+  const path = "seasons";
+  return fetchData<SeasonOverview>(path);
+};
+
+export const fetchCaption = async () => {
+  const path = "captions";
+  return fetchData<MediaCaption>(path);
+};
+
+export const fetchAudioPresignedURL = async (filename: string) => {
+  const path = `media/audio/las-hijas-de-filipe/${encodeURIComponent(filename)}`;
+  return fetchData<SignedURL>(path);
+};
+
+export const fetchPresignedURLs = async (filenames: string[]) => {
+  const data = (await Promise.all(
+    filenames.map((filename) => fetchPresignedURL(filename))
+  )) as SignedURL[];
+  return data;
+};
+
+const fetchPresignedURL = async (filename: string) => {
+  const path = `media/instagram/${encodeURIComponent(filename)}`;
+  return fetchData<SignedURL>(path);
 };
