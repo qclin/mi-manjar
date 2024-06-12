@@ -8,4 +8,14 @@ module.exports = {
 
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'mi-manjar.s3.amazonaws.com',
+        port: '',
+        pathname: '/instagram/**',
+      },
+    ],
+  },
 };

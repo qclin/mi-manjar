@@ -3,13 +3,14 @@ import { Caption, SignedURL } from "../lib/definitions";
 import { fetchPresignedURLs } from "../lib/api";
 import clsx from "clsx";
 import { convertHandlesToHyperlink } from "./utils";
+import Image from "next/image";
 
 type Props = {
   caption: Caption;
 };
 const Carousel = ({ caption }: Props) => {
   const [presignedUrls, setPresignedUrls] = useState<SignedURL[]>([]);
-  const [signedVidelUrls, setVideoUrls] = useState<SignedURL[]>([]);
+  const [signedVideoUrls, setVideoUrls] = useState<SignedURL[]>([]);
 
   const { text, text_en, images, videos } = caption;
   useEffect(() => {
@@ -33,26 +34,35 @@ const Carousel = ({ caption }: Props) => {
   return (
     <div>
       <div className="grid gap-4 md:grid-cols-3">
-        {signedVidelUrls.map((signedVideoUrl, index) => (
+        {signedVideoUrls.map((signedVideoUrl, index) => (
           <video autoPlay controls key={`video-${index}`}>
             <source src={signedVideoUrl.url} type="video/mp4" />
           </video>
         ))}
+
         {presignedUrls.map((media, index) => (
-          <img
+          <div
             key={`image-${index}`}
-            src={media.url}
             className={clsx(
-              "max-h-screen w-full",
+              "relative w-full",
               presignedUrls.length === 5 &&
-                "first:md:col-span-2 first:md:max-h-full",
-              signedVidelUrls.length > 0 &&
+                "first:md:col-span-2 first:md:row-span-2",
+              signedVideoUrls.length > 0 &&
                 presignedUrls.length === 5 &&
-                "first-of-type:md:col-span-2 first-of-type:md:max-h-full"
+                "first-of-type:md:col-span-2 first-of-type:md:row-span-2"
             )}
-            alt={`supplmenta imagery for episode - ${index}`}
-          />
+            style={{ aspectRatio: "1 / 1" }} // Adjust the aspect ratio as needed
+          >
+            <Image
+              src={media.url}
+              alt={`supplemental imagery for episode - ${index}`}
+              layout="fill"
+              objectFit="cover"
+              className="h-full w-full"
+            />
+          </div>
         ))}
+
         <p
           className="whitespace-break-spaces pl-4 text-2xl"
           dangerouslySetInnerHTML={{ __html: convertHandlesToHyperlink(text) }}

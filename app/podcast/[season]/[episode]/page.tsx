@@ -46,7 +46,7 @@ export default function Page({ params }: { params: RouteParams }) {
   return (
     <>
       <Header />
-      {mediaData && (
+      {mediaData && mediaData[podcastData.overview.release_date] && (
         <Carousel caption={mediaData[podcastData.overview.release_date]} />
       )}
       <Player podcast={podcastData} jumpToTime={jumpToTime} />
