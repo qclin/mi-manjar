@@ -28,18 +28,19 @@ const Carousel = ({ caption }: Props) => {
       }
     };
     fetchData();
-  }, []);
+  }, [images, videos]);
 
   return (
     <div>
       <div className="grid gap-4 md:grid-cols-3">
-        {signedVidelUrls.map((signedVideoUrl) => (
-          <video autoPlay controls>
+        {signedVidelUrls.map((signedVideoUrl, index) => (
+          <video autoPlay controls key={`video-${index}`}>
             <source src={signedVideoUrl.url} type="video/mp4" />
           </video>
         ))}
-        {presignedUrls.map((media) => (
+        {presignedUrls.map((media, index) => (
           <img
+            key={`image-${index}`}
             src={media.url}
             className={clsx(
               "max-h-screen w-full",
@@ -49,6 +50,7 @@ const Carousel = ({ caption }: Props) => {
                 presignedUrls.length === 5 &&
                 "first-of-type:md:col-span-2 first-of-type:md:max-h-full"
             )}
+            alt={`supplmenta imagery for episode - ${index}`}
           />
         ))}
         <p

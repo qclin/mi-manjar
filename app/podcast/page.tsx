@@ -26,7 +26,7 @@ export default function Page() {
       }
     };
     fetchData();
-  }, []);
+  }, [setEpisodeList]);
 
   if (!overviewData) return <Loader text="Loading podcast table" />;
 

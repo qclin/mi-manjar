@@ -61,6 +61,5 @@ export const convertHandlesToHyperlink = (text: string) => {
       linkedText = linkedText.replace(handle, convertToLink(handle));
     });
   }
-  return linkedText
-}
-
+  return linkedText;
+};
