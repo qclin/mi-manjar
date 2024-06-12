@@ -168,3 +168,14 @@ export type TopicFilter = {
   objects?: string[];
   paintings?: string[];
 };
+
+export type Caption = {
+  text: string;
+  text_en: string;
+  images: string[];
+  videos: string[];
+  date: Date;
+};
+
+export type MediaCaption = Record<string, Caption>;
+export type SignedURL = { url: string };

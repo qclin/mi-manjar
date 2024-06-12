@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Header from "../ui/Header";
 
 export default function Page() {
   const HighlightedText = ({ text }: { text: string }) => (
@@ -7,11 +8,7 @@ export default function Page() {
 
   return (
     <main>
-      <div className="flex w-full items-baseline justify-between border-b border-b-primary px-8 py-3 text-primary ">
-        <Link href="/podcast" className="uppercase hover:underline">
-          <h1 className="textura uppercase">Mi manjar</h1>
-        </Link>
-      </div>
+      <Header />
       <section className="flex min-h-[93vh] max-w-prose flex-col justify-center gap-4 px-12">
         <p className="decorative">
           The project began as a romantic exchange with my girlfriend, who

@@ -45,3 +45,22 @@ export function matchSentencesToWords(
 
   return result;
 }
+
+export const convertHandlesToHyperlink = (text: string) => {
+  const regex = /@\w+/g;
+  const handles = text.match(regex);
+
+  const convertToLink = (handle: string): string => {
+    const username = handle.slice(1); // Remove the '@' symbol
+    return `<a href="https://www.instagram.com/${username}" target="_blank" class="hover:underline">${handle}</a>`;
+  };
+
+  let linkedText = text;
+  if (handles) {
+    handles.forEach((handle) => {
+      linkedText = linkedText.replace(handle, convertToLink(handle));
+    });
+  }
+  return linkedText
+}
+

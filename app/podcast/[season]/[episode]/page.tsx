@@ -1,18 +1,21 @@
 "use client";
 
-import { Podcast } from "@/app/lib/definitions";
+import { MediaCaption, Podcast } from "@/app/lib/definitions";
 import { useEffect, useState } from "react";
 import Player from "./Player";
-import { fetchPodcast } from "@/app/lib/api";
+import { fetchCaption, fetchPodcast } from "@/app/lib/api";
 import { useSearchParams } from "next/navigation";
-import Link from "next/link";
+
 import { Loader } from "@/app/ui/Loader";
 import { useAppContext } from "@/app/ui/AppContext";
+import Header from "@/app/ui/Header";
+import Carousel from "@/app/ui/Carousel";
 
 type RouteParams = { season: string; episode: string };
 
 export default function Page({ params }: { params: RouteParams }) {
   const [podcastData, setPodcastData] = useState<Podcast>();
+  const [mediaData, setMediaData] = useState<MediaCaption>();
 
   const searchParams = useSearchParams();
   const jumpToTime = searchParams?.get("start");
@@ -21,11 +24,11 @@ export default function Page({ params }: { params: RouteParams }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await fetchPodcast(
-          params.season as string,
-          params.episode as string
-        );
+        const data = await fetchPodcast(params.season, params.episode);
         setPodcastData(data);
+
+        const mediaData = await fetchCaption();
+        setMediaData(mediaData);
       } catch (err) {
         console.error(err);
       }
@@ -42,13 +45,10 @@ export default function Page({ params }: { params: RouteParams }) {
 
   return (
     <>
-      <header className="fixed sticky top-0 z-20 w-full border-b border-primary bg-paper-light px-8 py-3 text-primary">
-        <h1 className="mt-1 uppercase ">
-          <Link href="/podcast" className="textura">
-            Mi manjar
-          </Link>
-        </h1>
-      </header>
+      <Header />
+      {mediaData && (
+        <Carousel caption={mediaData[podcastData.overview.release_date]} />
+      )}
       <Player podcast={podcastData} jumpToTime={jumpToTime} />
     </>
   );

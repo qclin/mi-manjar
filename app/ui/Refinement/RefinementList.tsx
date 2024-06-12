@@ -54,7 +54,7 @@ const RefinementList = (props: UseRefinementListProps & Props) => {
         <button
           onClick={toggleShowMore}
           disabled={!canToggleShowMore}
-          className="float-right font-sans text-sm font-medium underline "
+          className="float-right font-sans text-sm hover:underline"
         >
           {isShowingMore ? "Show less" : "Show more"}
         </button>

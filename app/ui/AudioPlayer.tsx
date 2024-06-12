@@ -1,4 +1,5 @@
 import React, { HTMLProps, useEffect, useState, forwardRef } from "react";
+import { fetchAudioPresignedURL } from "../lib/api";
 
 interface AudioPlayerProps extends HTMLProps<HTMLAudioElement> {
   filename: string;
@@ -7,27 +8,18 @@ interface AudioPlayerProps extends HTMLProps<HTMLAudioElement> {
 
 const AudioPlayer = forwardRef<HTMLAudioElement, AudioPlayerProps>(
   ({ filename, className, ...rest }, ref) => {
-    const [audioUrl, setAudioUrl] = useState<string | null>(null);
+    const [audioUrl, setAudioUrl] = useState<string>();
 
     useEffect(() => {
-      const fetchPresignedUrl = async () => {
+      const fetchData = async () => {
         try {
-          const response = await fetch(
-            `/api/media/audio/las-hijas-de-filipe/${encodeURIComponent(filename)}`
-          );
-          if (!response.ok) {
-            throw new Error(
-              `Error fetching presigned URL: ${response.statusText}`
-            );
-          }
-          const data = (await response.json()) as { url: string }; // Specify the expected shape of the response data
-          setAudioUrl(data.url);
+          const data = await fetchAudioPresignedURL(filename);
+          setAudioUrl(data?.url);
         } catch (error) {
-          console.error("Failed to fetch presigned URL", error);
+          console.error(error);
         }
       };
-
-      fetchPresignedUrl();
+      fetchData();
     }, [filename]);
 
     if (!audioUrl) {
