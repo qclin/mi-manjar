@@ -4,6 +4,7 @@ import { fetchPresignedURLs } from "../lib/api";
 import clsx from "clsx";
 import { convertHandlesToHyperlink } from "./utils";
 import Image from "next/image";
+import Modal from "./Modal";
 
 type Props = {
   caption: Caption;
@@ -11,6 +12,7 @@ type Props = {
 const Carousel = ({ caption }: Props) => {
   const [presignedUrls, setPresignedUrls] = useState<SignedURL[]>([]);
   const [signedVideoUrls, setVideoUrls] = useState<SignedURL[]>([]);
+  const [imagePreview, setImagePreview] = useState<string>();
 
   const { text, text_en, images, videos } = caption;
   useEffect(() => {
@@ -41,7 +43,7 @@ const Carousel = ({ caption }: Props) => {
         ))}
 
         {presignedUrls.map((media, index) => (
-          <div
+          <button
             key={`image-${index}`}
             className={clsx(
               "relative w-full",
@@ -49,9 +51,10 @@ const Carousel = ({ caption }: Props) => {
                 "first:md:col-span-2 first:md:row-span-2",
               signedVideoUrls.length > 0 &&
                 presignedUrls.length === 5 &&
-                "first-of-type:md:col-span-2 first-of-type:md:row-span-2"
+                "appearance-none first-of-type:md:col-span-2 first-of-type:md:row-span-2"
             )}
-            style={{ aspectRatio: "1 / 1" }} // Adjust the aspect ratio as needed
+            style={{ aspectRatio: "1 / 1" }}
+            onClick={() => setImagePreview(media.url)}
           >
             <Image
               src={media.url}
@@ -60,7 +63,7 @@ const Carousel = ({ caption }: Props) => {
               objectFit="cover"
               className="h-full w-full"
             />
-          </div>
+          </button>
         ))}
 
         <p
@@ -74,6 +77,11 @@ const Carousel = ({ caption }: Props) => {
           }}
         />
       </div>
+      <Modal
+        isOpen={!!imagePreview}
+        onClose={() => setImagePreview(undefined)}
+        imageSrc={imagePreview}
+      />
     </div>
   );
 };

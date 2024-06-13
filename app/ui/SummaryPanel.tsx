@@ -44,7 +44,7 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
     panelTransition: clsx("fixed duration-300 ease-in-out"),
   };
   return (
-    <div className="summary-panel fixed inset-x-0 bottom-0 z-50">
+    <div className="summary-panel fixed inset-x-0 bottom-0 z-30">
       <div className={clsx(" bg-paper-light", styles.backgroundText)}>
         <button onClick={togglePanel} className="w-full px-10 py-2">
           <OverviewInfo />
