@@ -11,40 +11,39 @@ type Props = {
   title?: string;
 };
 
-const RefinementList = ({title, square, ...rest}: UseRefinementListProps & Props) => {
+const RefinementList = ({
+  title,
+  square,
+  ...rest
+}: UseRefinementListProps & Props) => {
   const { items, refine, canToggleShowMore, isShowingMore, toggleShowMore } =
     useRefinementList(rest);
 
-    const router = useRouter()
-    const pathname = usePathname()
-    const searchParams = useSearchParams()
-   
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
-    const updateFiler = useCallback(
-      (attribute: string, value: string) => {
+  const updateFiler = useCallback(
+    (attribute: string, value: string) => {
+      const currentParams = new URLSearchParams(searchParams?.toString());
+      let values = currentParams.getAll(attribute);
+      console.log(values);
 
-        const currentParams = new URLSearchParams(searchParams?.toString());
-        let values = currentParams.getAll(attribute)
-        console.log((values));
-        
-        if(values.includes(value)){
-          values = values.filter(v => v !== value); 
-        }else{
-          values.push(value); 
-        }
-        currentParams.delete(attribute); 
-        values.forEach(v => currentParams.append(attribute, v)); 
+      if (values.includes(value)) {
+        values = values.filter((v) => v !== value);
+      } else {
+        values.push(value);
+      }
+      currentParams.delete(attribute);
+      values.forEach((v) => currentParams.append(attribute, v));
 
-        refine(value)
-        // router.replace(`${pathname}?${currentParams.toString()}`)
-        
-      },
-      [searchParams, router, refine, items]
-    )
- 
-    
+      refine(value);
+      // router.replace(`${pathname}?${currentParams.toString()}`)
+    },
+    [searchParams, router, refine, items]
+  );
+
   if (items.length === 0) return <></>;
-
 
   return (
     <div className="">
@@ -55,35 +54,34 @@ const RefinementList = ({title, square, ...rest}: UseRefinementListProps & Props
         className={clsx(
           square
             ? "w-full space-x-4 overflow-x-scroll"
-            : "flex-wrap space-x-2 space-y-2",
+            : "flex flex-wrap gap-2",
           "flex"
         )}
       >
         {items.map((item) => (
           <li key={item.label}>
             <label
-              className={
-                clsx(
-                  item.isRefined ? "bg-paper-dark border-white dark:border-black" : "border-primary",
-                  square
-                    ? "h-36 w-36 overflow-hidden rounded-md hover:bg-paper-dark"
-                    : "rounded-full bg-white px-4 dark:bg-black",
-                  "relative flex cursor-pointer items-center justify-center border text-primary hover:text-primary"
-                )
-              }
+              className={clsx(
+                item.isRefined
+                  ? "border-[#EF3CFF] text-[#EF3CFF] dark:border-primary dark:!bg-lime-700 dark:!text-primary"
+                  : "border-primary",
+                square
+                  ? "h-36 w-36 overflow-hidden rounded-md hover:bg-paper-dark"
+                  : "rounded-full bg-white px-4 py-0.5 hover:border-[#EF3CFF] hover:text-[#EF3CFF] dark:bg-black hover:dark:border-primary hover:dark:bg-lime-700 dark:hover:text-primary",
+                "relative flex cursor-pointer items-center justify-center border text-primary"
+              )}
               onClick={() => updateFiler(rest.attribute, item.value)}
             >
-
               {square ? (
                 <>
                   <Image
                     src={`/${title?.toLowerCase()}/${item.label}.webp`}
                     alt=""
-                    width={180}
-                    height={180}
-                    className="saturate-50 max-w-[none] w-auto h-auto"
+                    width={150}
+                    height={150}
+                    className="h-auto w-auto max-w-[none] saturate-50"
                   />
-                  <span className="absolute text-center font-semibold text-white bottom-0 mb-3">
+                  <span className="absolute bottom-0 mb-3 text-center font-semibold text-white">
                     {item.label}
                   </span>
                 </>
@@ -105,7 +103,7 @@ const RefinementList = ({title, square, ...rest}: UseRefinementListProps & Props
         <button
           onClick={toggleShowMore}
           disabled={!canToggleShowMore}
-          className="float-right font-sans text-sm hover:underline"
+          className="float-right"
         >
           {isShowingMore ? (
             <MinusIcon alt="Show less" />

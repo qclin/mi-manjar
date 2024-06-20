@@ -115,9 +115,7 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
       const className = entityDetail ? entityDetail.color : "bg-pink";
 
       // Push previous non-matching text if any
-      tokens.push(
-        <span>{text.slice(lastOffset, offset)}</span>
-      );
+      tokens.push(<span>{text.slice(lastOffset, offset)}</span>);
 
       // Push highlighted text
       tokens.push(

@@ -10,7 +10,6 @@ type Props = {
 };
 
 const ImageCheckbox = ({ label, isChecked, onClick, className }: Props) => {
-  console.log(isChecked);
   return (
     <label
       className={clsx(

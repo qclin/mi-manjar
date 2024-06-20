@@ -1,17 +1,28 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { CurrentRefinements } from "react-instantsearch";
 import RefinementList from "./RefinementList";
 import clsx from "clsx";
-import CustomCurrentRefinements from "./CurrentRefinements"; 
+import PlusIcon from "@/public/icons/plus.svg";
+import MinusIcon from "@/public/icons/Minus.svg";
 
 export const FilterPanel = () => {
   const [isOpen, setIsOpen] = useState(false);
   const togglePanel = () => setIsOpen(!isOpen);
   return (
-    <section className="container mx-auto mt-12">
-      <button onClick={togglePanel} className="uppercase hover:bg-white border border-primary rounded-md px-3 py-1">
-        filter
-      </button>
+    <section className="container mx-auto mt-8">
+      <div className="mb-4 flex items-center">
+        <button
+          onClick={togglePanel}
+          className="mr-3 rounded-md border border-primary px-3 py-1 uppercase hover:bg-white dark:hover:bg-black"
+        >
+          filter
+        </button>
+        {isOpen ? (
+          <MinusIcon alt="close filter panel" />
+        ) : (
+          <PlusIcon alt="open filter panel" />
+        )}
+      </div>
       <CurrentRefinements />
       <div
         className={clsx(isOpen ? "mb-24 h-auto" : "h-0 overflow-hidden", "")}

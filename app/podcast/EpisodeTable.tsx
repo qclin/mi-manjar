@@ -2,7 +2,7 @@
 
 import range from "lodash/range";
 import { TopicFilter, type SeasonOverview } from "@/app/lib/definitions";
-import PlusIcon from "@/public/icons/plus.svg";
+
 import { useHits, UseHitsProps } from "react-instantsearch";
 import type { BaseHit, Hit } from "instantsearch.js";
 import EpisodeTableRow from "./EpisodeTableRow";
@@ -17,13 +17,7 @@ const EpisodeTable = ({ data, ...rest }: UseHitsProps<FiterHit> & Props) => {
     <table className="container mx-auto mb-12 table-auto">
       <thead className="sticky top-0 border-b bg-paper-light text-primary">
         <tr className="[&>*]:border-b [&>*]:border-b-primary [&>*]:font-normal [&>*]:uppercase [&>*]:text-secondary">
-          <th>
-            <PlusIcon
-              alt="expand all rows"
-              size={24}
-              className="text-primary"
-            />
-          </th>
+          <th></th>
           <th className="px-4 py-2 text-left">Episode Title</th>
           <th className="px-4 py-2 text-left">English</th>
           <th className="whitespace-nowrap px-4 py-2 text-sm">Date</th>
