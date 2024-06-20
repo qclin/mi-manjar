@@ -12,11 +12,11 @@ const config: Config = {
       colors: {
         current: "currentColor",
         paper: {
-          light: 'rgb(var(--color-background) / <alpha-value>)',
-          dark: 'rgb(var(--color-background-darker) / <alpha-value>)',
+          light: "rgb(var(--color-background) / <alpha-value>)",
+          dark: "rgb(var(--color-background-darker) / <alpha-value>)",
         },
-        primary: 'rgb(var(--color-primary) / <alpha-value>)',
-        secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
+        primary: "rgb(var(--color-primary) / <alpha-value>)",
+        secondary: "rgb(var(--color-secondary) / <alpha-value>)",
         fuchsia: "#EF3CFF",
         lightGreen: "#b2ef9b",
       },
