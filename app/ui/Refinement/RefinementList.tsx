@@ -2,7 +2,6 @@ import clsx from "clsx";
 import React, { useCallback } from "react";
 import PlusIcon from "@/public/icons/plus.svg";
 import MinusIcon from "@/public/icons/minus.svg";
-import NextIcon from "@/public/icons/next.svg";
 import { useRefinementList, UseRefinementListProps } from "react-instantsearch";
 import Image from "next/image";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";

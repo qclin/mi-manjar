@@ -3,7 +3,7 @@ import { CurrentRefinements } from "react-instantsearch";
 import RefinementList from "./RefinementList";
 import clsx from "clsx";
 import PlusIcon from "@/public/icons/plus.svg";
-import MinusIcon from "@/public/icons/minus.svg";
+import MinusIcon from "../../../public/icons/minus.svg";
 
 export const FilterPanel = () => {
   const [isOpen, setIsOpen] = useState(false);
