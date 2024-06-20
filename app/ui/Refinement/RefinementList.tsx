@@ -41,7 +41,7 @@ const RefinementList = ({
       refine(value);
       // router.replace(`${pathname}?${currentParams.toString()}`)
     },
-    [searchParams, router, refine, items]
+    [searchParams, refine]
   );
 
   if (items.length === 0) return <></>;

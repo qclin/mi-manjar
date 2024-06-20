@@ -50,7 +50,7 @@ const ScrollList = ({ children }: React.PropsWithChildren) => {
       )}
       <ul
         ref={scrollRef}
-        className="scrollbar-hide flex space-x-4 overflow-x-auto snap-x"
+        className="scrollbar-hide flex snap-x space-x-4 overflow-x-auto"
         style={{ scrollBehavior: "smooth" }}
         onScroll={updateArrows}
       >
