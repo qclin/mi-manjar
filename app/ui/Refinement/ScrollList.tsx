@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from "react";
-import "tailwindcss/tailwind.css";
 import NextIcon from "@/public/icons/next.svg";
 
 const ScrollList = ({ children }: React.PropsWithChildren) => {
