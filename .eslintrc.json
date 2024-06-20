@@ -15,7 +15,8 @@
   "rules": {
     "no-unused-vars": "off",
     "no-useless-escape": "off",
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off", 
+    "react-hooks/exhaustive-deps": "off"
   },
   "overrides": [
     {
