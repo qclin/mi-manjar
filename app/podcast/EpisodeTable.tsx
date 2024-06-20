@@ -15,7 +15,7 @@ const EpisodeTable = ({ data, ...rest }: UseHitsProps<FiterHit> & Props) => {
 
   return (
     <table className="container mx-auto mb-12 table-auto">
-      <thead className="sticky top-0 border-b bg-paper-light text-primary">
+      <thead className="invisible sticky top-0 border-b bg-paper-light text-primary md:visible">
         <tr className="[&>*]:border-b [&>*]:border-b-primary [&>*]:font-normal [&>*]:uppercase [&>*]:text-secondary">
           <th></th>
           <th className="px-4 py-2 text-left">Episode Title</th>
