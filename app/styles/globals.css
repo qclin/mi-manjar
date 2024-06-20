@@ -34,7 +34,7 @@ body {
 }
 
 .textura {
-  font-family: "LeRosart TexturaA";
+  font-family: "Weiss Fraktur";
 }
 
 h1 h2,
@@ -45,14 +45,12 @@ h6 {
   font-family: "LeRosart Display";
 }
 
-table,
-div,
-p {
-  font-family: "LeRosart Text";
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p.decorative::first-letter {
-  font-family: "LeRosart TexturaA";
+  font-family: "Weiss Fraktur";
   font-size: 3rem;
   margin-right: 5px;
   float: left;

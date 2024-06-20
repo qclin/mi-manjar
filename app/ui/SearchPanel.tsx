@@ -33,7 +33,7 @@ const SearchPanel = () => {
     <LanguageContext.Provider value={selectedLanguage}>
       <InstantSearch searchClient={searchClient} indexName="utterances">
         <div className="flex w-full items-baseline justify-between border-b border-b-primary px-8 py-3 text-primary ">
-          <h1 className="textura uppercase">Mi manjar</h1>
+          <h1 className="textura text-xl">Mi manjar</h1>
           <div className="flex items-baseline">
             <Link href="/about" className="uppercase hover:underline">
               About

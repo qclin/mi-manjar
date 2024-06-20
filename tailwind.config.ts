@@ -8,6 +8,9 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      'display':["LeRosart Text"]
+    },
     extend: {
       colors: {
         current: "currentColor",

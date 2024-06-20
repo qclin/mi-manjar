@@ -116,7 +116,7 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
 
       // Push previous non-matching text if any
       tokens.push(
-        <span key={lastOffset + "n"}>{text.slice(lastOffset, offset)}</span>
+        <span>{text.slice(lastOffset, offset)}</span>
       );
 
       // Push highlighted text
@@ -132,7 +132,7 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   );
 
   // Push any trailing text
-  tokens.push(<span key={lastOffset + "n"}>{text.slice(lastOffset)}</span>);
+  tokens.push(<span>{text.slice(lastOffset)}</span>);
 
   return <div>{tokens}</div>;
 };

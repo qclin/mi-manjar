@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { CurrentRefinements } from "react-instantsearch";
 import RefinementList from "./RefinementList";
 import clsx from "clsx";
+import CustomCurrentRefinements from "./CurrentRefinements"; 
 
 export const FilterPanel = () => {
   const [isOpen, setIsOpen] = useState(false);
   const togglePanel = () => setIsOpen(!isOpen);
   return (
     <section className="container mx-auto mt-12">
-      <button onClick={togglePanel} className="uppercase hover:underline">
+      <button onClick={togglePanel} className="uppercase hover:bg-white border border-primary rounded-md px-3 py-1">
         filter
       </button>
       <CurrentRefinements />
