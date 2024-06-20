@@ -2,9 +2,11 @@ import clsx from "clsx";
 import React, { useCallback } from "react";
 import PlusIcon from "@/public/icons/plus.svg";
 import MinusIcon from "@/public/icons/minus.svg";
+import NextIcon from "@/public/icons/next.svg";
 import { useRefinementList, UseRefinementListProps } from "react-instantsearch";
 import Image from "next/image";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
+import ScrollList from "./ScrollList";
 
 type Props = {
   square?: boolean;
@@ -45,60 +47,82 @@ const RefinementList = ({
 
   if (items.length === 0) return <></>;
 
+  const Checkbox = ({
+    isRefined,
+    label,
+  }: {
+    isRefined: boolean;
+    label: string;
+  }) => (
+    <input
+      type="checkbox"
+      checked={isRefined}
+      onChange={() => {}}
+      className="absolute h-full w-full cursor-pointer opacity-0"
+      aria-labelledby={`${label}-label`}
+    />
+  );
   return (
-    <div className="">
+    <div className="relative">
       <h3 className="boder-b-primary textura my-4 border-b text-xl font-medium">
         {title}
       </h3>
-      <ul
-        className={clsx(
-          square
-            ? "w-full space-x-4 overflow-x-scroll"
-            : "flex flex-wrap gap-2",
-          "flex"
-        )}
-      >
-        {items.map((item) => (
-          <li key={item.label}>
-            <label
-              className={clsx(
-                item.isRefined
-                  ? "border-[#EF3CFF] text-[#EF3CFF] dark:border-primary dark:!bg-lime-700 dark:!text-primary"
-                  : "border-primary",
-                square
-                  ? "h-36 w-36 overflow-hidden rounded-md hover:bg-paper-dark"
-                  : "rounded-full bg-white px-4 py-0.5 hover:border-[#EF3CFF] hover:text-[#EF3CFF] dark:bg-black hover:dark:border-primary hover:dark:bg-lime-700 dark:hover:text-primary",
-                "relative flex cursor-pointer items-center justify-center border text-primary"
-              )}
-              onClick={() => updateFiler(rest.attribute, item.value)}
-            >
-              {square ? (
-                <>
-                  <Image
-                    src={`/${title?.toLowerCase()}/${item.label}.webp`}
-                    alt=""
-                    width={150}
-                    height={150}
-                    className="h-auto w-auto max-w-[none] saturate-50"
-                  />
-                  <span className="absolute bottom-0 mb-3 text-center font-semibold text-white">
-                    {item.label}
-                  </span>
-                </>
-              ) : (
+      {square ? (
+        <ScrollList>
+          {items.map((item) => (
+            <li key={item.label}>
+              <label
+                className={clsx(
+                  item.isRefined
+                    ? "border-fuchsia text-fuchsia dark:border-primary dark:!bg-white dark:!text-black"
+                    : "border-primary",
+                  "h-36 w-36 overflow-hidden rounded-md hover:bg-paper-dark",
+
+                  "group relative flex cursor-pointer snap-center items-center justify-center border text-primary"
+                )}
+                onClick={() => updateFiler(rest.attribute, item.value)}
+              >
+                <Image
+                  src={`/${title?.toLowerCase()}/${item.label}.webp`}
+                  alt=""
+                  width={150}
+                  height={150}
+                  className={clsx(
+                    item.isRefined
+                      ? "grayscale-0"
+                      : "grayscale group-hover:grayscale-0",
+                    "h-auto w-auto max-w-[none] saturate-50"
+                  )}
+                />
+                <span className="absolute bottom-0 mb-3 text-center font-semibold text-white">
+                  {item.label}
+                </span>
+                <Checkbox isRefined={item.isRefined} label={item.label} />
+              </label>
+            </li>
+          ))}
+        </ScrollList>
+      ) : (
+        <ul className="flex flex-wrap gap-2 pb-4">
+          {items.map((item) => (
+            <li key={item.label}>
+              <label
+                className={clsx(
+                  item.isRefined
+                    ? "border-fuchsia text-fuchsia dark:border-primary dark:!bg-white dark:!text-black"
+                    : "border-primary",
+                  "rounded-full bg-white px-4 py-0.5 hover:border-fuchsia hover:text-fuchsia dark:bg-black hover:dark:border-primary hover:dark:bg-lime-700 dark:hover:text-primary",
+                  "relative flex cursor-pointer items-center justify-center border text-primary"
+                )}
+                onClick={() => updateFiler(rest.attribute, item.value)}
+              >
                 <span className="text-center">{item.label}</span>
-              )}
-              <input
-                type="checkbox"
-                checked={item.isRefined}
-                onChange={() => {}}
-                className="absolute h-full w-full cursor-pointer opacity-0"
-                aria-labelledby={`${item.label}-label`}
-              />
-            </label>
-          </li>
-        ))}
-      </ul>
+                <Checkbox isRefined={item.isRefined} label={item.label} />
+              </label>
+            </li>
+          ))}
+        </ul>
+      )}
       {canToggleShowMore && (
         <button
           onClick={toggleShowMore}
