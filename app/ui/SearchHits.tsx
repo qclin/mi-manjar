@@ -23,7 +23,7 @@ const CustomHit = ({ hit }: { hit: UtteranceHit }) => {
   const episodeTitle = episode?.title[isEnglish ? "en" : "es"];
 
   return (
-    <li className="my-2 max-w-prose border-b px-2 md:px-0 py-2">
+    <li className="my-2 max-w-prose border-b px-2 py-2 md:px-0">
       <Link href={`podcast/${hit.season}/${hit.episode}?start=${hit.start}`}>
         <Snippet
           hit={hit}

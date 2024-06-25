@@ -62,7 +62,7 @@ const RefinementList = ({
   );
   return (
     <div className="relative">
-      <h3 className="boder-b-primary textura my-4 px-4 md:px-0 border-b text-xl font-medium">
+      <h3 className="boder-b-primary textura my-4 border-b px-4 text-xl font-medium md:px-0">
         {title}
       </h3>
       {square ? (
@@ -101,7 +101,7 @@ const RefinementList = ({
           ))}
         </ScrollList>
       ) : (
-        <ul className="flex flex-wrap gap-2 pb-4 px-4 md:px-0">
+        <ul className="flex flex-wrap gap-2 px-4 pb-4 md:px-0">
           {items.map((item) => (
             <li key={item.label}>
               <label
@@ -127,7 +127,10 @@ const RefinementList = ({
           disabled={!canToggleShowMore}
           className="float-right"
         >
-          <ToggleIcon altText={isShowingMore? "Show less": "Show more" } isOpen={isShowingMore} />
+          <ToggleIcon
+            altText={isShowingMore ? "Show less" : "Show more"}
+            isOpen={isShowingMore}
+          />
         </button>
       )}
     </div>

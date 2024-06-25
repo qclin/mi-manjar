@@ -10,7 +10,7 @@ export const FilterPanel = () => {
   const togglePanel = () => setIsOpen(!isOpen);
   return (
     <section className="container mx-auto mt-4 md:mt-8">
-      <div className="mb-10 md:mb-4 mx-4 md:mx-0 flex items-center">
+      <div className="mx-4 mb-10 flex items-center md:mx-0 md:mb-4">
         <button
           onClick={togglePanel}
           className="mr-3 rounded-lg border border-primary px-3 py-1 uppercase hover:bg-white dark:hover:bg-black"

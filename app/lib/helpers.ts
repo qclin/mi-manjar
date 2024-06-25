@@ -30,14 +30,14 @@ export const convertMillisecondsToDisplayFriendly = (
 const padWithZero = (num: number) => num.toString().padStart(2, "0");
 
 export const convertMinutesSecondsToHoursMinutesSeconds = (timeStr: string) => {
-  let [minutes, seconds] = timeStr.split(':').map(Number);
+  let [minutes, seconds] = timeStr.split(":").map(Number);
   let hours = Math.floor(minutes / 60);
   minutes = minutes % 60;
-  if (hours > 0 ){
+  if (hours > 0) {
     return `${hours}:${padWithZero(minutes)}:${padWithZero(seconds)}`;
   }
-  return timeStr
-}
+  return timeStr;
+};
 
 export const innerViewportHeightOffset = () => {
   const topOffset = document.querySelector("header")?.offsetHeight || 0;

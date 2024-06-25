@@ -28,11 +28,11 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   const OverviewInfo = () => (
     <div className="flex justify-between">
       <div className="flex items-center">
-      <ToggleIcon
-        isOpen={isOpen}
-        altText={isOpen ? "close" : "open" + " summary panel"}
-      />
-      <span className="ml-4">Summary</span>
+        <ToggleIcon
+          isOpen={isOpen}
+          altText={isOpen ? "close" : "open" + " summary panel"}
+        />
+        <span className="ml-4">Summary</span>
       </div>
       <h1 className="text-left">{overview.title.es}</h1>
       <h1 className="text-left">{overview.title.en}</h1>
@@ -70,7 +70,7 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
       >
         <div className="px-10 py-8">
           <OverviewInfo />
-          <div className="mx-auto flex gap-8 mt-2 text-sm text-secondary">
+          <div className="mx-auto mt-2 flex gap-8 text-sm text-secondary">
             <p className="max-w-prose">{overview.summary.es}</p>
             <p className="max-w-prose">{overview.summary.en}</p>
           </div>

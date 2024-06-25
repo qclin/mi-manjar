@@ -7,9 +7,9 @@ type Props = {
 };
 const ToggleIcon = ({ isOpen, altText }: Props) => {
   return isOpen ? (
-    <MinusIcon alt={altText} width={14} height={14}/>
-  ) : ( 
-    <PlusIcon alt={altText} width={14} height={14}/>
+    <MinusIcon alt={altText} width={14} height={14} />
+  ) : (
+    <PlusIcon alt={altText} width={14} height={14} />
   );
 };
 
