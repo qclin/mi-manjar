@@ -1,11 +1,10 @@
 import clsx from "clsx";
 import React, { useCallback } from "react";
-import PlusIcon from "@/public/icons/plus.svg";
-import MinusIcon from "@/public/icons/minus.svg";
 import { useRefinementList, UseRefinementListProps } from "react-instantsearch";
 import Image from "next/image";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import ScrollList from "./ScrollList";
+import ToggleIcon from "../ToggleIcon";
 
 type Props = {
   square?: boolean;
@@ -63,7 +62,7 @@ const RefinementList = ({
   );
   return (
     <div className="relative">
-      <h3 className="boder-b-primary textura my-4 border-b text-xl font-medium">
+      <h3 className="boder-b-primary textura my-4 border-b px-4 text-xl font-medium md:px-0">
         {title}
       </h3>
       {square ? (
@@ -102,7 +101,7 @@ const RefinementList = ({
           ))}
         </ScrollList>
       ) : (
-        <ul className="flex flex-wrap gap-2 pb-4">
+        <ul className="flex flex-wrap gap-2 px-4 pb-4 md:px-0">
           {items.map((item) => (
             <li key={item.label}>
               <label
@@ -128,11 +127,10 @@ const RefinementList = ({
           disabled={!canToggleShowMore}
           className="float-right"
         >
-          {isShowingMore ? (
-            <MinusIcon alt="Show less" />
-          ) : (
-            <PlusIcon alt="Show more" />
-          )}
+          <ToggleIcon
+            altText={isShowingMore ? "Show less" : "Show more"}
+            isOpen={isShowingMore}
+          />
         </button>
       )}
     </div>

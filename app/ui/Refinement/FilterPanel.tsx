@@ -2,26 +2,25 @@ import React, { useState } from "react";
 import { CurrentRefinements } from "react-instantsearch";
 import RefinementList from "./RefinementList";
 import clsx from "clsx";
-import PlusIcon from "@/public/icons/plus.svg";
-import MinusIcon from "../../../public/icons/minus.svg";
+
+import ToggleIcon from "../ToggleIcon";
 
 export const FilterPanel = () => {
   const [isOpen, setIsOpen] = useState(false);
   const togglePanel = () => setIsOpen(!isOpen);
   return (
-    <section className="container mx-auto mt-8">
-      <div className="mb-4 flex items-center">
+    <section className="container mx-auto mt-4 md:mt-8">
+      <div className="mx-4 mb-10 flex items-center md:mx-0 md:mb-4">
         <button
           onClick={togglePanel}
-          className="mr-3 rounded-md border border-primary px-3 py-1 uppercase hover:bg-white dark:hover:bg-black"
+          className="mr-3 rounded-lg border border-primary px-3 py-1 uppercase hover:bg-white dark:hover:bg-black"
         >
           filter
         </button>
-        {isOpen ? (
-          <MinusIcon alt="close filter panel" />
-        ) : (
-          <PlusIcon alt="open filter panel" />
-        )}
+        <ToggleIcon
+          isOpen={isOpen}
+          altText={isOpen ? "close" : "open" + " filter panel"}
+        />
       </div>
       <CurrentRefinements />
       <div
@@ -39,9 +38,7 @@ export const FilterPanel = () => {
           limit={10}
           showMore
           showMoreLimit={100}
-          // transformItems={items =>
-          //   items.filter(item => item.count > 2)
-          // }
+          // transformItems={(items) => items.filter((item) => item.count > 2)}
           title="Keywords"
         />
         <RefinementList
