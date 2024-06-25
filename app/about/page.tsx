@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <main>
       <Header />
-      <section className="flex min-h-[93vh] max-w-prose flex-col justify-center gap-4 px-12">
+      <section className="flex min-h-[93vh] max-w-prose flex-col justify-center gap-4 p-4 md:px-12">
         <p className="decorative">
           The project began as a romantic exchange with my girlfriend, who
           suggested episodes from the series discussing topics such as bodily

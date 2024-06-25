@@ -52,10 +52,10 @@ function CustomSearchBox(props: UseSearchBoxProps) {
           setQuery(event.currentTarget.value);
         }}
         autoFocus
-        className="w-10 border-0 bg-paper-dark px-2 py-1 text-primary focus:outline-none md:w-96"
+        className="w-[75%] border-0 bg-paper-dark px-2 py-1 text-primary focus:outline-none md:w-96"
       />
       <button
-        className="px-2"
+        className="pt-1 px-2 absolute right-4"
         type="reset"
         hidden={inputValue.length === 0 || isSearchStalled}
       >
