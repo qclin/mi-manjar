@@ -4,7 +4,7 @@ import useLangugageToggle from "./useLanguageToggle";
 import { EpisodeDisplayText, SeasonDisplayText } from "../lib/constants";
 
 import clsx from "clsx";
-
+import ToggleIcon from "./ToggleIcon";
 interface Props {
   children: ReactNode;
   overview: Overview;
@@ -26,7 +26,14 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   );
 
   const OverviewInfo = () => (
-    <div className="grid grid-cols-3 items-baseline gap-4">
+    <div className="flex justify-between">
+      <div className="flex items-center">
+      <ToggleIcon
+        isOpen={isOpen}
+        altText={isOpen ? "close" : "open" + " summary panel"}
+      />
+      <span className="ml-4">Summary</span>
+      </div>
       <h1 className="text-left">{overview.title.es}</h1>
       <h1 className="text-left">{overview.title.en}</h1>
       <p className="flex items-baseline justify-between">
@@ -43,6 +50,7 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
     backgroundText: clsx("border-t border-primary bg-paper-light text-primary"),
     panelTransition: clsx("fixed duration-300 ease-in-out"),
   };
+
   return (
     <div className="summary-panel fixed inset-x-0 bottom-0 z-30">
       <div className={clsx(" bg-paper-light", styles.backgroundText)}>
@@ -62,9 +70,9 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
       >
         <div className="px-10 py-8">
           <OverviewInfo />
-          <div className="mt-2 grid grid-cols-3 gap-4 text-sm text-secondary">
-            <p>{overview.summary.es}</p>
-            <p>{overview.summary.en}</p>
+          <div className="mx-auto flex gap-8 mt-2 text-sm text-secondary">
+            <p className="max-w-prose">{overview.summary.es}</p>
+            <p className="max-w-prose">{overview.summary.en}</p>
           </div>
         </div>
       </div>

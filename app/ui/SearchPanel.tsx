@@ -32,7 +32,7 @@ const SearchPanel = () => {
   return (
     <LanguageContext.Provider value={selectedLanguage}>
       <InstantSearch searchClient={searchClient} indexName="utterances">
-        <div className="flex w-full items-baseline justify-between border-b border-b-primary px-8 py-3 text-primary ">
+        <div className="flex w-full items-baseline justify-between border-b border-b-primary px-2 md:px-8 py-3 text-primary">
           <h1 className="textura text-xl">Mi manjar</h1>
           <div className="flex items-baseline">
             <Link href="/about" className="uppercase hover:underline">
@@ -43,8 +43,8 @@ const SearchPanel = () => {
           </div>
         </div>
         <EmptyQueryBoundary>
-          <div className="fixed right-0 z-20 h-[93vh] max-w-prose overflow-y-scroll bg-paper-dark px-8 pb-12 text-primary">
-            <LanguageToggler className="absolute right-12 top-4" />
+          <div className="fixed right-0 z-20 h-[93vh] max-w-screen md:max-w-prose overflow-y-scroll bg-paper-dark px-2 md:px-8 pb-12 text-primary">
+            <LanguageToggler className="absolute right-4 md:right-12 top-4" />
             <SearchHits />
             <Pagination className="[&>ul>*]:px-2 [&>ul]:flex [&>ul]:w-fit [&>ul]:flex-row" />
           </div>

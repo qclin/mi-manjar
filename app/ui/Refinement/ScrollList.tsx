@@ -38,7 +38,7 @@ const ScrollList = ({ children }: React.PropsWithChildren) => {
   };
 
   return (
-    <div className="relative flex items-center " ref={containerRef}>
+    <div className="relative flex items-center px-4 md:px-0" ref={containerRef}>
       {showLeftArrow && (
         <button
           className="absolute -left-10 z-10 rotate-180"

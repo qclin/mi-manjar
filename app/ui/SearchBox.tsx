@@ -52,7 +52,7 @@ function CustomSearchBox(props: UseSearchBoxProps) {
           setQuery(event.currentTarget.value);
         }}
         autoFocus
-        className="w-96 border-0 bg-paper-dark px-2 py-1 text-primary focus:outline-none"
+        className="w-10 md:w-96 border-0 bg-paper-dark px-2 py-1 text-primary focus:outline-none"
       />
       <button
         className="px-2"
