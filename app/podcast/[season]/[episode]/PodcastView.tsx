@@ -3,9 +3,10 @@
 import { useCallback, useRef, useState } from "react";
 import { convertMillisecondsToSeconds } from "@/app/lib/helpers";
 import AudioPlayer from "@/app/ui/AudioPlayer";
+import AudioPlayerWithTransition, {PlayerRef} from "@/app/ui/AudioPlayerWithTransition";
 import { Podcast } from "@/app/lib/definitions";
 import TableOfContent from "@/app/ui/TableOfContent";
-import SummaryPanel from "@/app/ui/SummaryPanel";
+import SummaryPanel from "@/app/ui/SummaryPanel/SummaryPanel";
 import TranscriptionLog from "@/app/ui/TranscriptionLog";
 
 type Props = {
@@ -16,6 +17,8 @@ type Props = {
 export default function PodcastView({ podcast, timeToSkip }: Props) {
   const { overview, highlight, transcription } = podcast;
   const audioRef = useRef<HTMLAudioElement>(null);
+  const playerRef = useRef<PlayerRef>(null);
+
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [isReady, setIsReady] = useState(false);
@@ -89,7 +92,7 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
             );
           })}
         </section>
-        <SummaryPanel overview={overview}>
+        {/* <SummaryPanel overview={overview}>
           <AudioPlayer
             ref={audioRef}
             onTimeUpdate={updateCurrentSequence}
@@ -97,6 +100,12 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
             className="w-full"
             onCanPlayCapture={handleCanPlayThrough}
           />
+        </SummaryPanel> */}
+        <SummaryPanel overview={overview}             ref={playerRef}
+            onTimeUpdate={updateCurrentSequence}
+            filename={overview.audio_path}
+            className="w-full"
+            onCanPlayCapture={handleCanPlayThrough}>
         </SummaryPanel>
       </div>
     </div>
