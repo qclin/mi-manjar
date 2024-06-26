@@ -13,7 +13,7 @@ type Props = {
   timeToSkip?: string | null;
 };
 
-export default function Player({ podcast, timeToSkip }: Props) {
+export default function PodcastView({ podcast, timeToSkip }: Props) {
   const { overview, highlight, transcription } = podcast;
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);

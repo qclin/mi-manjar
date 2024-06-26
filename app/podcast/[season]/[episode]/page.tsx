@@ -2,7 +2,7 @@
 
 import { MediaCaption, Podcast } from "@/app/lib/definitions";
 import { useEffect, useState } from "react";
-import Player from "./Player";
+import PodcastView from "./PodcastView";
 import { fetchCaption, fetchPodcast } from "@/app/lib/api";
 import { useSearchParams } from "next/navigation";
 
@@ -49,7 +49,7 @@ export default function Page({ params }: { params: RouteParams }) {
       {mediaData && mediaData[podcastData.overview.release_date] && (
         <Carousel caption={mediaData[podcastData.overview.release_date]} />
       )}
-      <Player podcast={podcastData} timeToSkip={timeToSkip} />
+      <PodcastView podcast={podcastData} timeToSkip={timeToSkip} />
     </>
   );
 }
