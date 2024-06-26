@@ -50,9 +50,6 @@ const SearchHits = () => {
   const selectedLanguage = useContext(LanguageContext);
   const resultCount = results?.nbHits;
 
-  console.log("SearchHits", results, hits);
-  
-
   return (
     <section className="pt-4">
       {resultCount}{" "}
@@ -64,7 +61,10 @@ const SearchHits = () => {
           <CustomHit hit={h as UtteranceHit} key={h.objectID} />
         ))}
       </ul>
-      <Pagination className="[&>ul>*]:px-2 [&>ul]:flex [&>ul]:w-fit [&>ul]:flex-row" hidden={resultCount === 0 || results?.nbPages === 1} />
+      <Pagination
+        className="[&>ul>*]:px-2 [&>ul]:flex [&>ul]:w-fit [&>ul]:flex-row"
+        hidden={resultCount === 0 || results?.nbPages === 1}
+      />
     </section>
   );
 };

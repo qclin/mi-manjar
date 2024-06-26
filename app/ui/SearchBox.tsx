@@ -55,7 +55,7 @@ function CustomSearchBox(props: UseSearchBoxProps) {
         className="w-[75%] border-0 bg-paper-dark px-2 py-1 text-primary focus:outline-none md:w-96"
       />
       <button
-        className="pt-1 px-2 absolute right-4"
+        className="absolute right-4 px-2 pt-1"
         type="reset"
         hidden={inputValue.length === 0 || isSearchStalled}
       >

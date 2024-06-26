@@ -26,20 +26,22 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   );
 
   const OverviewInfo = () => (
-    <div className="flex flex-wrap md:flex-wrap-none justify-between items-center">
-      <div className="flex items-center mb-2 md:mb-0">
+    <div className="md:flex-wrap-none flex flex-wrap items-center justify-between">
+      <div className="mb-2 flex items-center md:mb-0">
         <ToggleIcon
           isOpen={isOpen}
           altText={isOpen ? "close" : "open" + " summary panel"}
         />
-        <span className="hidden md:block ml-4">Summary</span>
-        <h1 className="block md:hidden ml-3 text-left">{overview.title[selectedLanguage]}</h1>
+        <span className="ml-4 hidden md:block">Summary</span>
+        <h1 className="ml-3 block text-left md:hidden">
+          {overview.title[selectedLanguage]}
+        </h1>
       </div>
-      
-      <h1 className="text-left hidden md:block">{overview.title.es}</h1>
-      <h1 className="text-left hidden md:block">{overview.title.en}</h1>
-      
-      <p className="flex items-baseline justify-between w-full md:w-auto">
+
+      <h1 className="hidden text-left md:block">{overview.title.es}</h1>
+      <h1 className="hidden text-left md:block">{overview.title.en}</h1>
+
+      <p className="flex w-full items-baseline justify-between md:w-auto">
         <EpisodeTag />
         <span className={tagClassname}>{overview.duration}</span>
         <span className={tagClassname}>
@@ -57,14 +59,14 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   return (
     <div className="summary-panel fixed inset-x-0 bottom-0 z-30">
       <div className={clsx("bg-paper-light", styles.backgroundText)}>
-        <button onClick={togglePanel} className="w-full px-3 md:px-10 py-3">
+        <button onClick={togglePanel} className="w-full px-3 py-3 md:px-10">
           <OverviewInfo />
         </button>
         {children}
       </div>
       <div
         className={clsx(
-          "inset-x-0 bottom-0 z-20 transform shadow-md transition-transform overflow-y-auto h-2/3 md:h-auto max-h-[90vh]",
+          "inset-x-0 bottom-0 z-20 h-2/3 max-h-[90vh] transform overflow-y-auto shadow-md transition-transform md:h-auto",
           isOpen ? "translate-y-0 " : "translate-y-full",
           styles.backgroundText,
           styles.panelTransition
@@ -72,12 +74,14 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
       >
         <div className="p-4 pt-8 md:px-10 md:py-8">
           <OverviewInfo />
-          <LanguageToggler className="block md:hidden absolute right-4 top-2" />
-          <div className="hidden md:flex  mx-auto mt-2 gap-8 text-sm text-secondary">
+          <LanguageToggler className="absolute right-4 top-2 block md:hidden" />
+          <div className="mx-auto mt-2  hidden gap-8 text-sm text-secondary md:flex">
             <p className="max-w-prose">{overview.summary.es}</p>
             <p className="max-w-prose">{overview.summary.en}</p>
           </div>
-          <p className="block md:hidden text-sm text-secondary my-4">{overview.summary[selectedLanguage]}</p>
+          <p className="my-4 block text-sm text-secondary md:hidden">
+            {overview.summary[selectedLanguage]}
+          </p>
         </div>
       </div>
 

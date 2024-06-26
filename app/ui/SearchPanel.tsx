@@ -1,9 +1,6 @@
 import React, { ReactElement } from "react";
 import algoliasearch from "algoliasearch/lite";
-import {
-  InstantSearch,
-  useInstantSearch
-} from "react-instantsearch";
+import { InstantSearch, useInstantSearch } from "react-instantsearch";
 import SearchHits from "./SearchHits";
 import SearchBox from "./SearchBox";
 import useLangugageToggle, {
@@ -32,7 +29,7 @@ const SearchPanel = () => {
   return (
     <LanguageContext.Provider value={selectedLanguage}>
       <InstantSearch searchClient={searchClient} indexName="utterances">
-        <div className="hidden md:flex w-full items-baseline justify-between border-b border-b-primary py-3 text-primary px-8">
+        <div className="hidden w-full items-baseline justify-between border-b border-b-primary px-8 py-3 text-primary md:flex">
           <h1 className="textura text-xl">Mi manjar</h1>
           <div className="flex items-baseline">
             <Link href="/about" className="uppercase hover:underline">
@@ -43,20 +40,23 @@ const SearchPanel = () => {
           </div>
         </div>
 
-        <header className="block border-b border-b-primary px-2 py-3 text-primary md:hidden md:px-8" id="search-bar">
-          <div className="flex w-full items-baseline justify-between mb-4">
+        <header
+          className="block border-b border-b-primary px-2 py-3 text-primary md:hidden md:px-8"
+          id="search-bar"
+        >
+          <div className="mb-4 flex w-full items-baseline justify-between">
             <h1 className="textura text-xl">Mi manjar</h1>
             <div className="flex items-baseline">
-            <Link href="/about" className="uppercase">
-              About
-            </Link>
-            <DarkModeToggle />
+              <Link href="/about" className="uppercase">
+                About
+              </Link>
+              <DarkModeToggle />
             </div>
           </div>
           <SearchBox />
         </header>
         <EmptyQueryBoundary>
-          <div className="max-w-screen w-full fixed right-0 z-20 h-[90vh] md:h-[93vh] overflow-y-scroll bg-paper-dark px-2 pb-12 text-primary md:max-w-prose md:px-8">
+          <div className="max-w-screen fixed right-0 z-20 h-[90vh] w-full overflow-y-scroll bg-paper-dark px-2 pb-12 text-primary md:h-[93vh] md:max-w-prose md:px-8">
             <LanguageToggler className="absolute right-4 top-4 md:right-12" />
             <SearchHits />
           </div>

@@ -65,7 +65,7 @@ export default function Player({ podcast, timeToSkip }: Props) {
         }}
       />
       <div>
-        <section className="hidden md:block text-primary p-12 pb-36">
+        <section className="hidden p-12 pb-36 text-primary md:block">
           {!isReady && timeToSkip && <p> ... Loading audio file</p>}
           {transcription.utterances.map((utterance) => {
             const isActiveSequence = currentSequence === utterance.sequence;
@@ -90,14 +90,14 @@ export default function Player({ podcast, timeToSkip }: Props) {
           })}
         </section>
         <SummaryPanel overview={overview}>
-            <AudioPlayer
-              ref={audioRef}
-              onTimeUpdate={updateCurrentSequence}
-              filename={overview.audio_path}
-              className="w-full"
-              onCanPlayCapture={handleCanPlayThrough}
-            />
-          </SummaryPanel>
+          <AudioPlayer
+            ref={audioRef}
+            onTimeUpdate={updateCurrentSequence}
+            filename={overview.audio_path}
+            className="w-full"
+            onCanPlayCapture={handleCanPlayThrough}
+          />
+        </SummaryPanel>
       </div>
     </div>
   );

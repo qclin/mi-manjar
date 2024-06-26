@@ -33,19 +33,23 @@ const Carousel = ({ caption }: Props) => {
 
   return (
     <div>
-      
-      <div className="relative mx-auto w-full overflow-x-scroll p-4 border-b boder-primary">
+      <div className="boder-primary relative mx-auto w-full overflow-x-scroll border-b p-4">
         <div className="flex space-x-4 px-4">
           {signedVideoUrls.map((signedVideoUrl, index) => (
-            <video autoPlay controls key={`video-${index}`} className="h-[300px]
-            flex-none rounded-lg">
+            <video
+              autoPlay
+              controls
+              key={`video-${index}`}
+              className="h-[300px]
+            flex-none rounded-lg"
+            >
               <source src={signedVideoUrl.url} type="video/mp4" />
             </video>
           ))}
           {presignedUrls.map((media, index) => (
             <div
               key={index}
-              className="w-[300px] h-[300px] flex-none cursor-pointer relative"
+              className="relative h-[300px] w-[300px] flex-none cursor-pointer"
               onClick={() => setImagePreview(media.url)}
             >
               <Image
