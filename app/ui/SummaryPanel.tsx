@@ -13,7 +13,7 @@ interface Props {
 const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const [selectedLanguage] = useLangugageToggle();
+  const [selectedLanguage, LanguageToggler] = useLangugageToggle();
   const togglePanel = () => setIsOpen(!isOpen);
 
   const tagClassname = clsx("text-xs uppercase text-secondary");
@@ -26,17 +26,20 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
   );
 
   const OverviewInfo = () => (
-    <div className="flex justify-between">
-      <div className="flex items-center">
+    <div className="flex flex-wrap md:flex-wrap-none justify-between items-center">
+      <div className="flex items-center mb-2 md:mb-0">
         <ToggleIcon
           isOpen={isOpen}
           altText={isOpen ? "close" : "open" + " summary panel"}
         />
-        <span className="ml-4">Summary</span>
+        <span className="hidden md:block ml-4">Summary</span>
+        <h1 className="block md:hidden ml-3 text-left">{overview.title[selectedLanguage]}</h1>
       </div>
-      <h1 className="text-left">{overview.title.es}</h1>
-      <h1 className="text-left">{overview.title.en}</h1>
-      <p className="flex items-baseline justify-between">
+      
+      <h1 className="text-left hidden md:block">{overview.title.es}</h1>
+      <h1 className="text-left hidden md:block">{overview.title.en}</h1>
+      
+      <p className="flex items-baseline justify-between w-full md:w-auto">
         <EpisodeTag />
         <span className={tagClassname}>{overview.duration}</span>
         <span className={tagClassname}>
@@ -53,27 +56,28 @@ const SummaryPanel: React.FC<Props> = ({ children, overview }) => {
 
   return (
     <div className="summary-panel fixed inset-x-0 bottom-0 z-30">
-      <div className={clsx(" bg-paper-light", styles.backgroundText)}>
-        <button onClick={togglePanel} className="w-full px-10 py-2">
+      <div className={clsx("bg-paper-light", styles.backgroundText)}>
+        <button onClick={togglePanel} className="w-full px-3 md:px-10 py-3">
           <OverviewInfo />
         </button>
         {children}
       </div>
       <div
         className={clsx(
-          "inset-x-0 bottom-0 z-20 transform shadow-md transition-transform",
+          "inset-x-0 bottom-0 z-20 transform shadow-md transition-transform overflow-y-auto h-2/3 md:h-auto max-h-[90vh]",
           isOpen ? "translate-y-0 " : "translate-y-full",
           styles.backgroundText,
           styles.panelTransition
         )}
-        style={{ maxHeight: "90vh", overflowY: "auto" }}
       >
-        <div className="px-10 py-8">
+        <div className="p-4 pt-8 md:px-10 md:py-8">
           <OverviewInfo />
-          <div className="mx-auto mt-2 flex gap-8 text-sm text-secondary">
+          <LanguageToggler className="block md:hidden absolute right-4 top-2" />
+          <div className="hidden md:flex  mx-auto mt-2 gap-8 text-sm text-secondary">
             <p className="max-w-prose">{overview.summary.es}</p>
             <p className="max-w-prose">{overview.summary.en}</p>
           </div>
+          <p className="block md:hidden text-sm text-secondary my-4">{overview.summary[selectedLanguage]}</p>
         </div>
       </div>
 

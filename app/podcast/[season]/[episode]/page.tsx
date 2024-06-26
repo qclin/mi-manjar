@@ -18,7 +18,7 @@ export default function Page({ params }: { params: RouteParams }) {
   const [mediaData, setMediaData] = useState<MediaCaption>();
 
   const searchParams = useSearchParams();
-  const jumpToTime = searchParams?.get("start");
+  const timeToSkip = searchParams?.get("start");
   const { navigationState } = useAppContext();
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export default function Page({ params }: { params: RouteParams }) {
       {mediaData && mediaData[podcastData.overview.release_date] && (
         <Carousel caption={mediaData[podcastData.overview.release_date]} />
       )}
-      <Player podcast={podcastData} jumpToTime={jumpToTime} />
+      <Player podcast={podcastData} timeToSkip={timeToSkip} />
     </>
   );
 }

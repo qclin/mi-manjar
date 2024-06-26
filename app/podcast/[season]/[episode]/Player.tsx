@@ -10,10 +10,10 @@ import TranscriptionLog from "@/app/ui/TranscriptionLog";
 
 type Props = {
   podcast: Podcast;
-  jumpToTime?: string | null;
+  timeToSkip?: string | null;
 };
 
-export default function Player({ podcast, jumpToTime }: Props) {
+export default function Player({ podcast, timeToSkip }: Props) {
   const { overview, highlight, transcription } = podcast;
   const audioRef = useRef<HTMLAudioElement>(null);
   const [currentSequence, setCurrentSequence] = useState(0);
@@ -31,12 +31,12 @@ export default function Player({ podcast, jumpToTime }: Props) {
   const handleCanPlayThrough = useCallback(() => {
     // Jump to timestamp in the route search param
     const audio = audioRef.current;
-    if (!audio || !jumpToTime || isReady) return;
-    const startTime = convertMillisecondsToSeconds(parseInt(jumpToTime));
+    if (!audio || !timeToSkip || isReady) return;
+    const startTime = convertMillisecondsToSeconds(parseInt(timeToSkip));
     audio.currentTime = startTime;
     audio.play();
     setIsReady(true);
-  }, [jumpToTime, isReady]);
+  }, [timeToSkip, isReady]);
 
   const updateCurrentSequence = () => {
     if (!audioRef.current) return;
@@ -61,12 +61,12 @@ export default function Player({ podcast, jumpToTime }: Props) {
           const sequence = transcription.utterances.find(
             (t) => t.sequence === s
           );
-          sequence && jumpToTimestamp(sequence?.start);
+          sequence && jumpToTimestamp(sequence.start);
         }}
       />
       <div>
-        <section className="relative bg-paper-light p-8 text-primary md:p-12 md:pb-36">
-          {!isReady && jumpToTime && <p> ... Loading audio file</p>}
+        <section className="hidden md:block text-primary p-12 pb-36">
+          {!isReady && timeToSkip && <p> ... Loading audio file</p>}
           {transcription.utterances.map((utterance) => {
             const isActiveSequence = currentSequence === utterance.sequence;
             const entities = transcription.entities.filter(
@@ -88,7 +88,8 @@ export default function Player({ podcast, jumpToTime }: Props) {
               />
             );
           })}
-          <SummaryPanel overview={overview}>
+        </section>
+        <SummaryPanel overview={overview}>
             <AudioPlayer
               ref={audioRef}
               onTimeUpdate={updateCurrentSequence}
@@ -97,7 +98,6 @@ export default function Player({ podcast, jumpToTime }: Props) {
               onCanPlayCapture={handleCanPlayThrough}
             />
           </SummaryPanel>
-        </section>
       </div>
     </div>
   );
