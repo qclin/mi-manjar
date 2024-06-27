@@ -5,7 +5,7 @@
   cursor: pointer;
   outline: none;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 15px;
 }
 
 .slider::-webkit-slider-runnable-track {
@@ -28,7 +28,12 @@
   background-color: rgb(var(--color-background));
   border-radius: 50%;
   border: 1px solid rgb(var(--color-primary));
+  background: rgb(var(--color-primary));
   box-shadow: -100.5vw 0 0 100vw rgb(var(--color-primary));
+}
+
+.slider:hover::-webkit-slider-thumb {
+  box-shadow: -100.5vw 0 0 100vw rgb(var(--color-highlight));
 }
 
 .slider::-moz-range-thumb {
@@ -38,4 +43,8 @@
   border-radius: 50%;
   border: 1px solid rgb(var(--color-primary));
   box-shadow: -100.5vw 0 0 100vw rgb(var(--color-primary));
+}
+
+.slider:hover::-moz-range-thumb {
+  box-shadow: -100.5vw 0 0 100vw rgb(var(--color-highlight));
 }

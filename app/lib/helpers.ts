@@ -92,12 +92,13 @@ export const scrollToElementCenter = (
   }, 300); // Delay in milliseconds; adjust if necessary
 };
 
-
 export const formatTime = (time: number): string => {
   const hours = Math.floor(time / 3600);
   const minutes = Math.floor((time % 3600) / 60);
-  const seconds = Math.floor(time % 60).toString().padStart(2, '0');
-  return hours > 0 
-    ? `${hours}:${minutes.toString().padStart(2, '0')}:${seconds}`
+  const seconds = Math.floor(time % 60)
+    .toString()
+    .padStart(2, "0");
+  return hours > 0
+    ? `${hours}:${minutes.toString().padStart(2, "0")}:${seconds}`
     : `${minutes}:${seconds}`;
 };

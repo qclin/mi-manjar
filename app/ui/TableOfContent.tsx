@@ -40,10 +40,10 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
           height: `calc(100vh - ${innerViewportHeightOffset()}px)`,
         }}
       >
-        <div className="px-8 pb-28 pt-4">
+        <div className="px-2 pb-28 pt-4 md:px-4">
           <table className="w-full table-auto">
             <thead>
-              <tr className="text-left text-sm font-semibold uppercase [&>*]:pb-2">
+              <tr className="px-2 text-left text-sm font-semibold uppercase md:px-4 [&>*]:pb-2">
                 <th></th>
                 <th>Topics</th>
               </tr>
@@ -56,27 +56,27 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
                   tabIndex={0}
                   onClick={() => onSelect(start_time)}
                 >
-                  <td className="pr-8">
+                  <td className="px-2 md:px-4">
                     {convertMillisecondsToDisplayFriendly(start_time)}
                   </td>
-                  <td>{topic}</td>
+                  <td className="pr-2 md:pr-4">{topic}</td>
                 </tr>
               ))}
             </tbody>
           </table>
-          <h2 className="mb-2 mt-8 text-sm font-semibold uppercase">
-            Citations
-          </h2>
-          {citations &&
-            citations.map(({ citation, sequence }) => (
-              <button
-                key={`citation-${sequence}`}
-                className="text-left"
-                onClick={() => onSelectSequence(sequence)}
-              >
-                {citation}
-              </button>
-            ))}
+          <div className="md:mx4 mx-2 mb-2 mt-8">
+            <h2 className="text-sm font-semibold uppercase">Citations</h2>
+            {citations &&
+              citations.map(({ citation, sequence }) => (
+                <button
+                  key={`citation-${sequence}`}
+                  className="text-left"
+                  onClick={() => onSelectSequence(sequence)}
+                >
+                  {citation}
+                </button>
+              ))}
+          </div>
         </div>
       </div>
       {isPanelOpen && (

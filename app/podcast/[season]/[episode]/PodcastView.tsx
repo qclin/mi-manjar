@@ -3,7 +3,9 @@
 import { useCallback, useRef, useState } from "react";
 import { convertMillisecondsToSeconds } from "@/app/lib/helpers";
 import AudioPlayer from "@/app/ui/AudioPlayer";
-import AudioPlayerWithTransition, {PlayerRef} from "@/app/ui/AudioPlayerWithTransition";
+import AudioPlayerWithTransition, {
+  PlayerRef,
+} from "@/app/ui/AudioPlayerWithTransition";
 import { Podcast } from "@/app/lib/definitions";
 import TableOfContent from "@/app/ui/TableOfContent";
 import SummaryPanel from "@/app/ui/SummaryPanel/SummaryPanel";
@@ -16,7 +18,6 @@ type Props = {
 
 export default function PodcastView({ podcast, timeToSkip }: Props) {
   const { overview, highlight, transcription } = podcast;
-  const audioRef = useRef<HTMLAudioElement>(null);
   const playerRef = useRef<PlayerRef>(null);
 
   const [currentSequence, setCurrentSequence] = useState(0);
@@ -24,26 +25,26 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
   const [isReady, setIsReady] = useState(false);
 
   const jumpToTimestamp = (startTime: number) => {
-    if (!audioRef.current) return;
+    if (!playerRef.current) return;
 
     const seconds = convertMillisecondsToSeconds(startTime);
-    audioRef.current.currentTime = seconds;
-    audioRef.current.play();
+    playerRef.current.currentTime = seconds;
+
+    playerRef.current.seek(seconds);
+    playerRef.current.play();
   };
 
   const handleCanPlayThrough = useCallback(() => {
     // Jump to timestamp in the route search param
-    const audio = audioRef.current;
+    const audio = playerRef.current;
     if (!audio || !timeToSkip || isReady) return;
     const startTime = convertMillisecondsToSeconds(parseInt(timeToSkip));
-    audio.currentTime = startTime;
+    audio.seek(startTime);
     audio.play();
     setIsReady(true);
   }, [timeToSkip, isReady]);
 
-  const updateCurrentSequence = () => {
-    if (!audioRef.current) return;
-    const time = audioRef.current.currentTime;
+  const updateCurrentSequence = (time: number) => {
     setCurrentTime(time);
     const currentSegment = transcription.utterances.find((segment) => {
       const startSeconds = convertMillisecondsToSeconds(segment.start);
@@ -92,21 +93,14 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
             );
           })}
         </section>
-        {/* <SummaryPanel overview={overview}>
-          <AudioPlayer
-            ref={audioRef}
-            onTimeUpdate={updateCurrentSequence}
-            filename={overview.audio_path}
-            className="w-full"
-            onCanPlayCapture={handleCanPlayThrough}
-          />
-        </SummaryPanel> */}
-        <SummaryPanel overview={overview}             ref={playerRef}
-            onTimeUpdate={updateCurrentSequence}
-            filename={overview.audio_path}
-            className="w-full"
-            onCanPlayCapture={handleCanPlayThrough}>
-        </SummaryPanel>
+        <SummaryPanel
+          overview={overview}
+          ref={playerRef}
+          onUpdateSequence={updateCurrentSequence}
+          filename={overview.audio_path}
+          className="w-full"
+          onCanPlayCapture={handleCanPlayThrough}
+        ></SummaryPanel>
       </div>
     </div>
   );

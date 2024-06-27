@@ -18,6 +18,7 @@ import "./index.css";
 interface Props extends HTMLProps<HTMLAudioElement> {
   overview: Overview;
   filename: string;
+  onUpdateSequence(time: number): void;
 }
 
 export interface PlayerRef {
@@ -28,7 +29,7 @@ export interface PlayerRef {
 }
 
 const SummaryPanel = forwardRef<PlayerRef, Props>(
-  ({ filename, overview }, ref) => {
+  ({ filename, overview, onUpdateSequence, ...rest }, ref) => {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedLanguage, LanguageToggler] = useLangugageToggle();
     const togglePanel = () => setIsOpen(!isOpen);
@@ -85,6 +86,7 @@ const SummaryPanel = forwardRef<PlayerRef, Props>(
     const handleTimeUpdate = () => {
       if (audioRef.current) {
         setCurrentTime(audioRef.current.currentTime);
+        onUpdateSequence(audioRef.current.currentTime);
       }
     };
 
@@ -123,6 +125,7 @@ const SummaryPanel = forwardRef<PlayerRef, Props>(
           src={audioUrl}
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleMetadata}
+          {...rest}
         />
         <div className={clsx(bgTextStyle, "px-3 py-4 md:px-10")}>
           <div className="mb-4 flex items-center">
@@ -191,29 +194,13 @@ const SummaryPanel = forwardRef<PlayerRef, Props>(
                 {overview.summary[selectedLanguage]}
               </p>
             </div>
-            {/* <div className="fixed bottom-0 inset-x-0 mt-4 flex items-center justify-center bg-paper-light z-30">
-                <button
-                  onClick={() => setCurrentTime(currentTime - 10)}
-                  className="mx-4"
-                >
-                  <SeekBackIcon />
-                </button>
-                <button onClick={togglePlayPause} className="mx-4">
-                  {isPlaying ? <PauseIcon /> : <PlayIcon />}
-                </button>
-                <button
-                  onClick={() => setCurrentTime(currentTime + 10)}
-                  className="mx-4"
-                >
-                  <SeekBackIcon />
-                  
-                </button>
-              </div> */}
           </div>
         </Transition>
       </div>
     );
   }
 );
+
+SummaryPanel.displayName = "SummaryPanel";
 
 export default SummaryPanel;

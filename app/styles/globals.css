@@ -8,6 +8,7 @@
   --color-secondary: 100 116 139;
   --color-background: 255 250 233;
   --color-background-darker: 254 238 185;
+  --color-highlight: 239, 60, 255;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +18,7 @@
     --color-background: 26 32 44;
     --color-background-darker: 45 55 72;
     --color-border-light: 74 85 104;
+    --color-highlight: 77, 124, 15;
   }
 }
 
