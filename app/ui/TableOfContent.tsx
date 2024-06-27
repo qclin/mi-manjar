@@ -22,7 +22,7 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
 
   return (
     <>
-      <div className="fixed right-0 top-0 z-20 mx-12 flex">
+      <div className="fixed right-0 top-0 z-20 mx-4 flex md:mx-12">
         <button
           className="flex items-center py-4 uppercase text-primary"
           onClick={togglePanel}
