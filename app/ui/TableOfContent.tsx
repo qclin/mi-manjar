@@ -1,5 +1,6 @@
 "use client";
 import {
+  checkIsMobile,
   convertMillisecondsToDisplayFriendly,
   innerViewportHeightOffset,
 } from "@/app/lib/helpers";
@@ -19,6 +20,7 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
 
   const [isPanelOpen, setIsPanelOpen] = useState(false);
   const togglePanel = () => setIsPanelOpen(!isPanelOpen);
+  const isMobile = checkIsMobile();
 
   return (
     <>
@@ -34,13 +36,13 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
       <div
         className={clsx(
           "transition-width fixed right-0 top-[54px] z-20 overflow-y-scroll bg-paper-dark text-primary duration-500 ease-in-out",
-          isPanelOpen ? "w-1/3 min-w-[350px]" : "w-0"
+          isPanelOpen ? "w-screen md:w-1/3" : "w-0"
         )}
         style={{
           height: `calc(100vh - ${innerViewportHeightOffset()}px)`,
         }}
       >
-        <div className="px-2 pb-28 pt-4 md:px-4">
+        <div className="px-2 pb-6 pt-4 md:px-4 md:pb-28">
           <table className="w-full table-auto">
             <thead>
               <tr className="px-2 text-left text-sm font-semibold uppercase md:px-4 [&>*]:pb-2">
@@ -54,7 +56,10 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
                   key={`topic-${index}`}
                   className="cursor-pointer border-y border-secondary hover:border-primary hover:bg-paper-light hover:font-medium [&>*]:py-2"
                   tabIndex={0}
-                  onClick={() => onSelect(start_time)}
+                  onClick={() => {
+                    onSelect(start_time);
+                    isMobile && setIsPanelOpen(false);
+                  }}
                 >
                   <td className="px-2 md:px-4">
                     {convertMillisecondsToDisplayFriendly(start_time)}
@@ -71,7 +76,10 @@ const TableOfContent = ({ highlight, onSelect, onSelectSequence }: Props) => {
                 <button
                   key={`citation-${sequence}`}
                   className="text-left"
-                  onClick={() => onSelectSequence(sequence)}
+                  onClick={() => {
+                    onSelectSequence(sequence);
+                    isMobile && setIsPanelOpen(false);
+                  }}
                 >
                   {citation}
                 </button>

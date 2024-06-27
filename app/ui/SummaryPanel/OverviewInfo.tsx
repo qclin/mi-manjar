@@ -41,11 +41,16 @@ const OverviewInfo = ({
           }}
           className="mr-2 md:mr-4"
         >
-          {isPlaying ? <PauseIcon /> : <PlayIcon />}
+          {isPlaying ? <PauseIcon className="mx-1" /> : <PlayIcon />}
         </button>
         <h1 className="block text-left md:hidden">
           {overview.title[selectedLanguage]}
         </h1>
+        <ToggleIcon
+          isOpen={isOpen}
+          altText={isOpen ? "close" : "open" + " summary panel"}
+          className="ml-4 md:hidden"
+        />
         <h1 className="hidden text-left md:block">{overview.title.es}</h1>
       </div>
 

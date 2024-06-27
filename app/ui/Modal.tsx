@@ -30,10 +30,9 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, imageSrc }) => {
           className="h-full w-full"
         />
       </div>
-
       <button
         onClick={onClose}
-        className="fixed right-24 top-3 text-5xl text-primary"
+        className="fixed right-4 top-3 text-xl text-primary md:right-24 md:text-3xl"
       >
         X
       </button>

@@ -19,6 +19,7 @@ const config: Config = {
         secondary: "rgb(var(--color-secondary) / <alpha-value>)",
         fuchsia: "#EF3CFF",
         lightGreen: "#b2ef9b",
+        neutral: "rgb(var(--color-base))"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

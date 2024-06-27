@@ -102,3 +102,15 @@ export const formatTime = (time: number): string => {
     ? `${hours}:${minutes.toString().padStart(2, "0")}:${seconds}`
     : `${minutes}:${seconds}`;
 };
+
+export const checkIsMobile = () => {
+  const userAgent =
+    typeof window.navigator === "undefined" ? "" : navigator.userAgent;
+  const mobile = Boolean(
+    userAgent.match(
+      /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
+    )
+  );
+
+  return mobile;
+};

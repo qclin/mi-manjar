@@ -33,6 +33,7 @@
 }
 
 .slider:hover::-webkit-slider-thumb {
+  background-color: rgb(var(--color-base));
   box-shadow: -100.5vw 0 0 100vw rgb(var(--color-highlight));
 }
 
@@ -46,5 +47,6 @@
 }
 
 .slider:hover::-moz-range-thumb {
+  background-color: rgb(var(--color-base));
   box-shadow: -100.5vw 0 0 100vw rgb(var(--color-highlight));
 }
