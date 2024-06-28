@@ -55,7 +55,7 @@ const HighlightSequence = ({
         return (
           <div
             className={clsx(
-              "grid grid-cols-2 gap-8 text-3xl",
+              "grid text-3xl md:grid-cols-2 md:gap-8",
               isActiveSentence
                 ? "mb-2 border-b border-b-fuchsia"
                 : "text-gray-400"

@@ -17,8 +17,9 @@ const TranscriptView = ({
   const { entities, utterances } = transcription;
 
   if (!isReady && timeToSkip) return <p> ... Loading audio file</p>;
+
   return (
-    <section className="hidden p-12 pb-36 text-primary md:block">
+    <section className="p-3 text-primary md:p-12 md:pb-36">
       {utterances.map((utterance) => {
         const seletedEntities = entities.filter(
           (entity) => entity.sequence === utterance.sequence

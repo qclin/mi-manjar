@@ -45,7 +45,7 @@ const TranscriptionLog = ({
           />
         ) : (
           <p className="w-full appearance-none" onClick={() => onSelect(start)}>
-            <div className="grid grid-cols-2 gap-8">
+            <div className="md:grid md:grid-cols-2 md:gap-8">
               {renderTextOrEntities(text, entities)}
               {renderTextOrEntities(text_en || "", translatedEntities)}
             </div>
