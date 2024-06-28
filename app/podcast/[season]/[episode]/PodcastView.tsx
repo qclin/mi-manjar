@@ -5,8 +5,7 @@ import { convertMillisecondsToSeconds } from "@/app/lib/helpers";
 import { Podcast } from "@/app/lib/definitions";
 import TableOfContent from "@/app/ui/TableOfContent";
 import SummaryPanel, { PlayerRef } from "@/app/ui/Summary/SummaryPanel";
-import { TranscriptProvider } from "@/app/ui/Transcript";
-import TranscriptView from "@/app/ui/Transcript/TranscriptView";
+import { TranscriptProvider, TranscriptView } from "@/app/ui/Transcript";
 
 type Props = {
   podcast: Podcast;
@@ -16,7 +15,6 @@ type Props = {
 export default function PodcastView({ podcast, timeToSkip }: Props) {
   const { overview, highlight, transcription } = podcast;
   const playerRef = useRef<PlayerRef>(null);
-
   const [currentSequence, setCurrentSequence] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [isReady, setIsReady] = useState(false);
@@ -53,8 +51,16 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
     if (currentSequence != sequence) setCurrentSequence(sequence);
   };
 
+  const Child = () => (
+    <TranscriptView
+      isReady={isReady}
+      transcription={transcription}
+      translatedEntities={highlight.entities}
+    />
+  );
+
   return (
-    <div className="flex">
+    <div className="pb-36">
       <TableOfContent
         highlight={highlight}
         onSelect={jumpToTimestamp}
