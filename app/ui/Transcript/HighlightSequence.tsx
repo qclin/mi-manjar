@@ -2,7 +2,7 @@
 import { ASEntity, Word } from "@/app/lib/definitions";
 import {
   convertMillisecondsToSeconds,
-  isElementInViewport,
+  centerElementIntoViewport
 } from "@/app/lib/helpers";
 import clsx from "clsx";
 import { splitParagraphIntoSentences, matchSentencesToWords } from "./utils";
@@ -13,7 +13,7 @@ interface Props {
   text: string;
   textTranslated: string;
   words: Word[];
-  currentTime: number; // Current playback time of the audio in seconds
+  currentTime: number;
   entities: ASEntity[];
 }
 
@@ -35,49 +35,36 @@ const HighlightSequence = ({
   const translatedSentences = splitParagraphIntoSentences(textTranslated);
   const sentenceInfo = matchSentencesToWords(sentences, words);
 
-  const [active, setActive] = useState<number>();
+  const [activeIndex, setActiveIndex] = useState<number>();
 
   useEffect(() => {
-    const activeIndex = sentenceInfo.findIndex((sentence) =>
+    const activeSentence = sentenceInfo.findIndex((sentence) =>
       calcIsActive(currentTime, sentence.startTime, sentence.endTime)
     );
-    if (activeIndex !== active) {
-      setActive(activeIndex);
-      centerElementIntoViewport(activeIndex);
+    if (activeSentence !== activeIndex) {
+      setActiveIndex(activeSentence);
+      centerElementIntoViewport(activeSentence);
     }
-  }, [currentTime, active, sentenceInfo]);
+  }, [currentTime, activeIndex, sentenceInfo]);
 
-  const centerElementIntoViewport = (index: number) => {
-    var myElement = document.getElementById(`sentence-${index}`);
-    const topOffset = document.querySelector("header")?.offsetHeight || 0;
-    const bottomOffset =
-      (document.querySelector(".summary-panel") as HTMLElement)?.offsetHeight ||
-      0;
-
-    if (myElement && !isElementInViewport(myElement, topOffset, bottomOffset)) {
-      myElement?.scrollIntoView({
-        block: "center",
-        behavior: "smooth",
-        inline: "center",
-      });
-    }
-  };
 
   return (
     <div className="break-normal">
       {sentenceInfo.map((sentence, index) => {
+        const isActiveSentence = activeIndex === index;
+        const hasEntities = entities.length > 0; 
         return (
           <div
             className={clsx(
               "grid grid-cols-2 gap-8 text-3xl",
-              active === index
+              isActiveSentence
                 ? "mb-2 border-b border-b-fuchsia"
                 : "text-gray-400"
             )}
             key={index}
             id={`sentence-${index}`}
           >
-            {active === index ? (
+            {isActiveSentence ? (
               <div className="flex flex-wrap">
                 {sentence.words.map((word, index) => {
                   const isActiveWord = calcIsActive(
@@ -98,7 +85,7 @@ const HighlightSequence = ({
                   );
                 })}
               </div>
-            ) : entities.length > 0 ? (
+            ) : hasEntities ? (
               <EntitySequence text={sentence.sentence} entities={entities} />
             ) : (
               <p>{sentence.sentence}</p>

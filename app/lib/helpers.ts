@@ -64,6 +64,22 @@ export const isElementInViewport = (
   );
 };
 
+export const centerElementIntoViewport = (index: number) => {
+  var myElement = document.getElementById(`sentence-${index}`);
+  const topOffset = document.querySelector("header")?.offsetHeight || 0;
+  const bottomOffset =
+    (document.querySelector(".summary-panel") as HTMLElement)?.offsetHeight ||
+    0;
+
+  if (myElement && !isElementInViewport(myElement, topOffset, bottomOffset)) {
+    myElement?.scrollIntoView({
+      block: "center",
+      behavior: "smooth",
+      inline: "center",
+    });
+  }
+};
+
 export const formatTime = (time: number): string => {
   const hours = Math.floor(time / 3600);
   const minutes = Math.floor((time % 3600) / 60);

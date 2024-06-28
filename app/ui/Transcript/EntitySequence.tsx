@@ -7,21 +7,19 @@ interface Props {
   entities: ASEntity[] | Entity[];
 }
 
-const textToCheck = (entity: Entity | ASEntity) =>
+const textToCheck = (entity: Entity | ASEntity): string =>
   "text" in entity ? entity.text : entity.entity;
 
-const getClassNamesByType = (entity: Entity | ASEntity) =>
+const getClassNamesByType = (entity: Entity | ASEntity): string =>
   "entity_type" in entity
     ? getASClassnames(entity.entity_type)
     : getClassnames(entity.type);
 
-const EntitySequence: React.FC<Props> = ({ text, entities }) => {
-  // Function to escape special characters in regex patterns
-  const escapeRegExp = (text: string) => {
-    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
-  };
+const escapeRegExp = (text: string): string => {
+  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+};
 
-  // Build a regex pattern from the entitys and map them to their colors
+const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   const entityPatterns = entities
     .filter((entity) => textToCheck(entity).length >= 3)
     .map((entity) => ({
@@ -32,29 +30,29 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   const tokens = [];
   let lastOffset = 0;
 
-  text.replace(
-    new RegExp(entityPatterns.map((p) => p.pattern.source).join("|"), "gi"),
-    (match, offset) => {
-      const entityDetail = entityPatterns.find((p) => p.pattern.test(match));
-      const className = entityDetail ? entityDetail.color : "bg-pink";
+  const combinedPattern = new RegExp(entityPatterns.map((p) => p.pattern.source).join("|"), "gi");
 
-      // Push previous non-matching text if any
-      tokens.push(<span>{text.slice(lastOffset, offset)}</span>);
+  let uniqueId = 0; // To generate unique keys
 
-      // Push highlighted text
-      tokens.push(
-        <span key={offset + "h"} className={className}>
-          {match}
-        </span>
-      );
+  text.replace(combinedPattern, (match, offset) => {
+    const entityDetail = entityPatterns.find((p) => p.pattern.test(match));
+    const className = entityDetail ? entityDetail.color : "bg-pink";
 
-      lastOffset = offset + match.length;
-      return match;
-    }
-  );
+    tokens.push(<span key={`non-match-${uniqueId}`}>{text.slice(lastOffset, offset)}</span>);
+    uniqueId++;
 
-  // Push any trailing text
-  tokens.push(<span>{text.slice(lastOffset)}</span>);
+    tokens.push(
+      <span key={`match-${uniqueId}`} className={className}>
+        {match}
+      </span>
+    );
+    uniqueId++;
+
+    lastOffset = offset + match.length;
+    return match;
+  });
+
+  tokens.push(<span key={`non-match-${uniqueId}`}>{text.slice(lastOffset)}</span>);
 
   return <div>{tokens}</div>;
 };
