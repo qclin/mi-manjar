@@ -2,7 +2,7 @@
 import { ASEntity, Word } from "@/app/lib/definitions";
 import {
   convertMillisecondsToSeconds,
-  centerElementIntoViewport
+  centerElementIntoViewport,
 } from "@/app/lib/helpers";
 import clsx from "clsx";
 import { splitParagraphIntoSentences, matchSentencesToWords } from "./utils";
@@ -47,12 +47,11 @@ const HighlightSequence = ({
     }
   }, [currentTime, activeIndex, sentenceInfo]);
 
-
   return (
     <div className="break-normal">
       {sentenceInfo.map((sentence, index) => {
         const isActiveSentence = activeIndex === index;
-        const hasEntities = entities.length > 0; 
+        const hasEntities = entities.length > 0;
         return (
           <div
             className={clsx(

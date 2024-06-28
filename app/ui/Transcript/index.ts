@@ -1,1 +1,1 @@
-export * from "./TranscriptContext"
+export * from "./TranscriptContext";

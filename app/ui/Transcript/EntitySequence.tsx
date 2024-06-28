@@ -30,7 +30,10 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
   const tokens = [];
   let lastOffset = 0;
 
-  const combinedPattern = new RegExp(entityPatterns.map((p) => p.pattern.source).join("|"), "gi");
+  const combinedPattern = new RegExp(
+    entityPatterns.map((p) => p.pattern.source).join("|"),
+    "gi"
+  );
 
   let uniqueId = 0; // To generate unique keys
 
@@ -38,7 +41,11 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
     const entityDetail = entityPatterns.find((p) => p.pattern.test(match));
     const className = entityDetail ? entityDetail.color : "bg-pink";
 
-    tokens.push(<span key={`non-match-${uniqueId}`}>{text.slice(lastOffset, offset)}</span>);
+    tokens.push(
+      <span key={`non-match-${uniqueId}`}>
+        {text.slice(lastOffset, offset)}
+      </span>
+    );
     uniqueId++;
 
     tokens.push(
@@ -52,7 +59,9 @@ const EntitySequence: React.FC<Props> = ({ text, entities }) => {
     return match;
   });
 
-  tokens.push(<span key={`non-match-${uniqueId}`}>{text.slice(lastOffset)}</span>);
+  tokens.push(
+    <span key={`non-match-${uniqueId}`}>{text.slice(lastOffset)}</span>
+  );
 
   return <div>{tokens}</div>;
 };

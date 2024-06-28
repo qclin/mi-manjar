@@ -18,7 +18,7 @@ export const useTranscriptContext = (): ContextProps => {
   return context;
 };
 
-interface ProviderProps extends ContextProps{
+interface ProviderProps extends ContextProps {
   children: ReactNode;
 }
 

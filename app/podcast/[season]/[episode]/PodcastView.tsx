@@ -31,7 +31,6 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
     playerRef.current.play();
   };
 
-
   const handleCanPlayThrough = useCallback(() => {
     // Jump to timestamp in the route search param
     const audio = playerRef.current;
