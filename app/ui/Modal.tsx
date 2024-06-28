@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import Image from "next/image";
+import CloseIcon from "@/public/icons/close.svg";
 
 interface ModalProps {
   isOpen: boolean;
@@ -32,9 +33,9 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, imageSrc }) => {
       </div>
       <button
         onClick={onClose}
-        className="fixed right-4 top-3 text-xl text-primary md:right-24 md:text-3xl"
+        className="fixed right-4 top-3 text-primary md:right-24"
       >
-        X
+        <CloseIcon className="text-xl md:text-3xl" width="30" height="30" />
       </button>
     </div>
   );
