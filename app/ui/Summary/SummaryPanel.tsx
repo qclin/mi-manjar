@@ -128,7 +128,19 @@ const SummaryPanel = forwardRef<PlayerRef, Props>(
           {...rest}
         />
         <div className={clsx(bgTextStyle, "px-3 py-4 md:px-10")}>
-          <div className="mb-4 flex items-center">
+          <button
+            onClick={togglePanel}
+            className={clsx(isOpen ? "hidden" : "block", "w-full items-center")}
+          >
+            <OverviewInfo
+              isPlaying={isPlaying}
+              onTogglePlayPause={togglePlayPause}
+              isOpen={isOpen}
+              selectedLanguage={selectedLanguage}
+              overview={overview}
+            />
+          </button>
+          <div className="mt-4 flex items-center">
             <span className="text-xs text-secondary">
               {formatTime(currentTime)}
             </span>
@@ -142,18 +154,6 @@ const SummaryPanel = forwardRef<PlayerRef, Props>(
               {formatTime(duration)}
             </span>
           </div>
-          <button
-            onClick={togglePanel}
-            className={clsx(isOpen ? "hidden" : "block", "w-full items-center")}
-          >
-            <OverviewInfo
-              isPlaying={isPlaying}
-              onTogglePlayPause={togglePlayPause}
-              isOpen={isOpen}
-              selectedLanguage={selectedLanguage}
-              overview={overview}
-            />
-          </button>
         </div>
         <Transition show={isOpen}>
           <div
