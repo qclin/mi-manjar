@@ -1,6 +1,7 @@
 import { Entity, Transcription } from "@/app/lib/definitions";
 import TranscriptionLog from "./TranscriptionLog";
-
+import ExpandableView from "../ExpandableView";
+import PreviewSnippets from "./PreviewSnippets";
 type Props = {
   isReady: boolean;
   transcription: Transcription;
@@ -18,7 +19,7 @@ const TranscriptView = ({
 
   if (!isReady && timeToSkip) return <p> ... Loading audio file</p>;
 
-  return (
+  const Content = () => (
     <section className="p-3 text-primary md:p-12 md:pb-36">
       {utterances.map((utterance) => {
         const seletedEntities = entities.filter(
@@ -37,6 +38,24 @@ const TranscriptView = ({
         );
       })}
     </section>
+  );
+
+  return (
+    <>
+      <div className="block md:hidden">
+        <ExpandableView
+          title="transcription"
+          preview={
+            <PreviewSnippets snippets={transcription.utterances.slice(1, 4)} />
+          }
+        >
+          <Content />
+        </ExpandableView>
+      </div>
+      <div className="hidden md:block">
+        <Content />
+      </div>
+    </>
   );
 };
 
