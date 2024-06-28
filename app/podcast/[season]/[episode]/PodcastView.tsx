@@ -2,14 +2,11 @@
 
 import { useCallback, useRef, useState } from "react";
 import { convertMillisecondsToSeconds } from "@/app/lib/helpers";
-import AudioPlayer from "@/app/ui/AudioPlayer";
-import AudioPlayerWithTransition, {
-  PlayerRef,
-} from "@/app/ui/AudioPlayerWithTransition";
 import { Podcast } from "@/app/lib/definitions";
 import TableOfContent from "@/app/ui/TableOfContent";
-import SummaryPanel from "@/app/ui/SummaryPanel/SummaryPanel";
-import TranscriptionLog from "@/app/ui/TranscriptionLog";
+import SummaryPanel, { PlayerRef } from "@/app/ui/Summary/SummaryPanel";
+import { TranscriptProvider } from "@/app/ui/Transcript";
+import TranscriptView from "@/app/ui/Transcript/TranscriptView";
 
 type Props = {
   podcast: Podcast;
@@ -33,6 +30,7 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
     playerRef.current.seek(seconds);
     playerRef.current.play();
   };
+
 
   const handleCanPlayThrough = useCallback(() => {
     // Jump to timestamp in the route search param
@@ -69,30 +67,17 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
         }}
       />
       <div>
-        <section className="hidden p-12 pb-36 text-primary md:block">
-          {!isReady && timeToSkip && <p> ... Loading audio file</p>}
-          {transcription.utterances.map((utterance) => {
-            const isActiveSequence = currentSequence === utterance.sequence;
-            const entities = transcription.entities.filter(
-              (entity) => entity.sequence === utterance.sequence
-            );
-            const translatedEntities = highlight.entities.filter((entity) =>
-              entity.sequences.includes(utterance.sequence)
-            );
-
-            return (
-              <TranscriptionLog
-                key={utterance.sequence}
-                currentTime={currentTime}
-                isActive={isActiveSequence}
-                entities={entities}
-                translatedEntities={translatedEntities}
-                onSelect={jumpToTimestamp}
-                utterance={utterance}
-              />
-            );
-          })}
-        </section>
+        <TranscriptProvider
+          currentTime={currentTime}
+          currentSequence={currentSequence}
+          onSelect={jumpToTimestamp}
+        >
+          <TranscriptView
+            isReady={isReady}
+            transcription={transcription}
+            translatedEntities={highlight.entities}
+          />
+        </TranscriptProvider>
         <SummaryPanel
           overview={overview}
           ref={playerRef}
@@ -100,7 +85,7 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
           filename={overview.audio_path}
           className="w-full"
           onCanPlayCapture={handleCanPlayThrough}
-        ></SummaryPanel>
+        />
       </div>
     </div>
   );

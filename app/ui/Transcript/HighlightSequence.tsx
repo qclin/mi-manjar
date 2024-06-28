@@ -2,7 +2,6 @@
 import { ASEntity, Word } from "@/app/lib/definitions";
 import {
   convertMillisecondsToSeconds,
-  scrollToElementCenter,
   isElementInViewport,
 } from "@/app/lib/helpers";
 import clsx from "clsx";

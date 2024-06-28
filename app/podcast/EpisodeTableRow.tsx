@@ -1,7 +1,4 @@
-import clsx from "clsx";
 import { TopicFilter, Overview } from "../lib/definitions";
-import { useAppContext } from "@/app/ui/AppContext";
-import { useRouter } from "next/navigation";
 import PlayIcon from "@/public/icons/play.svg";
 import { convertMinutesSecondsToHoursMinutesSeconds } from "../lib/helpers";
 

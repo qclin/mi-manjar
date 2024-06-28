@@ -1,27 +1,25 @@
 "use client";
 
-import { ASEntity, Entity, Utterance } from "../lib/definitions";
+import { ASEntity, Entity, Utterance } from "../../lib/definitions";
 import HighlightSequence from "./HighlightSequence";
 import EntitySequence from "./EntitySequence";
+import { useTranscriptContext } from "./TranscriptContext";
 
 type Props = {
-  isActive: boolean;
-  currentTime: number;
   utterance: Utterance;
   entities: ASEntity[];
   translatedEntities: Entity[];
-  onSelect(start: number): void;
 };
 
 const TranscriptionLog = ({
   utterance,
-  currentTime,
-  isActive,
   entities,
   translatedEntities,
-  onSelect,
 }: Props) => {
   const { sequence, speaker, text, text_en, words, start } = utterance;
+  const { currentTime, currentSequence, onSelect } = useTranscriptContext();
+  const isActive = currentSequence === sequence; 
+
   return (
     <div id={`sequence-${sequence}`} className="my-2 grid grid-cols-10 gap-4">
       <span className="text-secondary">{speaker}</span>

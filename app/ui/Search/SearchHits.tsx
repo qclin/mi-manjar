@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import type { BaseHit, Hit } from "instantsearch.js";
 import { Snippet, useHits, Pagination } from "react-instantsearch";
-import { convertMillisecondsToDisplayFriendly } from "../lib/helpers";
-import { LanguageContext } from "./useLanguageToggle";
+import { convertMillisecondsToDisplayFriendly } from "../../lib/helpers";
+import { LanguageContext } from "../useLanguageToggle";
 import { SupportedLanguage, UtteranceSearch } from "@/app/lib/definitions";
 import { ResultsDisplayText } from "@/app/lib/constants";
-import EpisodeTag from "./EpisodeTag";
+import EpisodeTag from "../EpisodeTag";
 import Link from "next/link";
-import { useAppContext } from "./AppContext";
+import { useAppContext } from "../AppContext";
 type UtteranceHit = Hit<UtteranceSearch & BaseHit>;
 
 const CustomHit = ({ hit }: { hit: UtteranceHit }) => {

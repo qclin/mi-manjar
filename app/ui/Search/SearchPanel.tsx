@@ -6,7 +6,7 @@ import SearchBox from "./SearchBox";
 import useLangugageToggle, {
   LanguageContext,
 } from "@/app/ui/useLanguageToggle";
-import DarkModeToggle from "./DarkModeToggle";
+import DarkModeToggle from "../DarkModeToggle";
 import Link from "next/link";
 
 export const searchClient = algoliasearch(

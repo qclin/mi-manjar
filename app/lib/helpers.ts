@@ -64,34 +64,6 @@ export const isElementInViewport = (
   );
 };
 
-export const scrollToElementCenter = (
-  element: HTMLElement,
-  topOffset = 0,
-  bottomOffset = 0
-) => {
-  // Scroll the element into view, centered in the viewport considering the offsets
-  element.scrollIntoView({
-    behavior: "smooth",
-    block: "center",
-    inline: "nearest",
-  });
-
-  // Adjust the scroll position after a short delay to ensure it's centered considering the offsets
-  setTimeout(() => {
-    const elementRect = element.getBoundingClientRect();
-    const absoluteElementTop = elementRect.top + window.scrollY;
-    const offsetPosition =
-      absoluteElementTop -
-      (window.innerHeight - topOffset - bottomOffset) / 2 +
-      elementRect.height / 2;
-
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: "smooth",
-    });
-  }, 300); // Delay in milliseconds; adjust if necessary
-};
-
 export const formatTime = (time: number): string => {
   const hours = Math.floor(time / 3600);
   const minutes = Math.floor((time % 3600) / 60);
