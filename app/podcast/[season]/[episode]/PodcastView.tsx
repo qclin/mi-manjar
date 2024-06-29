@@ -51,13 +51,6 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
     if (currentSequence != sequence) setCurrentSequence(sequence);
   };
 
-  const Child = () => (
-    <TranscriptView
-      isReady={isReady}
-      transcription={transcription}
-      translatedEntities={highlight.entities}
-    />
-  );
 
   return (
     <div className="pb-36">
@@ -78,7 +71,7 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
           onSelect={jumpToTimestamp}
         >
           <TranscriptView
-            isReady={isReady}
+            isLoading={!isReady && timeToSkip}
             transcription={transcription}
             translatedEntities={highlight.entities}
           />
