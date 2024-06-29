@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { fetchSeasons } from "../lib/api";
 import type { SeasonOverview } from "../lib/definitions";
 import EpisodeTable from "./EpisodeTable";
-import SearchPanel, { searchClient } from "../ui/SearchPanel";
+import SearchPanel, { searchClient } from "../ui/Search/SearchPanel";
 import { Loader } from "../ui/Loader";
-import { FilterPanel } from "../ui/Refinement/FilterPanel";
+import { FilterPanel } from "../ui/Filter/FilterPanel";
 import { InstantSearch, Configure } from "react-instantsearch";
 import { useAppContext } from "../ui/AppContext";
 

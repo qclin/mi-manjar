@@ -1,4 +1,4 @@
-import { Word } from "../lib/definitions";
+import { Word } from "@/app/lib/definitions";
 
 export type SentenceInfo = {
   sentence: string;

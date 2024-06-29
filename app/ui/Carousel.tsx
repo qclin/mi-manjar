@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Caption, SignedURL } from "../lib/definitions";
 import { fetchPresignedURLs } from "../lib/api";
-import clsx from "clsx";
-import { convertHandlesToHyperlink } from "./utils";
 import Image from "next/image";
 import Modal from "./Modal";
 
@@ -35,47 +33,35 @@ const Carousel = ({ caption }: Props) => {
 
   return (
     <div>
-      <div className="grid gap-4 md:grid-cols-3">
-        {signedVideoUrls.map((signedVideoUrl, index) => (
-          <video autoPlay controls key={`video-${index}`}>
-            <source src={signedVideoUrl.url} type="video/mp4" />
-          </video>
-        ))}
-
-        {presignedUrls.map((media, index) => (
-          <button
-            key={`image-${index}`}
-            className={clsx(
-              "relative w-full",
-              presignedUrls.length === 5 &&
-                "first:md:col-span-2 first:md:row-span-2",
-              signedVideoUrls.length > 0 &&
-                presignedUrls.length === 5 &&
-                "appearance-none first-of-type:md:col-span-2 first-of-type:md:row-span-2"
-            )}
-            style={{ aspectRatio: "1 / 1" }}
-            onClick={() => setImagePreview(media.url)}
-          >
-            <Image
-              src={media.url}
-              alt={`supplemental imagery for episode - ${index}`}
-              layout="fill"
-              objectFit="cover"
-              className="h-full w-full"
-            />
-          </button>
-        ))}
-
-        <p
-          className="whitespace-break-spaces pl-4 text-2xl"
-          dangerouslySetInnerHTML={{ __html: convertHandlesToHyperlink(text) }}
-        />
-        <p
-          className="whitespace-break-spaces pl-4 text-2xl text-secondary"
-          dangerouslySetInnerHTML={{
-            __html: convertHandlesToHyperlink(text_en),
-          }}
-        />
+      <div className="boder-primary relative mx-auto w-full overflow-x-scroll border-b p-4">
+        <div className="flex space-x-4 px-4">
+          {signedVideoUrls.map((signedVideoUrl, index) => (
+            <video
+              autoPlay
+              controls
+              key={`video-${index}`}
+              className="h-[300px]
+            flex-none rounded-lg"
+            >
+              <source src={signedVideoUrl.url} type="video/mp4" />
+            </video>
+          ))}
+          {presignedUrls.map((media, index) => (
+            <div
+              key={index}
+              className="relative h-[300px] w-[300px] flex-none cursor-pointer"
+              onClick={() => setImagePreview(media.url)}
+            >
+              <Image
+                src={media.url}
+                alt={`supplemental imagery for episode - ${index}`}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-lg"
+              />
+            </div>
+          ))}
+        </div>
       </div>
       <Modal
         isOpen={!!imagePreview}

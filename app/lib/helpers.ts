@@ -64,30 +64,41 @@ export const isElementInViewport = (
   );
 };
 
-export const scrollToElementCenter = (
-  element: HTMLElement,
-  topOffset = 0,
-  bottomOffset = 0
-) => {
-  // Scroll the element into view, centered in the viewport considering the offsets
-  element.scrollIntoView({
-    behavior: "smooth",
-    block: "center",
-    inline: "nearest",
-  });
+export const centerElementIntoViewport = (index: number) => {
+  var myElement = document.getElementById(`sentence-${index}`);
+  const topOffset = document.querySelector("header")?.offsetHeight || 0;
+  const bottomOffset =
+    (document.querySelector(".summary-panel") as HTMLElement)?.offsetHeight ||
+    0;
 
-  // Adjust the scroll position after a short delay to ensure it's centered considering the offsets
-  setTimeout(() => {
-    const elementRect = element.getBoundingClientRect();
-    const absoluteElementTop = elementRect.top + window.scrollY;
-    const offsetPosition =
-      absoluteElementTop -
-      (window.innerHeight - topOffset - bottomOffset) / 2 +
-      elementRect.height / 2;
-
-    window.scrollTo({
-      top: offsetPosition,
+  if (myElement && !isElementInViewport(myElement, topOffset, bottomOffset)) {
+    myElement?.scrollIntoView({
+      block: "center",
       behavior: "smooth",
+      inline: "center",
     });
-  }, 300); // Delay in milliseconds; adjust if necessary
+  }
+};
+
+export const formatTime = (time: number): string => {
+  const hours = Math.floor(time / 3600);
+  const minutes = Math.floor((time % 3600) / 60);
+  const seconds = Math.floor(time % 60)
+    .toString()
+    .padStart(2, "0");
+  return hours > 0
+    ? `${hours}:${minutes.toString().padStart(2, "0")}:${seconds}`
+    : `${minutes}:${seconds}`;
+};
+
+export const checkIsMobile = () => {
+  const userAgent =
+    typeof window.navigator === "undefined" ? "" : navigator.userAgent;
+  const mobile = Boolean(
+    userAgent.match(
+      /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
+    )
+  );
+
+  return mobile;
 };
