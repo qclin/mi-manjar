@@ -51,7 +51,6 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
     if (currentSequence != sequence) setCurrentSequence(sequence);
   };
 
-
   return (
     <div className="pb-36">
       <TableOfContent

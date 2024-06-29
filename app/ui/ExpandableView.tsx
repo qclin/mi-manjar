@@ -15,9 +15,7 @@ const ExpandableView = ({ title, preview, children }: Props) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const Header = ({ className }: { className?: string }) => (
-    <h1 className={clsx("text-lg uppercase text-primary", className)}>
-      {title}
-    </h1>
+    <h1 className={clsx("uppercase text-primary", className)}>{title}</h1>
   );
 
   const bgColors = clsx("bg-gray-200 dark:bg-gray-600");
@@ -27,7 +25,7 @@ const ExpandableView = ({ title, preview, children }: Props) => {
       <div className={clsx("relative", isExpanded ? "h-screen" : "h-auto")}>
         <div
           className={clsx(
-            "mx-3 my-5 h-[65vh] overflow-y-hidden rounded-lg border border-black dark:border-white",
+            "mx-3 my-5 h-3/5 overflow-y-hidden rounded-lg border border-black dark:border-white",
             bgColors
           )}
         >
