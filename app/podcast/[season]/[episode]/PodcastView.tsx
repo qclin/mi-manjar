@@ -70,7 +70,7 @@ export default function PodcastView({ podcast, timeToSkip }: Props) {
           onSelect={jumpToTimestamp}
         >
           <TranscriptView
-            isLoading={!isReady && timeToSkip}
+            isLoading={!isReady && !!timeToSkip}
             transcription={transcription}
             translatedEntities={highlight.entities}
           />
