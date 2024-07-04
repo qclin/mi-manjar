@@ -1,14 +1,14 @@
-import { TopicFilter, Overview } from "../lib/definitions";
+import { Overview } from "../lib/definitions";
 import PlayIcon from "@/public/icons/play.svg";
 import { convertMinutesSecondsToHoursMinutesSeconds } from "../lib/helpers";
+import React from "react";
 
 type Props = {
-  topic?: TopicFilter;
   overview: Overview;
   onClick(season: number, episode: number, title: string): void;
 };
 
-const EpisodeListItem = ({ topic, overview, onClick }: Props) => {
+const EpisodeListItem = ({ overview, onClick }: Props) => {
   const { title, season, episode, release_date, duration, words_per_minute } =
     overview;
   return (
@@ -35,4 +35,4 @@ const EpisodeListItem = ({ topic, overview, onClick }: Props) => {
   );
 };
 
-export default EpisodeListItem;
+export default React.memo(EpisodeListItem);

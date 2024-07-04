@@ -1,7 +1,12 @@
-import { Entity, Transcription } from "@/app/lib/definitions";
+import { ASEntity, Entity, Transcription } from "@/app/lib/definitions";
 import TranscriptionLog from "./TranscriptionLog";
 import ExpandableView from "../ExpandableView";
 import PreviewSnippets from "./PreviewSnippets";
+import useIsMobile from "@/app/hooks/useIsMobile";
+import { useTranscriptContext } from "./TranscriptContext";
+import { useMemo } from "react";
+import HighlightSequence from "./HighlightSequence";
+import { filterEntitiesBySequence } from "./utils";
 
 type Props = {
   isLoading: boolean;
@@ -10,52 +15,62 @@ type Props = {
 };
 
 const TranscriptView = ({ isLoading, ...rest }: Props) => {
+  const isMobile = useIsMobile();
+  const { currentSequence, currentTime } = useTranscriptContext();
+  const { transcription, translatedEntities } = rest;
+  const { entities, utterances } = transcription;
+
+  const activeIndex = useMemo(() => {
+    const index = utterances.findIndex(
+      ({ sequence }) => sequence === currentSequence
+    );
+    return index > -1 ? index : 1;
+  }, [currentSequence]);
+
   if (isLoading) return <p> ... Loading audio file</p>;
 
-  return (
-    <>
-      <div className="block md:hidden">
-        <ExpandableView
-          title="transcription"
-          preview={
-            <PreviewSnippets
-              snippets={rest.transcription.utterances.slice(1, 4)}
-            />
-          }
-        >
-          <Content key="mobile" {...rest} />
-        </ExpandableView>
-      </div>
-      <div className="hidden md:block">
-        <Content key="desktop" {...rest} />
-      </div>
-    </>
-  );
-};
+  if (isMobile) {
+    const activeUtterance = utterances[activeIndex];
+    const { selectedEntities } = filterEntitiesBySequence(
+      entities,
+      translatedEntities,
+      currentSequence
+    );
 
-export default TranscriptView;
+    const { text, text_en, words } = activeUtterance;
+    return (
+      <ExpandableView
+        title="transcription"
+        preview={
+          <PreviewSnippets
+            snippets={utterances.slice(activeIndex, activeIndex + 2)}
+          />
+        }
+      >
+        <HighlightSequence
+          text={text}
+          textTranslated={text_en || ""}
+          words={words}
+          currentTime={currentTime}
+          entities={selectedEntities}
+        />
+      </ExpandableView>
+    );
+  }
 
-type ContentProps = {
-  key: string;
-  transcription: Transcription;
-  translatedEntities: Entity[];
-};
-
-const Content = ({ key, transcription, translatedEntities }: ContentProps) => {
-  const { entities, utterances } = transcription;
   return (
     <section className="p-3 text-primary md:p-12 md:pb-36">
       {utterances.map((utterance) => {
-        const seletedEntities = entities.filter(
-          (entity) => entity.sequence === utterance.sequence
-        );
-        const selectedTranslatedEntities = translatedEntities.filter((entity) =>
-          entity.sequences.includes(utterance.sequence)
-        );
+        const { selectedEntities, selectedTranslatedEntities } =
+          filterEntitiesBySequence(
+            entities,
+            translatedEntities,
+            utterance.sequence
+          );
         return (
           <TranscriptionLog
-            key={[key, utterance.sequence].join("-")}
-            entities={seletedEntities}
+            key={utterance.sequence}
+            entities={selectedEntities}
             translatedEntities={selectedTranslatedEntities}
             utterance={utterance}
           />
@@ -64,3 +79,5 @@ const Content = ({ key, transcription, translatedEntities }: ContentProps) => {
     </section>
   );
 };
+
+export default TranscriptView;
