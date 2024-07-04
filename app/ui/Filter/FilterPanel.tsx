@@ -38,7 +38,6 @@ export const FilterPanel = () => {
           limit={10}
           showMore
           showMoreLimit={100}
-          // transformItems={(items) => items.filter((item) => item.count > 2)}
           title="Keywords"
         />
         <RefinementList

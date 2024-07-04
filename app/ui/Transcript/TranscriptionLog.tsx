@@ -27,7 +27,7 @@ const TranscriptionLog = ({
     return entities.length > 0 ? (
       <EntitySequence text={text} entities={entities} />
     ) : (
-      <span>{text}</span>
+      <p>{text}</p>
     );
   };
 
@@ -45,7 +45,7 @@ const TranscriptionLog = ({
           />
         ) : (
           <p className="w-full appearance-none" onClick={() => onSelect(start)}>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="mx-auto grid grid-cols-2 gap-8">
               {renderTextOrEntities(text, entities)}
               {renderTextOrEntities(text_en || "", translatedEntities)}
             </div>

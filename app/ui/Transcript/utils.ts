@@ -1,4 +1,4 @@
-import { Word } from "@/app/lib/definitions";
+import { ASEntity, Entity, Word } from "@/app/lib/definitions";
 
 export type SentenceInfo = {
   sentence: string;
@@ -63,3 +63,18 @@ export const convertHandlesToHyperlink = (text: string) => {
   }
   return linkedText;
 };
+
+export function filterEntitiesBySequence(
+  entities: ASEntity[],
+  translatedEntities: Entity[],
+  sequence: number
+) {
+  const selectedEntities = entities.filter(
+    (entity) => entity.sequence === sequence
+  );
+  const selectedTranslatedEntities = translatedEntities.filter((entity) =>
+    entity.sequences.includes(sequence)
+  );
+
+  return { selectedEntities, selectedTranslatedEntities };
+}

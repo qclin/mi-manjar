@@ -8,6 +8,7 @@ import clsx from "clsx";
 import { splitParagraphIntoSentences, matchSentencesToWords } from "./utils";
 import EntitySequence from "./EntitySequence";
 import { useEffect, useState } from "react";
+import useIsMobile from "@/app/hooks/useIsMobile";
 
 interface Props {
   text: string;
@@ -31,6 +32,7 @@ const HighlightSequence = ({
   currentTime,
   entities,
 }: Props): JSX.Element => {
+  const isMobile = useIsMobile();
   const sentences = splitParagraphIntoSentences(text);
   const translatedSentences = splitParagraphIntoSentences(textTranslated);
   const sentenceInfo = matchSentencesToWords(sentences, words);
@@ -47,6 +49,45 @@ const HighlightSequence = ({
     }
   }, [currentTime, activeIndex, sentenceInfo]);
 
+  if (isMobile) {
+    if (
+      activeIndex === undefined ||
+      activeIndex === -1 ||
+      !sentenceInfo[activeIndex]
+    ) {
+      return <></>;
+    }
+
+    const activeSentence = sentenceInfo[activeIndex];
+
+    return (
+      <div className="flex h-[70vh] flex-col justify-center px-2 text-2xl">
+        <div className="flex flex-wrap rounded-lg bg-white py-2">
+          {activeSentence.words.map((word, index) => {
+            const isActiveWord = calcIsActive(
+              currentTime,
+              word.start,
+              word.end
+            );
+            return (
+              <span
+                key={index}
+                className={clsx(
+                  isActiveWord && "bg-yellow-200 dark:bg-lime-700",
+                  "mx-1"
+                )}
+              >
+                {word.text}
+              </span>
+            );
+          })}
+        </div>
+        <p className="py-2 text-secondary">
+          {translatedSentences[activeIndex ?? 0]}
+        </p>
+      </div>
+    );
+  }
   return (
     <div className="break-normal">
       {sentenceInfo.map((sentence, index) => {

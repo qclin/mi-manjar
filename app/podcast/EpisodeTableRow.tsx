@@ -1,14 +1,14 @@
+import React from "react";
 import { TopicFilter, Overview } from "../lib/definitions";
 import PlayIcon from "@/public/icons/play.svg";
 import { convertMinutesSecondsToHoursMinutesSeconds } from "../lib/helpers";
 
 type Props = {
-  topic?: TopicFilter;
   overview: Overview;
   onClick(season: number, episode: number, title: string): void;
 };
 
-const EpisodeTableRow = ({ topic, overview, onClick }: Props) => {
+const EpisodeTableRow = ({ overview, onClick }: Props) => {
   const { title, season, episode, release_date, duration, words_per_minute } =
     overview;
 
@@ -38,4 +38,4 @@ const EpisodeTableRow = ({ topic, overview, onClick }: Props) => {
   );
 };
 
-export default EpisodeTableRow;
+export default React.memo(EpisodeTableRow);
