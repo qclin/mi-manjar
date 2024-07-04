@@ -69,7 +69,7 @@ const ExpandableView = ({ title, preview, children }: Props) => {
             />
           </button>
 
-          <div className="flex-1 overflow-y-auto">
+          <div>
             <Header className="m-4" />
             {children}
           </div>

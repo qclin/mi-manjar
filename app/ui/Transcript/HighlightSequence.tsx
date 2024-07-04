@@ -61,7 +61,7 @@ const HighlightSequence = ({
     const activeSentence = sentenceInfo[activeIndex];
 
     return (
-      <div className="flex h-[70vh] flex-col justify-center px-2 text-2xl">
+      <div className="flex h-[75vh] flex-col justify-center overflow-y-auto px-2 text-2xl">
         <div className="flex flex-wrap rounded-lg bg-white py-2">
           {activeSentence.words.map((word, index) => {
             const isActiveWord = calcIsActive(
