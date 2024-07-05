@@ -183,6 +183,7 @@ const SummaryPanel = forwardRef<PlayerRef, Props>(
                 isOpen={isOpen}
                 selectedLanguage={selectedLanguage}
                 overview={overview}
+                onTogglePanel={togglePanel}
               />
               <LanguageToggler className="absolute right-4 top-2 block md:hidden" />
 

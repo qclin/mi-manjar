@@ -5,12 +5,13 @@ type Props = {
   isOpen: boolean;
   altText: string;
   className?: string;
+  size?: number;
 };
-const ToggleIcon = ({ isOpen, altText, className }: Props) => {
+const ToggleIcon = ({ isOpen, altText, className, size = 16 }: Props) => {
   return isOpen ? (
-    <MinusIcon alt={altText} width={16} height={16} className={className} />
+    <MinusIcon alt={altText} width={size} height={size} className={className} />
   ) : (
-    <PlusIcon alt={altText} width={16} height={16} className={className} />
+    <PlusIcon alt={altText} width={size} height={size} className={className} />
   );
 };
 

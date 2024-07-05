@@ -1,10 +1,9 @@
 import { Overview, SupportedLanguage } from "@/app/lib/definitions";
-import { EpisodeDisplayText, SeasonDisplayText } from "@/app/lib/constants";
 import PlayIcon from "@/public/icons/play.svg";
 import PauseIcon from "@/public/icons/pause.svg";
-
-import clsx from "clsx";
 import ToggleIcon from "../ToggleIcon";
+import useIsMobile from "@/app/hooks/useIsMobile";
+import EpisodeMetaTag from "./EpisodeMetaTag";
 
 type Props = {
   isPlaying: boolean;
@@ -12,6 +11,7 @@ type Props = {
   selectedLanguage: SupportedLanguage;
   overview: Overview;
   onTogglePlayPause(): void;
+  onTogglePanel?: () => void;
 };
 
 const OverviewInfo = ({
@@ -20,58 +20,62 @@ const OverviewInfo = ({
   selectedLanguage,
   overview,
   onTogglePlayPause,
+  onTogglePanel,
 }: Props) => {
-  const tagClassname = clsx("text-xs uppercase text-secondary md:ml-4");
+  const isMobile = useIsMobile();
 
-  const EpisodeTag = () => {
+  const PlayPauseButton = () => (
+    <button
+      onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
+        e.stopPropagation();
+        onTogglePlayPause();
+      }}
+      className="mr-2 md:mr-4"
+    >
+      {isPlaying ? <PauseIcon className="mx-1" /> : <PlayIcon />}
+    </button>
+  );
+
+  const EpisodeTitle = ({ language }: { language: SupportedLanguage }) => (
+    <h1 className="text-left">{overview.title[language]}</h1>
+  );
+
+  if (isMobile) {
     return (
-      <div className={tagClassname}>
-        {SeasonDisplayText[selectedLanguage]} {overview.season},{" "}
-        {EpisodeDisplayText[selectedLanguage]} {overview.episode}
+      <div>
+        <div className="mb-2 flex w-full items-center justify-between">
+          <div className="flex items-center">
+            <PlayPauseButton />
+            <EpisodeTitle language={selectedLanguage} />
+          </div>
+          <button onClick={onTogglePanel} className="ml-2">
+            <ToggleIcon
+              isOpen={isOpen}
+              altText={isOpen ? "close" : "open" + " summary panel"}
+              size={20}
+            />
+          </button>
+        </div>
+        <EpisodeMetaTag
+          overview={overview}
+          selectedLanguage={selectedLanguage}
+        />
       </div>
     );
-  };
+  }
+
   return (
-    <div className="md:flex-wrap-none flex flex-wrap items-center justify-between">
-      <div className="mb-2 flex items-center md:mb-0">
-        <button
-          onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
-            e.stopPropagation();
-            onTogglePlayPause();
-          }}
-          className="mr-2 md:mr-4"
-        >
-          {isPlaying ? <PauseIcon className="mx-1" /> : <PlayIcon />}
-        </button>
-        <h1 className="block text-left md:hidden">
-          {overview.title[selectedLanguage]}
-        </h1>
-        <ToggleIcon
-          isOpen={isOpen}
-          altText={isOpen ? "close" : "open" + " summary panel"}
-          className="ml-4 md:hidden"
-        />
-        <h1 className="hidden text-left md:block">{overview.title.es}</h1>
+    <div className="flex items-center justify-between">
+      <div className="mb-0 flex items-center">
+        <PlayPauseButton />
+        <EpisodeTitle language={SupportedLanguage.spanish} />
       </div>
-
-      <h1 className="hidden text-left md:block">{overview.title.en}</h1>
-
-      <p className="flex w-full items-baseline justify-between md:w-auto">
-        <EpisodeTag />
-        <span className={tagClassname}>{overview.duration}</span>
-        <span className={tagClassname}>
-          {overview.words_per_minute ? `${overview.words_per_minute} wpm` : ""}
-        </span>
-      </p>
-      <div className="hidden items-center md:flex">
-        {!isOpen && (
-          <span className="mr-2 hidden text-sm md:block">Summary</span>
-        )}
-        <ToggleIcon
-          isOpen={isOpen}
-          altText={isOpen ? "close" : "open" + " summary panel"}
-        />
-      </div>
+      <EpisodeTitle language={SupportedLanguage.english} />
+      <EpisodeMetaTag overview={overview} selectedLanguage={selectedLanguage} />
+      <ToggleIcon
+        isOpen={isOpen}
+        altText={isOpen ? "close" : "open" + " summary panel"}
+      />
     </div>
   );
 };
