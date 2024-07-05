@@ -18,7 +18,10 @@ const ExpandableView = ({ title, preview, children }: Props) => {
     <h1 className={clsx("uppercase text-primary", className)}>{title}</h1>
   );
 
-  const bgColors = clsx("bg-gray-200 dark:bg-gray-600");
+  const bgColors = {
+    container: clsx("bg-gray-200 dark:bg-gray-600"),
+    button: clsx("rounded-full bg-white/60 p-2 dark:bg-black/60"),
+  };
 
   return (
     <div className="relative">
@@ -26,17 +29,14 @@ const ExpandableView = ({ title, preview, children }: Props) => {
         <div
           className={clsx(
             "mx-3 my-5 h-3/5 overflow-y-hidden rounded-lg border border-black dark:border-white",
-            bgColors
+            bgColors.container
           )}
         >
           <div className="flex items-center justify-between px-3 py-2">
             <Header />
             <button
               onClick={() => setIsExpanded(true)}
-              className={clsx(
-                isExpanded ? "hidden" : "block",
-                "rounded-full bg-white/60 p-2 dark:bg-black/60"
-              )}
+              className={clsx(isExpanded ? "hidden" : "block", bgColors.button)}
             >
               <ExpandIcon alt="expand" className="text-primary" />
             </button>
@@ -55,11 +55,14 @@ const ExpandableView = ({ title, preview, children }: Props) => {
         leaveTo="opacity-0 transform scale-95"
       >
         <div
-          className={clsx("fixed inset-0 z-30 flex flex-col pb-32", bgColors)}
+          className={clsx(
+            "fixed inset-0 z-30 flex flex-col pb-32",
+            bgColors.container
+          )}
         >
           <button
             onClick={() => setIsExpanded(false)}
-            className="fixed right-0 m-4 rounded-full bg-gray-100 p-2"
+            className={clsx("fixed right-0 m-4", bgColors.button)}
           >
             <CloseIcon
               alt="close"
