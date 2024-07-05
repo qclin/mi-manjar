@@ -22,20 +22,19 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, imageSrc }) => {
         onClick={onClose}
       ></div>
 
-      <div className="relative mx-auto h-[93vh] w-full max-w-prose p-4 ">
+      <div className="relative mx-auto h-4/5 w-full p-4 md:h-[93vh] ">
         <Image
           src={imageSrc || ""}
           alt="caption for image"
           layout="fill"
-          objectFit="cover"
-          className="h-full w-full"
+          objectFit="contain"
         />
       </div>
       <button
         onClick={onClose}
-        className="fixed right-4 top-3 text-primary md:right-24"
+        className="fixed right-4 top-3 rounded-full bg-white p-2 text-primary dark:bg-black md:right-24"
       >
-        <CloseIcon className="text-xl md:text-3xl" width="30" height="30" />
+        <CloseIcon width={24} height={24} />
       </button>
     </div>
   );
